@@ -106,5 +106,117 @@
         "explanation": "Laura se siente contenta porque compró todo lo necesario."
       }
     ]
+  },
+  {
+    "id": "a1-02",
+    "level": "a1",
+    "title": "Un día en el parque",
+    "duration": "55s",
+    "file": "/audios/a1-02.mp3",
+    "transcript": "Hoy hace buen tiempo y Miguel decide ir al parque. Lleva una botella de agua, su gorra y su pelota. En el parque hay muchas personas: niños que juegan, adultos que caminan y algunos perros corriendo. Miguel se sienta bajo un árbol y escucha a los pájaros. Después, juega con su pelota y conoce a un niño llamado Pablo. Juegan juntos y se ríen mucho. Más tarde, Miguel compra un helado de chocolate y se sienta en una banca. Ve pasar a una familia con una bicicleta grande y un perro pequeño. Cuando el sol empieza a bajar, Miguel vuelve a casa cansado, pero contento. Fue un buen día.",
+    "vocab": [
+      {
+        "term": "parque",
+        "meaning": "park"
+      },
+      {
+        "term": "gorra",
+        "meaning": "cap / hat"
+      },
+      {
+        "term": "pelota",
+        "meaning": "ball"
+      },
+      {
+        "term": "pájaros",
+        "meaning": "birds"
+      },
+      {
+        "term": "reírse",
+        "meaning": "to laugh"
+      },
+      {
+        "term": "helado",
+        "meaning": "ice cream"
+      },
+      {
+        "term": "banca",
+        "meaning": "bench"
+      },
+      {
+        "term": "bicicleta",
+        "meaning": "bicycle"
+      },
+      {
+        "term": "cansado",
+        "meaning": "tired"
+      },
+      {
+        "term": "contento",
+        "meaning": "happy"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿A dónde va Miguel?",
+        "options": [
+          "Al cine",
+          "Al parque",
+          "A la escuela"
+        ],
+        "answerIndex": 1,
+        "explanation": "Miguel decide ir al parque porque hace buen tiempo."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué lleva Miguel al parque?",
+        "options": [
+          "Una botella de agua, una gorra y una pelota",
+          "Una mochila y un libro",
+          "Un paraguas y una cámara"
+        ],
+        "answerIndex": 0,
+        "explanation": "Miguel lleva una botella de agua, su gorra y su pelota."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Con quién juega Miguel?",
+        "options": [
+          "Con un perro",
+          "Con un niño llamado Pablo",
+          "Con su hermana"
+        ],
+        "answerIndex": 1,
+        "explanation": "Miguel conoce a un niño llamado Pablo y juegan juntos."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué compra Miguel?",
+        "options": [
+          "Un helado de chocolate",
+          "Una bicicleta",
+          "Un refresco"
+        ],
+        "answerIndex": 0,
+        "explanation": "Miguel compra un helado de chocolate."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Cómo se siente Miguel al final del día?",
+        "options": [
+          "Triste",
+          "Cansado pero contento",
+          "Nervioso"
+        ],
+        "answerIndex": 1,
+        "explanation": "Miguel vuelve a casa cansado, pero contento porque fue un buen día."
+      }
+    ]
   }
 ]

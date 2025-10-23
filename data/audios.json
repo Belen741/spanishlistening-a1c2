@@ -2550,5 +2550,153 @@
         "explanation": "El texto mantiene un tono reflexivo que invita a reconsiderar la percepción negativa del cambio de opinión."
       }
     ]
+  },
+  {
+    "id": "c2-02",
+    "level": "c2",
+    "title": "El universo como espejo del tiempo",
+    "duration": "2m 20s",
+    "file": "/audios/c2-02.mp3",
+    "transcript": "Cuando miramos el cielo nocturno, no observamos el presente, sino una secuencia infinita de pasados. Cada punto luminoso que vemos es una historia que ocurrió hace miles o millones de años. La luz de una estrella tarda tanto en llegar hasta nosotros que, mientras la contemplamos, quizá ya no exista.\n\nEsa paradoja —ver lo que fue y no lo que es— convierte al universo en un espejo del tiempo. Un espejo imperfecto, que refleja fragmentos dispersos de un relato cósmico que aún intentamos descifrar.\n\nDurante siglos, el ser humano creyó que el cosmos giraba a su alrededor. Hoy sabemos que somos apenas una nota en una sinfonía inmensa, una vibración minúscula dentro de un tejido en expansión constante. Sin embargo, cuanto más comprendemos del universo, más preguntas aparecen: ¿qué había antes del tiempo?, ¿qué hay más allá de los límites de nuestra percepción?, ¿y qué significa \"antes\" o \"más allá\" cuando hablamos del espacio y la luz?\n\nLa astronomía moderna busca respuestas con telescopios, fórmulas y partículas. Pero hay algo que los instrumentos no pueden medir: el asombro. Esa sensación de pequeñez y pertenencia al mismo tiempo.\n\nQuizás entender el universo no sea cuestión de dominarlo, sino de aprender a escucharlo. Porque cada estrella, cada silencio entre galaxias, nos recuerda lo mismo: que mirar el cielo es, en el fondo, mirar hacia adentro.",
+    "vocab": [
+      {
+        "term": "paradoja",
+        "meaning": "situación aparentemente contradictoria que encierra una verdad"
+      },
+      {
+        "term": "fragmentos dispersos",
+        "meaning": "partes separadas o inconexas de un todo"
+      },
+      {
+        "term": "relato cósmico",
+        "meaning": "metáfora del universo como una historia en curso"
+      },
+      {
+        "term": "sinfonía inmensa",
+        "meaning": "metáfora que expresa armonía universal"
+      },
+      {
+        "term": "tejido en expansión",
+        "meaning": "imagen poética del espacio-tiempo en crecimiento"
+      },
+      {
+        "term": "percepción",
+        "meaning": "capacidad de captar o interpretar estímulos"
+      },
+      {
+        "term": "partículas",
+        "meaning": "unidades elementales de la materia"
+      },
+      {
+        "term": "asombro",
+        "meaning": "mezcla de admiración y desconcierto ante lo desconocido"
+      },
+      {
+        "term": "pequeñez",
+        "meaning": "sensación de insignificancia frente a la magnitud del universo"
+      },
+      {
+        "term": "pertenencia",
+        "meaning": "sentimiento de formar parte de un todo mayor"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué el autor describe el universo como un \"espejo del tiempo\"?",
+        "options": [
+          "Porque refleja la luz del presente",
+          "Porque nos permite ver el pasado a través de la luz que llega tarde",
+          "Porque distorsiona la realidad física de las estrellas"
+        ],
+        "answerIndex": 1,
+        "explanation": "El texto explica que vemos el pasado porque la luz de las estrellas tarda en llegar."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué efecto tiene la paradoja de ver estrellas que ya no existen?",
+        "options": [
+          "Genera una reflexión sobre la ilusión de la percepción humana",
+          "Confirma que el universo es caótico e impredecible",
+          "Refuerza la idea de que el tiempo no existe"
+        ],
+        "answerIndex": 0,
+        "explanation": "La paradoja invita a reflexionar sobre cómo percibimos la realidad y el tiempo."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué crítica implícita hace el texto al conocimiento científico?",
+        "options": [
+          "Que excluye la participación humana",
+          "Que no tiene rigor suficiente",
+          "Que intenta imponer certezas donde solo hay misterio"
+        ],
+        "answerIndex": 2,
+        "explanation": "El texto sugiere que hay algo más allá de lo medible: el asombro y el misterio."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué significado simbólico tiene la frase \"mirar el cielo es mirar hacia adentro\"?",
+        "options": [
+          "Que las estrellas influyen en nuestro comportamiento",
+          "Que la astronomía moderna está centrada en la psicología",
+          "Que la observación del universo nos ayuda a comprender nuestra propia existencia"
+        ],
+        "answerIndex": 2,
+        "explanation": "La frase sugiere que contemplar el cosmos es también una forma de autoconocimiento."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué tono domina el texto?",
+        "options": [
+          "Satírico y provocador",
+          "Didáctico y técnico",
+          "Contemplativo y filosófico"
+        ],
+        "answerIndex": 2,
+        "explanation": "El texto combina reflexiones filosóficas con un tono contemplativo sobre el cosmos."
+      },
+      {
+        "id": "q6",
+        "type": "single",
+        "question": "¿Cuál es la idea principal sobre el conocimiento humano frente al cosmos?",
+        "options": [
+          "Que la comprensión total del universo es imposible",
+          "Que la búsqueda del conocimiento es inseparable del asombro",
+          "Que la ciencia y la poesía son opuestas"
+        ],
+        "answerIndex": 1,
+        "explanation": "El texto enfatiza que el asombro es parte fundamental de la comprensión del universo."
+      },
+      {
+        "id": "q7",
+        "type": "single",
+        "question": "¿Qué estructura retórica se repite en el texto?",
+        "options": [
+          "Citas literarias de autores clásicos",
+          "Ejemplos científicos rigurosos",
+          "Preguntas retóricas que invitan a la reflexión"
+        ],
+        "answerIndex": 2,
+        "explanation": "El texto incluye varias preguntas retóricas sobre el tiempo, el espacio y la percepción."
+      },
+      {
+        "id": "q8",
+        "type": "single",
+        "question": "¿Qué podría simbolizar el silencio entre galaxias al final?",
+        "options": [
+          "La ausencia de vida",
+          "El espacio para la introspección humana",
+          "La distancia entre planetas"
+        ],
+        "answerIndex": 1,
+        "explanation": "El silencio representa un espacio de reflexión y conexión interior con el universo."
+      }
+    ]
   }
 ]

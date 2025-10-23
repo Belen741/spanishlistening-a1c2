@@ -570,5 +570,117 @@
         "explanation": "Tomás le agradeció a Marta el consejo al día siguiente."
       }
     ]
+  },
+  {
+    "id": "a2-02",
+    "level": "a2",
+    "title": "El viaje de fin de semana",
+    "duration": "1m 15s",
+    "file": "/audios/a2-02.mp3",
+    "transcript": "El viernes por la tarde, Sofía y su hermano Andrés preparan sus maletas para pasar el fin de semana fuera de la ciudad. Van a visitar a sus abuelos, que viven en un pueblo cerca de las montañas.\n\nSofía prepara ropa cómoda, una chaqueta y su cámara de fotos. Andrés lleva una pelota, un libro y algunos bocadillos para el camino. Salen temprano el sábado y el viaje en coche dura unas tres horas.\n\nCuando llegan, los abuelos los reciben con un gran abrazo y un desayuno delicioso. Después descansan un poco y dan un paseo por el bosque. Ven mariposas, flores de muchos colores y un pequeño río. Por la noche, cenan juntos y cuentan historias frente a la chimenea.\n\nEl domingo regresan a casa cansados, pero felices. Dicen que fue el mejor fin de semana del año.",
+    "vocab": [
+      {
+        "term": "maleta",
+        "meaning": "suitcase"
+      },
+      {
+        "term": "pueblo",
+        "meaning": "small town"
+      },
+      {
+        "term": "montaña",
+        "meaning": "mountain"
+      },
+      {
+        "term": "chaqueta",
+        "meaning": "jacket"
+      },
+      {
+        "term": "bocadillo",
+        "meaning": "snack / sandwich"
+      },
+      {
+        "term": "chimenea",
+        "meaning": "fireplace"
+      },
+      {
+        "term": "paseo",
+        "meaning": "walk / stroll"
+      },
+      {
+        "term": "bosque",
+        "meaning": "forest"
+      },
+      {
+        "term": "mariposa",
+        "meaning": "butterfly"
+      },
+      {
+        "term": "cansado",
+        "meaning": "tired"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿A dónde van Sofía y Andrés?",
+        "options": [
+          "A la playa",
+          "A la casa de sus abuelos",
+          "A la escuela"
+        ],
+        "answerIndex": 1,
+        "explanation": "Sofía y Andrés van a visitar a sus abuelos que viven en un pueblo cerca de las montañas."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué lleva Sofía en su maleta?",
+        "options": [
+          "Una pelota y un libro",
+          "Ropa cómoda y su cámara",
+          "Comida para el viaje"
+        ],
+        "answerIndex": 1,
+        "explanation": "Sofía prepara ropa cómoda, una chaqueta y su cámara de fotos."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Cuánto dura el viaje en coche?",
+        "options": [
+          "Una hora",
+          "Tres horas",
+          "Cinco horas"
+        ],
+        "answerIndex": 1,
+        "explanation": "El viaje en coche dura unas tres horas."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué hacen cuando llegan?",
+        "options": [
+          "Comen, descansan y dan un paseo",
+          "Van al cine",
+          "Ven televisión"
+        ],
+        "answerIndex": 0,
+        "explanation": "Los abuelos los reciben con desayuno, después descansan y dan un paseo por el bosque."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Cómo describen el fin de semana?",
+        "options": [
+          "Cansado y aburrido",
+          "El mejor del año",
+          "Muy corto y sin diversión"
+        ],
+        "answerIndex": 1,
+        "explanation": "Dicen que fue el mejor fin de semana del año."
+      }
+    ]
   }
 ]

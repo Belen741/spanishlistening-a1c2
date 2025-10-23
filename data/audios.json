@@ -1514,5 +1514,129 @@
         "explanation": "Los mensajes intercambiados y las respuestas sugieren que ambos disfrutaron y hay interés mutuo."
       }
     ]
+  },
+  {
+    "id": "b2-02",
+    "level": "b2",
+    "title": "La comida que nadie quiso probar",
+    "duration": "1m 45s",
+    "file": "/audios/b2-02.mp3",
+    "transcript": "El viernes por la noche, Lucía invitó a sus amigos a cenar en su casa. Todos llegaron puntuales y con mucha hambre. En la mesa había pan, frutas, refrescos y un plato cubierto con una tapa metálica.\n\n—Bueno —dijo Lucía sonriendo—, este es el plato principal, una receta tradicional de mi familia.\n\nTodos la miraron con curiosidad. Cuando levantó la tapa, apareció un guiso oscuro con un olor fuerte, lleno de especias y trozos de carne que nadie pudo reconocer.\n\n—¿Qué es? —preguntó Marcos, un poco nervioso.\n—Es mole de olla —respondió Lucía—. Mi abuela lo prepara en todas las fiestas.\n\nHubo silencio. Nadie se movió. Entonces, Lucía sirvió un poco en su propio plato, lo probó y sonrió.\n—Está buenísimo —dijo.\n\nPoco a poco, los demás se animaron. Primero probaron una cucharada, luego otra… y al final repitieron.\n\n—No puedo creerlo —dijo Marcos—. Pensé que no me iba a gustar, ¡pero está delicioso!\n\nLucía se rió.\n—Por eso, en mi casa decimos: \"si no lo pruebas, te pierdes la sorpresa\".",
+    "vocab": [
+      {
+        "term": "guiso",
+        "meaning": "stew"
+      },
+      {
+        "term": "receta tradicional",
+        "meaning": "traditional recipe"
+      },
+      {
+        "term": "especias",
+        "meaning": "spices"
+      },
+      {
+        "term": "trozos",
+        "meaning": "pieces / chunks"
+      },
+      {
+        "term": "tapa metálica",
+        "meaning": "metal lid"
+      },
+      {
+        "term": "probar",
+        "meaning": "to taste / to try"
+      },
+      {
+        "term": "animarse",
+        "meaning": "to get encouraged / to dare"
+      },
+      {
+        "term": "repetir",
+        "meaning": "to have seconds (eat again)"
+      },
+      {
+        "term": "delicioso",
+        "meaning": "delicious"
+      },
+      {
+        "term": "sorpresa",
+        "meaning": "surprise"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué Lucía decidió preparar un platillo tradicional?",
+        "options": [
+          "Para presumir sus habilidades como cocinera",
+          "Para compartir una parte de su cultura con sus amigos",
+          "Porque no tenía tiempo de cocinar otra cosa"
+        ],
+        "answerIndex": 1,
+        "explanation": "Lucía preparó una receta tradicional de su familia para compartir su cultura con sus amigos."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué sugiere la reacción inicial de los invitados al ver el plato?",
+        "options": [
+          "Que estaban cansados",
+          "Que no confiaban en la comida desconocida",
+          "Que ya habían comido antes de llegar"
+        ],
+        "answerIndex": 1,
+        "explanation": "El silencio y la falta de movimiento sugieren desconfianza hacia la comida que no reconocían."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué efecto produce el silencio cuando Lucía levanta la tapa?",
+        "options": [
+          "Muestra curiosidad y desconfianza al mismo tiempo",
+          "Indica que el guiso huele mal",
+          "Es una señal de respeto hacia la anfitriona"
+        ],
+        "answerIndex": 0,
+        "explanation": "El silencio refleja que los invitados tienen curiosidad pero también dudas sobre el plato."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Por qué Lucía decide servirse primero?",
+        "options": [
+          "Para demostrar que el platillo era seguro y sabroso",
+          "Porque tenía hambre",
+          "Porque quería comer antes que los demás"
+        ],
+        "answerIndex": 0,
+        "explanation": "Al probarlo primero y mostrar que le gusta, Lucía anima a los demás a probarlo."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué transformación ocurre en los invitados a lo largo de la historia?",
+        "options": [
+          "Pasan del rechazo a la aceptación",
+          "Pasan del entusiasmo al aburrimiento",
+          "Pasan del interés a la indiferencia"
+        ],
+        "answerIndex": 0,
+        "explanation": "Los invitados pasan de no querer probar el plato a repetir y decir que está delicioso."
+      },
+      {
+        "id": "q6",
+        "type": "single",
+        "question": "¿Qué enseñanza deja el final de la historia?",
+        "options": [
+          "Que las primeras impresiones pueden ser engañosas",
+          "Que la comida tradicional siempre es mejor",
+          "Que no hay que invitar amigos a cenar"
+        ],
+        "answerIndex": 0,
+        "explanation": "La historia enseña que no debemos juzgar sin probar, porque podemos perdernos una sorpresa agradable."
+      }
+    ]
   }
 ]

@@ -1998,5 +1998,153 @@
         "explanation": "La frase sugiere que a veces el silencio comunica más profundamente que las palabras."
       }
     ]
+  },
+  {
+    "id": "c1-02",
+    "level": "c1",
+    "title": "La frontera invisible",
+    "duration": "2m 00s",
+    "file": "/audios/c1-02.mp3",
+    "transcript": "No todas las fronteras se pueden ver en un mapa. Algunas existen solo en la mente: límites invisibles que separan a las personas aunque compartan el mismo lugar.\n\nCuando Daniel se mudó a la gran ciudad, sintió esa frontera cada día. No era un muro real, sino una distancia hecha de miradas, acentos y silencios. En su trabajo, todos lo saludaban con cortesía, pero pocas veces con interés. \"Habla raro\", escuchó una vez por casualidad. Desde entonces, se volvió más cuidadoso con sus palabras.\n\nCon el tiempo, aprendió a moverse entre dos mundos: el de donde venía y el que intentaba habitar. Sin embargo, algo en él empezó a cambiar. Ya no sabía si debía adaptarse o resistirse, si perder su forma de hablar era ganar o rendirse.\n\nUna tarde, en el metro, una niña le preguntó de dónde era. \"De aquí\", respondió después de una pausa. Y por primera vez, lo dijo sin miedo, sin disculpas.\n\nEntonces comprendió que la frontera no estaba afuera, sino dentro: entre lo que los demás ven y lo que uno decide ser.",
+    "vocab": [
+      {
+        "term": "frontera invisible",
+        "meaning": "invisible boundary"
+      },
+      {
+        "term": "acento",
+        "meaning": "accent"
+      },
+      {
+        "term": "cortesía",
+        "meaning": "politeness / courtesy"
+      },
+      {
+        "term": "adaptarse",
+        "meaning": "to adapt"
+      },
+      {
+        "term": "rendirse",
+        "meaning": "to give up / to surrender"
+      },
+      {
+        "term": "habitar",
+        "meaning": "to inhabit"
+      },
+      {
+        "term": "distancia simbólica",
+        "meaning": "symbolic distance"
+      },
+      {
+        "term": "disculparse",
+        "meaning": "to apologize"
+      },
+      {
+        "term": "resistirse",
+        "meaning": "to resist"
+      },
+      {
+        "term": "pertenecer",
+        "meaning": "to belong"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué tipo de frontera experimenta Daniel al llegar a la ciudad?",
+        "options": [
+          "Una frontera cultural y emocional, más que física",
+          "Una frontera económica",
+          "Una frontera geográfica"
+        ],
+        "answerIndex": 0,
+        "explanation": "El texto describe fronteras invisibles que existen en la mente y en las actitudes, no físicas."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué significado tiene la frase \"no era un muro real, sino una distancia hecha de miradas\"?",
+        "options": [
+          "Que la gente lo ignoraba por completo",
+          "Que la exclusión se manifestaba de forma sutil, no abierta",
+          "Que la distancia física era muy grande"
+        ],
+        "answerIndex": 1,
+        "explanation": "La frase describe cómo la exclusión social se expresa de manera indirecta a través de miradas y actitudes."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Por qué Daniel se volvió más cuidadoso con sus palabras?",
+        "options": [
+          "Porque tenía miedo de cometer errores",
+          "Porque empezó a estudiar otro idioma",
+          "Porque no entendía el acento local"
+        ],
+        "answerIndex": 0,
+        "explanation": "Después de escuchar que \"habla raro\", Daniel se hizo más consciente y cuidadoso al hablar."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué dilema interior enfrenta el protagonista?",
+        "options": [
+          "Si debe cambiar para integrarse o mantenerse fiel a sí mismo",
+          "Si debe mudarse de nuevo",
+          "Si debe mejorar su educación formal"
+        ],
+        "answerIndex": 0,
+        "explanation": "Daniel se debate entre adaptarse (perdiendo su forma de hablar) o resistirse y mantener su identidad."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué representa la respuesta \"De aquí\" al final del texto?",
+        "options": [
+          "Una mentira para evitar conflicto",
+          "Una declaración de identidad y aceptación",
+          "Una forma de cerrar la conversación rápidamente"
+        ],
+        "answerIndex": 1,
+        "explanation": "Al responder \"De aquí\" sin miedo ni disculpas, Daniel afirma su derecho a pertenecer al lugar."
+      },
+      {
+        "id": "q6",
+        "type": "single",
+        "question": "¿Cuál podría considerarse el mensaje central de la historia?",
+        "options": [
+          "La pertenencia no depende del lugar, sino de la aceptación personal",
+          "Los acentos siempre causan discriminación",
+          "Las grandes ciudades son frías e impersonales"
+        ],
+        "answerIndex": 0,
+        "explanation": "El texto concluye que la frontera está dentro, sugiriendo que la pertenencia es una decisión personal."
+      },
+      {
+        "id": "q7",
+        "type": "single",
+        "question": "¿Qué tono domina el texto?",
+        "options": [
+          "Melancólico y reflexivo",
+          "Crítico y agresivo",
+          "Alegre y optimista"
+        ],
+        "answerIndex": 0,
+        "explanation": "El texto mantiene un tono reflexivo sobre la identidad y la pertenencia, con un matiz melancólico."
+      },
+      {
+        "id": "q8",
+        "type": "single",
+        "question": "¿Por qué el título \"La frontera invisible\" resulta adecuado?",
+        "options": [
+          "Porque hace referencia a límites internos e intangibles",
+          "Porque el protagonista trabaja en una frontera",
+          "Porque simboliza una línea física no reconocida por el gobierno"
+        ],
+        "answerIndex": 0,
+        "explanation": "El título refiere a las fronteras mentales y sociales, no físicas, que separan a las personas."
+      }
+    ]
   }
 ]

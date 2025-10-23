@@ -2290,5 +2290,153 @@
         "explanation": "El texto combina información científica sobre el cerebro con un mensaje inspirador sobre la creatividad."
       }
     ]
+  },
+  {
+    "id": "c1-04",
+    "level": "c1",
+    "title": "Entre la ironía y la verdad",
+    "duration": "2m 00s",
+    "file": "/audios/c1-04.mp3",
+    "transcript": "Locutora: Bienvenidos a \"Conversaciones al margen\". Hoy hablaremos de un tema que todos usamos, pero pocos comprendemos: la ironía. ¿Es una forma de humor o un disfraz de la verdad?\n\nInvitado: Depende del contexto. La ironía tiene algo de espejo: refleja lo que pensamos, pero distorsionado. No siempre se usa para hacer reír; a veces sirve para decir lo que no puede decirse directamente.\n\nLocutora: Como una especie de lenguaje secreto.\n\nInvitado: Exacto. La ironía puede protegernos de la confrontación. Por ejemplo, cuando alguien dice \"Qué puntual eres\" a quien llega media hora tarde, no pretende elogiarlo. Pero ese mismo tono, en otro país o en otra generación, podría sonar simplemente educado.\n\nLocutora: Entonces, ¿la ironía es universal?\n\nInvitado: No del todo. En algunos lugares, se percibe como una muestra de inteligencia; en otros, como falta de sinceridad. Lo fascinante es que exige complicidad: si nadie la entiende, deja de ser ironía y se convierte en malentendido.\n\nLocutora: En resumen, la ironía habita ese espacio ambiguo entre el ingenio y la provocación.\n\nInvitado: Sí. Y quizás por eso incomoda tanto: porque revela la verdad, pero disfrazada de sonrisa.",
+    "vocab": [
+      {
+        "term": "ironía",
+        "meaning": "irony — recurso lingüístico donde se expresa lo contrario de lo que se quiere decir"
+      },
+      {
+        "term": "disfrazar",
+        "meaning": "to disguise — encubrir una intención o sentimiento verdadero"
+      },
+      {
+        "term": "distorsionado",
+        "meaning": "distorted — alterado o modificado en su forma o sentido"
+      },
+      {
+        "term": "confrontación",
+        "meaning": "confrontation — enfrentamiento directo o verbal"
+      },
+      {
+        "term": "elogiar",
+        "meaning": "to praise — expresar admiración o reconocimiento"
+      },
+      {
+        "term": "universal",
+        "meaning": "universal — que se aplica a todas las culturas o contextos"
+      },
+      {
+        "term": "complicidad",
+        "meaning": "complicity — entendimiento implícito o conexión entre quienes comparten un código"
+      },
+      {
+        "term": "ambigüedad",
+        "meaning": "ambiguity — cualidad de algo que puede interpretarse de varias maneras"
+      },
+      {
+        "term": "ingenio",
+        "meaning": "wit — habilidad para expresar ideas de manera original o inteligente"
+      },
+      {
+        "term": "provocación",
+        "meaning": "provocation — acción que busca generar una reacción emocional o intelectual"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "Según el invitado, ¿cuál es la función más profunda de la ironía?",
+        "options": [
+          "Provocar risa de manera ligera",
+          "Evitar cualquier tipo de conflicto",
+          "Expresar verdades de forma indirecta"
+        ],
+        "answerIndex": 2,
+        "explanation": "El invitado explica que la ironía sirve para decir lo que no puede decirse directamente."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué papel juega el contexto en la interpretación de la ironía?",
+        "options": [
+          "Es irrelevante: la ironía siempre se entiende igual",
+          "Es esencial, porque determina si el mensaje resulta gracioso o hiriente",
+          "Solo influye en conversaciones formales"
+        ],
+        "answerIndex": 1,
+        "explanation": "El invitado menciona que el mismo tono puede interpretarse diferente en otro país o generación."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué implica que la ironía \"exija complicidad\"?",
+        "options": [
+          "Que solo funciona entre personas que se comprenden mutuamente",
+          "Que depende del tono de voz",
+          "Que debe ser utilizada con humor inteligente"
+        ],
+        "answerIndex": 0,
+        "explanation": "El invitado afirma que si nadie la entiende, deja de ser ironía y se convierte en malentendido."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué diferencia cultural menciona el invitado?",
+        "options": [
+          "En algunos países la ironía se asocia con inteligencia; en otros, con falta de sinceridad",
+          "En América Latina no existe la ironía",
+          "En Europa se considera una forma de insulto"
+        ],
+        "answerIndex": 0,
+        "explanation": "El invitado señala que la ironía se percibe de manera diferente según el lugar."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué relación establece la locutora entre ironía y verdad?",
+        "options": [
+          "La ironía oculta la verdad detrás del sarcasmo",
+          "La ironía destruye la verdad",
+          "La ironía sustituye la verdad por humor"
+        ],
+        "answerIndex": 0,
+        "explanation": "La locutora pregunta si la ironía es un disfraz de la verdad, lo que el invitado confirma."
+      },
+      {
+        "id": "q6",
+        "type": "single",
+        "question": "¿Qué se sugiere sobre el tono irónico en distintos contextos culturales?",
+        "options": [
+          "Que siempre produce confusión",
+          "Que es más fácil de entender por escrito que en voz",
+          "Que su interpretación depende del entorno y del vínculo entre interlocutores"
+        ],
+        "answerIndex": 2,
+        "explanation": "El texto explica que el contexto cultural y generacional determina cómo se interpreta la ironía."
+      },
+      {
+        "id": "q7",
+        "type": "single",
+        "question": "¿Por qué, según el invitado, la ironía puede incomodar?",
+        "options": [
+          "Porque obliga a reconocer verdades que preferimos ignorar",
+          "Porque no todos entienden los chistes",
+          "Porque interrumpe la conversación formal"
+        ],
+        "answerIndex": 0,
+        "explanation": "El invitado concluye que la ironía incomoda porque revela la verdad, aunque disfrazada."
+      },
+      {
+        "id": "q8",
+        "type": "single",
+        "question": "¿Qué metáfora resume el sentido final del texto?",
+        "options": [
+          "\"La ironía es una máscara de respeto.\"",
+          "\"La ironía es el idioma del humor.\"",
+          "\"La ironía revela la verdad, pero disfrazada de sonrisa.\""
+        ],
+        "answerIndex": 2,
+        "explanation": "Esta frase del invitado sintetiza la idea central: la ironía como vehículo de verdades incómodas."
+      }
+    ]
   }
 ]

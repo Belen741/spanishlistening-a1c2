@@ -2438,5 +2438,117 @@
         "explanation": "Esta frase del invitado sintetiza la idea central: la ironía como vehículo de verdades incómodas."
       }
     ]
+  },
+  {
+    "id": "c2-01",
+    "level": "c2",
+    "title": "El valor de cambiar de opinión",
+    "duration": "2m 15s",
+    "file": "/audios/c2-01.mp3",
+    "transcript": "Cambiar de opinión es, para muchos, una señal de debilidad. \"Si cambias de idea\", dicen algunos, \"significa que no estabas seguro desde el principio\". Sin embargo, cada vez más estudios muestran que la capacidad de cambiar de opinión no solo es una virtud intelectual, sino también una forma de inteligencia emocional.\n\nPensemos en lo que implica mantener una creencia. Cada idea que tenemos está sostenida por experiencias, emociones y contextos específicos. Pero cuando esos contextos cambian, ¿no debería cambiar también nuestra opinión? Si alguien se aferra a una idea solo para no parecer inconstante, en realidad está sacrificando su crecimiento personal por orgullo.\n\nCambiar de opinión requiere valentía: aceptar que podemos habernos equivocado, escuchar argumentos que desafían nuestras creencias, e incluso admitir que quien antes considerábamos \"oponente\" tenía algo de razón.\n\nNo se trata de cambiar por impulso ni por moda. Se trata de hacerlo porque hemos comprendido algo nuevo, porque la evidencia o la experiencia nos mostraron un ángulo diferente.\n\nEn última instancia, cambiar de opinión no significa perder identidad, sino actualizarla. Tal vez la mente más sabia no sea la que nunca duda, sino la que se atreve a hacerlo con honestidad.",
+    "vocab": [
+      {
+        "term": "En última instancia",
+        "meaning": "Ultimately"
+      },
+      {
+        "term": "virtud",
+        "meaning": "virtue"
+      },
+      {
+        "term": "inteligencia emocional",
+        "meaning": "emotional intelligence"
+      },
+      {
+        "term": "aferrarse",
+        "meaning": "to cling / to hold on"
+      },
+      {
+        "term": "inconstante",
+        "meaning": "inconsistent / changeable"
+      },
+      {
+        "term": "desafiar",
+        "meaning": "to challenge"
+      },
+      {
+        "term": "evidencia",
+        "meaning": "evidence"
+      },
+      {
+        "term": "identidad",
+        "meaning": "identity"
+      },
+      {
+        "term": "actualizar",
+        "meaning": "to update / refresh"
+      },
+      {
+        "term": "atreverse",
+        "meaning": "to dare"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Cuál es la idea principal del discurso?",
+        "options": [
+          "Que cambiar de opinión demuestra falta de carácter",
+          "Que cambiar de opinión puede ser un signo de crecimiento personal",
+          "Que debemos evitar cambiar para no confundir a los demás"
+        ],
+        "answerIndex": 1,
+        "explanation": "El texto argumenta que cambiar de opinión es una virtud intelectual y forma de inteligencia emocional."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "Según el texto, ¿por qué algunas personas evitan cambiar de opinión?",
+        "options": [
+          "Porque no saben escuchar",
+          "Porque confían demasiado en los demás",
+          "Porque temen parecer débiles o inconstantes"
+        ],
+        "answerIndex": 2,
+        "explanation": "El texto menciona que algunas personas se aferran a ideas para no parecer inconstantes."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué papel juega la \"evidencia\" en el proceso de cambio?",
+        "options": [
+          "No influye en las creencias personales",
+          "Es una excusa para justificar indecisión",
+          "Es un elemento que puede modificar nuestra perspectiva"
+        ],
+        "answerIndex": 2,
+        "explanation": "El texto señala que la evidencia o la experiencia nos muestran ángulos diferentes que justifican el cambio."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "Cuando el autor dice \"actualizar nuestra identidad\", ¿qué quiere decir?",
+        "options": [
+          "Que cambiar es traicionar lo que somos",
+          "Que la identidad evoluciona con lo que aprendemos",
+          "Que debemos olvidar nuestras ideas anteriores"
+        ],
+        "answerIndex": 1,
+        "explanation": "El autor concluye que cambiar de opinión no significa perder identidad, sino actualizarla con lo aprendido."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué tono general transmite la charla?",
+        "options": [
+          "Reflexivo y conciliador",
+          "Sarcástico y crítico",
+          "Distante y académico"
+        ],
+        "answerIndex": 0,
+        "explanation": "El texto mantiene un tono reflexivo que invita a reconsiderar la percepción negativa del cambio de opinión."
+      }
+    ]
   }
 ]

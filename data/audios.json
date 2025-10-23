@@ -806,5 +806,129 @@
         "explanation": "Carlos llegará al hotel el viernes por la tarde."
       }
     ]
+  },
+  {
+    "id": "a2-04",
+    "level": "a2",
+    "title": "Información turística",
+    "duration": "1m 10s",
+    "file": "/audios/a2-04.mp3",
+    "transcript": "Empleada: Buenos días, oficina de información turística, ¿en qué puedo ayudarle?\nMaría: Buenos días. Es mi primera vez en la ciudad. ¿Podría recomendarme algunos lugares para visitar?\nEmpleada: Claro. El museo de arte está muy cerca y también puede caminar por el centro histórico.\nMaría: Perfecto. ¿Dónde está el museo exactamente?\nEmpleada: Está en la avenida principal, a unos diez minutos a pie. Si quiere, puede tomar el autobús número 12.\nMaría: Gracias. ¿Y algún restaurante que recomiende?\nEmpleada: Sí, el restaurante \"La Plaza\" tiene muy buena comida local. Está frente a la catedral.\nMaría: Excelente. ¿A qué hora cierra el museo?\nEmpleada: Cierra a las seis de la tarde, pero los domingos la entrada es gratis.\nMaría: Perfecto. Muchas gracias por la información.\nEmpleada: De nada. Disfrute su visita.",
+    "vocab": [
+      {
+        "term": "oficina de información turística",
+        "meaning": "tourist information office"
+      },
+      {
+        "term": "recomendar",
+        "meaning": "to recommend"
+      },
+      {
+        "term": "centro histórico",
+        "meaning": "historic center"
+      },
+      {
+        "term": "avenida principal",
+        "meaning": "main avenue"
+      },
+      {
+        "term": "a pie",
+        "meaning": "on foot"
+      },
+      {
+        "term": "autobús",
+        "meaning": "bus"
+      },
+      {
+        "term": "frente a",
+        "meaning": "in front of"
+      },
+      {
+        "term": "catedral",
+        "meaning": "cathedral"
+      },
+      {
+        "term": "comida local",
+        "meaning": "local food"
+      },
+      {
+        "term": "entrada gratis",
+        "meaning": "free entry"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Dónde ocurre la conversación?",
+        "options": [
+          "En un restaurante",
+          "En una oficina de información turística",
+          "En un hotel"
+        ],
+        "answerIndex": 1,
+        "explanation": "La conversación ocurre en una oficina de información turística."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué quiere hacer María?",
+        "options": [
+          "Comprar boletos",
+          "Visitar lugares turísticos",
+          "Ir de compras"
+        ],
+        "answerIndex": 1,
+        "explanation": "María quiere visitar lugares turísticos porque es su primera vez en la ciudad."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Dónde está el museo de arte?",
+        "options": [
+          "En el centro histórico",
+          "En la avenida principal",
+          "En la estación de tren"
+        ],
+        "answerIndex": 1,
+        "explanation": "El museo de arte está en la avenida principal."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué número de autobús puede tomar María?",
+        "options": [
+          "El número 12",
+          "El número 21",
+          "El número 5"
+        ],
+        "answerIndex": 0,
+        "explanation": "María puede tomar el autobús número 12 para ir al museo."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué tipo de comida hay en el restaurante \"La Plaza\"?",
+        "options": [
+          "Comida italiana",
+          "Comida local",
+          "Comida rápida"
+        ],
+        "answerIndex": 1,
+        "explanation": "El restaurante \"La Plaza\" tiene comida local."
+      },
+      {
+        "id": "q6",
+        "type": "single",
+        "question": "¿Cuándo es gratis la entrada al museo?",
+        "options": [
+          "Los domingos",
+          "Los sábados",
+          "Los lunes"
+        ],
+        "answerIndex": 0,
+        "explanation": "Los domingos la entrada al museo es gratis."
+      }
+    ]
   }
 ]

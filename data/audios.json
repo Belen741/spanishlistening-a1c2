@@ -1886,5 +1886,117 @@
         "explanation": "Ambos concluyen que reírse de los errores es parte del humor y del aprendizaje."
       }
     ]
+  },
+  {
+    "id": "c1-01",
+    "level": "c1",
+    "title": "El silencio en las conversaciones",
+    "duration": "1m 50s",
+    "file": "/audios/c1-01.mp3",
+    "transcript": "Entrevistadora: Hoy hablamos con Carlos Méndez, psicólogo especializado en comunicación interpersonal. Carlos, en tus charlas mencionas que el silencio es una forma de comunicación. ¿A qué te refieres exactamente?\n\nCarlos: Muchas personas piensan que comunicarse es hablar, pero el silencio también transmite mensajes. En una conversación, el silencio puede significar incomodidad, desacuerdo o simplemente reflexión. Lo interesante es que cada cultura interpreta esos silencios de manera diferente.\n\nEntrevistadora: ¿Podrías darnos un ejemplo?\n\nCarlos: Claro. En algunos países asiáticos, guardar silencio se considera una señal de respeto. En cambio, en muchos países occidentales, el silencio se percibe como algo negativo, como si faltara interés o no hubiera nada que decir. Sin embargo, cuando las personas aprenden a tolerar el silencio, descubren que en esos momentos también puede haber conexión, empatía o incluso confianza.\n\nEntrevistadora: Entonces, ¿escuchar también es una forma de hablar?\n\nCarlos: Exactamente. Escuchar con atención es una forma profunda de comunicación. A veces, lo más valioso que podemos decir… es nada.",
+    "vocab": [
+      {
+        "term": "comunicación interpersonal",
+        "meaning": "interpersonal communication"
+      },
+      {
+        "term": "transmitir",
+        "meaning": "to convey / communicate"
+      },
+      {
+        "term": "incomodidad",
+        "meaning": "discomfort"
+      },
+      {
+        "term": "desacuerdo",
+        "meaning": "disagreement"
+      },
+      {
+        "term": "reflexión",
+        "meaning": "reflection / deep thought"
+      },
+      {
+        "term": "respeto",
+        "meaning": "respect"
+      },
+      {
+        "term": "empatía",
+        "meaning": "empathy"
+      },
+      {
+        "term": "confianza",
+        "meaning": "trust"
+      },
+      {
+        "term": "tolerar",
+        "meaning": "to tolerate"
+      },
+      {
+        "term": "atención plena",
+        "meaning": "full attention / mindfulness"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "Según Carlos, ¿qué papel juega el silencio en la comunicación?",
+        "options": [
+          "Es un obstáculo para entender a los demás",
+          "Es una herramienta que puede tener diferentes significados",
+          "Es una muestra de falta de educación"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carlos explica que el silencio transmite mensajes y puede significar diferentes cosas según el contexto."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Por qué menciona Carlos las diferencias culturales?",
+        "options": [
+          "Para demostrar que el silencio no tiene un solo sentido",
+          "Para resaltar que hablar demasiado es mejor",
+          "Para justificar que el silencio es incómodo"
+        ],
+        "answerIndex": 0,
+        "explanation": "Carlos usa ejemplos culturales para mostrar que el silencio se interpreta de manera diferente según la cultura."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "Cuando Carlos dice que \"escuchar también es una forma de hablar\", quiere decir que:",
+        "options": [
+          "Las personas que escuchan poco hablan mejor",
+          "La escucha activa también comunica algo importante",
+          "Las palabras son más valiosas que el silencio"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carlos enfatiza que escuchar con atención es una forma profunda de comunicación."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué tipo de actitud propone Carlos hacia los silencios?",
+        "options": [
+          "Rechazarlos porque generan tensión",
+          "Aprender a tolerarlos y comprender su valor",
+          "Evitarlos en toda conversación"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carlos sugiere que al tolerar el silencio, las personas descubren su valor para la conexión y empatía."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué significado implícito se puede deducir de la última frase de Carlos (\"A veces, lo más valioso que podemos decir… es nada\")?",
+        "options": [
+          "Que callar puede expresar más que hablar",
+          "Que el silencio demuestra inseguridad",
+          "Que no vale la pena escuchar a los demás"
+        ],
+        "answerIndex": 0,
+        "explanation": "La frase sugiere que a veces el silencio comunica más profundamente que las palabras."
+      }
+    ]
   }
 ]

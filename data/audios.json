@@ -1762,5 +1762,129 @@
         "explanation": "El narrador concluye que 'los consejos sencillos a veces son los que más fuerza tienen'."
       }
     ]
+  },
+  {
+    "id": "b2-04",
+    "level": "b2",
+    "title": "El humor en diferentes países",
+    "duration": "1m 40s",
+    "file": "/audios/b2-04.mp3",
+    "transcript": "Carla: Oye, Mateo, ¿te diste cuenta de que la gente aquí se ríe de cosas muy distintas?\nMateo: Totalmente. El otro día conté un chiste en la oficina y nadie se rió.\nCarla: ¿En serio? ¿Sobre qué era?\nMateo: Sobre mi jefe… pero en mi país ese tipo de humor es normal. Aquí lo tomaron como falta de respeto.\nCarla: Sí, eso pasa mucho. En México, por ejemplo, la gente se burla de sí misma todo el tiempo, pero hay temas que son muy delicados.\nMateo: En mi país, si te ríes de ti mismo, la gente piensa que no te tomas en serio.\nCarla: Qué curioso. Supongo que el humor refleja la cultura.\n\nMateo: Exacto. Y entender el humor local es casi tan difícil como aprender el idioma.\nCarla: Pero cuando logras hacer reír a alguien en otra lengua… ahí sabes que realmente la dominas.\nMateo: O al menos que ya no te da miedo equivocarte.\nCarla: Eso también es parte del humor, ¿no? Reírse un poco de los errores.\nMateo: Sí, y por suerte, todos los cometemos.",
+    "vocab": [
+      {
+        "term": "chiste",
+        "meaning": "joke"
+      },
+      {
+        "term": "falta de respeto",
+        "meaning": "disrespect"
+      },
+      {
+        "term": "burlarse de sí mismo",
+        "meaning": "to laugh at oneself"
+      },
+      {
+        "term": "delicado",
+        "meaning": "sensitive / delicate"
+      },
+      {
+        "term": "tomarse en serio",
+        "meaning": "to take oneself seriously"
+      },
+      {
+        "term": "reflejar",
+        "meaning": "to reflect"
+      },
+      {
+        "term": "equivocarse",
+        "meaning": "to make a mistake"
+      },
+      {
+        "term": "dominar un idioma",
+        "meaning": "to master a language"
+      },
+      {
+        "term": "por suerte",
+        "meaning": "luckily"
+      },
+      {
+        "term": "tema",
+        "meaning": "topic / subject"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué le pasó a Mateo en la oficina?",
+        "options": [
+          "Hizo un comentario serio",
+          "Contó un chiste que no causó risa",
+          "Ofendió a su jefe directamente"
+        ],
+        "answerIndex": 1,
+        "explanation": "Mateo contó un chiste en la oficina y nadie se rió porque fue tomado como falta de respeto."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Por qué no se rieron sus compañeros?",
+        "options": [
+          "Porque el chiste era aburrido",
+          "Porque el tema se consideró inapropiado",
+          "Porque no entendieron el idioma"
+        ],
+        "answerIndex": 1,
+        "explanation": "En ese país, bromear sobre el jefe se tomó como falta de respeto, aunque en el país de Mateo es normal."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué diferencia cultural menciona Carla sobre México?",
+        "options": [
+          "Que la gente evita bromear",
+          "Que se ríen de sí mismos con frecuencia",
+          "Que no entienden el humor extranjero"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carla menciona que en México la gente se burla de sí misma todo el tiempo."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "Según Mateo, ¿qué piensa la gente en su país si te ríes de ti mismo?",
+        "options": [
+          "Que eres humilde",
+          "Que no te tomas en serio",
+          "Que eres divertido"
+        ],
+        "answerIndex": 1,
+        "explanation": "Mateo dice que en su país, si te ríes de ti mismo, la gente piensa que no te tomas en serio."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué compara Carla con aprender el humor local?",
+        "options": [
+          "Aprender el idioma",
+          "Conocer la historia del país",
+          "Entender los gestos"
+        ],
+        "answerIndex": 0,
+        "explanation": "Mateo dice que entender el humor local es casi tan difícil como aprender el idioma."
+      },
+      {
+        "id": "q6",
+        "type": "single",
+        "question": "¿Qué idea comparten ambos al final?",
+        "options": [
+          "Que reírse de los errores es parte de aprender",
+          "Que el humor solo funciona en el propio idioma",
+          "Que los chistes deben evitarse en otros países"
+        ],
+        "answerIndex": 0,
+        "explanation": "Ambos concluyen que reírse de los errores es parte del humor y del aprendizaje."
+      }
+    ]
   }
 ]

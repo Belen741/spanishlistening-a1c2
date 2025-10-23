@@ -2810,5 +2810,117 @@
         "explanation": "La conversación mezcla reflexiones sobre cambios personales y sociales con toques de ironía y nostalgia."
       }
     ]
+  },
+  {
+    "id": "c2-04",
+    "level": "c2",
+    "title": "El poder de las narrativas políticas",
+    "duration": "2m 10s",
+    "file": "/audios/c2-04.mp3",
+    "transcript": "A lo largo de la historia, los líderes han comprendido algo que a veces los ciudadanos olvidan: el poder no reside únicamente en las armas o en la economía, sino en las historias que logran que una sociedad crea en algo. Las narrativas políticas son el combustible invisible de las civilizaciones. Una nación se mantiene unida no solo por leyes, sino por relatos compartidos: la idea de justicia, la promesa del progreso o la ilusión de pertenecer a un destino común.\n\nEl lenguaje político, sin embargo, no solo describe la realidad: la fabrica. Una palabra puede legitimar una guerra o justificar una reforma; puede convertir un error en \"sacrificio\" o una mentira en \"versión\". Por eso los discursos no son inocentes: cada término, cada pausa, cada apelación emocional está cuidadosamente calibrada para producir efecto.\n\nEn la era digital, las narrativas se multiplican y fragmentan. Ya no hay un solo relato dominante, sino miles de microhistorias que compiten por atención. El algoritmo se ha convertido en el nuevo narrador: selecciona, omite, repite. Y en ese proceso, transforma la percepción colectiva del mundo.\n\nEl reto contemporáneo no es decidir en qué historia creer, sino aprender a reconocer cuándo una historia nos está creyendo a nosotros. Porque toda narrativa política —por más seductora o noble que parezca— encierra un propósito: mantener el poder de definir qué es real y qué no.",
+    "vocab": [
+      {
+        "term": "narrativa política",
+        "meaning": "conjunto de relatos y símbolos que construyen la identidad ideológica de una sociedad"
+      },
+      {
+        "term": "legitimar",
+        "meaning": "dar apariencia de validez o justicia a una acción o idea"
+      },
+      {
+        "term": "calibrar",
+        "meaning": "ajustar con precisión un mensaje o estrategia"
+      },
+      {
+        "term": "microhistorias",
+        "meaning": "relatos breves o fragmentados que influyen en la opinión pública"
+      },
+      {
+        "term": "relato dominante",
+        "meaning": "discurso oficial o hegemónico que define una versión colectiva de la realidad"
+      },
+      {
+        "term": "algoritmo",
+        "meaning": "sistema digital que selecciona información y condiciona la visibilidad de contenidos"
+      },
+      {
+        "term": "percepción colectiva",
+        "meaning": "interpretación compartida de la realidad por una comunidad"
+      },
+      {
+        "term": "seductor/a",
+        "meaning": "atractivo, persuasivo o convincente"
+      },
+      {
+        "term": "hegemonía",
+        "meaning": "dominio cultural o ideológico de un grupo sobre otro"
+      },
+      {
+        "term": "legitimidad simbólica",
+        "meaning": "autoridad basada en la creencia, no en la fuerza"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "Según el texto, ¿dónde reside realmente el poder político?",
+        "options": [
+          "En las armas y la economía exclusivamente",
+          "En las historias que logran que una sociedad crea en algo",
+          "En las leyes y el sistema judicial"
+        ],
+        "answerIndex": 1,
+        "explanation": "El texto afirma que el poder reside en las historias, no únicamente en armas o economía."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué significa que \"el lenguaje político fabrica la realidad\"?",
+        "options": [
+          "Que las palabras simplemente describen los hechos",
+          "Que el lenguaje puede transformar errores en sacrificios y mentiras en versiones",
+          "Que los políticos siempre mienten"
+        ],
+        "answerIndex": 1,
+        "explanation": "El texto explica que las palabras no solo describen, sino que construyen y transforman la percepción de la realidad."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué papel juega el algoritmo en la era digital según el texto?",
+        "options": [
+          "Se ha convertido en el nuevo narrador que selecciona y omite información",
+          "Simplemente organiza contenido de manera neutral",
+          "Elimina las narrativas políticas tradicionales"
+        ],
+        "answerIndex": 0,
+        "explanation": "El texto describe al algoritmo como el nuevo narrador que transforma la percepción colectiva."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Cuál es el \"reto contemporáneo\" mencionado al final del texto?",
+        "options": [
+          "Decidir en qué historia creer",
+          "Aprender a reconocer cuándo una historia nos está creyendo a nosotros",
+          "Crear narrativas más convincentes"
+        ],
+        "answerIndex": 1,
+        "explanation": "El texto plantea que el desafío no es elegir una historia, sino reconocer cuándo somos controlados por ella."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué crítica implícita hace el texto sobre las narrativas políticas?",
+        "options": [
+          "Que siempre buscan mantener el poder de definir qué es real",
+          "Que son innecesarias en democracia",
+          "Que solo existen en regímenes autoritarios"
+        ],
+        "answerIndex": 0,
+        "explanation": "El texto concluye que toda narrativa política encierra el propósito de mantener el poder de definir la realidad."
+      }
+    ]
   }
 ]

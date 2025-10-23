@@ -1402,5 +1402,117 @@
         "explanation": "Ambos están de acuerdo en que todo es cuestión de encontrar un equilibrio."
       }
     ]
+  },
+  {
+    "id": "b2-01",
+    "level": "b2",
+    "title": "La invitación inesperada",
+    "duration": "1m 30s",
+    "file": "/audios/b2-01.mp3",
+    "transcript": "Sofía trabaja en una empresa de marketing digital y lleva meses colaborando con Daniel, un diseñador del mismo equipo. Se llevan bien, aunque casi siempre hablan solo de trabajo.\n\nUn viernes, antes de salir de la oficina, Daniel le dijo con una sonrisa:\n\n—Oye, este fin de semana hay una exposición de arte moderno. ¿Te gustaría ir?\n\nSofía dudó unos segundos. No sabía si era una invitación amistosa o algo más. Finalmente respondió:\n\n—Claro, me encanta el arte.\n\nEl sábado se encontraron en el museo. Durante la visita, hablaron de sus artistas favoritos, pero también de sus sueños, viajes y cosas personales. Daniel parecía nervioso y, en un momento, mencionó:\n\n—Nunca pensé que tendríamos tanto en común.\n\nSofía sonrió, pero no dijo nada. Al despedirse, él le escribió al día siguiente:\n\n\"Gracias por acompañarme, la pasé muy bien.\"\n\nElla leyó el mensaje varias veces antes de responder:\n\n\"Yo también.\"",
+    "vocab": [
+      {
+        "term": "exposición",
+        "meaning": "exhibition"
+      },
+      {
+        "term": "arte moderno",
+        "meaning": "modern art"
+      },
+      {
+        "term": "colaborar",
+        "meaning": "to work together"
+      },
+      {
+        "term": "dudar",
+        "meaning": "to hesitate"
+      },
+      {
+        "term": "amistoso",
+        "meaning": "friendly"
+      },
+      {
+        "term": "en común",
+        "meaning": "in common"
+      },
+      {
+        "term": "acompañar",
+        "meaning": "to accompany"
+      },
+      {
+        "term": "nervioso",
+        "meaning": "nervous"
+      },
+      {
+        "term": "mensaje",
+        "meaning": "message"
+      },
+      {
+        "term": "responder",
+        "meaning": "to reply"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Dónde trabajan Sofía y Daniel?",
+        "options": [
+          "En una empresa de marketing digital",
+          "En un museo",
+          "En una escuela"
+        ],
+        "answerIndex": 0,
+        "explanation": "Sofía trabaja en una empresa de marketing digital y Daniel es diseñador del mismo equipo."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué hizo Daniel el viernes antes de salir de la oficina?",
+        "options": [
+          "Invitó a Sofía a una exposición",
+          "Le pidió ayuda con un proyecto",
+          "Le dijo adiós rápidamente"
+        ],
+        "answerIndex": 0,
+        "explanation": "Daniel invitó a Sofía a una exposición de arte moderno el fin de semana."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué pensó Sofía cuando recibió la invitación?",
+        "options": [
+          "Que era un error",
+          "Que podría ser una cita",
+          "Que era una reunión de trabajo"
+        ],
+        "answerIndex": 1,
+        "explanation": "Sofía dudó porque no sabía si era una invitación amistosa o algo más (una cita)."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Cómo fue la conversación durante la exposición?",
+        "options": [
+          "Solo hablaron de arte",
+          "Hablaron de temas personales también",
+          "Discutieron por una pintura"
+        ],
+        "answerIndex": 1,
+        "explanation": "Hablaron de sus artistas favoritos, pero también de sus sueños, viajes y cosas personales."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué se puede inferir del final de la historia?",
+        "options": [
+          "Que Sofía no disfrutó la cita",
+          "Que ambos sienten interés mutuo",
+          "Que no volverán a hablar"
+        ],
+        "answerIndex": 1,
+        "explanation": "Los mensajes intercambiados y las respuestas sugieren que ambos disfrutaron y hay interés mutuo."
+      }
+    ]
   }
 ]

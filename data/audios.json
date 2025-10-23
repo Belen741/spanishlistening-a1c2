@@ -1290,5 +1290,117 @@
         "explanation": "La historia nos enseña que a veces hay que vencer el miedo para lograr nuestros sueños y crecer."
       }
     ]
+  },
+  {
+    "id": "b1-04",
+    "level": "b1",
+    "title": "Redes sociales y tiempo libre",
+    "duration": "1m 15s",
+    "file": "/audios/b1-04.mp3",
+    "transcript": "Diego: Hola, Laura. ¿Viste que hoy todos hablan del nuevo reto en redes sociales?\nLaura: Sí, lo vi esta mañana. Me parece divertido, pero también un poco exagerado.\nDiego: Yo creo que depende de cómo se use. A mí me gusta subir fotos cuando viajo, pero no publico todo.\nLaura: A mí me pasa igual. Antes pasaba horas mirando videos, pero ahora trato de usar el teléfono solo un rato al día.\nDiego: Yo también. A veces siento que las redes me quitan tiempo para otras cosas.\nLaura: Sí, pero también tienen cosas buenas. Yo encontré mi trabajo actual gracias a una red profesional.\nDiego: Es verdad. Creo que todo es cuestión de encontrar un equilibrio.\nLaura: Exacto. Hay que saber controlarse.\nDiego: Totalmente de acuerdo.\nLaura: Bueno, es genial charlar de esto. Nos vemos luego.\nDiego: Hasta pronto, Laura.",
+    "vocab": [
+      {
+        "term": "reto",
+        "meaning": "challenge"
+      },
+      {
+        "term": "exagerado",
+        "meaning": "exaggerated"
+      },
+      {
+        "term": "subir fotos",
+        "meaning": "to upload photos"
+      },
+      {
+        "term": "publicar",
+        "meaning": "to post (online)"
+      },
+      {
+        "term": "pasar horas",
+        "meaning": "to spend hours"
+      },
+      {
+        "term": "red social",
+        "meaning": "social network"
+      },
+      {
+        "term": "equilibrio",
+        "meaning": "balance"
+      },
+      {
+        "term": "controlarse",
+        "meaning": "to control oneself"
+      },
+      {
+        "term": "quitar tiempo",
+        "meaning": "to take away time"
+      },
+      {
+        "term": "genial",
+        "meaning": "great / awesome"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿De qué hablan Diego y Laura?",
+        "options": [
+          "De su trabajo",
+          "De las redes sociales",
+          "De los viajes"
+        ],
+        "answerIndex": 1,
+        "explanation": "Diego y Laura hablan sobre las redes sociales y cómo las usan."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué opina Laura sobre el reto en redes?",
+        "options": [
+          "Que es peligroso",
+          "Que es divertido pero exagerado",
+          "Que no lo conoce"
+        ],
+        "answerIndex": 1,
+        "explanation": "Laura dice que le parece divertido, pero también un poco exagerado."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué hacen ambos ahora con el uso del teléfono?",
+        "options": [
+          "Lo usan solo un rato al día",
+          "Pasan muchas horas conectados",
+          "Lo dejaron de usar por completo"
+        ],
+        "answerIndex": 0,
+        "explanation": "Laura dice que ahora trata de usar el teléfono solo un rato al día, y Diego está de acuerdo."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué ventaja menciona Laura sobre las redes sociales?",
+        "options": [
+          "Que ayudan a dormir mejor",
+          "Que encontró su trabajo gracias a ellas",
+          "Que no tienen nada positivo"
+        ],
+        "answerIndex": 1,
+        "explanation": "Laura menciona que encontró su trabajo actual gracias a una red profesional."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿En qué están de acuerdo al final?",
+        "options": [
+          "En que las redes deben eliminarse",
+          "En que hay que encontrar un equilibrio",
+          "En que deberían publicar más"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ambos están de acuerdo en que todo es cuestión de encontrar un equilibrio."
+      }
+    ]
   }
 ]

@@ -930,5 +930,117 @@
         "explanation": "Los domingos la entrada al museo es gratis."
       }
     ]
+  },
+  {
+    "id": "b1-01",
+    "level": "b1",
+    "title": "El mensaje equivocado",
+    "duration": "1m 15s",
+    "file": "/audios/b1-01.mp3",
+    "transcript": "Lucía trabaja en una pequeña oficina de arquitectura. Un lunes por la mañana, su jefe le pidió que enviara un correo importante a un cliente llamado Javier Torres con los nuevos planos de una casa. Todo parecía fácil, pero Lucía, sin darse cuenta, escribió mal la dirección y envió el correo a otro Javier, un antiguo compañero de universidad.\n\nUnas horas después, recibió una respuesta:\n\n\"Hola, Lucía. Gracias por los planos, pero creo que te has equivocado de persona. Aun así, ¡me alegra saber de ti después de tanto tiempo!\".\n\nLucía se puso roja de vergüenza. Llamó a su jefe para explicarle lo que había pasado. Él, sorprendentemente, se rió y le dijo: \"No te preocupes, todos cometemos errores. Solo asegúrate de revisarlo dos veces la próxima vez\". Desde ese día, Lucía siempre revisa cada dirección antes de enviar un correo electrónico.",
+    "vocab": [
+      {
+        "term": "planos",
+        "meaning": "blueprints"
+      },
+      {
+        "term": "equivocarse",
+        "meaning": "to make a mistake"
+      },
+      {
+        "term": "compañero de universidad",
+        "meaning": "college classmate"
+      },
+      {
+        "term": "ponerse rojo/a",
+        "meaning": "to blush / get embarrassed"
+      },
+      {
+        "term": "revisar",
+        "meaning": "to check / review"
+      },
+      {
+        "term": "dirección de correo",
+        "meaning": "email address"
+      },
+      {
+        "term": "cliente",
+        "meaning": "client"
+      },
+      {
+        "term": "sorprendentemente",
+        "meaning": "surprisingly"
+      },
+      {
+        "term": "cometer un error",
+        "meaning": "to make a mistake"
+      },
+      {
+        "term": "asegurarse",
+        "meaning": "to make sure"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Dónde trabaja Lucía?",
+        "options": [
+          "En un hospital",
+          "En una oficina de arquitectura",
+          "En una escuela"
+        ],
+        "answerIndex": 1,
+        "explanation": "Lucía trabaja en una pequeña oficina de arquitectura."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué debía enviar Lucía?",
+        "options": [
+          "Unos planos",
+          "Una invitación",
+          "Un contrato"
+        ],
+        "answerIndex": 0,
+        "explanation": "Lucía debía enviar los nuevos planos de una casa a un cliente."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿A quién envió el correo por error?",
+        "options": [
+          "A su jefe",
+          "A otro Javier",
+          "Al cliente correcto"
+        ],
+        "answerIndex": 1,
+        "explanation": "Lucía envió el correo por error a otro Javier, un antiguo compañero de universidad."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Cómo reaccionó el jefe de Lucía?",
+        "options": [
+          "Se enojó mucho",
+          "Se rió y le dio un consejo",
+          "Ignoró el problema"
+        ],
+        "answerIndex": 1,
+        "explanation": "El jefe se rió y le dijo que todos cometemos errores, dándole el consejo de revisar dos veces."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué hace Lucía desde ese día?",
+        "options": [
+          "No usa más el correo electrónico",
+          "Revisa las direcciones antes de enviar un mensaje",
+          "Le pide ayuda a su jefe siempre"
+        ],
+        "answerIndex": 1,
+        "explanation": "Desde ese día, Lucía siempre revisa cada dirección antes de enviar un correo electrónico."
+      }
+    ]
   }
 ]

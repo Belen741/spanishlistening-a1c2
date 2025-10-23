@@ -6,11 +6,24 @@ Listening por Niveles is a web application for practicing Spanish listening comp
 
 The application serves educational content through 6 distinct CEFR levels, each with dedicated audio material, transcriptions, vocabulary, and evaluable quizzes. User progress is tracked locally using browser localStorage, and the platform supports both light and dark themes with persistence.
 
-**Current Status**: Application is fully built and functional. Requires one-time configuration update to .replit or package.json to run (see SETUP_INSTRUCTIONS.md). All components, routing, SEO, and content are complete.
+**Current Status**: Application is fully built and functional with paginated audio system. Multiple audios per level are now supported via API-based pagination. All components, routing, SEO, and content system are complete. Requires one-time configuration update to .replit or package.json to run (see SETUP_INSTRUCTIONS.md).
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+
+## Recent Changes (October 2025)
+
+### Paginated Audio System
+- **Problem**: Need to support multiple audio exercises per level with efficient loading
+- **Solution**: Implemented API-based pagination with lazy audio loading
+- **Key features**:
+  - API route `/api/audios` with level filtering and pagination
+  - Client-side audio cards with `preload="none"` - MP3 only downloads when user clicks play
+  - AbortController prevents race conditions during navigation between levels
+  - Pagination controls with previous/next, error retry, and empty states
+  - State management resets correctly when switching levels
+- **Files**: `data/audios.json`, `app/api/audios/route.ts`, `components/AudioCard.tsx`, `components/PaginatedAudioList.tsx`, `components/LevelPageClient.tsx`
 
 ## System Architecture
 
@@ -53,11 +66,13 @@ Preferred communication style: Simple, everyday language.
 
 ### Content Architecture
 
-**Content Storage**: Static JSON files per level
-- **Location**: `/content/*.json` (a1.json through c2.json)
-- **Schema**: Defined in `types/level.ts` - includes title, audioSrc, transcript, vocab array, quiz questions
-- **Loading**: Dynamic import per level route, preventing all content from loading upfront
-- **Rationale**: Separates content from code, enables easy content updates without rebuilding
+**Content Storage**: Centralized audio data with API access
+- **Primary data**: `/data/audios.json` - centralized array of all audio exercises across levels
+- **Legacy files**: `/content/*.json` (a1.json through c2.json) - deprecated, kept for backwards compatibility
+- **Schema**: Defined in `types/level.ts` - AudioItem includes id, level, title, duration, file, transcript, vocab array, quiz questions
+- **Loading**: API fetch (`/api/audios`) with pagination, only loads visible page
+- **Audio files**: Located in `/public/audios/` with lazy loading (preload="none")
+- **Rationale**: Centralized data enables pagination, search, and filtering without loading all content upfront
 
 **Level Routing**: Dynamic route `/nivel/[slug]`
 - **Static generation**: All 6 levels pre-rendered at build time

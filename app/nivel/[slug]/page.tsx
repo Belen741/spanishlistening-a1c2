@@ -101,8 +101,6 @@ export default async function LevelPage({
             </p>
           </div>
 
-          <AdSlot slot="in-content" />
-
           <Suspense fallback={<div className="h-48 bg-card rounded-xl border animate-pulse" />}>
             <AudioPlayer src={content.audioSrc} title={content.title} />
           </Suspense>

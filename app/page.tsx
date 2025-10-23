@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react';
 import { LevelCard } from '@components/LevelCard';
-import { AdSlot } from '@components/AdSlot';
 import { LEVELS } from '@lib/levels';
 import { BookOpen, Headphones, MessageSquare, Award } from 'lucide-react';
 
@@ -22,8 +21,6 @@ export default function HomePage() {
 
   return (
     <div className="container mx-auto px-4 py-12 max-w-7xl">
-      <AdSlot slot="header" className="mb-8" />
-
       <div className="text-center mb-12 space-y-4">
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight" data-testid="text-title">
           Listening por Niveles
@@ -42,8 +39,6 @@ export default function HomePage() {
           />
         ))}
       </div>
-
-      <AdSlot slot="in-content" className="mb-12" />
 
       <div className="bg-card rounded-xl border p-8 mb-12">
         <h2 className="text-2xl font-semibold mb-6 text-center">
@@ -92,8 +87,6 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-
-      <AdSlot slot="footer" />
     </div>
   );
 }

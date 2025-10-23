@@ -330,5 +330,133 @@
         "explanation": "La conversación termina con agradecimientos y saludos cordiales."
       }
     ]
+  },
+  {
+    "id": "a1-04",
+    "level": "a1",
+    "title": "En la parada del autobús",
+    "duration": "50s",
+    "file": "/audios/a1-04.mp3",
+    "transcript": "Luis: Hola, ¿esperas el autobús 23?\nClara: Sí, lo espero desde hace diez minutos. ¿Tú también?\nLuis: Sí. Siempre llega tarde por la mañana.\nClara: ¡Qué mal! Tengo una cita a las nueve.\nLuis: Entonces espero que llegue pronto. ¿Vas al centro?\nClara: Sí, trabajo cerca del parque principal. ¿Y tú?\nLuis: Yo estudio en la universidad que está en la misma calle.\nClara: Ah, qué bien. ¡Mira! Ahí viene el autobús.\nLuis: Por fin. Espero que no esté lleno.\nClara: Sí, yo también.",
+    "vocab": [
+      {
+        "term": "parada",
+        "meaning": "bus stop"
+      },
+      {
+        "term": "autobús",
+        "meaning": "bus"
+      },
+      {
+        "term": "cita",
+        "meaning": "appointment / meeting"
+      },
+      {
+        "term": "llegar tarde",
+        "meaning": "to arrive late"
+      },
+      {
+        "term": "el centro",
+        "meaning": "downtown"
+      },
+      {
+        "term": "universidad",
+        "meaning": "university"
+      },
+      {
+        "term": "por fin",
+        "meaning": "finally"
+      },
+      {
+        "term": "lleno",
+        "meaning": "full / crowded"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué número de autobús esperan Luis y Clara?",
+        "options": [
+          "El 10",
+          "El 23",
+          "El 30"
+        ],
+        "answerIndex": 1,
+        "explanation": "Luis y Clara esperan el autobús número 23."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Desde cuándo espera Clara el autobús?",
+        "options": [
+          "Desde hace cinco minutos",
+          "Desde hace diez minutos",
+          "Desde hace media hora"
+        ],
+        "answerIndex": 1,
+        "explanation": "Clara espera el autobús desde hace diez minutos."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Por qué está preocupada Clara?",
+        "options": [
+          "Porque tiene una cita a las nueve",
+          "Porque perdió su dinero",
+          "Porque olvidó su bolsa"
+        ],
+        "answerIndex": 0,
+        "explanation": "Clara está preocupada porque tiene una cita a las nueve y el autobús llega tarde."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿A dónde va Clara?",
+        "options": [
+          "Al centro",
+          "A su casa",
+          "A la universidad"
+        ],
+        "answerIndex": 0,
+        "explanation": "Clara va al centro donde trabaja cerca del parque principal."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué hace Luis?",
+        "options": [
+          "Trabaja en una tienda",
+          "Estudia en la universidad",
+          "Espera a un amigo"
+        ],
+        "answerIndex": 1,
+        "explanation": "Luis estudia en la universidad que está en la misma calle."
+      },
+      {
+        "id": "q6",
+        "type": "single",
+        "question": "¿Qué dicen cuando llega el autobús?",
+        "options": [
+          "Por fin",
+          "Tal vez mañana",
+          "No viene"
+        ],
+        "answerIndex": 0,
+        "explanation": "Luis dice 'Por fin' cuando llega el autobús."
+      },
+      {
+        "id": "q7",
+        "type": "single",
+        "question": "¿Qué esperan Luis y Clara al final?",
+        "options": [
+          "Que el autobús esté vacío",
+          "Que el autobús no esté lleno",
+          "Que el autobús cambie de ruta"
+        ],
+        "answerIndex": 1,
+        "explanation": "Luis y Clara esperan que el autobús no esté lleno."
+      }
+    ]
   }
 ]

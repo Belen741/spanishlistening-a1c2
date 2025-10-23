@@ -1042,5 +1042,129 @@
         "explanation": "Desde ese día, Lucía siempre revisa cada dirección antes de enviar un correo electrónico."
       }
     ]
+  },
+  {
+    "id": "b1-02",
+    "level": "b1",
+    "title": "El día que perdí el tren",
+    "duration": "1m 10s",
+    "file": "/audios/b1-02.mp3",
+    "transcript": "Eran las siete y media de la mañana y todavía estaba en casa. El tren salía a las ocho, así que tenía media hora para llegar a la estación. \"Tengo tiempo\", pensé, pero mientras buscaba mis llaves, recordé que el celular estaba descargado. Corrí a conectarlo y perdí varios minutos.\n\nCuando por fin salí, había mucho tráfico. El autobús avanzaba muy lento y yo miraba el reloj cada dos segundos. En la estación, corrí hasta la puerta del tren, pero justo cuando llegué… se cerraron las puertas.\n\nMe quedé allí, sin aire, viendo cómo el tren se alejaba. Al principio sentí enojo conmigo misma, pero después respiré profundo. Llamé a mi jefe, le expliqué la situación y tomé el siguiente tren. Llegué tarde, sí, pero más tranquila. Ese día aprendí que a veces perder algo no es el fin del mundo, sino una forma de detenerse y respirar.",
+    "vocab": [
+      {
+        "term": "estación",
+        "meaning": "station"
+      },
+      {
+        "term": "tráfico",
+        "meaning": "traffic"
+      },
+      {
+        "term": "descargar (el celular)",
+        "meaning": "to be out of battery / to discharge"
+      },
+      {
+        "term": "avanzar",
+        "meaning": "to move forward"
+      },
+      {
+        "term": "reloj",
+        "meaning": "watch / clock"
+      },
+      {
+        "term": "puerta del tren",
+        "meaning": "train door"
+      },
+      {
+        "term": "alejarse",
+        "meaning": "to move away"
+      },
+      {
+        "term": "respirar profundo",
+        "meaning": "to take a deep breath"
+      },
+      {
+        "term": "tranquilo/a",
+        "meaning": "calm"
+      },
+      {
+        "term": "detenerse",
+        "meaning": "to stop oneself"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿A qué hora salía el tren?",
+        "options": [
+          "A las siete y media",
+          "A las ocho",
+          "A las ocho y media"
+        ],
+        "answerIndex": 1,
+        "explanation": "El tren salía a las ocho."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Por qué perdió tiempo antes de salir de casa?",
+        "options": [
+          "Porque no encontraba su teléfono",
+          "Porque no tenía dinero",
+          "Porque no encontraba el boleto"
+        ],
+        "answerIndex": 0,
+        "explanation": "Perdió tiempo porque recordó que el celular estaba descargado y corrió a conectarlo."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué ocurrió cuando llegó a la estación?",
+        "options": [
+          "El tren ya había salido",
+          "El tren estaba retrasado",
+          "El tren se descompuso"
+        ],
+        "answerIndex": 0,
+        "explanation": "Cuando llegó a la estación, las puertas del tren se cerraron y el tren se alejó."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Cómo se sintió al principio?",
+        "options": [
+          "Tranquilo",
+          "Enojado",
+          "Feliz"
+        ],
+        "answerIndex": 1,
+        "explanation": "Al principio sintió enojo consigo misma."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué hizo después de perder el tren?",
+        "options": [
+          "Se fue a casa",
+          "Tomó el siguiente tren",
+          "Llamó a un amigo"
+        ],
+        "answerIndex": 1,
+        "explanation": "Llamó a su jefe, le explicó la situación y tomó el siguiente tren."
+      },
+      {
+        "id": "q6",
+        "type": "single",
+        "question": "¿Qué aprendió al final del día?",
+        "options": [
+          "Que llegar tarde no es tan grave",
+          "Que no le gusta viajar en tren",
+          "Que debe cambiar de trabajo"
+        ],
+        "answerIndex": 0,
+        "explanation": "Aprendió que a veces perder algo no es el fin del mundo, sino una forma de detenerse y respirar."
+      }
+    ]
   }
 ]

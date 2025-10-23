@@ -1,5 +1,4 @@
 {
   "/page": "app/page.js",
-  "/nivel/[slug]/page": "app/nivel/[slug]/page.js",
-  "/api/audios/route": "app/api/audios/route.js"
+  "/nivel/[slug]/page": "app/nivel/[slug]/page.js"
 }

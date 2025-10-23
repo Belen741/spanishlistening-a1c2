@@ -2698,5 +2698,117 @@
         "explanation": "El silencio representa un espacio de reflexión y conexión interior con el universo."
       }
     ]
+  },
+  {
+    "id": "c2-03",
+    "level": "c2",
+    "title": "Conversación en el bar: lo que no se dice",
+    "duration": "2m 30s",
+    "file": "/audios/c2-03.mp3",
+    "transcript": "Dos hombres, Andrés y Julián, amigos desde la universidad, se encuentran en un bar después de años sin verse. Ambos han tomado caminos distintos —uno trabaja en política, el otro en periodismo— y la charla mezcla nostalgia, escepticismo y crítica social. El ruido del bar y la música de fondo crean una atmósfera íntima, pero cargada de subtexto.\n\nAndrés: No puedo creer que hayan pasado diez años. El mismo bar, las mismas luces… solo nosotros cambiamos.\n\nJulián: ¿Cambiar? No estoy tan seguro. Seguimos hablando de política, solo que ahora con más cinismo.\n\nAndrés: Tú lo llamas cinismo, yo lo llamo experiencia.\n\nJulián: O resignación.\n\n[Ríen brevemente.]\n\nAndrés: ¿Y sigues escribiendo?\n\nJulián: Claro. Aunque ya nadie lee crónicas largas. Todo tiene que caber en doscientos ochenta caracteres.\n\nAndrés: Bienvenido a la era del pensamiento instantáneo.\n\nJulián: ¿Te das cuenta? Vivimos informados, pero no entendemos nada.\n\nAndrés: Y lo peor es que nos acostumbramos. El ruido constante se volvió normal.\n\nJulián: (con tono irónico) Lo llamamos libertad de expresión, pero en realidad es saturación de expresión.\n\nAndrés: Exacto. Hoy todo el mundo opina, pero casi nadie escucha.\n\nJulián: ¿Y tú? ¿Aún crees que desde la política se puede cambiar algo?\n\nAndrés: A veces. Pero cada decisión tiene un costo moral. El poder no te cambia de golpe; te desgasta, lentamente.\n\nJulián: (pausa) Quizás por eso dejé de cubrir campañas.\n\nAndrés: Tal vez por eso sigo en ellas.\n\n[Silencio breve. Se oye el tintineo de vasos.]\n\nJulián: Brindemos, entonces.\n\nAndrés: ¿Por qué?\n\nJulián: Por lo que todavía no sabemos cómo decir.\n\n[Se escucha el sonido de un brindis. Música sube y se desvanece lentamente.]",
+    "vocab": [
+      {
+        "term": "cinismo",
+        "meaning": "actitud escéptica o desengañada ante la moral o la política"
+      },
+      {
+        "term": "resignación",
+        "meaning": "aceptación pasiva de algo inevitable"
+      },
+      {
+        "term": "crónica",
+        "meaning": "artículo narrativo que combina hechos y reflexión"
+      },
+      {
+        "term": "pensamiento instantáneo",
+        "meaning": "idea expresada sin reflexión profunda (concepto moderno)"
+      },
+      {
+        "term": "saturación de expresión",
+        "meaning": "exceso de comunicación que impide la comprensión real"
+      },
+      {
+        "term": "costo moral",
+        "meaning": "dilema ético asociado a decisiones profesionales o políticas"
+      },
+      {
+        "term": "desgastar",
+        "meaning": "debilitar gradualmente, tanto física como emocionalmente"
+      },
+      {
+        "term": "brindis",
+        "meaning": "acto simbólico de celebrar o cerrar un momento significativo"
+      },
+      {
+        "term": "subtexto",
+        "meaning": "significado implícito o emocional detrás de las palabras"
+      },
+      {
+        "term": "ironía",
+        "meaning": "decir lo contrario de lo que se piensa, con intención crítica o humorística"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué simboliza el bar en esta conversación?",
+        "options": [
+          "Un espacio de distracción pasajera",
+          "Una metáfora del desencanto político",
+          "Un lugar donde el pasado y el presente se encuentran"
+        ],
+        "answerIndex": 2,
+        "explanation": "El bar es el lugar donde los amigos se reencuentran después de años, conectando su pasado universitario con su presente."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué significa que \"el poder no te cambia de golpe; te desgasta\"?",
+        "options": [
+          "Que la corrupción ocurre de forma lenta y gradual",
+          "Que el poder fortalece con el tiempo",
+          "Que los políticos envejecen más rápido"
+        ],
+        "answerIndex": 0,
+        "explanation": "Andrés sugiere que el poder corrompe o deteriora moralmente de manera gradual, no instantánea."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué crítica implícita hace Julián cuando dice \"vivimos informados, pero no entendemos nada\"?",
+        "options": [
+          "A la superficialidad del consumo mediático actual",
+          "A la falta de educación formal",
+          "A la censura gubernamental"
+        ],
+        "answerIndex": 0,
+        "explanation": "Julián critica el exceso de información sin comprensión profunda en la era digital."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué intención tiene la frase \"Por lo que todavía no sabemos cómo decir\"?",
+        "options": [
+          "Evadir el silencio incómodo",
+          "Terminar la conversación con humor",
+          "Reconocer lo inefable y lo emocional detrás del diálogo"
+        ],
+        "answerIndex": 2,
+        "explanation": "El brindis reconoce que hay emociones y pensamientos complejos que no pueden expresarse fácilmente con palabras."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué tono domina la conversación?",
+        "options": [
+          "Reflexivo y melancólico con ironía sutil",
+          "Enfadado y pesimista",
+          "Alegórico y distante"
+        ],
+        "answerIndex": 0,
+        "explanation": "La conversación mezcla reflexiones sobre cambios personales y sociales con toques de ironía y nostalgia."
+      }
+    ]
   }
 ]

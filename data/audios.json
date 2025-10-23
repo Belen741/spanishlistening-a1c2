@@ -2146,5 +2146,149 @@
         "explanation": "El título refiere a las fronteras mentales y sociales, no físicas, que separan a las personas."
       }
     ]
+  },
+  {
+    "id": "c1-03",
+    "level": "c1",
+    "title": "El cerebro y la creatividad",
+    "duration": "2m 10s",
+    "file": "/audios/c1-03.mp3",
+    "transcript": "Durante mucho tiempo, la ciencia creyó que el cerebro funcionaba como una máquina: una estructura rígida, donde cada parte tenía una tarea fija. Sin embargo, hoy sabemos que no es así. El cerebro cambia, se adapta y se reinventa constantemente.\n\nLa creatividad nace de esa flexibilidad. No aparece solo cuando un artista pinta o un músico compone; surge también cuando alguien encuentra una nueva forma de resolver un problema cotidiano. Cada vez que unimos ideas que nunca habían estado juntas, estamos creando algo.\n\nCuriosamente, los estudios muestran que el cerebro creativo no trabaja más, sino de otra manera. En lugar de seguir un camino lógico y lineal, explora rutas paralelas, conexiones inesperadas. Por eso muchas ideas brillantes surgen cuando estamos distraídos, caminando o en la ducha: el cerebro aprovecha ese espacio libre para conectar puntos invisibles.\n\nPero la creatividad no depende solo de la inspiración. También exige disciplina, paciencia y tolerancia al error. Un buen artista, un buen científico o un buen maestro no crean por accidente, sino porque practican la curiosidad cada día.\n\nEn el fondo, ser creativo no es inventar algo nuevo, sino mirar lo viejo con ojos distintos.",
+    "vocab": [
+      {
+        "term": "estructura rígida",
+        "meaning": "rigid structure"
+      },
+      {
+        "term": "adaptarse",
+        "meaning": "to adapt"
+      },
+      {
+        "term": "reinventarse",
+        "meaning": "to reinvent oneself"
+      },
+      {
+        "term": "flexibilidad",
+        "meaning": "flexibility"
+      },
+      {
+        "term": "resolver un problema",
+        "meaning": "to solve a problem"
+      },
+      {
+        "term": "conexiones inesperadas",
+        "meaning": "unexpected connections"
+      },
+      {
+        "term": "lineal",
+        "meaning": "linear"
+      },
+      {
+        "term": "tolerancia al error",
+        "meaning": "tolerance for error"
+      },
+      {
+        "term": "inspiración",
+        "meaning": "inspiration"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué idea principal cuestiona el texto sobre el cerebro?",
+        "options": [
+          "Que funciona de forma predecible y fija",
+          "Que solo los artistas son creativo",
+          "Que la creatividad no tiene base científica"
+        ],
+        "answerIndex": 0,
+        "explanation": "El texto cuestiona la vieja idea de que el cerebro funciona como una máquina rígida."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "Según el texto, ¿dónde puede manifestarse la creatividad?",
+        "options": [
+          "Solo en el arte y la música",
+          "En cualquier situación donde se combinen ideas nuevas",
+          "En los sueños o estados inconscientes"
+        ],
+        "answerIndex": 1,
+        "explanation": "El texto señala que la creatividad surge cuando alguien encuentra una nueva forma de resolver cualquier problema."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué revela el hecho de que las ideas surjan cuando estamos distraídos?",
+        "options": [
+          "Que el cerebro necesita descanso para procesar información de manera libre",
+          "Que la inspiración depende de la suerte",
+          "Que el pensamiento lógico no es importante"
+        ],
+        "answerIndex": 0,
+        "explanation": "El cerebro aprovecha ese espacio libre para conectar puntos invisibles cuando estamos distraídos."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué actitud propone el texto hacia el error?",
+        "options": [
+          "Evitarlo a toda costa",
+          "Considerarlo parte del proceso creativo",
+          "Analizarlo solo desde la ciencia"
+        ],
+        "answerIndex": 1,
+        "explanation": "El texto menciona que la creatividad exige tolerancia al error como parte del proceso."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué relación establece el autor entre creatividad y disciplina?",
+        "options": [
+          "Son opuestas: una espontánea, la otra rígida",
+          "Se complementan: la creatividad requiere constancia",
+          "La disciplina impide que surjan ideas nuevas"
+        ],
+        "answerIndex": 1,
+        "explanation": "El texto afirma que la creatividad no depende solo de la inspiración, sino también de disciplina y práctica diaria."
+      },
+      {
+        "id": "q6",
+        "type": "single",
+        "question": "¿Qué metáfora resume mejor el mensaje del texto?",
+        "options": [
+          "El cerebro como una máquina que ejecuta órdenes",
+          "El cerebro como un mapa que se reconfigura con cada pensamiento",
+          "El cerebro como una caja que guarda recuerdos"
+        ],
+        "answerIndex": 1,
+        "explanation": "El texto enfatiza que el cerebro cambia, se adapta y se reinventa constantemente."
+      },
+      {
+        "id": "q7",
+        "type": "single",
+        "question": "¿Qué significado tiene \"mirar lo viejo con ojos distintos\"?",
+        "options": [
+          "Ver lo conocido desde una nueva perspectiva",
+          "Recordar experiencias del pasado",
+          "Valorar lo tradicional por encima de lo nuevo"
+        ],
+        "answerIndex": 0,
+        "explanation": "La frase final sugiere que ser creativo es ver las cosas conocidas desde una perspectiva diferente."
+      },
+      {
+        "id": "q8",
+        "type": "single",
+        "question": "¿Qué tono domina el texto?",
+        "options": [
+          "Científico con matices inspiradores",
+          "Humorístico y ligero",
+          "Pesimista y crítico"
+        ],
+        "answerIndex": 0,
+        "explanation": "El texto combina información científica sobre el cerebro con un mensaje inspirador sobre la creatividad."
+      }
+    ]
   }
 ]

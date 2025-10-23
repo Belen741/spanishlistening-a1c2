@@ -4,36 +4,40 @@
   "transcript": "Es sábado por la mañana y Laura va al supermercado. Ella necesita comprar frutas, verduras y pan. Primero busca los plátanos, después las manzanas y las uvas. El vendedor le ofrece mangos, pero están muy caros. Laura sonríe y dice: \"Gracias, tal vez la próxima semana\". Luego compra pan y leche. Al final, paga en la caja y vuelve a casa contenta porque compró todo lo necesario.",
   "vocab": [
     {
-      "term": "el supermercado",
+      "term": "supermercado",
       "meaning": "supermarket"
     },
     {
-      "term": "las frutas",
-      "meaning": "fruits"
-    },
-    {
-      "term": "las verduras",
+      "term": "verduras",
       "meaning": "vegetables"
     },
     {
-      "term": "el vendedor",
-      "meaning": "salesperson / vendor"
+      "term": "plátanos",
+      "meaning": "bananas"
     },
     {
-      "term": "caro/cara",
+      "term": "caro",
       "meaning": "expensive"
     },
     {
-      "term": "la caja",
-      "meaning": "checkout / cash register"
+      "term": "sonríe",
+      "meaning": "smiles"
     },
     {
-      "term": "contento/a",
-      "meaning": "happy / content"
+      "term": "pagar",
+      "meaning": "to pay"
     },
     {
-      "term": "necesitar",
-      "meaning": "to need"
+      "term": "caja",
+      "meaning": "checkout counter"
+    },
+    {
+      "term": "volver a casa",
+      "meaning": "to go back home"
+    },
+    {
+      "term": "necesario",
+      "meaning": "necessary"
     }
   ],
   "quiz": [

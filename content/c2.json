@@ -1,0 +1,114 @@
+{
+  "title": "C2 — Conferencia sobre neuroplasticidad",
+  "audioSrc": "/audios/c2-neuroplasticidad.mp3",
+  "transcript": "Buenas tardes a todos. Es un verdadero honor estar aquí para hablarles sobre uno de los descubrimientos más fascinantes de la neurociencia moderna: la neuroplasticidad. Durante décadas, el paradigma científico sostenía que el cerebro adulto era esencialmente una estructura estática, incapaz de regenerarse o reorganizarse significativamente después de la infancia. Hoy sabemos que esta concepción era fundamentalmente errónea. El cerebro humano posee una capacidad extraordinaria de adaptación y reorganización que persiste a lo largo de toda la vida. Permítanme comenzar definiendo qué entendemos por neuroplasticidad. Se trata de la habilidad del sistema nervioso para modificar su estructura y funcionamiento en respuesta a la experiencia, el aprendizaje o el daño cerebral. Esta plasticidad se manifiesta en múltiples niveles: desde cambios moleculares y sinápticos hasta reorganizaciones a gran escala de redes neuronales completas. Los mecanismos subyacentes incluyen la neurogénesis, es decir, la creación de nuevas neuronas; la sinaptogénesis, o formación de nuevas conexiones sinápticas; y la poda sináptica, que elimina conexiones poco utilizadas para optimizar la eficiencia neural. Uno de los estudios más reveladores sobre neuroplasticidad examinó los cerebros de taxistas londinenses. Londres, con su intrincada red de calles, requiere que los taxistas memoricen aproximadamente veinticinco mil calles y miles de puntos de interés. Las neuroimágenes revelaron que estos profesionales presentaban un hipocampo posterior significativamente más desarrollado que el promedio, una región cerebral crucial para la navegación espacial. Más fascinante aún, este agrandamiento correlacionaba directamente con los años de experiencia conduciendo taxis. Este hallazgo demuestra inequívocamente que el cerebro adulto puede experimentar cambios estructurales sustanciales en respuesta a demandas cognitivas específicas. Las implicaciones clínicas de la neuroplasticidad son profundas. En el ámbito de la rehabilitación neurológica, por ejemplo, pacientes que han sufrido accidentes cerebrovasculares pueden recuperar funciones perdidas mediante terapias que aprovechan la capacidad del cerebro para reorganizarse. Regiones cerebrales intactas pueden asumir funciones previamente desempeñadas por áreas dañadas, un proceso conocido como reorganización funcional. Sin embargo, debemos ser cautelosos y no caer en un optimismo excesivo. La neuroplasticidad tiene límites biológicos y temporales. La plasticidad es generalmente mayor durante los períodos críticos del desarrollo, aunque nunca desaparece completamente. Además, no toda plasticidad es beneficiosa. El dolor crónico, por ejemplo, puede resultar de cambios plásticos maladaptativos en el sistema nervioso, donde el cerebro se vuelve hipersensible a estímulos dolorosos. En conclusión, la neuroplasticidad representa un cambio paradigmático en nuestra comprensión del cerebro. Nos revela un órgano dinámico, en constante evolución, capaz de adaptarse, aprender y, hasta cierto punto, repararse a sí mismo. Este conocimiento no solo enriquece nuestra comprensión teórica sino que también abre nuevas avenidas terapéuticas para una amplia gama de condiciones neurológicas y psiquiátricas. El desafío que enfrentamos ahora es traducir estos descubrimientos fundamentales en intervenciones clínicas efectivas que puedan mejorar la calidad de vida de millones de personas. Muchas gracias por su atención.",
+  "vocab": [
+    {
+      "term": "la neuroplasticidad",
+      "meaning": "neuroplasticity"
+    },
+    {
+      "term": "el paradigma",
+      "meaning": "paradigm"
+    },
+    {
+      "term": "la sinaptogénesis",
+      "meaning": "synaptogenesis (formation of synapses)"
+    },
+    {
+      "term": "la poda sináptica",
+      "meaning": "synaptic pruning"
+    },
+    {
+      "term": "el hipocampo",
+      "meaning": "hippocampus"
+    },
+    {
+      "term": "inequívocamente",
+      "meaning": "unequivocally / unmistakably"
+    },
+    {
+      "term": "el accidente cerebrovascular",
+      "meaning": "stroke"
+    },
+    {
+      "term": "maladaptativo/a",
+      "meaning": "maladaptive"
+    },
+    {
+      "term": "el cambio paradigmático",
+      "meaning": "paradigm shift"
+    },
+    {
+      "term": "la avenida terapéutica",
+      "meaning": "therapeutic avenue / treatment approach"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single",
+      "question": "¿Qué creía el antiguo paradigma científico sobre el cerebro adulto?",
+      "options": [
+        "Que era infinitamente flexible",
+        "Que era esencialmente estático e incapaz de reorganizarse",
+        "Que se regeneraba constantemente",
+        "Que solo funcionaba de noche"
+      ],
+      "answerIndex": 1,
+      "explanation": "El conferenciante menciona que 'el paradigma científico sostenía que el cerebro adulto era esencialmente una estructura estática, incapaz de regenerarse o reorganizarse significativamente.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "question": "¿Qué mecanismos de neuroplasticidad se mencionan? (Selecciona todos los correctos)",
+      "options": [
+        "Neurogénesis",
+        "Sinaptogénesis",
+        "Poda sináptica",
+        "Fotosíntesis"
+      ],
+      "answerIndex": [0, 1, 2],
+      "explanation": "Se mencionan la neurogénesis, la sinaptogénesis y la poda sináptica. La fotosíntesis es un proceso de las plantas, no relacionado con el cerebro."
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "question": "¿Qué encontraron los investigadores en el estudio de los taxistas londinenses?",
+      "options": [
+        "Que tenían menos memoria que el promedio",
+        "Que su hipocampo posterior estaba más desarrollado",
+        "Que no podían aprender idiomas",
+        "Que su cerebro era más pequeño"
+      ],
+      "answerIndex": 1,
+      "explanation": "El estudio reveló que los taxistas 'presentaban un hipocampo posterior significativamente más desarrollado que el promedio.'"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "question": "¿Qué ejemplo de neuroplasticidad maladaptativa se menciona?",
+      "options": [
+        "El aprendizaje de idiomas",
+        "La memoria musical",
+        "El dolor crónico",
+        "La navegación espacial"
+      ],
+      "answerIndex": 2,
+      "explanation": "El conferenciante explica que 'El dolor crónico, por ejemplo, puede resultar de cambios plásticos maladaptativos en el sistema nervioso.'"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "question": "¿Cuál es el desafío futuro mencionado al final de la conferencia?",
+      "options": [
+        "Descubrir la neuroplasticidad",
+        "Traducir los descubrimientos en intervenciones clínicas efectivas",
+        "Crear cerebros artificiales",
+        "Eliminar completamente la neuroplasticidad"
+      ],
+      "answerIndex": 1,
+      "explanation": "El conferenciante concluye diciendo 'El desafío que enfrentamos ahora es traducir estos descubrimientos fundamentales en intervenciones clínicas efectivas.'"
+    }
+  ]
+}

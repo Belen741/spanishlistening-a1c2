@@ -1,0 +1,118 @@
+{
+  "title": "C1 — Debate sobre energías renovables",
+  "audioSrc": "/audios/c1-energias.mp3",
+  "transcript": "Buenas tardes a todos. Hoy vamos a debatir sobre la transición energética hacia fuentes renovables. Tenemos aquí a la doctora Carmen Ruiz, experta en energías renovables, y al ingeniero Miguel Torres, especialista en política energética. Doctora Ruiz, quisiera empezar con usted. ¿Cuál es su opinión sobre el ritmo actual de la transición energética en nuestro país? Bueno, si bien es cierto que hemos avanzado significativamente en la última década, considero que el ritmo sigue siendo insuficiente para cumplir con nuestros compromisos climáticos. Necesitamos una inversión mucho más ambiciosa en infraestructura renovable, especialmente en energía solar y eólica. También es fundamental modernizar la red eléctrica para que pueda gestionar eficientemente estas fuentes intermitentes de energía. Ingeniero Torres, usted ha expresado ciertas reservas sobre esta transición. ¿Podría elaborar? Por supuesto. No me malinterpreten, estoy completamente a favor de las energías renovables. Sin embargo, debemos ser realistas sobre los desafíos que enfrentamos. La intermitencia de la energía solar y eólica requiere soluciones de almacenamiento que aún son extremadamente costosas. Además, la transición no puede ser abrupta porque pondría en riesgo la seguridad energética del país. Necesitamos un período de transición donde las fuentes tradicionales, incluido el gas natural, actúen como respaldo. Doctora Ruiz, ¿cómo respondería a estas preocupaciones? Comprendo la cautela del ingeniero Torres, pero creo que subestima el progreso tecnológico en almacenamiento de energía. Los costos de las baterías han disminuido dramáticamente en los últimos años, y continúan bajando. Además, existen otras soluciones como el almacenamiento hidroeléctrico por bombeo y el hidrógeno verde. En cuanto a la seguridad energética, precisamente las renovables nos liberan de la dependencia de combustibles fósiles importados, lo que fortalece nuestra autonomía energética. Ingeniero Torres, muchos argumentan que las renovables crearán más empleos que los que se perderán en el sector de combustibles fósiles. Es un argumento válido, pero la realidad es más matizada. Sí, se crearán nuevos empleos, pero no necesariamente en las mismas regiones ni para las mismas personas. Necesitamos programas robustos de reconversión profesional para los trabajadores del sector tradicional. También debemos considerar el impacto social de cerrar plantas de energía convencionales en comunidades que dependen económicamente de ellas. Un último comentario, doctora Ruiz. Absolutamente de acuerdo con la necesidad de justicia social en la transición. Sin embargo, el costo de no actuar es mucho mayor. Los efectos del cambio climático ya están afectando nuestra economía, agricultura y salud pública. Cada año que retrasamos la transición, los costos aumentan exponencialmente. Necesitamos actuar con urgencia, pero también con inteligencia, asegurando que nadie se quede atrás en este proceso.",
+  "vocab": [
+    {
+      "term": "la transición energética",
+      "meaning": "energy transition"
+    },
+    {
+      "term": "fuentes renovables",
+      "meaning": "renewable sources"
+    },
+    {
+      "term": "compromisos climáticos",
+      "meaning": "climate commitments"
+    },
+    {
+      "term": "intermitente",
+      "meaning": "intermittent"
+    },
+    {
+      "term": "abrupta",
+      "meaning": "abrupt / sudden"
+    },
+    {
+      "term": "el respaldo",
+      "meaning": "backup / support"
+    },
+    {
+      "term": "subestimar",
+      "meaning": "to underestimate"
+    },
+    {
+      "term": "la autonomía energética",
+      "meaning": "energy independence"
+    },
+    {
+      "term": "matizado/a",
+      "meaning": "nuanced"
+    },
+    {
+      "term": "la reconversión profesional",
+      "meaning": "professional retraining"
+    },
+    {
+      "term": "exponencialmente",
+      "meaning": "exponentially"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single",
+      "question": "Según la doctora Ruiz, ¿cuál es el principal problema del ritmo actual de transición energética?",
+      "options": [
+        "Es demasiado rápido",
+        "Es insuficiente para cumplir compromisos climáticos",
+        "No hay suficientes expertos",
+        "Cuesta demasiado dinero"
+      ],
+      "answerIndex": 1,
+      "explanation": "La doctora Ruiz dice que 'el ritmo sigue siendo insuficiente para cumplir con nuestros compromisos climáticos.'"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "question": "¿Qué preocupación principal expresa el ingeniero Torres sobre la transición?",
+      "options": [
+        "Que las renovables no funcionan",
+        "Que la transición abrupta pondría en riesgo la seguridad energética",
+        "Que no hay suficiente sol en el país",
+        "Que las renovables son contaminantes"
+      ],
+      "answerIndex": 1,
+      "explanation": "El ingeniero Torres menciona que 'la transición no puede ser abrupta porque pondría en riesgo la seguridad energética del país.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "question": "¿Qué soluciones de almacenamiento de energía menciona la doctora Ruiz? (Selecciona todas las correctas)",
+      "options": [
+        "Baterías",
+        "Almacenamiento hidroeléctrico por bombeo",
+        "Hidrógeno verde",
+        "Motores diésel"
+      ],
+      "answerIndex": [0, 1, 2],
+      "explanation": "La doctora Ruiz menciona baterías, almacenamiento hidroeléctrico por bombeo e hidrógeno verde. Los motores diésel no son una solución de almacenamiento de energía renovable."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "question": "Según el ingeniero Torres, ¿qué se necesita para los trabajadores del sector tradicional?",
+      "options": [
+        "Despedirlos inmediatamente",
+        "Programas de reconversión profesional",
+        "Aumentar sus salarios",
+        "Nada, ellos se adaptarán solos"
+      ],
+      "answerIndex": 1,
+      "explanation": "El ingeniero Torres dice 'Necesitamos programas robustos de reconversión profesional para los trabajadores del sector tradicional.'"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "question": "¿Qué argumento usa la doctora Ruiz sobre la seguridad energética?",
+      "options": [
+        "Las renovables son más baratas",
+        "Las renovables liberan de la dependencia de combustibles fósiles importados",
+        "Las renovables son más rápidas de instalar",
+        "Las renovables no necesitan mantenimiento"
+      ],
+      "answerIndex": 1,
+      "explanation": "La doctora Ruiz argumenta que 'las renovables nos liberan de la dependencia de combustibles fósiles importados, lo que fortalece nuestra autonomía energética.'"
+    }
+  ]
+}

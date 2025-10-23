@@ -1,0 +1,110 @@
+{
+  "title": "A2 — Una cita con el médico",
+  "audioSrc": "/audios/a2-medico.mp3",
+  "transcript": "Buenos días, doctora. Tengo una cita a las diez. Soy María González. Pase, por favor, siéntese. ¿Qué le pasa? Bueno, doctora, desde hace tres días me duele mucho la garganta y tengo un poco de fiebre. También tengo tos. Entiendo. Vamos a ver. Abra la boca, por favor. Diga 'ahhh'. Ahhhh. Sí, su garganta está muy roja e inflamada. ¿Ha tomado algo para el dolor? Sí, he tomado paracetamol, pero no me ayuda mucho. ¿Tiene alergia a algún medicamento? No, doctora, no tengo ninguna alergia. Muy bien. Le voy a recetar un antibiótico y un jarabe para la tos. Debe tomar el antibiótico tres veces al día durante siete días. El jarabe, una cucharada cada ocho horas. También es importante que descanse y beba mucha agua. ¿Entendido? Sí, doctora, muchas gracias. ¿Cuándo debo volver? Vuelva en una semana si no mejora. Si empeora antes, llame para otra cita. De acuerdo, muchas gracias. Cuídese.",
+  "vocab": [
+    {
+      "term": "la cita",
+      "meaning": "appointment"
+    },
+    {
+      "term": "la garganta",
+      "meaning": "throat"
+    },
+    {
+      "term": "la fiebre",
+      "meaning": "fever"
+    },
+    {
+      "term": "la tos",
+      "meaning": "cough"
+    },
+    {
+      "term": "inflamado/a",
+      "meaning": "inflamed / swollen"
+    },
+    {
+      "term": "recetar",
+      "meaning": "to prescribe"
+    },
+    {
+      "term": "el jarabe",
+      "meaning": "syrup / cough syrup"
+    },
+    {
+      "term": "mejorar",
+      "meaning": "to improve / get better"
+    },
+    {
+      "term": "empeorar",
+      "meaning": "to worsen / get worse"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single",
+      "question": "¿A qué hora es la cita de María?",
+      "options": [
+        "A las nueve",
+        "A las diez",
+        "A las once",
+        "A las doce"
+      ],
+      "answerIndex": 1,
+      "explanation": "María dice 'Tengo una cita a las diez.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "question": "¿Qué síntomas tiene María? (Selecciona todos los correctos)",
+      "options": [
+        "Dolor de garganta",
+        "Fiebre",
+        "Tos",
+        "Dolor de cabeza"
+      ],
+      "answerIndex": [0, 1, 2],
+      "explanation": "María menciona que le duele la garganta, tiene fiebre y tiene tos. No menciona dolor de cabeza."
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "question": "¿Qué ha tomado María para el dolor?",
+      "options": [
+        "Aspirina",
+        "Ibuprofeno",
+        "Paracetamol",
+        "Nada"
+      ],
+      "answerIndex": 2,
+      "explanation": "María dice 'Sí, he tomado paracetamol, pero no me ayuda mucho.'"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "question": "¿Cuántas veces al día debe tomar el antibiótico?",
+      "options": [
+        "Una vez",
+        "Dos veces",
+        "Tres veces",
+        "Cuatro veces"
+      ],
+      "answerIndex": 2,
+      "explanation": "La doctora dice 'Debe tomar el antibiótico tres veces al día durante siete días.'"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "question": "¿Cuándo debe volver María al médico?",
+      "options": [
+        "Al día siguiente",
+        "En tres días",
+        "En una semana si no mejora",
+        "No necesita volver"
+      ],
+      "answerIndex": 2,
+      "explanation": "La doctora dice 'Vuelva en una semana si no mejora.'"
+    }
+  ]
+}

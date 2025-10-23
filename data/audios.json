@@ -682,5 +682,129 @@
         "explanation": "Dicen que fue el mejor fin de semana del año."
       }
     ]
+  },
+  {
+    "id": "a2-03",
+    "level": "a2",
+    "title": "Reservando un hotel",
+    "duration": "1m 5s",
+    "file": "/audios/a2-03.mp3",
+    "transcript": "Recepcionista: Buenas tardes, Hotel Sol del Valle, ¿en qué puedo ayudarle?\nCarlos: Buenas tardes. Quiero reservar una habitación para este fin de semana.\nRecepcionista: Claro, ¿para cuántas personas?\nCarlos: Para dos, por favor.\nRecepcionista: Perfecto. Tenemos habitaciones dobles con desayuno incluido. ¿Desea una con vista al mar o al jardín?\nCarlos: Con vista al mar, por favor. ¿Cuál es el precio por noche?\nRecepcionista: Son mil doscientos pesos por noche.\nCarlos: Muy bien. ¿Puedo pagar con tarjeta?\nRecepcionista: Sí, aceptamos todas las tarjetas de crédito y débito.\nCarlos: Perfecto. Llegaremos el viernes por la tarde.\nRecepcionista: Excelente. ¿Me puede dar su nombre completo, por favor?\nCarlos: Sí, Carlos Méndez García.\nRecepcionista: Listo, señor Méndez. Su reserva está confirmada para el viernes. Lo esperamos.\nCarlos: Muchas gracias.\nRecepcionista: A usted. Que tenga un buen día.",
+    "vocab": [
+      {
+        "term": "habitación",
+        "meaning": "room"
+      },
+      {
+        "term": "reservar",
+        "meaning": "to book / to reserve"
+      },
+      {
+        "term": "doble",
+        "meaning": "double (room)"
+      },
+      {
+        "term": "desayuno incluido",
+        "meaning": "breakfast included"
+      },
+      {
+        "term": "vista al mar",
+        "meaning": "sea view"
+      },
+      {
+        "term": "jardín",
+        "meaning": "garden"
+      },
+      {
+        "term": "precio por noche",
+        "meaning": "price per night"
+      },
+      {
+        "term": "pagar con tarjeta",
+        "meaning": "pay by card"
+      },
+      {
+        "term": "nombre completo",
+        "meaning": "full name"
+      },
+      {
+        "term": "lo esperamos",
+        "meaning": "we'll be expecting you"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué quiere hacer Carlos?",
+        "options": [
+          "Cancelar una reserva",
+          "Reservar una habitación",
+          "Pedir comida"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carlos quiere reservar una habitación para el fin de semana."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Para cuántas personas es la habitación?",
+        "options": [
+          "Para una",
+          "Para dos",
+          "Para tres"
+        ],
+        "answerIndex": 1,
+        "explanation": "La habitación es para dos personas."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué tipo de habitación elige Carlos?",
+        "options": [
+          "Con vista al jardín",
+          "Con vista al mar",
+          "Sin desayuno"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carlos elige una habitación con vista al mar."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Cuánto cuesta por noche?",
+        "options": [
+          "Ochocientos pesos",
+          "Mil doscientos pesos",
+          "Mil quinientos pesos"
+        ],
+        "answerIndex": 1,
+        "explanation": "El precio es mil doscientos pesos por noche."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Cómo puede pagar Carlos?",
+        "options": [
+          "Solo en efectivo",
+          "Con tarjeta",
+          "Con transferencia"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carlos puede pagar con tarjeta de crédito o débito."
+      },
+      {
+        "id": "q6",
+        "type": "single",
+        "question": "¿Cuándo llegará al hotel?",
+        "options": [
+          "El jueves",
+          "El viernes",
+          "El sábado"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carlos llegará al hotel el viernes por la tarde."
+      }
+    ]
   }
 ]

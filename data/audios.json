@@ -1166,5 +1166,129 @@
         "explanation": "Aprendió que a veces perder algo no es el fin del mundo, sino una forma de detenerse y respirar."
       }
     ]
+  },
+  {
+    "id": "b1-03",
+    "level": "b1",
+    "title": "La decisión más difícil",
+    "duration": "1m 20s",
+    "file": "/audios/b1-03.mp3",
+    "transcript": "Durante años, Carla soñó con tener su propio negocio. Trabajaba en una empresa grande, con un salario estable y compañeros amables, pero cada día sentía que algo le faltaba. En las noches pensaba: \"¿Y si renuncio y empiezo de nuevo?\". Sin embargo, el miedo siempre ganaba.\n\nUn día, su mejor amiga le envió un mensaje: \"Encontré un local perfecto para tu idea de pastelería. Solo falta tu decisión.\" Carla leyó el mensaje varias veces. Tenía ahorros, tenía un plan… pero no tenía seguridad.\n\nEsa noche no durmió. Al día siguiente, mientras preparaba café, pensó en todo lo que había aprendido en su trabajo: organización, atención al cliente, esfuerzo. Sonrió. Tal vez ya estaba lista.\n\nUna semana después, presentó su renuncia. No fue fácil, pero al abrir su tienda por primera vez y oler el pan recién horneado, supo que había tomado la mejor decisión de su vida.",
+    "vocab": [
+      {
+        "term": "negocio",
+        "meaning": "business"
+      },
+      {
+        "term": "salario estable",
+        "meaning": "steady salary"
+      },
+      {
+        "term": "renunciar",
+        "meaning": "to quit (a job)"
+      },
+      {
+        "term": "local",
+        "meaning": "shop space / premises"
+      },
+      {
+        "term": "pastelería",
+        "meaning": "bakery / cake shop"
+      },
+      {
+        "term": "ahorros",
+        "meaning": "savings"
+      },
+      {
+        "term": "seguridad",
+        "meaning": "certainty / confidence"
+      },
+      {
+        "term": "atención al cliente",
+        "meaning": "customer service"
+      },
+      {
+        "term": "esfuerzo",
+        "meaning": "effort"
+      },
+      {
+        "term": "recién horneado",
+        "meaning": "freshly baked"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Cuál era el sueño de Carla?",
+        "options": [
+          "Ser jefa en su empresa",
+          "Tener su propio negocio",
+          "Viajar por el mundo"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carla soñó durante años con tener su propio negocio."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Por qué no tomaba la decisión al principio?",
+        "options": [
+          "Porque no tenía dinero",
+          "Porque tenía miedo",
+          "Porque no tenía apoyo"
+        ],
+        "answerIndex": 1,
+        "explanation": "El miedo siempre ganaba y no le permitía tomar la decisión."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué le escribió su amiga?",
+        "options": [
+          "Que había un local disponible para su pastelería",
+          "Que debía quedarse en su trabajo",
+          "Que el negocio no era buena idea"
+        ],
+        "answerIndex": 0,
+        "explanation": "Su amiga le escribió que encontró un local perfecto para su idea de pastelería."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué recordó Carla mientras preparaba café?",
+        "options": [
+          "Los errores de su empresa",
+          "Todo lo que había aprendido",
+          "Los problemas con su jefa"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carla pensó en todo lo que había aprendido: organización, atención al cliente, esfuerzo."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué sintió cuando abrió su tienda?",
+        "options": [
+          "Duda",
+          "Orgullo y alegría",
+          "Arrepentimiento"
+        ],
+        "answerIndex": 1,
+        "explanation": "Al abrir su tienda y oler el pan recién horneado, supo que había tomado la mejor decisión de su vida."
+      },
+      {
+        "id": "q6",
+        "type": "single",
+        "question": "¿Qué aprendemos de la historia?",
+        "options": [
+          "Que es mejor no arriesgarse",
+          "Que a veces hay que vencer el miedo para crecer",
+          "Que los amigos siempre tienen razón"
+        ],
+        "answerIndex": 1,
+        "explanation": "La historia nos enseña que a veces hay que vencer el miedo para lograr nuestros sueños y crecer."
+      }
+    ]
   }
 ]

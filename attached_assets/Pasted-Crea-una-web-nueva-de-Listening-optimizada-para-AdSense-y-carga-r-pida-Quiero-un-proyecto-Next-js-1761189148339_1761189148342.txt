@@ -1,0 +1,205 @@
+Crea una web nueva de “Listening” optimizada para AdSense y carga rápida
+
+Quiero un proyecto Next.js 14 (App Router) con TypeScript y TailwindCSS. Objetivo: una web de listening con 6 botones principales (A1, A2, B1, B2, C1, C2). Al pulsar cada botón, debe abrirse una pantalla/nivel independiente donde yo pueda insertar:
+
+un audio .mp3 (reproductor con controles),
+
+la transcripción,
+
+el vocabulario emergente,
+
+un quiz evaluable (muestra puntaje y guarda intento en localStorage).
+
+Requisitos de performance y estructura (muy importante)
+
+Ruta por nivel con code-splitting y carga por separado (no quiero que la app cargue todo de golpe).
+
+Usa enrutado por nivel: /nivel/a1, /nivel/a2, /nivel/b1, /nivel/b2, /nivel/c1, /nivel/c2.
+
+Implementa importación dinámica (next/dynamic) para los módulos de cada nivel y sus componentes pesados (reproductor, quiz).
+
+No prefetch automático de enlaces de niveles (para no cargar de más).
+
+Cada nivel debe leer su contenido desde un archivo JSON separado en /content (ej.: a1.json, a2.json, etc.), no hardcodeado en componentes.
+
+Esquema JSON por nivel:
+
+{
+  "title": "A1 — En el supermercado",
+  "audioSrc": "/audios/a1-supermercado.mp3",
+  "transcript": "Texto de la transcripción…",
+  "vocab": [
+    {"term":"la caja","meaning":"checkout"},
+    {"term":"oferta","meaning":"sale/discount"}
+  ],
+  "quiz": [
+    {
+      "id":"q1",
+      "type":"single",
+      "question":"¿Dónde ocurre la historia?",
+      "options":["En una escuela","En un supermercado","En un hospital","En un banco"],
+      "answerIndex":1,
+      "explanation":"Se menciona la caja y las ofertas."
+    }
+  ]
+}
+
+
+Componentes reutilizables en /components:
+
+LevelCard.tsx (tarjetas de A1–C2 en la home).
+
+AudioPlayer.tsx (HTML5 <audio> con fallback, descarga opcional).
+
+Transcript.tsx (colapsable, con búsqueda en texto).
+
+VocabList.tsx (lista con tooltips y copia rápida).
+
+Quiz.tsx (single/multiple choice; valida, muestra aciertos/explicaciones y guarda resultado en localStorage).
+
+Accesibilidad: roles ARIA, foco visible, navegación por teclado, etiquetas para controles del quiz.
+
+Estilo: Tailwind con diseño limpio (tarjetas redondeadas, sombras suaves, layout responsive tipo grid).
+
+Paleta neutra y acentos, sin imágenes pesadas.
+
+Home (/)
+
+Título: “Listening por niveles”.
+
+6 botones/tarjetas grandes (A1, A2, B1, B2, C1, C2) que navegan a cada nivel (sin prefetch).
+
+Un bloque “¿Cómo usar esta sección?” (breve).
+
+Espacios para anuncios (ver AdSense más abajo).
+
+Páginas de nivel (/nivel/[slug])
+
+Cargar solo el JSON del nivel solicitado (desde /content).
+
+Mostrar:
+
+Título nivel + subtítulo del audio.
+
+Reproductor (archivo se sirve desde /public/audios/...).
+
+Transcripción (con botón “copiar”).
+
+Vocabulario emergente (lista o tarjetas).
+
+Quiz evaluable (botón “Enviar respuestas”, mostrar puntaje y explicaciones).
+
+Guardar la última puntuación en localStorage con key quiz:<nivel>:<id>.
+
+SEO/AdSense (preparado para monetizar)
+
+Head SEO por página: metadata con title, description y openGraph.
+
+/public/ads.txt con placeholder:
+
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+
+/app/robots.txt y /app/sitemap.xml generados (Next.js).
+
+Componente <AdSlot /> (en /components) con contenedores responsive para anuncios.
+
+No insertes el script real de AdSense, solo deja placeholders y un README_ADSENSE.md con instrucciones para que yo reemplace pub-XXXXXXXXXXXXXXXX y active anuncios cuando tenga el dominio/aprobación.
+
+Asegúrate que los contenedores de ads no bloqueen el contenido principal y cumplan con CLS bajo.
+
+Privacy Policy y Términos básicos como páginas estáticas (/legal/privacidad, /legal/terminos) enlazadas en el footer (requerido para políticas).
+
+Tecnologías y configuración
+
+Next.js 14 (App Router) + TypeScript.
+
+TailwindCSS configurado (incluye prose para transcripción si usas @tailwindcss/typography).
+
+ESLint + Prettier.
+
+Configura next.config.js para servir audios desde /public/audios.
+
+Scripts en package.json: dev, build, start.
+
+Optimización:
+
+Importación dinámica de componentes de nivel.
+
+Evitar imágenes grandes.
+
+Usar <Suspense> donde aplique.
+
+Deshabilitar prefetch en los Link de niveles.
+
+Estructura de archivos (esperada)
+/app
+  /page.tsx                # Home con 6 tarjetas (A1…C2) + placeholders AdSlot
+  /nivel
+    /[slug]
+      /page.tsx            # Carga JSON del nivel y renderiza secciones
+  /legal
+    /privacidad/page.tsx
+    /terminos/page.tsx
+  robots.ts
+  sitemap.ts
+/components
+  AdSlot.tsx
+  LevelCard.tsx
+  AudioPlayer.tsx
+  Transcript.tsx
+  VocabList.tsx
+  Quiz.tsx
+/content
+  a1.json
+  a2.json
+  b1.json
+  b2.json
+  c1.json
+  c2.json
+/public
+  /audios/.gitkeep         # colocaré mis .mp3 aquí
+  /images/.gitkeep
+/styles
+  globals.css
+README.md
+README_ADSENSE.md
+ads.txt (también copiado a /public/ads.txt si prefieres)
+/next.config.js
+/tailwind.config.ts
+/postcss.config.js
+/package.json
+
+Detalles del Quiz (importante)
+
+Soporta mínimo opción única y múltiple (checkbox).
+
+Al enviar, marcar correctas/incorrectas, mostrar explicación y puntaje.
+
+Guardar resultado en localStorage para ese nivel.
+
+Mostrar botón “Reintentar”.
+
+Entregables
+
+Proyecto corriendo en Replit con Next.js 14 + TS + Tailwind.
+
+Home con 6 niveles usando tarjetas/botones.
+
+Rutas por nivel con carga diferida y lectura de JSON.
+
+Componentes AudioPlayer, Transcript, VocabList, Quiz.
+
+Placeholders de AdSense (sin clave real), ads.txt, robots, sitemap, páginas legales.
+
+Documentación mínima en README.md para: dónde subir audios, cómo editar JSON, cómo activar AdSense cuando tenga mi ID.
+
+Al terminar, ejecuta npm run dev y confirma que:
+
+Home carga rápido, Lighthouse adecuado.
+
+Cada nivel solo carga su JSON y componentes (ver en Network).
+
+El quiz evalúa y guarda el puntaje.
+
+Las rutas legales, robots y sitemap responden.

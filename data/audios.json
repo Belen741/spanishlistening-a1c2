@@ -1638,5 +1638,129 @@
         "explanation": "La historia enseña que no debemos juzgar sin probar, porque podemos perdernos una sorpresa agradable."
       }
     ]
+  },
+  {
+    "id": "b2-03",
+    "level": "b2",
+    "title": "El consejo de mi abuelo",
+    "duration": "1m 30s",
+    "file": "/audios/b2-03.mp3",
+    "transcript": "Cuando era niño, solía visitar a mi abuelo todos los fines de semana. Vivía en una casa pequeña, con un jardín lleno de árboles y herramientas viejas. Siempre tenía algo que reparar, pero también tiempo para sentarse conmigo a conversar.\n\nUn día le pregunté por qué nunca se quejaba de nada. Él sonrió y me dijo:\n—Porque aprendí que quejarse no cambia las cosas, pero actuar sí.\n\nEn ese momento no entendí del todo lo que quería decir. Sin embargo, con los años, esas palabras empezaron a tener sentido. Cada vez que algo salía mal —un trabajo perdido, una discusión o un error— recordaba su voz tranquila.\n\nHace poco, cuando un proyecto importante fracasó, sentí ganas de rendirme. Pero en lugar de eso, respiré, preparé un café y volví a empezar.\n\nEse día comprendí que los consejos sencillos a veces son los que más fuerza tienen.",
+    "vocab": [
+      {
+        "term": "quejarse",
+        "meaning": "to complain"
+      },
+      {
+        "term": "reparar",
+        "meaning": "to fix / to repair"
+      },
+      {
+        "term": "discusión",
+        "meaning": "argument / discussion"
+      },
+      {
+        "term": "rendirse",
+        "meaning": "to give up"
+      },
+      {
+        "term": "fracasó",
+        "meaning": "failed"
+      },
+      {
+        "term": "tranquilamente",
+        "meaning": "calmly"
+      },
+      {
+        "term": "herramienta",
+        "meaning": "tool"
+      },
+      {
+        "term": "consejo",
+        "meaning": "advice"
+      },
+      {
+        "term": "tener sentido",
+        "meaning": "to make sense"
+      },
+      {
+        "term": "volver a empezar",
+        "meaning": "to start again"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Cómo era el abuelo del narrador?",
+        "options": [
+          "Impaciente y distraído",
+          "Tranquilo y trabajador",
+          "Estricto y distante"
+        ],
+        "answerIndex": 1,
+        "explanation": "El abuelo siempre tenía algo que reparar pero también tiempo para conversar, mostrando que era tranquilo y trabajador."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué hacía el abuelo cada fin de semana?",
+        "options": [
+          "Recibía visitas y arreglaba cosas",
+          "Dormía todo el día",
+          "Salía de viaje"
+        ],
+        "answerIndex": 0,
+        "explanation": "El narrador visitaba a su abuelo los fines de semana y el abuelo siempre tenía algo que reparar."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué quiso decir el abuelo con su consejo?",
+        "options": [
+          "Que es mejor evitar los problemas",
+          "Que actuar es más útil que quejarse",
+          "Que hay que aceptar todo sin cambiar nada"
+        ],
+        "answerIndex": 1,
+        "explanation": "El abuelo dijo: 'quejarse no cambia las cosas, pero actuar sí', enfatizando la importancia de la acción."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Por qué el narrador recuerda las palabras del abuelo?",
+        "options": [
+          "Porque se sintió confundido",
+          "Porque le ayudaron en momentos difíciles",
+          "Porque le recordaban su infancia feliz"
+        ],
+        "answerIndex": 1,
+        "explanation": "Cada vez que algo salía mal, el narrador recordaba las palabras de su abuelo, lo que le ayudaba."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué hace el narrador cuando su proyecto fracasa?",
+        "options": [
+          "Se rinde y cambia de trabajo",
+          "Toma un descanso y empieza de nuevo",
+          "Ignora el problema"
+        ],
+        "answerIndex": 1,
+        "explanation": "En lugar de rendirse, respiró, preparó un café y volvió a empezar."
+      },
+      {
+        "id": "q6",
+        "type": "single",
+        "question": "¿Cuál es el mensaje principal del texto?",
+        "options": [
+          "Los consejos simples pueden tener un gran impacto",
+          "Los abuelos siempre tienen razón",
+          "Los problemas se resuelven con suerte"
+        ],
+        "answerIndex": 0,
+        "explanation": "El narrador concluye que 'los consejos sencillos a veces son los que más fuerza tienen'."
+      }
+    ]
   }
 ]

@@ -46,78 +46,60 @@
       "type": "single",
       "question": "¿Qué día va Laura al supermercado?",
       "options": [
-        "Domingo por la tarde",
-        "Sábado por la mañana",
-        "Viernes por la noche",
-        "Lunes por la mañana"
+        "El viernes",
+        "El sábado",
+        "El domingo"
       ],
       "answerIndex": 1,
-      "explanation": "El texto dice 'Es sábado por la mañana y Laura va al supermercado.'"
+      "explanation": "Laura va al supermercado el sábado por la mañana."
     },
     {
       "id": "q2",
       "type": "single",
       "question": "¿Qué necesita comprar Laura?",
       "options": [
-        "Carne, pescado y arroz",
+        "Ropa y zapatos",
         "Frutas, verduras y pan",
-        "Café, azúcar y galletas",
-        "Queso, jamón y huevos"
+        "Libros y cuadernos"
       ],
       "answerIndex": 1,
       "explanation": "Laura necesita comprar frutas, verduras y pan."
     },
     {
       "id": "q3",
-      "type": "multiple",
-      "question": "¿Qué frutas busca Laura? (Selecciona todas las correctas)",
+      "type": "single",
+      "question": "¿Por qué no compra los mangos?",
       "options": [
-        "Plátanos",
-        "Naranjas",
-        "Manzanas",
-        "Uvas"
+        "Porque no le gustan",
+        "Porque están muy caros",
+        "Porque no hay mangos"
       ],
-      "answerIndices": [0, 2, 3],
-      "explanation": "Laura busca plátanos, manzanas y uvas. Las naranjas no se mencionan en el texto."
+      "answerIndex": 1,
+      "explanation": "Laura no compra los mangos porque están muy caros."
     },
     {
       "id": "q4",
       "type": "single",
-      "question": "¿Qué le ofrece el vendedor a Laura?",
+      "question": "¿Qué compra al final?",
       "options": [
-        "Piñas",
-        "Fresas",
-        "Mangos",
-        "Sandías"
+        "Pan y leche",
+        "Agua y arroz",
+        "Pan y jugo"
       ],
-      "answerIndex": 2,
-      "explanation": "El vendedor le ofrece mangos, pero están muy caros."
+      "answerIndex": 0,
+      "explanation": "Al final, Laura compra pan y leche."
     },
     {
       "id": "q5",
       "type": "single",
-      "question": "¿Por qué Laura no compra los mangos?",
-      "options": [
-        "No le gustan los mangos",
-        "Están muy caros",
-        "No son frescos",
-        "Ya tiene mangos en casa"
-      ],
-      "answerIndex": 1,
-      "explanation": "Laura no compra los mangos porque 'están muy caros.'"
-    },
-    {
-      "id": "q6",
-      "type": "single",
       "question": "¿Cómo se siente Laura al final?",
       "options": [
         "Triste",
-        "Enojada",
-        "Contenta",
-        "Cansada"
+        "Cansada",
+        "Contenta"
       ],
       "answerIndex": 2,
-      "explanation": "Laura vuelve a casa contenta porque compró todo lo necesario."
+      "explanation": "Laura se siente contenta porque compró todo lo necesario."
     }
   ]
 }

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Copy } from 'lucide-react';
+import { Copy, ChevronDown, ChevronUp } from 'lucide-react';
 import type { VocabItem } from '@/types/level';
 
 interface VocabListProps {
@@ -9,6 +9,7 @@ interface VocabListProps {
 }
 
 export function VocabList({ items }: VocabListProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
 
   const handleCopy = async (item: VocabItem, index: number) => {
@@ -22,10 +23,27 @@ export function VocabList({ items }: VocabListProps) {
   };
 
   return (
-    <div className="bg-card rounded-xl border p-6" data-testid="vocab-list">
-      <h3 className="font-semibold text-lg mb-4">Vocabulario Clave</h3>
-      
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    <div className="bg-card rounded-xl border" data-testid="vocab-list">
+      <button
+        onClick={() => setIsExpanded(!isExpanded)}
+        className="w-full flex items-center justify-between p-4 hover-elevate active-elevate-2 rounded-t-xl"
+        aria-expanded={isExpanded}
+        data-testid="button-toggle-vocab"
+      >
+        <h3 className="font-semibold text-lg flex items-center gap-2">
+          Vocabulario Clave
+          {!isExpanded && <span className="text-sm text-muted-foreground font-normal">({items.length} palabras)</span>}
+        </h3>
+        {isExpanded ? (
+          <ChevronUp className="h-5 w-5" />
+        ) : (
+          <ChevronDown className="h-5 w-5" />
+        )}
+      </button>
+
+      {isExpanded && (
+        <div className="border-t p-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {items.map((item, index) => (
           <div
             key={index}
@@ -57,7 +75,9 @@ export function VocabList({ items }: VocabListProps) {
             )}
           </div>
         ))}
-      </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

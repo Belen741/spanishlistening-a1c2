@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { CheckCircle2, XCircle, RotateCcw } from 'lucide-react';
+import { CheckCircle2, XCircle, RotateCcw, ChevronDown, ChevronUp } from 'lucide-react';
 import type { QuizQuestion } from '@/types/level';
 
 interface QuizProps {
@@ -17,6 +17,7 @@ interface QuizResult {
 }
 
 export function Quiz({ questions, levelSlug }: QuizProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
   const [answers, setAnswers] = useState<(number | number[])[]>([]);
   const [submitted, setSubmitted] = useState(false);
   const [lastResult, setLastResult] = useState<QuizResult | null>(null);
@@ -102,17 +103,37 @@ export function Quiz({ questions, levelSlug }: QuizProps) {
   });
 
   return (
-    <div className="bg-card rounded-xl border p-6 space-y-6" data-testid="quiz-container">
-      <div className="flex items-center justify-between">
-        <h3 className="font-semibold text-lg">Quiz de Comprensión</h3>
-        {lastResult && !submitted && (
-          <div className="text-sm text-muted-foreground" data-testid="text-last-score">
-            Último resultado: {lastResult.score}/{lastResult.total}
-          </div>
+    <div className="bg-card rounded-xl border" data-testid="quiz-container">
+      <button
+        onClick={() => setIsExpanded(!isExpanded)}
+        className="w-full flex items-center justify-between p-4 hover-elevate active-elevate-2 rounded-t-xl"
+        aria-expanded={isExpanded}
+        data-testid="button-toggle-quiz"
+      >
+        <div className="flex items-center gap-3">
+          <h3 className="font-semibold text-lg">Quiz de Comprensión</h3>
+          {!isExpanded && lastResult && (
+            <span className="text-sm text-muted-foreground font-normal" data-testid="text-last-score">
+              ({lastResult.score}/{lastResult.total})
+            </span>
+          )}
+        </div>
+        {isExpanded ? (
+          <ChevronUp className="h-5 w-5" />
+        ) : (
+          <ChevronDown className="h-5 w-5" />
         )}
-      </div>
+      </button>
 
-      <div className="space-y-6">
+      {isExpanded && (
+        <div className="border-t p-6 space-y-6">
+          {lastResult && !submitted && (
+            <div className="text-sm text-muted-foreground text-center pb-2 border-b" data-testid="text-last-result">
+              Último resultado: {lastResult.score}/{lastResult.total}
+            </div>
+          )}
+
+          <div className="space-y-6">
         {questions.map((question, qIndex) => {
           const userAnswer = answers[qIndex];
           const correct = submitted && isCorrect(question, userAnswer);
@@ -234,6 +255,8 @@ export function Quiz({ questions, levelSlug }: QuizProps) {
         >
           {allAnswered ? 'Enviar Respuestas' : 'Responde todas las preguntas para continuar'}
         </button>
+      )}
+        </div>
       )}
     </div>
   );

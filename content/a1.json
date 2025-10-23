@@ -1,98 +1,119 @@
 {
   "title": "A1 — En el supermercado",
   "audioSrc": "/audios/a1-01.mp3",
-  "transcript": "Hola, buenos días. Necesito comprar algunas cosas para la casa. Primero voy a la sección de frutas. Me gustan las manzanas y los plátanos. Las manzanas están en oferta hoy, tres euros el kilo. Muy bien. Ahora voy a buscar leche y pan. La leche está en la nevera, al fondo de la tienda. El pan está fresco, huele muy bien. También necesito huevos. ¿Dónde están los huevos? Ah, aquí están, al lado de la leche. Perfecto. Ahora voy a la caja para pagar. La cola no es muy larga. La cajera es muy amable. El total son quince euros. Pago con tarjeta. Muchas gracias, hasta luego.",
+  "transcript": "Es sábado por la mañana y Laura va al supermercado. Ella necesita comprar frutas, verduras y pan. Primero busca los plátanos, después las manzanas y las uvas. El vendedor le ofrece mangos, pero están muy caros. Laura sonríe y dice: \"Gracias, tal vez la próxima semana\". Luego compra pan y leche. Al final, paga en la caja y vuelve a casa contenta porque compró todo lo necesario.",
   "vocab": [
     {
-      "term": "la oferta",
-      "meaning": "sale / special offer"
+      "term": "el supermercado",
+      "meaning": "supermarket"
+    },
+    {
+      "term": "las frutas",
+      "meaning": "fruits"
+    },
+    {
+      "term": "las verduras",
+      "meaning": "vegetables"
+    },
+    {
+      "term": "el vendedor",
+      "meaning": "salesperson / vendor"
+    },
+    {
+      "term": "caro/cara",
+      "meaning": "expensive"
     },
     {
       "term": "la caja",
       "meaning": "checkout / cash register"
     },
     {
-      "term": "la cola",
-      "meaning": "queue / line"
+      "term": "contento/a",
+      "meaning": "happy / content"
     },
     {
-      "term": "la nevera",
-      "meaning": "refrigerator / fridge section"
-    },
-    {
-      "term": "fresco/a",
-      "meaning": "fresh"
-    },
-    {
-      "term": "el kilo",
-      "meaning": "kilogram"
+      "term": "necesitar",
+      "meaning": "to need"
     }
   ],
   "quiz": [
     {
       "id": "q1",
       "type": "single",
-      "question": "¿Dónde ocurre esta historia?",
+      "question": "¿Qué día va Laura al supermercado?",
       "options": [
-        "En una escuela",
-        "En un supermercado",
-        "En un hospital",
-        "En un banco"
+        "Domingo por la tarde",
+        "Sábado por la mañana",
+        "Viernes por la noche",
+        "Lunes por la mañana"
       ],
       "answerIndex": 1,
-      "explanation": "La historia ocurre en un supermercado, donde la persona compra frutas, leche, pan y huevos."
+      "explanation": "El texto dice 'Es sábado por la mañana y Laura va al supermercado.'"
     },
     {
       "id": "q2",
       "type": "single",
-      "question": "¿Qué frutas le gustan a la persona?",
+      "question": "¿Qué necesita comprar Laura?",
       "options": [
-        "Naranjas y uvas",
-        "Manzanas y plátanos",
-        "Fresas y melones",
-        "Peras y kiwis"
+        "Carne, pescado y arroz",
+        "Frutas, verduras y pan",
+        "Café, azúcar y galletas",
+        "Queso, jamón y huevos"
       ],
       "answerIndex": 1,
-      "explanation": "La persona dice 'Me gustan las manzanas y los plátanos.'"
+      "explanation": "Laura necesita comprar frutas, verduras y pan."
     },
     {
       "id": "q3",
-      "type": "single",
-      "question": "¿Cuánto cuestan las manzanas?",
+      "type": "multiple",
+      "question": "¿Qué frutas busca Laura? (Selecciona todas las correctas)",
       "options": [
-        "Dos euros el kilo",
-        "Tres euros el kilo",
-        "Cuatro euros el kilo",
-        "Cinco euros el kilo"
+        "Plátanos",
+        "Naranjas",
+        "Manzanas",
+        "Uvas"
       ],
-      "answerIndex": 1,
-      "explanation": "Las manzanas están en oferta: 'tres euros el kilo.'"
+      "answerIndices": [0, 2, 3],
+      "explanation": "Laura busca plátanos, manzanas y uvas. Las naranjas no se mencionan en el texto."
     },
     {
       "id": "q4",
       "type": "single",
-      "question": "¿Dónde está la leche?",
+      "question": "¿Qué le ofrece el vendedor a Laura?",
       "options": [
-        "En la entrada de la tienda",
-        "Al lado del pan",
-        "En la nevera, al fondo de la tienda",
-        "Cerca de la caja"
+        "Piñas",
+        "Fresas",
+        "Mangos",
+        "Sandías"
       ],
       "answerIndex": 2,
-      "explanation": "La persona dice 'La leche está en la nevera, al fondo de la tienda.'"
+      "explanation": "El vendedor le ofrece mangos, pero están muy caros."
     },
     {
       "id": "q5",
       "type": "single",
-      "question": "¿Cómo paga la persona?",
+      "question": "¿Por qué Laura no compra los mangos?",
       "options": [
-        "Con dinero en efectivo",
-        "Con tarjeta",
-        "Con un cheque",
-        "No paga"
+        "No le gustan los mangos",
+        "Están muy caros",
+        "No son frescos",
+        "Ya tiene mangos en casa"
       ],
       "answerIndex": 1,
-      "explanation": "Al final, la persona dice 'Pago con tarjeta.'"
+      "explanation": "Laura no compra los mangos porque 'están muy caros.'"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "question": "¿Cómo se siente Laura al final?",
+      "options": [
+        "Triste",
+        "Enojada",
+        "Contenta",
+        "Cansada"
+      ],
+      "answerIndex": 2,
+      "explanation": "Laura vuelve a casa contenta porque compró todo lo necesario."
     }
   ]
 }

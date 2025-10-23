@@ -218,5 +218,117 @@
         "explanation": "Miguel vuelve a casa cansado, pero contento porque fue un buen día."
       }
     ]
+  },
+  {
+    "id": "a1-03",
+    "level": "a1",
+    "title": "En el café",
+    "duration": "40s",
+    "file": "/audios/a1-03.mp3",
+    "transcript": "Camarero: Buenos días, ¿qué desea tomar? Ana: Buenos días. Quisiera un café con leche, por favor. Camarero: Claro. ¿Desea algo para comer? Ana: Sí, una rebanada de pastel de chocolate. Camarero: Perfecto. ¿Algo más? Ana: No, gracias. ¿Cuánto cuesta? Camarero: Son cuarenta pesos en total. Ana: Aquí tiene. Camarero: Gracias. Su café estará listo en un momento. Ana: Muy bien, muchas gracias. Camarero: Que tenga un buen día. Ana: Igualmente.",
+    "vocab": [
+      {
+        "term": "camarero",
+        "meaning": "waiter"
+      },
+      {
+        "term": "café con leche",
+        "meaning": "coffee with milk"
+      },
+      {
+        "term": "rebanada",
+        "meaning": "slice"
+      },
+      {
+        "term": "pastel",
+        "meaning": "cake"
+      },
+      {
+        "term": "cuesta",
+        "meaning": "costs"
+      },
+      {
+        "term": "en total",
+        "meaning": "in total"
+      },
+      {
+        "term": "aquí tiene",
+        "meaning": "here you go"
+      },
+      {
+        "term": "listo",
+        "meaning": "ready"
+      },
+      {
+        "term": "buen día",
+        "meaning": "good day"
+      },
+      {
+        "term": "igualmente",
+        "meaning": "same to you"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Dónde ocurre la conversación?",
+        "options": [
+          "En una tienda de ropa",
+          "En un café",
+          "En un supermercado"
+        ],
+        "answerIndex": 1,
+        "explanation": "La conversación ocurre en un café entre el camarero y Ana."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué pide Ana para tomar?",
+        "options": [
+          "Un té",
+          "Un café con leche",
+          "Un jugo"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ana pide un café con leche."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué pide Ana para comer?",
+        "options": [
+          "Una rebanada de pastel de chocolate",
+          "Un sándwich",
+          "Una ensalada"
+        ],
+        "answerIndex": 0,
+        "explanation": "Ana pide una rebanada de pastel de chocolate."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Cuánto cuesta todo?",
+        "options": [
+          "Treinta pesos",
+          "Cuarenta pesos",
+          "Cincuenta pesos"
+        ],
+        "answerIndex": 1,
+        "explanation": "El total es cuarenta pesos."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Cómo termina la conversación?",
+        "options": [
+          "Con un agradecimiento y un saludo",
+          "Con una queja",
+          "Con un pedido nuevo"
+        ],
+        "answerIndex": 0,
+        "explanation": "La conversación termina con agradecimientos y saludos cordiales."
+      }
+    ]
   }
 ]

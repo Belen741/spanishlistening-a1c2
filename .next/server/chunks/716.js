@@ -1,0 +1,1 @@
+"use strict";exports.id=716,exports.ids=[716],exports.modules={4716:(e,r,s)=>{s.r(r),s.d(r,{Quiz:()=>t});let t=(0,s(8570).createProxy)(String.raw`/home/runner/workspace/components/Quiz.tsx#Quiz`)}};

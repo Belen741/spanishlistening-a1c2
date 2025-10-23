@@ -26,6 +26,23 @@ npm install
 
 ### Desarrollo
 
+**Opción 1: Usar Next.js directamente (Recomendado)**
+```bash
+npx next dev --port 5000
+```
+
+**Opción 2: Actualizar package.json y usar npm**
+
+Si prefieres usar `npm run dev`, actualiza los scripts en `package.json`:
+```json
+"scripts": {
+  "dev": "next dev --port 5000",
+  "build": "next build",
+  "start": "next start --port 5000"
+}
+```
+
+Luego ejecuta:
 ```bash
 npm run dev
 ```
@@ -35,8 +52,8 @@ La aplicación estará disponible en `http://localhost:5000`
 ### Compilación para producción
 
 ```bash
-npm run build
-npm start
+npx next build
+npx next start --port 5000
 ```
 
 ## 📁 Estructura del Proyecto

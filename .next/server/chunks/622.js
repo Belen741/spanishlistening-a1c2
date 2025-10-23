@@ -1,1 +1,0 @@
-"use strict";exports.id=622,exports.ids=[622],exports.modules={8622:(s,t,e)=>{e.r(t),e.d(t,{VocabList:()=>o});let o=(0,e(8570).createProxy)(String.raw`/home/runner/workspace/components/VocabList.tsx#VocabList`)}};

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@components/ThemeProvider';
-import { ThemeToggle } from '@components/ThemeToggle';
+import { Header } from '@components/Header';
 import Link from 'next/link';
 
 const inter = Inter({ 
@@ -36,14 +36,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${jetbrainsMono.variable}`}>
         <ThemeProvider>
           <div className="min-h-screen flex flex-col">
-            <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-lg">
-              <div className="container mx-auto px-4 py-4 flex items-center justify-between max-w-7xl">
-                <Link href="/" className="text-xl font-semibold hover-elevate px-3 py-2 rounded-md" data-testid="link-home">
-                  🎧 Listening por Niveles
-                </Link>
-                <ThemeToggle />
-              </div>
-            </header>
+            <Header />
             
             <main className="flex-1">
               {children}

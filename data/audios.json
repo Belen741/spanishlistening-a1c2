@@ -458,5 +458,117 @@
         "explanation": "Luis y Clara esperan que el autobús no esté lleno."
       }
     ]
+  },
+  {
+    "id": "a2-01",
+    "level": "a2",
+    "title": "El nuevo vecino",
+    "duration": "1m 10s",
+    "file": "/audios/a2-01.mp3",
+    "transcript": "Hace dos semanas llegó un nuevo vecino al edificio de Marta. Se llama Tomás y viene de Argentina. Es muy amable y siempre saluda a todos con una sonrisa. El primer día, Marta lo vio en el ascensor y comenzaron a hablar. Tomás le contó que trabaja desde casa y que le encanta cocinar. También mencionó que todavía no conoce bien la ciudad y que está buscando lugares para comer buena comida mexicana.\n\nMarta le recomendó una taquería cerca del parque y le dijo que los tacos al pastor son los mejores. Al día siguiente, Tomás le agradeció el consejo y le comentó que había probado los tacos. \"¡Tenías razón!\", le dijo. Desde entonces, se ven seguido en el pasillo y siempre conversan un poco antes de entrar a sus departamentos.",
+    "vocab": [
+      {
+        "term": "vecino",
+        "meaning": "neighbor"
+      },
+      {
+        "term": "edificio",
+        "meaning": "building"
+      },
+      {
+        "term": "amable",
+        "meaning": "kind"
+      },
+      {
+        "term": "ascensor",
+        "meaning": "elevator"
+      },
+      {
+        "term": "taquería",
+        "meaning": "taco restaurant"
+      },
+      {
+        "term": "al pastor",
+        "meaning": "marinated pork taco style"
+      },
+      {
+        "term": "consejo",
+        "meaning": "advice"
+      },
+      {
+        "term": "probar",
+        "meaning": "to try (food)"
+      },
+      {
+        "term": "pasillo",
+        "meaning": "hallway"
+      },
+      {
+        "term": "departamento",
+        "meaning": "apartment"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿De dónde viene Tomás?",
+        "options": [
+          "De México",
+          "De España",
+          "De Argentina"
+        ],
+        "answerIndex": 2,
+        "explanation": "Tomás viene de Argentina."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Dónde conoció Marta a su nuevo vecino?",
+        "options": [
+          "En el parque",
+          "En el ascensor",
+          "En el supermercado"
+        ],
+        "answerIndex": 1,
+        "explanation": "Marta conoció a Tomás en el ascensor el primer día."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué le gusta hacer a Tomás?",
+        "options": [
+          "Correr y leer",
+          "Cocinar",
+          "Ver televisión"
+        ],
+        "answerIndex": 1,
+        "explanation": "A Tomás le encanta cocinar."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué le recomendó Marta a Tomás?",
+        "options": [
+          "Una taquería cerca del parque",
+          "Un museo famoso",
+          "Un gimnasio nuevo"
+        ],
+        "answerIndex": 0,
+        "explanation": "Marta le recomendó una taquería cerca del parque."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué hizo Tomás después de visitar la taquería?",
+        "options": [
+          "Le agradeció a Marta",
+          "Se mudó de edificio",
+          "Compró más tacos para su familia"
+        ],
+        "answerIndex": 0,
+        "explanation": "Tomás le agradeció a Marta el consejo al día siguiente."
+      }
+    ]
   }
 ]

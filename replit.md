@@ -6,7 +6,7 @@ Listening por Niveles is a web application for practicing Spanish listening comp
 
 The application serves educational content through 6 distinct CEFR levels, each with dedicated audio material, transcriptions, vocabulary, and evaluable quizzes. User progress is tracked locally using browser localStorage, and the platform supports both light and dark themes with persistence.
 
-**Current Status**: Application is fully built and functional with paginated audio system. Level A1 now has 4 complete audio exercises with interactive transcripts, vocabulary, and quizzes. FormattedDialogue component automatically formats dialogue transcripts with bold speaker names. All components, routing, SEO, and content system are complete.
+**Current Status**: Application is fully built and functional with paginated audio system. Level A1 has 4 complete audio exercises, Level A2 has 1 audio exercise started. FormattedDialogue component automatically formats dialogue transcripts with bold speaker names and handles narrative text. All components, routing, SEO, and content system are complete.
 
 ## User Preferences
 

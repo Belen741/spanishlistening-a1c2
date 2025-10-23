@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { ChevronDown, ChevronUp, Copy, Search } from 'lucide-react';
+import FormattedDialogue from './FormattedDialogue';
 
 interface TranscriptProps {
   text: string;
@@ -22,18 +23,16 @@ export function Transcript({ text }: TranscriptProps) {
     }
   };
 
-  const highlightText = (text: string, search: string) => {
+  const getHighlightedHtml = (text: string, search: string): string => {
     if (!search.trim()) return text;
     
-    const parts = text.split(new RegExp(`(${search})`, 'gi'));
-    return parts.map((part, i) =>
-      part.toLowerCase() === search.toLowerCase() ? (
-        <mark key={i} className="bg-primary/30 rounded px-0.5">
-          {part}
-        </mark>
-      ) : (
-        part
-      )
+    // Escapar caracteres especiales de regex en el término de búsqueda
+    const escapedSearch = search.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    
+    // Reemplazar todas las coincidencias con <mark> tags
+    return text.replace(
+      new RegExp(`(${escapedSearch})`, 'gi'),
+      '<mark class="bg-primary/30 rounded px-0.5">$1</mark>'
     );
   };
 
@@ -80,8 +79,8 @@ export function Transcript({ text }: TranscriptProps) {
             </button>
           </div>
 
-          <div className="prose prose-sm dark:prose-invert max-w-none bg-muted/30 rounded-lg p-4 leading-relaxed" data-testid="text-transcript-content">
-            {highlightText(text, searchTerm)}
+          <div className="max-w-none bg-muted/30 rounded-lg p-4" data-testid="text-transcript-content">
+            <FormattedDialogue value={getHighlightedHtml(text, searchTerm)} />
           </div>
         </div>
       )}

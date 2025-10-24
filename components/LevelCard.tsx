@@ -7,7 +7,13 @@ interface LevelCardProps {
 }
 
 export function LevelCard({ level }: LevelCardProps) {
-  const href = level.slug === 'a1' ? '/spanish-audio-for-beginners' : `/nivel/${level.slug}`;
+  let href = `/nivel/${level.slug}`;
+  
+  if (level.slug === 'a1') {
+    href = '/spanish-audio-for-beginners-a1';
+  } else if (level.slug === 'a2') {
+    href = '/spanish-audio-for-beginners-a2';
+  }
   
   return (
     <Link

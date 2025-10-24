@@ -50,10 +50,11 @@ export default function TermsPage() {
           o modificar estos datos según sea necesario.
         </p>
 
-        <h2>6. Publicidad</h2>
+        <h2>6. Publicidad (futuro)</h2>
         <p>
-          Este sitio muestra anuncios a través de Google AdSense. No controlamos el contenido de 
-          estos anuncios y no somos responsables de las prácticas de privacidad de los anunciantes.
+          Actualmente este sitio no muestra anuncios, pero en el futuro podría utilizar Google AdSense 
+          u otras plataformas publicitarias. No controlamos el contenido de dichos anuncios y no somos 
+          responsables de las prácticas de privacidad de los anunciantes.
         </p>
 
         <h2>7. Limitación de Responsabilidad</h2>

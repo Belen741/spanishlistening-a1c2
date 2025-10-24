@@ -1,6 +1,6 @@
 {
   "/page": "app/page.js",
   "/legal/privacidad/page": "app/legal/privacidad/page.js",
-  "/legal/terminos/page": "app/legal/terminos/page.js",
-  "/contacto/page": "app/contacto/page.js"
+  "/contacto/page": "app/contacto/page.js",
+  "/legal/terminos/page": "app/legal/terminos/page.js"
 }

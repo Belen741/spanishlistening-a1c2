@@ -53,21 +53,21 @@ export default function HomePage() {
               className="hover:text-foreground transition-colors hover-elevate px-3 py-2 rounded-md" 
               data-testid="link-privacy"
             >
-              Política de privacidad
+              Privacy Policy
             </Link>
             <Link 
               href="/legal/terminos" 
               className="hover:text-foreground transition-colors hover-elevate px-3 py-2 rounded-md" 
               data-testid="link-terms"
             >
-              Términos y condiciones
+              Terms and Conditions
             </Link>
             <Link 
               href="/contacto" 
               className="hover:text-foreground transition-colors hover-elevate px-3 py-2 rounded-md" 
               data-testid="link-contact"
             >
-              Contacto
+              Contact
             </Link>
           </nav>
         </div>

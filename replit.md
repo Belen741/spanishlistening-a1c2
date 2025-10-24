@@ -6,7 +6,7 @@ Spanish Listening is a web application for practicing Spanish listening comprehe
 
 The application serves educational content through 6 distinct CEFR levels, each with dedicated audio material, transcriptions, vocabulary, and evaluable quizzes. User progress is tracked locally using browser localStorage, and the platform supports both light and dark themes with persistence.
 
-**Current Status**: Application is fully built and functional with paginated audio system. All 6 CEFR levels (A1, A2, B1, B2, C1, C2) are complete with 4 audio exercises each (24 total audios). FormattedDialogue component automatically formats dialogue transcripts with bold speaker names and handles narrative text. All components, routing, SEO, and content system are complete. C1 level uses English title "Advanced Spanish - C1" and meta title "Advanced Spanish".
+**Current Status**: Application is fully built and functional with paginated audio system. All 6 CEFR levels (A1, A2, B1, B2, C1, C2) are complete with 4 audio exercises each (24 total audios). FormattedDialogue component automatically formats dialogue transcripts with bold speaker names and handles narrative text. All components, routing, SEO, and content system are complete. Levels A1-C1 have custom SEO-optimized English URLs, while C2 maintains Spanish format.
 
 ## User Preferences
 
@@ -14,24 +14,26 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes (October 2025)
 
-### A1, A2, B1, and B2 Custom URLs - SEO-Optimized
-- **Change**: Levels A1, A2, B1, and B2 now have custom SEO-optimized URLs
+### Custom SEO-Optimized URLs for A1-C1 Levels
+- **Change**: Levels A1, A2, B1, B2, and C1 now have custom SEO-optimized URLs
   - A1: `/spanish-audio-for-beginners-a1`
   - A2: `/spanish-audio-for-beginners-a2`
   - B1: `/intermediate-spanish-b1`
   - B2: `/intermediate-spanish-b2`
-- **Reason**: Better SEO targeting for specific proficiency levels
+  - C1: `/advanced-spanish-c1`
+- **Reason**: Better SEO targeting for specific proficiency levels with English keywords
 - **Implementation**:
   - Created dedicated pages:
     - `app/spanish-audio-for-beginners-a1/page.tsx` (meta: "Spanish audio for beginners", H1: "Spanish audio for beginners A1")
     - `app/spanish-audio-for-beginners-a2/page.tsx` (meta: "Spanish audio for beginners", H1: "Spanish audio for beginners A2")
     - `app/intermediate-spanish-b1/page.tsx` (meta: "Intermediate Spanish", H1: "Intermediate Spanish - B1")
     - `app/intermediate-spanish-b2/page.tsx` (meta: "Intermediate Spanish", H1: "Intermediate Spanish - B2")
-  - Old URLs `/nivel/a1`, `/nivel/a2`, `/nivel/b1`, and `/nivel/b2` redirect to new URLs
-  - LevelCard for A1, A2, B1, and B2 link directly to new URLs
-  - Updated `generateStaticParams` to exclude A1, A2, B1, B2 from static generation (prevents build conflicts)
-- **Other levels**: C1, C2 continue using `/nivel/{slug}` format
-- **Files**: `app/spanish-audio-for-beginners-a1/page.tsx`, `app/spanish-audio-for-beginners-a2/page.tsx`, `app/intermediate-spanish-b1/page.tsx`, `app/intermediate-spanish-b2/page.tsx`, `app/nivel/[slug]/page.tsx`, `components/LevelCard.tsx`
+    - `app/advanced-spanish-c1/page.tsx` (meta: "Advanced Spanish", H1: "Advanced Spanish - C1")
+  - Old URLs `/nivel/a1`, `/nivel/a2`, `/nivel/b1`, `/nivel/b2`, and `/nivel/c1` redirect to new URLs
+  - LevelCard updated for A1, A2, B1, B2, and C1 to link directly to new URLs
+  - Updated `generateStaticParams` to exclude A1, A2, B1, B2, C1 from static generation (prevents build conflicts)
+- **Other levels**: C2 continues using `/nivel/c2` format
+- **Files**: `app/spanish-audio-for-beginners-a1/page.tsx`, `app/spanish-audio-for-beginners-a2/page.tsx`, `app/intermediate-spanish-b1/page.tsx`, `app/intermediate-spanish-b2/page.tsx`, `app/advanced-spanish-c1/page.tsx`, `app/nivel/[slug]/page.tsx`, `components/LevelCard.tsx`
 
 ### Branding Update - "Spanish Listening"
 - **Change**: Changed all branding from "Listening por Niveles" to "Spanish Listening" throughout the site

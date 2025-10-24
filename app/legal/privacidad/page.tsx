@@ -35,10 +35,10 @@ export default function PrivacyPage() {
           Esta información se almacena únicamente en tu dispositivo y no se envía a ningún servidor.
         </p>
 
-        <h2>3. Uso de Google AdSense</h2>
+        <h2>3. Uso de Google AdSense (futuro)</h2>
         <p>
-          Este sitio web utiliza Google AdSense para mostrar anuncios. Google puede utilizar cookies 
-          y tecnologías similares para:
+          Actualmente este sitio no muestra anuncios, pero en el futuro podría utilizar Google AdSense 
+          para mostrar publicidad. Google puede usar cookies y tecnologías similares para:
         </p>
         <ul>
           <li>Mostrar anuncios personalizados basados en tus intereses</li>
@@ -46,10 +46,11 @@ export default function PrivacyPage() {
           <li>Prevenir fraude publicitario</li>
         </ul>
         <p>
-          Puedes administrar tus preferencias de anuncios visitando{' '}
-          <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">
-            Configuración de anuncios de Google
-          </a>.
+          Puedes administrar tus preferencias de anuncios visitando la página de Configuración de 
+          anuncios de Google:{' '}
+          <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">
+            https://adssettings.google.com
+          </a>
         </p>
 
         <h2>4. Cookies</h2>

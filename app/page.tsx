@@ -18,7 +18,7 @@ export default function HomePage() {
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed" data-testid="text-subtitle">
-          Practica tu comprensión auditiva en español con audios reales, transcripciones y ejercicios interactivos.
+          Practice your Spanish listening comprehension with real audios, transcripts, and interactive exercises.
         </p>
 
         <div className="bg-card border rounded-xl p-8 mb-4 text-left max-w-2xl mx-auto">

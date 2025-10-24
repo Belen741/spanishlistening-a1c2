@@ -1,13 +1,12 @@
 import Link from 'next/link';
-import { Headphones, CheckCircle2 } from 'lucide-react';
+import { Headphones } from 'lucide-react';
 import type { LevelInfo } from '@/types/level';
 
 interface LevelCardProps {
   level: LevelInfo;
-  hasCompleted?: boolean;
 }
 
-export function LevelCard({ level, hasCompleted = false }: LevelCardProps) {
+export function LevelCard({ level }: LevelCardProps) {
   return (
     <Link
       href={`/nivel/${level.slug}`}
@@ -16,13 +15,6 @@ export function LevelCard({ level, hasCompleted = false }: LevelCardProps) {
       data-testid={`card-level-${level.slug}`}
     >
       <div className="relative rounded-2xl border-2 bg-card p-6 transition-all hover:shadow-lg hover:-translate-y-1 overflow-visible">
-        {hasCompleted && (
-          <div className="absolute -top-2 -right-2 z-10">
-            <div className="bg-success text-success-foreground rounded-full p-1" data-testid={`icon-completed-${level.slug}`}>
-              <CheckCircle2 className="h-5 w-5" />
-            </div>
-          </div>
-        )}
         
         <div className="flex items-start justify-between mb-4">
           <div

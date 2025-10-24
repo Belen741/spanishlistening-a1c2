@@ -1,24 +1,10 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import { LevelCard } from '@components/LevelCard';
 import { LEVELS } from '@lib/levels';
 import { BookOpen, Headphones, MessageSquare, Award } from 'lucide-react';
 
 export default function HomePage() {
-  const [completedLevels, setCompletedLevels] = useState<Set<string>>(new Set());
-
-  useEffect(() => {
-    const completed = new Set<string>();
-    LEVELS.forEach((level) => {
-      const stored = localStorage.getItem(`quiz:${level.slug}`);
-      if (stored) {
-        completed.add(level.slug);
-      }
-    });
-    setCompletedLevels(completed);
-  }, []);
-
   return (
     <div className="container mx-auto px-4 py-12 max-w-7xl">
       <div className="text-center mb-12 space-y-4">
@@ -35,7 +21,6 @@ export default function HomePage() {
           <LevelCard
             key={level.slug}
             level={level}
-            hasCompleted={completedLevels.has(level.slug)}
           />
         ))}
       </div>

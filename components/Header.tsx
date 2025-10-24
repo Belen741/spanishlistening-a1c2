@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { ThemeToggle } from './ThemeToggle';
 
 export function Header() {
@@ -14,7 +15,25 @@ export function Header() {
         >
           Spanish Listening
         </Link>
-        <ThemeToggle />
+        <div className="flex items-center gap-4">
+          <ThemeToggle />
+          <a 
+            href="https://hablandoconbelen.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover-elevate rounded-md transition-transform"
+            data-testid="link-logo"
+          >
+            <Image 
+              src="/images/logo-hablando-con-belen.png" 
+              alt="Hablando con Belén" 
+              width={120}
+              height={80}
+              className="h-12 w-auto"
+              priority
+            />
+          </a>
+        </div>
       </div>
     </header>
   );

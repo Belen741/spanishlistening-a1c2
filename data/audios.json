@@ -50,11 +50,11 @@
         "type": "single",
         "question": "¿Qué día va Laura al supermercado?",
         "options": [
-          "El viernes",
           "El sábado",
-          "El domingo"
+          "El domingo",
+          "El viernes"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Laura va al supermercado el sábado por la mañana."
       },
       {

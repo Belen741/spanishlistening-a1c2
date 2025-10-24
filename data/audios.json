@@ -274,11 +274,11 @@
         "type": "single",
         "question": "¿Dónde ocurre la conversación?",
         "options": [
-          "En una tienda de ropa",
           "En un café",
-          "En un supermercado"
+          "En un supermercado",
+          "En una tienda de ropa"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "La conversación ocurre en un café entre el camarero y Ana."
       },
       {
@@ -286,11 +286,11 @@
         "type": "single",
         "question": "¿Qué pide Ana para tomar?",
         "options": [
-          "Un té",
           "Un café con leche",
-          "Un jugo"
+          "Un jugo",
+          "Un té"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Ana pide un café con leche."
       },
       {
@@ -298,11 +298,11 @@
         "type": "single",
         "question": "¿Qué pide Ana para comer?",
         "options": [
-          "Una rebanada de pastel de chocolate",
           "Un sándwich",
-          "Una ensalada"
+          "Una ensalada",
+          "Una rebanada de pastel de chocolate"
         ],
-        "answerIndex": 0,
+        "answerIndex": 2,
         "explanation": "Ana pide una rebanada de pastel de chocolate."
       },
       {
@@ -310,11 +310,11 @@
         "type": "single",
         "question": "¿Cuánto cuesta todo?",
         "options": [
-          "Treinta pesos",
           "Cuarenta pesos",
-          "Cincuenta pesos"
+          "Cincuenta pesos",
+          "Treinta pesos"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "El total es cuarenta pesos."
       },
       {
@@ -322,11 +322,11 @@
         "type": "single",
         "question": "¿Cómo termina la conversación?",
         "options": [
-          "Con un agradecimiento y un saludo",
           "Con una queja",
+          "Con un agradecimiento y un saludo",
           "Con un pedido nuevo"
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "La conversación termina con agradecimientos y saludos cordiales."
       }
     ]
@@ -378,11 +378,11 @@
         "type": "single",
         "question": "¿Qué número de autobús esperan Luis y Clara?",
         "options": [
-          "El 10",
           "El 23",
-          "El 30"
+          "El 30",
+          "El 10"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Luis y Clara esperan el autobús número 23."
       },
       {
@@ -390,11 +390,11 @@
         "type": "single",
         "question": "¿Desde cuándo espera Clara el autobús?",
         "options": [
-          "Desde hace cinco minutos",
           "Desde hace diez minutos",
-          "Desde hace media hora"
+          "Desde hace media hora",
+          "Desde hace cinco minutos"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Clara espera el autobús desde hace diez minutos."
       },
       {
@@ -402,11 +402,11 @@
         "type": "single",
         "question": "¿Por qué está preocupada Clara?",
         "options": [
-          "Porque tiene una cita a las nueve",
           "Porque perdió su dinero",
-          "Porque olvidó su bolsa"
+          "Porque olvidó su bolsa",
+          "Porque tiene una cita a las nueve"
         ],
-        "answerIndex": 0,
+        "answerIndex": 2,
         "explanation": "Clara está preocupada porque tiene una cita a las nueve y el autobús llega tarde."
       },
       {
@@ -414,11 +414,11 @@
         "type": "single",
         "question": "¿A dónde va Clara?",
         "options": [
+          "A la universidad",
           "Al centro",
-          "A su casa",
-          "A la universidad"
+          "A su casa"
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "Clara va al centro donde trabaja cerca del parque principal."
       },
       {
@@ -426,11 +426,11 @@
         "type": "single",
         "question": "¿Qué hace Luis?",
         "options": [
-          "Trabaja en una tienda",
           "Estudia en la universidad",
-          "Espera a un amigo"
+          "Espera a un amigo",
+          "Trabaja en una tienda"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Luis estudia en la universidad que está en la misma calle."
       },
       {
@@ -438,11 +438,11 @@
         "type": "single",
         "question": "¿Qué dicen cuando llega el autobús?",
         "options": [
-          "Por fin",
           "Tal vez mañana",
+          "Por fin",
           "No viene"
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "Luis dice 'Por fin' cuando llega el autobús."
       },
       {
@@ -450,11 +450,11 @@
         "type": "single",
         "question": "¿Qué esperan Luis y Clara al final?",
         "options": [
-          "Que el autobús esté vacío",
           "Que el autobús no esté lleno",
-          "Que el autobús cambie de ruta"
+          "Que el autobús cambie de ruta",
+          "Que el autobús esté vacío"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Luis y Clara esperan que el autobús no esté lleno."
       }
     ]

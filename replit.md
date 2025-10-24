@@ -14,6 +14,18 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes (October 2025)
 
+### A1 Custom URL - "Spanish audio for beginners"
+- **Change**: Level A1 now has a custom SEO-optimized URL `/spanish-audio-for-beginners`
+- **Reason**: Better SEO targeting for beginners searching for Spanish audio content
+- **Implementation**:
+  - Created dedicated page at `app/spanish-audio-for-beginners/page.tsx`
+  - Meta title: "Spanish audio for beginners" (instead of generic "Nivel A1 - ...")
+  - H1 title: "Spanish audio for beginners A1"
+  - Old URL `/nivel/a1` redirects to new URL
+  - LevelCard for A1 links directly to new URL
+- **Other levels**: Continue using `/nivel/{slug}` format (A2, B1, B2, C1, C2)
+- **Files**: `app/spanish-audio-for-beginners/page.tsx`, `app/nivel/[slug]/page.tsx`, `components/LevelCard.tsx`
+
 ### Branding Update - "Spanish Listening"
 - **Change**: Changed all branding from "Listening por Niveles" to "Spanish Listening" throughout the site
 - **Reason**: Better SEO optimization with English branding for international audience

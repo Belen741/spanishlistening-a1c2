@@ -32,6 +32,8 @@ export async function generateMetadata({
       ? 'Spanish audio for beginners'
       : params.slug === 'b1' || params.slug === 'b2'
       ? 'Intermediate Spanish'
+      : params.slug === 'c1'
+      ? 'Advanced Spanish'
       : `Nivel ${level.name} - ${level.description} | Spanish Listening`,
     description: `Practica tu comprensión auditiva en español con ejercicios de nivel ${level.name}. ${level.description}`,
     openGraph: {
@@ -39,6 +41,8 @@ export async function generateMetadata({
         ? 'Spanish audio for beginners'
         : params.slug === 'b1' || params.slug === 'b2'
         ? 'Intermediate Spanish'
+        : params.slug === 'c1'
+        ? 'Advanced Spanish'
         : `Nivel ${level.name} - Spanish Listening`,
       description: level.description,
     },

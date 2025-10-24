@@ -6,7 +6,7 @@ Spanish Listening is a web application for practicing Spanish listening comprehe
 
 The application serves educational content through 6 distinct CEFR levels, each with dedicated audio material, transcriptions, vocabulary, and evaluable quizzes. User progress is tracked locally using browser localStorage, and the platform supports both light and dark themes with persistence.
 
-**Current Status**: Application is fully built and functional with paginated audio system. All 6 CEFR levels (A1, A2, B1, B2, C1, C2) are complete with 4 audio exercises each (24 total audios). FormattedDialogue component automatically formats dialogue transcripts with bold speaker names and handles narrative text. All components, routing, SEO, and content system are complete. C1 level uses English title "Advanced Spanish - C1".
+**Current Status**: Application is fully built and functional with paginated audio system. All 6 CEFR levels (A1, A2, B1, B2, C1, C2) are complete with 4 audio exercises each (24 total audios). FormattedDialogue component automatically formats dialogue transcripts with bold speaker names and handles narrative text. All components, routing, SEO, and content system are complete. C1 level uses English title "Advanced Spanish - C1" and meta title "Advanced Spanish".
 
 ## User Preferences
 

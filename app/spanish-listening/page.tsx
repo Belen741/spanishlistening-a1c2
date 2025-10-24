@@ -12,7 +12,7 @@ export default function SpanishListeningPage() {
           Spanish Listening
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto" data-testid="text-subtitle">
-          Improve your Spanish listening comprehension with exercises organized by CEFR levels
+          Improve your Spanish listening with transcripts, key vocabulary, and interactive exercises
         </p>
       </div>
 

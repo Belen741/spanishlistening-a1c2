@@ -92,7 +92,7 @@ export default async function LevelPage({
               </div>
             </div>
             <h1 className="text-3xl md:text-4xl font-bold mb-3" data-testid="text-level-title">
-              {level.slug === 'a1' ? 'Spanish audio for beginners A1' : level.slug === 'a2' ? 'Spanish audio for beginners A2' : level.slug === 'b1' ? 'Intermediate Spanish - B1' : level.slug === 'b2' ? 'Intermediate Spanish - B2' : `Ejercicios de Listening - ${level.name}`}
+              {level.slug === 'a1' ? 'Spanish audio for beginners A1' : level.slug === 'a2' ? 'Spanish audio for beginners A2' : level.slug === 'b1' ? 'Intermediate Spanish - B1' : level.slug === 'b2' ? 'Intermediate Spanish - B2' : level.slug === 'c1' ? 'Advanced Spanish - C1' : `Ejercicios de Listening - ${level.name}`}
             </h1>
             <p className="text-lg text-muted-foreground" data-testid="text-level-description">
               {level.description}

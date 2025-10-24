@@ -10,21 +10,6 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
-    ],
-    "/spanish-audio-for-beginners-a2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-audio-for-beginners-a2/page.js"
-    ],
-    "/spanish-audio-for-beginners-a1/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-audio-for-beginners-a1/page.js"
-    ],
-    "/advanced-spanish-c2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/advanced-spanish-c2/page.js"
     ]
   }
 }

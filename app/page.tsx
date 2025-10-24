@@ -10,7 +10,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="container mx-auto px-6 py-8 md:py-12 max-w-4xl text-center">
         <h1 
-          className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight"
+          className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 tracking-tight"
           style={{ color: '#3b82f6' }}
           data-testid="text-main-title"
         >

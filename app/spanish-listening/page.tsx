@@ -8,7 +8,7 @@ export default function SpanishListeningPage() {
   return (
     <div className="container mx-auto px-4 py-12 max-w-7xl">
       <div className="text-center mb-12 space-y-4">
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight" data-testid="text-title">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-primary" data-testid="text-title">
           Spanish Listening
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto" data-testid="text-subtitle">

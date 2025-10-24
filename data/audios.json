@@ -162,11 +162,11 @@
         "type": "single",
         "question": "¿A dónde va Miguel?",
         "options": [
-          "Al cine",
           "Al parque",
-          "A la escuela"
+          "A la escuela",
+          "Al cine"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Miguel decide ir al parque porque hace buen tiempo."
       },
       {
@@ -174,11 +174,11 @@
         "type": "single",
         "question": "¿Qué lleva Miguel al parque?",
         "options": [
-          "Una botella de agua, una gorra y una pelota",
           "Una mochila y un libro",
+          "Una botella de agua, una gorra y una pelota",
           "Un paraguas y una cámara"
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "Miguel lleva una botella de agua, su gorra y su pelota."
       },
       {
@@ -186,11 +186,11 @@
         "type": "single",
         "question": "¿Con quién juega Miguel?",
         "options": [
+          "Con su hermana",
           "Con un perro",
-          "Con un niño llamado Pablo",
-          "Con su hermana"
+          "Con un niño llamado Pablo"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "Miguel conoce a un niño llamado Pablo y juegan juntos."
       },
       {
@@ -198,11 +198,11 @@
         "type": "single",
         "question": "¿Qué compra Miguel?",
         "options": [
-          "Un helado de chocolate",
+          "Un refresco",
           "Una bicicleta",
-          "Un refresco"
+          "Un helado de chocolate"
         ],
-        "answerIndex": 0,
+        "answerIndex": 2,
         "explanation": "Miguel compra un helado de chocolate."
       },
       {
@@ -210,11 +210,11 @@
         "type": "single",
         "question": "¿Cómo se siente Miguel al final del día?",
         "options": [
-          "Triste",
           "Cansado pero contento",
-          "Nervioso"
+          "Nervioso",
+          "Triste"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Miguel vuelve a casa cansado, pero contento porque fue un buen día."
       }
     ]

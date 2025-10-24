@@ -27,9 +27,9 @@ export function Header() {
             <Image 
               src="/images/logo-hablando-con-belen.png" 
               alt="Hablando con Belén" 
-              width={120}
-              height={80}
-              className="h-12 w-auto"
+              width={160}
+              height={107}
+              className="h-16 w-auto"
               priority
             />
           </a>

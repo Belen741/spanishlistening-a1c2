@@ -14,21 +14,24 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes (October 2025)
 
-### A1, A2, and B1 Custom URLs - SEO-Optimized
-- **Change**: Levels A1, A2, and B1 now have custom SEO-optimized URLs
+### A1, A2, B1, and B2 Custom URLs - SEO-Optimized
+- **Change**: Levels A1, A2, B1, and B2 now have custom SEO-optimized URLs
   - A1: `/spanish-audio-for-beginners-a1`
   - A2: `/spanish-audio-for-beginners-a2`
   - B1: `/intermediate-spanish-b1`
+  - B2: `/intermediate-spanish-b2`
 - **Reason**: Better SEO targeting for specific proficiency levels
 - **Implementation**:
   - Created dedicated pages:
     - `app/spanish-audio-for-beginners-a1/page.tsx` (meta: "Spanish audio for beginners", H1: "Spanish audio for beginners A1")
     - `app/spanish-audio-for-beginners-a2/page.tsx` (meta: "Spanish audio for beginners", H1: "Spanish audio for beginners A2")
     - `app/intermediate-spanish-b1/page.tsx` (meta: "Intermediate Spanish", H1: "Intermediate Spanish - B1")
-  - Old URLs `/nivel/a1`, `/nivel/a2`, and `/nivel/b1` redirect to new URLs
-  - LevelCard for A1, A2, and B1 link directly to new URLs
-- **Other levels**: B2, C1, C2 continue using `/nivel/{slug}` format
-- **Files**: `app/spanish-audio-for-beginners-a1/page.tsx`, `app/spanish-audio-for-beginners-a2/page.tsx`, `app/intermediate-spanish-b1/page.tsx`, `app/nivel/[slug]/page.tsx`, `components/LevelCard.tsx`
+    - `app/intermediate-spanish-b2/page.tsx` (meta: "Intermediate Spanish", H1: "Intermediate Spanish - B2")
+  - Old URLs `/nivel/a1`, `/nivel/a2`, `/nivel/b1`, and `/nivel/b2` redirect to new URLs
+  - LevelCard for A1, A2, B1, and B2 link directly to new URLs
+  - Updated `generateStaticParams` to exclude A1, A2, B1, B2 from static generation (prevents build conflicts)
+- **Other levels**: C1, C2 continue using `/nivel/{slug}` format
+- **Files**: `app/spanish-audio-for-beginners-a1/page.tsx`, `app/spanish-audio-for-beginners-a2/page.tsx`, `app/intermediate-spanish-b1/page.tsx`, `app/intermediate-spanish-b2/page.tsx`, `app/nivel/[slug]/page.tsx`, `components/LevelCard.tsx`
 
 ### Branding Update - "Spanish Listening"
 - **Change**: Changed all branding from "Listening por Niveles" to "Spanish Listening" throughout the site

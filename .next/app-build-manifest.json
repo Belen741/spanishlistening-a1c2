@@ -20,16 +20,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/spanish-listening/layout.js"
-    ],
-    "/spanish-audio-for-beginners-a2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-audio-for-beginners-a2/page.js"
-    ],
-    "/nivel/[slug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/nivel/[slug]/page.js"
     ]
   }
 }

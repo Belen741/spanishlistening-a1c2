@@ -18,14 +18,6 @@ export function AdSlot({ slot, className = '' }: AdSlotProps) {
       className={`flex items-center justify-center bg-muted rounded-lg border-2 border-dashed border-border ${sizes[slot]} ${className}`}
       data-testid={`ad-slot-${slot}`}
     >
-      <div className="text-center p-4">
-        <p className="text-xs text-muted-foreground uppercase tracking-wide mb-1">
-          Anuncio
-        </p>
-        <p className="text-sm text-muted-foreground">
-          AdSense {slot === 'header' ? '728×90 / 320×50' : slot === 'sidebar' ? '300×600' : slot === 'in-content' ? '336×280' : 'Responsive'}
-        </p>
-      </div>
     </div>
   );
 }

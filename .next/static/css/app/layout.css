@@ -1683,17 +1683,11 @@ video {
 .font-semibold {
   font-weight: 600;
 }
-.uppercase {
-  text-transform: uppercase;
-}
 .leading-relaxed {
   line-height: 1.625;
 }
 .tracking-tight {
   letter-spacing: -0.025em;
-}
-.tracking-wide {
-  letter-spacing: 0.025em;
 }
 .text-destructive {
   --tw-text-opacity: 1;

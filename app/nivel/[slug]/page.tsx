@@ -46,13 +46,17 @@ export default async function LevelPage({
 }: {
   params: { slug: string };
 }) {
-  // Redirect A1 and A2 to their custom URLs
+  // Redirect A1, A2, and B1 to their custom URLs
   if (params.slug === 'a1') {
     redirect('/spanish-audio-for-beginners-a1');
   }
   
   if (params.slug === 'a2') {
     redirect('/spanish-audio-for-beginners-a2');
+  }
+  
+  if (params.slug === 'b1') {
+    redirect('/intermediate-spanish-b1');
   }
 
   if (!isValidLevelSlug(params.slug)) {

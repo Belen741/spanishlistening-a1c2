@@ -29,13 +29,13 @@ export const LEVELS: LevelInfo[] = [
     slug: 'c1',
     name: 'C1',
     description: 'Avanzado - Textos largos y exigentes',
-    color: 'hsl(260 70% 50%)',
+    color: 'hsl(260 45% 75%)',
   },
   {
     slug: 'c2',
     name: 'C2',
     description: 'Maestría - Comprensión total y expresión precisa',
-    color: 'hsl(280 70% 50%)',
+    color: 'hsl(280 45% 75%)',
   },
 ];
 

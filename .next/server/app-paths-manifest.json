@@ -1,5 +1,4 @@
 {
-  "/spanish-audio-for-beginners/page": "app/spanish-audio-for-beginners/page.js",
-  "/api/audios/route": "app/api/audios/route.js",
+  "/page": "app/page.js",
   "/spanish-listening/page": "app/spanish-listening/page.js"
 }

@@ -14,17 +14,19 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes (October 2025)
 
-### A1 Custom URL - "Spanish audio for beginners"
-- **Change**: Level A1 now has a custom SEO-optimized URL `/spanish-audio-for-beginners`
+### A1 and A2 Custom URLs - "Spanish audio for beginners"
+- **Change**: Levels A1 and A2 now have custom SEO-optimized URLs
+  - A1: `/spanish-audio-for-beginners-a1`
+  - A2: `/spanish-audio-for-beginners-a2`
 - **Reason**: Better SEO targeting for beginners searching for Spanish audio content
 - **Implementation**:
-  - Created dedicated page at `app/spanish-audio-for-beginners/page.tsx`
-  - Meta title: "Spanish audio for beginners" (instead of generic "Nivel A1 - ...")
-  - H1 title: "Spanish audio for beginners A1"
-  - Old URL `/nivel/a1` redirects to new URL
-  - LevelCard for A1 links directly to new URL
-- **Other levels**: Continue using `/nivel/{slug}` format (A2, B1, B2, C1, C2)
-- **Files**: `app/spanish-audio-for-beginners/page.tsx`, `app/nivel/[slug]/page.tsx`, `components/LevelCard.tsx`
+  - Created dedicated pages at `app/spanish-audio-for-beginners-a1/page.tsx` and `app/spanish-audio-for-beginners-a2/page.tsx`
+  - Both have meta title: "Spanish audio for beginners"
+  - H1 titles: "Spanish audio for beginners A1" and "Spanish audio for beginners A2"
+  - Old URLs `/nivel/a1` and `/nivel/a2` redirect to new URLs
+  - LevelCard for A1 and A2 link directly to new URLs
+- **Other levels**: Continue using `/nivel/{slug}` format (B1, B2, C1, C2)
+- **Files**: `app/spanish-audio-for-beginners-a1/page.tsx`, `app/spanish-audio-for-beginners-a2/page.tsx`, `app/nivel/[slug]/page.tsx`, `components/LevelCard.tsx`
 
 ### Branding Update - "Spanish Listening"
 - **Change**: Changed all branding from "Listening por Niveles" to "Spanish Listening" throughout the site

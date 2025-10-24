@@ -1302,9 +1302,6 @@ video {
 .mb-10 {
   margin-bottom: 2.5rem;
 }
-.mb-12 {
-  margin-bottom: 3rem;
-}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -2147,11 +2144,6 @@ video {
     line-height: 2.5rem;
   }
 
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -2166,10 +2158,6 @@ video {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-\[1fr_300px\] {

@@ -19,6 +19,8 @@ export function LevelCard({ level }: LevelCardProps) {
     href = '/intermediate-spanish-b2';
   } else if (level.slug === 'c1') {
     href = '/advanced-spanish-c1';
+  } else if (level.slug === 'c2') {
+    href = '/advanced-spanish-c2';
   }
   
   return (

@@ -21,7 +21,7 @@ export default function HomePage() {
           Practica tu comprensión auditiva en español con audios reales, transcripciones y ejercicios interactivos.
         </p>
 
-        <div className="bg-card border rounded-xl p-8 mb-12 text-left max-w-2xl mx-auto">
+        <div className="bg-card border rounded-xl p-8 mb-4 text-left max-w-2xl mx-auto">
           <p className="text-base leading-relaxed text-foreground" data-testid="text-introduction">
             I'm Belén, an online Spanish teacher and creator of Spanish Listening. On this site, you'll find audios organized by level (A1 to C2), each with transcripts, key vocabulary, and quizzes. All materials are original and designed for Spanish learners like you.
           </p>
@@ -29,7 +29,7 @@ export default function HomePage() {
       </section>
 
       {/* Levels Section */}
-      <section className="container mx-auto px-6 py-12 max-w-6xl">
+      <section className="container mx-auto px-6 py-4 max-w-6xl">
         <h2 className="text-2xl md:text-3xl font-semibold text-center mb-10" data-testid="text-levels-heading">
           Elige tu nivel
         </h2>

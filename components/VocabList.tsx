@@ -26,18 +26,18 @@ export function VocabList({ items }: VocabListProps) {
     <div className="bg-card rounded-xl border" data-testid="vocab-list">
       <button
         onClick={() => setIsExpanded(!isExpanded)}
-        className="w-full flex items-center justify-between p-4 hover-elevate active-elevate-2 rounded-t-xl"
+        className="w-full flex items-center justify-between p-5 bg-primary/5 hover-elevate active-elevate-2 rounded-t-xl border-l-4 border-l-primary"
         aria-expanded={isExpanded}
         data-testid="button-toggle-vocab"
       >
-        <h3 className="font-semibold text-lg flex items-center gap-2">
+        <h3 className="font-bold text-lg flex items-center gap-2">
           Vocabulario Clave
           {!isExpanded && <span className="text-sm text-muted-foreground font-normal">({items.length} palabras)</span>}
         </h3>
         {isExpanded ? (
-          <ChevronUp className="h-5 w-5" />
+          <ChevronUp className="h-6 w-6 text-primary" />
         ) : (
-          <ChevronDown className="h-5 w-5" />
+          <ChevronDown className="h-6 w-6 text-primary" />
         )}
       </button>
 

@@ -1,5 +1,4 @@
 {
-  "/advanced-spanish-c1/page": "app/advanced-spanish-c1/page.js",
-  "/api/audios/route": "app/api/audios/route.js",
+  "/page": "app/page.js",
   "/spanish-listening/page": "app/spanish-listening/page.js"
 }

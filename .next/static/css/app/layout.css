@@ -1595,6 +1595,10 @@ video {
   --tw-border-opacity: 1;
   border-color: hsl(142 76% 36% / var(--tw-border-opacity, 1));
 }
+.border-l-primary {
+  --tw-border-opacity: 1;
+  border-left-color: hsl(var(--primary) / var(--tw-border-opacity, 1));
+}
 .bg-background {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--background) / var(--tw-bg-opacity, 1));
@@ -1646,6 +1650,9 @@ video {
 }
 .p-4 {
   padding: 1rem;
+}
+.p-5 {
+  padding: 1.25rem;
 }
 .p-6 {
   padding: 1.5rem;

@@ -106,12 +106,12 @@ export function Quiz({ questions, levelSlug }: QuizProps) {
     <div className="bg-card rounded-xl border" data-testid="quiz-container">
       <button
         onClick={() => setIsExpanded(!isExpanded)}
-        className="w-full flex items-center justify-between p-4 hover-elevate active-elevate-2 rounded-t-xl"
+        className="w-full flex items-center justify-between p-5 bg-primary/5 hover-elevate active-elevate-2 rounded-t-xl border-l-4 border-l-primary"
         aria-expanded={isExpanded}
         data-testid="button-toggle-quiz"
       >
         <div className="flex items-center gap-3">
-          <h3 className="font-semibold text-lg">Quiz de Comprensión</h3>
+          <h3 className="font-bold text-lg">Quiz de Comprensión</h3>
           {!isExpanded && lastResult && (
             <span className="text-sm text-muted-foreground font-normal" data-testid="text-last-score">
               ({lastResult.score}/{lastResult.total})
@@ -119,9 +119,9 @@ export function Quiz({ questions, levelSlug }: QuizProps) {
           )}
         </div>
         {isExpanded ? (
-          <ChevronUp className="h-5 w-5" />
+          <ChevronUp className="h-6 w-6 text-primary" />
         ) : (
-          <ChevronDown className="h-5 w-5" />
+          <ChevronDown className="h-6 w-6 text-primary" />
         )}
       </button>
 

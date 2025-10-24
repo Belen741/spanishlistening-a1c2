@@ -36,11 +36,11 @@ export default function ContactPage() {
               For general inquiries, suggestions, or collaborations:
             </p>
             <a 
-              href="mailto:contact@spanishlistening.com" 
+              href="mailto:hablandoconbelen@gmail.com" 
               className="text-primary hover:underline font-medium"
               data-testid="link-email"
             >
-              contact@spanishlistening.com
+              hablandoconbelen@gmail.com
             </a>
           </div>
         </div>

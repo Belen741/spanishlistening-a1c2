@@ -1,8 +1,8 @@
-# Listening por Niveles - Educational Spanish Listening Platform
+# Spanish Listening - Educational Spanish Listening Platform
 
 ## Overview
 
-Listening por Niveles is a web application for practicing Spanish listening comprehension, organized by CEFR levels (A1-C2). The platform provides interactive audio exercises with transcripts, vocabulary lists, and quizzes for each proficiency level. Built with Next.js 14 (App Router), TypeScript, and TailwindCSS, the application emphasizes fast loading, code-splitting per level, and AdSense integration readiness.
+Spanish Listening is a web application for practicing Spanish listening comprehension, organized by CEFR levels (A1-C2). The platform provides interactive audio exercises with transcripts, vocabulary lists, and quizzes for each proficiency level. Built with Next.js 14 (App Router), TypeScript, and TailwindCSS, the application emphasizes fast loading, code-splitting per level, and AdSense integration readiness.
 
 The application serves educational content through 6 distinct CEFR levels, each with dedicated audio material, transcriptions, vocabulary, and evaluable quizzes. User progress is tracked locally using browser localStorage, and the platform supports both light and dark themes with persistence.
 
@@ -13,6 +13,19 @@ The application serves educational content through 6 distinct CEFR levels, each 
 Preferred communication style: Simple, everyday language.
 
 ## Recent Changes (October 2025)
+
+### Branding Update - "Spanish Listening"
+- **Change**: Changed all branding from "Listening por Niveles" to "Spanish Listening" throughout the site
+- **Reason**: Better SEO optimization with English branding for international audience
+- **Updated files**:
+  - `components/Header.tsx` - Header logo/link
+  - `app/page.tsx` - H1 title on homepage
+  - `app/layout.tsx` - Meta title, OpenGraph, and footer
+  - `app/nivel/[slug]/page.tsx` - Level page meta titles
+  - `app/legal/terminos/page.tsx` - Terms page
+  - `app/legal/privacidad/page.tsx` - Privacy page
+  - `app/spanish-listening/page.tsx` - New English landing page
+- **Result**: Consistent "Spanish Listening" branding across all pages and meta tags
 
 ### Paginated Audio System
 - **Problem**: Need to support multiple audio exercises per level with efficient loading

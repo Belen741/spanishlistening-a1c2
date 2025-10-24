@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Política de Privacidad | Listening por Niveles',
-  description: 'Política de privacidad y protección de datos de Listening por Niveles',
+  title: 'Política de Privacidad | Spanish Listening',
+  description: 'Política de privacidad y protección de datos de Spanish Listening',
 };
 
 export default function PrivacyPage() {
@@ -17,7 +17,7 @@ export default function PrivacyPage() {
 
         <h2>1. Información General</h2>
         <p>
-          En Listening por Niveles, respetamos tu privacidad y estamos comprometidos con la protección 
+          En Spanish Listening, respetamos tu privacidad y estamos comprometidos con la protección 
           de tus datos personales. Esta política de privacidad describe cómo recopilamos, usamos y 
           protegemos tu información.
         </p>

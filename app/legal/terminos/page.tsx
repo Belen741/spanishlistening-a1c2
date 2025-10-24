@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Términos y Condiciones | Listening por Niveles',
-  description: 'Términos y condiciones de uso de Listening por Niveles',
+  title: 'Términos y Condiciones | Spanish Listening',
+  description: 'Términos y condiciones de uso de Spanish Listening',
 };
 
 export default function TermsPage() {
@@ -17,14 +17,14 @@ export default function TermsPage() {
 
         <h2>1. Aceptación de los Términos</h2>
         <p>
-          Al acceder y utilizar Listening por Niveles, aceptas estar sujeto a estos términos y 
+          Al acceder y utilizar Spanish Listening, aceptas estar sujeto a estos términos y 
           condiciones. Si no estás de acuerdo con alguna parte de estos términos, no debes usar 
           nuestro servicio.
         </p>
 
         <h2>2. Uso del Servicio</h2>
         <p>
-          Listening por Niveles proporciona materiales educativos gratuitos para la práctica de 
+          Spanish Listening proporciona materiales educativos gratuitos para la práctica de 
           comprensión auditiva en español. Te concedemos una licencia limitada, no exclusiva y 
           no transferible para acceder y usar el servicio para fines personales y educativos.
         </p>
@@ -58,7 +58,7 @@ export default function TermsPage() {
 
         <h2>7. Limitación de Responsabilidad</h2>
         <p>
-          Listening por Niveles se proporciona "tal cual" sin garantías de ningún tipo. No seremos 
+          Spanish Listening se proporciona "tal cual" sin garantías de ningún tipo. No seremos 
           responsables de ningún daño directo, indirecto, incidental o consecuente que surja del uso 
           o la imposibilidad de usar el servicio.
         </p>

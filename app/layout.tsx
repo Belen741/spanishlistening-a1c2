@@ -16,11 +16,11 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Listening por Niveles - Práctica de Comprensión Auditiva',
+  title: 'Spanish Listening - Práctica de Comprensión Auditiva',
   description: 'Mejora tu comprensión auditiva en español con ejercicios organizados por niveles CEFR (A1-C2). Incluye audios, transcripciones, vocabulario y quizzes evaluables.',
-  keywords: 'listening, español, comprensión auditiva, A1, A2, B1, B2, C1, C2, CEFR, práctica',
+  keywords: 'listening, español, comprensión auditiva, A1, A2, B1, B2, C1, C2, CEFR, práctica, Spanish listening',
   openGraph: {
-    title: 'Listening por Niveles',
+    title: 'Spanish Listening',
     description: 'Práctica de comprensión auditiva en español por niveles CEFR',
     type: 'website',
   },
@@ -62,7 +62,7 @@ export default function RootLayout({
             <footer className="border-t bg-card mt-12">
               <div className="container mx-auto px-4 py-8 max-w-7xl">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-                  <p>© {new Date().getFullYear()} Listening por Niveles. Todos los derechos reservados.</p>
+                  <p>© {new Date().getFullYear()} Spanish Listening. Todos los derechos reservados.</p>
                   <nav className="flex gap-6">
                     <Link href="/legal/privacidad" className="hover:text-foreground transition-colors" data-testid="link-privacy">
                       Política de Privacidad

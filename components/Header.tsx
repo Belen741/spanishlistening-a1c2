@@ -12,7 +12,7 @@ export function Header() {
           className="text-xl font-semibold hover-elevate px-3 py-2 rounded-md" 
           data-testid="link-home"
         >
-          🎧 Listening por Niveles
+          🎧 Spanish Listening
         </Link>
         <ThemeToggle />
       </div>

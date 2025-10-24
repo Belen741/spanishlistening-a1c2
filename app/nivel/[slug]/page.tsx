@@ -19,7 +19,7 @@ export async function generateMetadata({
   
   if (!level) {
     return {
-      title: 'Nivel no encontrado',
+      title: 'Nivel no encontrado | Spanish Listening',
     };
   }
 

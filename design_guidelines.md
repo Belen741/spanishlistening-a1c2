@@ -47,23 +47,29 @@ Drawing inspiration from successful educational platforms (Duolingo, Khan Academ
 ## Typography
 
 **Font Stack:** 
-- **Primary:** 'Inter' (Google Fonts) - excellent readability for UI and content
-- **Headings:** 'Inter' with tighter letter-spacing (-0.02em for large text)
-- **Code/Monospace:** 'JetBrains Mono' (for vocab terms, technical text)
+- **Primary:** 'Inter' (Google Fonts) - tipografía sin serifas, redondeada, excelente legibilidad en móvil y desktop
+- **Headings:** 'Inter' con peso semibold/bold para jerarquía visual
+- **Code/Monospace:** 'JetBrains Mono' (para términos de vocabulario, texto técnico)
 
-**Type Scale:**
-- **Hero/H1:** text-4xl md:text-5xl, font-bold, leading-tight
-- **Section Headers/H2:** text-3xl md:text-4xl, font-semibold
-- **Card Titles/H3:** text-xl md:text-2xl, font-semibold
-- **Component Headers/H4:** text-lg font-medium
-- **Body Text:** text-base, leading-relaxed (1.75)
-- **Small/Captions:** text-sm, text-secondary
-- **Micro/Labels:** text-xs, uppercase tracking-wide
+**Type Scale (Optimizado para móvil):**
+- **Body/Párrafos:** 16px base (18px en desktop), interlineado 1.65 - cómodo para lectura prolongada
+- **H1/Títulos principales:** 30px móvil / 36px desktop, font-bold, interlineado 1.3
+- **H2/Encabezados de sección:** 24px móvil / 30px desktop, font-semibold, interlineado 1.35
+- **H3/Títulos de cards:** 20px móvil / 24px desktop, font-semibold, interlineado 1.4
+- **H4/Headers de componentes:** 18px móvil / 20px desktop, font-medium, interlineado 1.45
+- **Small/Captions:** text-sm (14px), text-secondary
+- **Micro/Labels:** text-xs (12px), uppercase tracking-wide
+
+**Características clave:**
+- Tamaño mínimo de 16px para óptima legibilidad en móvil
+- Interlineado amplio (1.6-1.65) reduce fatiga visual
+- Escala responsive con incremento en desktop
+- Contraste de pesos (bold/semibold/medium) define jerarquía sin depender solo del tamaño
 
 **Reading Optimization:**
-- Transcripts: max-w-prose (65ch), text-base, leading-relaxed
-- Quiz questions: text-lg, font-medium for emphasis
-- Vocabulary terms: font-semibold for Spanish, font-normal for English
+- Transcripts: max-w-prose (65ch), 16-18px, interlineado 1.65
+- Quiz questions: 18px, font-medium para énfasis
+- Vocabulary terms: font-semibold para español, font-normal para inglés
 
 ---
 

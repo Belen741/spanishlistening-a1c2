@@ -6,9 +6,9 @@ import { LevelPageClient } from '@components/LevelPageClient';
 
 export async function generateStaticParams() {
   // Only generate static pages for levels that don't have custom URLs
-  // A1, A2, B1, B2 have custom routes, so exclude them
+  // A1, A2, B1, B2, C1 have custom routes, so exclude them
   return LEVELS
-    .filter(level => !['a1', 'a2', 'b1', 'b2'].includes(level.slug))
+    .filter(level => !['a1', 'a2', 'b1', 'b2', 'c1'].includes(level.slug))
     .map((level) => ({
       slug: level.slug,
     }));
@@ -54,7 +54,7 @@ export default async function LevelPage({
 }: {
   params: { slug: string };
 }) {
-  // Redirect A1, A2, B1, and B2 to their custom URLs
+  // Redirect A1, A2, B1, B2, and C1 to their custom URLs
   if (params.slug === 'a1') {
     redirect('/spanish-audio-for-beginners-a1');
   }
@@ -69,6 +69,10 @@ export default async function LevelPage({
   
   if (params.slug === 'b2') {
     redirect('/intermediate-spanish-b2');
+  }
+  
+  if (params.slug === 'c1') {
+    redirect('/advanced-spanish-c1');
   }
 
   if (!isValidLevelSlug(params.slug)) {

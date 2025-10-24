@@ -15,6 +15,8 @@ export function LevelCard({ level }: LevelCardProps) {
     href = '/spanish-audio-for-beginners-a2';
   } else if (level.slug === 'b1') {
     href = '/intermediate-spanish-b1';
+  } else if (level.slug === 'b2') {
+    href = '/intermediate-spanish-b2';
   }
   
   return (

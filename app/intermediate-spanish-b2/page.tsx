@@ -1,0 +1,54 @@
+import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
+import { getLevelBySlug } from '@lib/levels';
+import { AdSlot } from '@components/AdSlot';
+import { LevelPageClient } from '@components/LevelPageClient';
+
+export const metadata: Metadata = {
+  title: 'Intermediate Spanish',
+  description: 'Practica tu comprensión auditiva en español con ejercicios de nivel B2. Intermedio Alto - Textos complejos y abstractos',
+  openGraph: {
+    title: 'Intermediate Spanish',
+    description: 'Intermedio Alto - Textos complejos y abstractos',
+  },
+};
+
+export default async function IntermediateSpanishB2Page() {
+  const level = getLevelBySlug('b2');
+
+  if (!level) {
+    notFound();
+  }
+
+  return (
+    <div className="container mx-auto px-4 py-8 max-w-7xl">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8">
+        <div className="space-y-8">
+          <div>
+            <div className="mb-4">
+              <div
+                className="inline-block rounded-lg px-3 py-1 text-sm font-semibold text-white mb-3"
+                style={{ backgroundColor: level.color }}
+                data-testid={`badge-level-${level.slug}`}
+              >
+                Nivel {level.name}
+              </div>
+            </div>
+            <h1 className="text-3xl md:text-4xl font-bold mb-3" data-testid="text-level-title">
+              Intermediate Spanish - B2
+            </h1>
+            <p className="text-lg text-muted-foreground" data-testid="text-level-description">
+              {level.description}
+            </p>
+          </div>
+
+          <LevelPageClient levelSlug="b2" />
+        </div>
+
+        <aside className="space-y-6">
+          <AdSlot slot="sidebar" className="sticky top-4" />
+        </aside>
+      </div>
+    </div>
+  );
+}

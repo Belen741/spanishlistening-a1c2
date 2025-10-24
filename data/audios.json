@@ -1942,11 +1942,11 @@
         "type": "single",
         "question": "Según Carlos, ¿qué papel juega el silencio en la comunicación?",
         "options": [
-          "Es una herramienta que puede tener diferentes significados",
+          "Es un obstáculo para entender a los demás",
           "Es una muestra de falta de educación",
-          "Es un obstáculo para entender a los demás"
+          "Es una herramienta que puede tener diferentes significados"
         ],
-        "answerIndex": 0,
+        "answerIndex": 2,
         "explanation": "Carlos explica que el silencio transmite mensajes y puede significar diferentes cosas según el contexto."
       },
       {
@@ -1954,11 +1954,11 @@
         "type": "single",
         "question": "¿Por qué menciona Carlos las diferencias culturales?",
         "options": [
-          "Para justificar que el silencio es incómodo",
           "Para demostrar que el silencio no tiene un solo sentido",
-          "Para resaltar que hablar demasiado es mejor"
+          "Para resaltar que hablar demasiado es mejor",
+          "Para justificar que el silencio es incómodo"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Carlos usa ejemplos culturales para mostrar que el silencio se interpreta de manera diferente según la cultura."
       },
       {
@@ -1966,11 +1966,11 @@
         "type": "single",
         "question": "Cuando Carlos dice que \"escuchar también es una forma de hablar\", quiere decir que:",
         "options": [
+          "Las personas que escuchan poco hablan mejor",
           "La escucha activa también comunica algo importante",
-          "Las palabras son más valiosas que el silencio",
-          "Las personas que escuchan poco hablan mejor"
+          "Las palabras son más valiosas que el silencio"
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "Carlos enfatiza que escuchar con atención es una forma profunda de comunicación."
       },
       {
@@ -1978,11 +1978,11 @@
         "type": "single",
         "question": "¿Qué tipo de actitud propone Carlos hacia los silencios?",
         "options": [
+          "Rechazarlos porque generan tensión",
           "Evitarlos en toda conversación",
-          "Aprender a tolerarlos y comprender su valor",
-          "Rechazarlos porque generan tensión"
+          "Aprender a tolerarlos y comprender su valor"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "Carlos sugiere que al tolerar el silencio, las personas descubren su valor para la conexión y empatía."
       },
       {
@@ -1990,9 +1990,9 @@
         "type": "single",
         "question": "¿Qué significado implícito se puede deducir de la última frase de Carlos (\"A veces, lo más valioso que podemos decir… es nada\")?",
         "options": [
-          "Que no vale la pena escuchar a los demás",
+          "Que el silencio demuestra inseguridad",
           "Que callar puede expresar más que hablar",
-          "Que el silencio demuestra inseguridad"
+          "Que no vale la pena escuchar a los demás"
         ],
         "answerIndex": 1,
         "explanation": "La frase sugiere que a veces el silencio comunica más profundamente que las palabras."
@@ -2054,11 +2054,11 @@
         "type": "single",
         "question": "¿Qué tipo de frontera experimenta Daniel al llegar a la ciudad?",
         "options": [
+          "Una frontera económica",
           "Una frontera geográfica",
-          "Una frontera cultural y emocional, más que física",
-          "Una frontera económica"
+          "Una frontera cultural y emocional, más que física"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El texto describe fronteras invisibles que existen en la mente y en las actitudes, no físicas."
       },
       {
@@ -2067,8 +2067,8 @@
         "question": "¿Qué significado tiene la frase \"no era un muro real, sino una distancia hecha de miradas\"?",
         "options": [
           "Que la exclusión se manifestaba de forma sutil, no abierta",
-          "Que la distancia física era muy grande",
-          "Que la gente lo ignoraba por completo"
+          "Que la gente lo ignoraba por completo",
+          "Que la distancia física era muy grande"
         ],
         "answerIndex": 0,
         "explanation": "La frase describe cómo la exclusión social se expresa de manera indirecta a través de miradas y actitudes."
@@ -2078,9 +2078,9 @@
         "type": "single",
         "question": "¿Por qué Daniel se volvió más cuidadoso con sus palabras?",
         "options": [
-          "Porque no entendía el acento local",
+          "Porque empezó a estudiar otro idioma",
           "Porque tenía miedo de cometer errores",
-          "Porque empezó a estudiar otro idioma"
+          "Porque no entendía el acento local"
         ],
         "answerIndex": 1,
         "explanation": "Después de escuchar que \"habla raro\", Daniel se hizo más consciente y cuidadoso al hablar."
@@ -2090,11 +2090,11 @@
         "type": "single",
         "question": "¿Qué dilema interior enfrenta el protagonista?",
         "options": [
+          "Si debe mudarse de nuevo",
           "Si debe mejorar su educación formal",
-          "Si debe cambiar para integrarse o mantenerse fiel a sí mismo",
-          "Si debe mudarse de nuevo"
+          "Si debe cambiar para integrarse o mantenerse fiel a sí mismo"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "Daniel se debate entre adaptarse (perdiendo su forma de hablar) o resistirse y mantener su identidad."
       },
       {
@@ -2102,11 +2102,11 @@
         "type": "single",
         "question": "¿Qué representa la respuesta \"De aquí\" al final del texto?",
         "options": [
+          "Una mentira para evitar conflicto",
           "Una forma de cerrar la conversación rápidamente",
-          "Una declaración de identidad y aceptación",
-          "Una mentira para evitar conflicto"
+          "Una declaración de identidad y aceptación"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "Al responder \"De aquí\" sin miedo ni disculpas, Daniel afirma su derecho a pertenecer al lugar."
       },
       {
@@ -2114,11 +2114,11 @@
         "type": "single",
         "question": "¿Cuál podría considerarse el mensaje central de la historia?",
         "options": [
-          "Las grandes ciudades son frías e impersonales",
           "La pertenencia no depende del lugar, sino de la aceptación personal",
-          "Los acentos siempre causan discriminación"
+          "Los acentos siempre causan discriminación",
+          "Las grandes ciudades son frías e impersonales"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "El texto concluye que la frontera está dentro, sugiriendo que la pertenencia es una decisión personal."
       },
       {
@@ -2126,11 +2126,11 @@
         "type": "single",
         "question": "¿Qué tono domina el texto?",
         "options": [
+          "Crítico y agresivo",
           "Alegre y optimista",
-          "Melancólico y reflexivo",
-          "Crítico y agresivo"
+          "Melancólico y reflexivo"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El texto mantiene un tono reflexivo sobre la identidad y la pertenencia, con un matiz melancólico."
       },
       {
@@ -2138,9 +2138,9 @@
         "type": "single",
         "question": "¿Por qué el título \"La frontera invisible\" resulta adecuado?",
         "options": [
-          "Porque simboliza una línea física no reconocida por el gobierno",
+          "Porque el protagonista trabaja en una frontera",
           "Porque hace referencia a límites internos e intangibles",
-          "Porque el protagonista trabaja en una frontera"
+          "Porque simboliza una línea física no reconocida por el gobierno"
         ],
         "answerIndex": 1,
         "explanation": "El título refiere a las fronteras mentales y sociales, no físicas, que separan a las personas."
@@ -2198,9 +2198,9 @@
         "type": "single",
         "question": "¿Qué idea principal cuestiona el texto sobre el cerebro?",
         "options": [
-          "Que la creatividad no tiene base científica",
+          "Que solo los artistas son creativo",
           "Que funciona de forma predecible y fija",
-          "Que solo los artistas son creativo"
+          "Que la creatividad no tiene base científica"
         ],
         "answerIndex": 1,
         "explanation": "El texto cuestiona la vieja idea de que el cerebro funciona como una máquina rígida."
@@ -2210,11 +2210,11 @@
         "type": "single",
         "question": "Según el texto, ¿dónde puede manifestarse la creatividad?",
         "options": [
+          "Solo en el arte y la música",
           "En los sueños o estados inconscientes",
-          "En cualquier situación donde se combinen ideas nuevas",
-          "Solo en el arte y la música"
+          "En cualquier situación donde se combinen ideas nuevas"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El texto señala que la creatividad surge cuando alguien encuentra una nueva forma de resolver cualquier problema."
       },
       {
@@ -2222,9 +2222,9 @@
         "type": "single",
         "question": "¿Qué revela el hecho de que las ideas surjan cuando estamos distraídos?",
         "options": [
-          "Que el pensamiento lógico no es importante",
+          "Que la inspiración depende de la suerte",
           "Que el cerebro necesita descanso para procesar información de manera libre",
-          "Que la inspiración depende de la suerte"
+          "Que el pensamiento lógico no es importante"
         ],
         "answerIndex": 1,
         "explanation": "El cerebro aprovecha ese espacio libre para conectar puntos invisibles cuando estamos distraídos."
@@ -2234,11 +2234,11 @@
         "type": "single",
         "question": "¿Qué actitud propone el texto hacia el error?",
         "options": [
+          "Evitarlo a toda costa",
           "Analizarlo solo desde la ciencia",
-          "Considerarlo parte del proceso creativo",
-          "Evitarlo a toda costa"
+          "Considerarlo parte del proceso creativo"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El texto menciona que la creatividad exige tolerancia al error como parte del proceso."
       },
       {
@@ -2246,11 +2246,11 @@
         "type": "single",
         "question": "¿Qué relación establece el autor entre creatividad y disciplina?",
         "options": [
-          "La disciplina impide que surjan ideas nuevas",
           "Se complementan: la creatividad requiere constancia",
-          "Son opuestas: una espontánea, la otra rígida"
+          "Son opuestas: una espontánea, la otra rígida",
+          "La disciplina impide que surjan ideas nuevas"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "El texto afirma que la creatividad no depende solo de la inspiración, sino también de disciplina y práctica diaria."
       },
       {
@@ -2258,9 +2258,9 @@
         "type": "single",
         "question": "¿Qué metáfora resume mejor el mensaje del texto?",
         "options": [
-          "El cerebro como una caja que guarda recuerdos",
+          "El cerebro como una máquina que ejecuta órdenes",
           "El cerebro como un mapa que se reconfigura con cada pensamiento",
-          "El cerebro como una máquina que ejecuta órdenes"
+          "El cerebro como una caja que guarda recuerdos"
         ],
         "answerIndex": 1,
         "explanation": "El texto enfatiza que el cerebro cambia, se adapta y se reinventa constantemente."
@@ -2270,11 +2270,11 @@
         "type": "single",
         "question": "¿Qué significado tiene \"mirar lo viejo con ojos distintos\"?",
         "options": [
+          "Recordar experiencias del pasado",
           "Valorar lo tradicional por encima de lo nuevo",
-          "Ver lo conocido desde una nueva perspectiva",
-          "Recordar experiencias del pasado"
+          "Ver lo conocido desde una nueva perspectiva"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "La frase final sugiere que ser creativo es ver las cosas conocidas desde una perspectiva diferente."
       },
       {
@@ -2282,9 +2282,9 @@
         "type": "single",
         "question": "¿Qué tono domina el texto?",
         "options": [
-          "Pesimista y crítico",
+          "Humorístico y ligero",
           "Científico con matices inspiradores",
-          "Humorístico y ligero"
+          "Pesimista y crítico"
         ],
         "answerIndex": 1,
         "explanation": "El texto combina información científica sobre el cerebro con un mensaje inspirador sobre la creatividad."
@@ -2346,11 +2346,11 @@
         "type": "single",
         "question": "Según el invitado, ¿cuál es la función más profunda de la ironía?",
         "options": [
-          "Expresar verdades de forma indirecta",
+          "Provocar risa de manera ligera",
           "Evitar cualquier tipo de conflicto",
-          "Provocar risa de manera ligera"
+          "Expresar verdades de forma indirecta"
         ],
-        "answerIndex": 0,
+        "answerIndex": 2,
         "explanation": "El invitado explica que la ironía sirve para decir lo que no puede decirse directamente."
       },
       {
@@ -2358,11 +2358,11 @@
         "type": "single",
         "question": "¿Qué papel juega el contexto en la interpretación de la ironía?",
         "options": [
-          "Solo influye en conversaciones formales",
           "Es esencial, porque determina si el mensaje resulta gracioso o hiriente",
-          "Es irrelevante: la ironía siempre se entiende igual"
+          "Es irrelevante: la ironía siempre se entiende igual",
+          "Solo influye en conversaciones formales"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "El invitado menciona que el mismo tono puede interpretarse diferente en otro país o generación."
       },
       {
@@ -2370,9 +2370,9 @@
         "type": "single",
         "question": "¿Qué implica que la ironía \"exija complicidad\"?",
         "options": [
-          "Que debe ser utilizada con humor inteligente",
+          "Que depende del tono de voz",
           "Que solo funciona entre personas que se comprenden mutuamente",
-          "Que depende del tono de voz"
+          "Que debe ser utilizada con humor inteligente"
         ],
         "answerIndex": 1,
         "explanation": "El invitado afirma que si nadie la entiende, deja de ser ironía y se convierte en malentendido."
@@ -2382,11 +2382,11 @@
         "type": "single",
         "question": "¿Qué diferencia cultural menciona el invitado?",
         "options": [
+          "En América Latina no existe la ironía",
           "En Europa se considera una forma de insulto",
-          "En algunos países la ironía se asocia con inteligencia; en otros, con falta de sinceridad",
-          "En América Latina no existe la ironía"
+          "En algunos países la ironía se asocia con inteligencia; en otros, con falta de sinceridad"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El invitado señala que la ironía se percibe de manera diferente según el lugar."
       },
       {
@@ -2394,11 +2394,11 @@
         "type": "single",
         "question": "¿Qué relación establece la locutora entre ironía y verdad?",
         "options": [
-          "La ironía sustituye la verdad por humor",
           "La ironía oculta la verdad detrás del sarcasmo",
-          "La ironía destruye la verdad"
+          "La ironía destruye la verdad",
+          "La ironía sustituye la verdad por humor"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "La locutora pregunta si la ironía es un disfraz de la verdad, lo que el invitado confirma."
       },
       {
@@ -2406,11 +2406,11 @@
         "type": "single",
         "question": "¿Qué se sugiere sobre el tono irónico en distintos contextos culturales?",
         "options": [
+          "Que siempre produce confusión",
           "Que su interpretación depende del entorno y del vínculo entre interlocutores",
-          "Que es más fácil de entender por escrito que en voz",
-          "Que siempre produce confusión"
+          "Que es más fácil de entender por escrito que en voz"
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "El texto explica que el contexto cultural y generacional determina cómo se interpreta la ironía."
       },
       {
@@ -2418,11 +2418,11 @@
         "type": "single",
         "question": "¿Por qué, según el invitado, la ironía puede incomodar?",
         "options": [
+          "Porque no todos entienden los chistes",
           "Porque interrumpe la conversación formal",
-          "Porque obliga a reconocer verdades que preferimos ignorar",
-          "Porque no todos entienden los chistes"
+          "Porque obliga a reconocer verdades que preferimos ignorar"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El invitado concluye que la ironía incomoda porque revela la verdad, aunque disfrazada."
       },
       {
@@ -2430,11 +2430,11 @@
         "type": "single",
         "question": "¿Qué metáfora resume el sentido final del texto?",
         "options": [
+          "\"La ironía es una máscara de respeto.\"",
           "\"La ironía revela la verdad, pero disfrazada de sonrisa.\"",
-          "\"La ironía es el idioma del humor.\"",
-          "\"La ironía es una máscara de respeto.\""
+          "\"La ironía es el idioma del humor.\""
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "Esta frase del invitado sintetiza la idea central: la ironía como vehículo de verdades incómodas."
       }
     ]
@@ -2494,9 +2494,9 @@
         "type": "single",
         "question": "¿Cuál es la idea principal del discurso?",
         "options": [
-          "Que debemos evitar cambiar para no confundir a los demás",
+          "Que cambiar de opinión demuestra falta de carácter",
           "Que cambiar de opinión puede ser un signo de crecimiento personal",
-          "Que cambiar de opinión demuestra falta de carácter"
+          "Que debemos evitar cambiar para no confundir a los demás"
         ],
         "answerIndex": 1,
         "explanation": "El texto argumenta que cambiar de opinión es una virtud intelectual y forma de inteligencia emocional."
@@ -2506,9 +2506,9 @@
         "type": "single",
         "question": "Según el texto, ¿por qué algunas personas evitan cambiar de opinión?",
         "options": [
-          "Porque confían demasiado en los demás",
+          "Porque no saben escuchar",
           "Porque temen parecer débiles o inconstantes",
-          "Porque no saben escuchar"
+          "Porque confían demasiado en los demás"
         ],
         "answerIndex": 1,
         "explanation": "El texto menciona que algunas personas se aferran a ideas para no parecer inconstantes."
@@ -2518,11 +2518,11 @@
         "type": "single",
         "question": "¿Qué papel juega la \"evidencia\" en el proceso de cambio?",
         "options": [
-          "Es un elemento que puede modificar nuestra perspectiva",
+          "No influye en las creencias personales",
           "Es una excusa para justificar indecisión",
-          "No influye en las creencias personales"
+          "Es un elemento que puede modificar nuestra perspectiva"
         ],
-        "answerIndex": 0,
+        "answerIndex": 2,
         "explanation": "El texto señala que la evidencia o la experiencia nos muestran ángulos diferentes que justifican el cambio."
       },
       {
@@ -2530,11 +2530,11 @@
         "type": "single",
         "question": "Cuando el autor dice \"actualizar nuestra identidad\", ¿qué quiere decir?",
         "options": [
-          "Que debemos olvidar nuestras ideas anteriores",
           "Que la identidad evoluciona con lo que aprendemos",
-          "Que cambiar es traicionar lo que somos"
+          "Que cambiar es traicionar lo que somos",
+          "Que debemos olvidar nuestras ideas anteriores"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "El autor concluye que cambiar de opinión no significa perder identidad, sino actualizarla con lo aprendido."
       },
       {
@@ -2542,11 +2542,11 @@
         "type": "single",
         "question": "¿Qué tono general transmite la charla?",
         "options": [
+          "Sarcástico y crítico",
           "Distante y académico",
-          "Reflexivo y conciliador",
-          "Sarcástico y crítico"
+          "Reflexivo y conciliador"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El texto mantiene un tono reflexivo que invita a reconsiderar la percepción negativa del cambio de opinión."
       }
     ]
@@ -2606,11 +2606,11 @@
         "type": "single",
         "question": "¿Por qué el autor describe el universo como un \"espejo del tiempo\"?",
         "options": [
+          "Porque refleja la luz del presente",
           "Porque nos permite ver el pasado a través de la luz que llega tarde",
-          "Porque distorsiona la realidad física de las estrellas",
-          "Porque refleja la luz del presente"
+          "Porque distorsiona la realidad física de las estrellas"
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "El texto explica que vemos el pasado porque la luz de las estrellas tarda en llegar."
       },
       {
@@ -2618,11 +2618,11 @@
         "type": "single",
         "question": "¿Qué efecto tiene la paradoja de ver estrellas que ya no existen?",
         "options": [
+          "Confirma que el universo es caótico e impredecible",
           "Refuerza la idea de que el tiempo no existe",
-          "Genera una reflexión sobre la ilusión de la percepción humana",
-          "Confirma que el universo es caótico e impredecible"
+          "Genera una reflexión sobre la ilusión de la percepción humana"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "La paradoja invita a reflexionar sobre cómo percibimos la realidad y el tiempo."
       },
       {
@@ -2630,11 +2630,11 @@
         "type": "single",
         "question": "¿Qué crítica implícita hace el texto al conocimiento científico?",
         "options": [
-          "Que no tiene rigor suficiente",
           "Que intenta imponer certezas donde solo hay misterio",
-          "Que excluye la participación humana"
+          "Que excluye la participación humana",
+          "Que no tiene rigor suficiente"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "El texto sugiere que hay algo más allá de lo medible: el asombro y el misterio."
       },
       {
@@ -2642,11 +2642,11 @@
         "type": "single",
         "question": "¿Qué significado simbólico tiene la frase \"mirar el cielo es mirar hacia adentro\"?",
         "options": [
+          "Que las estrellas influyen en nuestro comportamiento",
           "Que la observación del universo nos ayuda a comprender nuestra propia existencia",
-          "Que la astronomía moderna está centrada en la psicología",
-          "Que las estrellas influyen en nuestro comportamiento"
+          "Que la astronomía moderna está centrada en la psicología"
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "La frase sugiere que contemplar el cosmos es también una forma de autoconocimiento."
       },
       {
@@ -2654,11 +2654,11 @@
         "type": "single",
         "question": "¿Qué tono domina el texto?",
         "options": [
+          "Satírico y provocador",
           "Didáctico y técnico",
-          "Contemplativo y filosófico",
-          "Satírico y provocador"
+          "Contemplativo y filosófico"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El texto combina reflexiones filosóficas con un tono contemplativo sobre el cosmos."
       },
       {
@@ -2666,11 +2666,11 @@
         "type": "single",
         "question": "¿Cuál es la idea principal sobre el conocimiento humano frente al cosmos?",
         "options": [
+          "Que la comprensión total del universo es imposible",
           "Que la ciencia y la poesía son opuestas",
-          "Que la búsqueda del conocimiento es inseparable del asombro",
-          "Que la comprensión total del universo es imposible"
+          "Que la búsqueda del conocimiento es inseparable del asombro"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El texto enfatiza que el asombro es parte fundamental de la comprensión del universo."
       },
       {
@@ -2678,11 +2678,11 @@
         "type": "single",
         "question": "¿Qué estructura retórica se repite en el texto?",
         "options": [
+          "Citas literarias de autores clásicos",
           "Ejemplos científicos rigurosos",
-          "Preguntas retóricas que invitan a la reflexión",
-          "Citas literarias de autores clásicos"
+          "Preguntas retóricas que invitan a la reflexión"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El texto incluye varias preguntas retóricas sobre el tiempo, el espacio y la percepción."
       },
       {
@@ -2690,11 +2690,11 @@
         "type": "single",
         "question": "¿Qué podría simbolizar el silencio entre galaxias al final?",
         "options": [
+          "La ausencia de vida",
           "La distancia entre planetas",
-          "El espacio para la introspección humana",
-          "La ausencia de vida"
+          "El espacio para la introspección humana"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El silencio representa un espacio de reflexión y conexión interior con el universo."
       }
     ]
@@ -2754,11 +2754,11 @@
         "type": "single",
         "question": "¿Qué simboliza el bar en esta conversación?",
         "options": [
+          "Un espacio de distracción pasajera",
           "Un lugar donde el pasado y el presente se encuentran",
-          "Una metáfora del desencanto político",
-          "Un espacio de distracción pasajera"
+          "Una metáfora del desencanto político"
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "El bar es el lugar donde los amigos se reencuentran después de años, conectando su pasado universitario con su presente."
       },
       {
@@ -2766,11 +2766,11 @@
         "type": "single",
         "question": "¿Qué significa que \"el poder no te cambia de golpe; te desgasta\"?",
         "options": [
+          "Que el poder fortalece con el tiempo",
           "Que los políticos envejecen más rápido",
-          "Que la corrupción ocurre de forma lenta y gradual",
-          "Que el poder fortalece con el tiempo"
+          "Que la corrupción ocurre de forma lenta y gradual"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "Andrés sugiere que el poder corrompe o deteriora moralmente de manera gradual, no instantánea."
       },
       {
@@ -2778,11 +2778,11 @@
         "type": "single",
         "question": "¿Qué crítica implícita hace Julián cuando dice \"vivimos informados, pero no entendemos nada\"?",
         "options": [
-          "A la censura gubernamental",
           "A la superficialidad del consumo mediático actual",
-          "A la falta de educación formal"
+          "A la falta de educación formal",
+          "A la censura gubernamental"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Julián critica el exceso de información sin comprensión profunda en la era digital."
       },
       {
@@ -2790,11 +2790,11 @@
         "type": "single",
         "question": "¿Qué intención tiene la frase \"Por lo que todavía no sabemos cómo decir\"?",
         "options": [
+          "Evadir el silencio incómodo",
           "Terminar la conversación con humor",
-          "Reconocer lo inefable y lo emocional detrás del diálogo",
-          "Evadir el silencio incómodo"
+          "Reconocer lo inefable y lo emocional detrás del diálogo"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El brindis reconoce que hay emociones y pensamientos complejos que no pueden expresarse fácilmente con palabras."
       },
       {
@@ -2802,9 +2802,9 @@
         "type": "single",
         "question": "¿Qué tono domina la conversación?",
         "options": [
-          "Alegórico y distante",
+          "Enfadado y pesimista",
           "Reflexivo y melancólico con ironía sutil",
-          "Enfadado y pesimista"
+          "Alegórico y distante"
         ],
         "answerIndex": 1,
         "explanation": "La conversación mezcla reflexiones sobre cambios personales y sociales con toques de ironía y nostalgia."
@@ -2866,11 +2866,11 @@
         "type": "single",
         "question": "Según el texto, ¿dónde reside realmente el poder político?",
         "options": [
+          "En las armas y la economía exclusivamente",
           "En las historias que logran que una sociedad crea en algo",
-          "En las leyes y el sistema judicial",
-          "En las armas y la economía exclusivamente"
+          "En las leyes y el sistema judicial"
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "El texto afirma que el poder reside en las historias, no únicamente en armas o economía."
       },
       {
@@ -2878,9 +2878,9 @@
         "type": "single",
         "question": "¿Qué significa que \"el lenguaje político fabrica la realidad\"?",
         "options": [
-          "Que los políticos siempre mienten",
+          "Que las palabras simplemente describen los hechos",
           "Que el lenguaje puede transformar errores en sacrificios y mentiras en versiones",
-          "Que las palabras simplemente describen los hechos"
+          "Que los políticos siempre mienten"
         ],
         "answerIndex": 1,
         "explanation": "El texto explica que las palabras no solo describen, sino que construyen y transforman la percepción de la realidad."
@@ -2890,11 +2890,11 @@
         "type": "single",
         "question": "¿Qué papel juega el algoritmo en la era digital según el texto?",
         "options": [
+          "Simplemente organiza contenido de manera neutral",
           "Elimina las narrativas políticas tradicionales",
-          "Se ha convertido en el nuevo narrador que selecciona y omite información",
-          "Simplemente organiza contenido de manera neutral"
+          "Se ha convertido en el nuevo narrador que selecciona y omite información"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El texto describe al algoritmo como el nuevo narrador que transforma la percepción colectiva."
       },
       {
@@ -2902,9 +2902,9 @@
         "type": "single",
         "question": "¿Cuál es el \"reto contemporáneo\" mencionado al final del texto?",
         "options": [
-          "Crear narrativas más convincentes",
+          "Decidir en qué historia creer",
           "Aprender a reconocer cuándo una historia nos está creyendo a nosotros",
-          "Decidir en qué historia creer"
+          "Crear narrativas más convincentes"
         ],
         "answerIndex": 1,
         "explanation": "El texto plantea que el desafío no es elegir una historia, sino reconocer cuándo somos controlados por ella."
@@ -2914,11 +2914,11 @@
         "type": "single",
         "question": "¿Qué crítica implícita hace el texto sobre las narrativas políticas?",
         "options": [
+          "Que son innecesarias en democracia",
           "Que solo existen en regímenes autoritarios",
-          "Que siempre buscan mantener el poder de definir qué es real",
-          "Que son innecesarias en democracia"
+          "Que siempre buscan mantener el poder de definir qué es real"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El texto concluye que toda narrativa política encierra el propósito de mantener el poder de definir la realidad."
       }
     ]

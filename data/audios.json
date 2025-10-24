@@ -1458,11 +1458,11 @@
         "type": "single",
         "question": "¿Dónde trabajan Sofía y Daniel?",
         "options": [
+          "En un museo",
           "En una escuela",
-          "En una empresa de marketing digital",
-          "En un museo"
+          "En una empresa de marketing digital"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "Sofía trabaja en una empresa de marketing digital y Daniel es diseñador del mismo equipo."
       },
       {
@@ -1470,11 +1470,11 @@
         "type": "single",
         "question": "¿Qué hizo Daniel el viernes antes de salir de la oficina?",
         "options": [
-          "Le dijo adiós rápidamente",
           "Invitó a Sofía a una exposición",
-          "Le pidió ayuda con un proyecto"
+          "Le pidió ayuda con un proyecto",
+          "Le dijo adiós rápidamente"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Daniel invitó a Sofía a una exposición de arte moderno el fin de semana."
       },
       {
@@ -1482,11 +1482,11 @@
         "type": "single",
         "question": "¿Qué pensó Sofía cuando recibió la invitación?",
         "options": [
-          "Que podría ser una cita",
+          "Que era un error",
           "Que era una reunión de trabajo",
-          "Que era un error"
+          "Que podría ser una cita"
         ],
-        "answerIndex": 0,
+        "answerIndex": 2,
         "explanation": "Sofía dudó porque no sabía si era una invitación amistosa o algo más (una cita)."
       },
       {
@@ -1494,9 +1494,9 @@
         "type": "single",
         "question": "¿Cómo fue la conversación durante la exposición?",
         "options": [
-          "Discutieron por una pintura",
+          "Solo hablaron de arte",
           "Hablaron de temas personales también",
-          "Solo hablaron de arte"
+          "Discutieron por una pintura"
         ],
         "answerIndex": 1,
         "explanation": "Hablaron de sus artistas favoritos, pero también de sus sueños, viajes y cosas personales."
@@ -1506,11 +1506,11 @@
         "type": "single",
         "question": "¿Qué se puede inferir del final de la historia?",
         "options": [
+          "Que Sofía no disfrutó la cita",
           "Que no volverán a hablar",
-          "Que ambos sienten interés mutuo",
-          "Que Sofía no disfrutó la cita"
+          "Que ambos sienten interés mutuo"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "Los mensajes intercambiados y las respuestas sugieren que ambos disfrutaron y hay interés mutuo."
       }
     ]
@@ -1570,11 +1570,11 @@
         "type": "single",
         "question": "¿Por qué Lucía decidió preparar un platillo tradicional?",
         "options": [
-          "Para compartir una parte de su cultura con sus amigos",
+          "Para presumir sus habilidades como cocinera",
           "Porque no tenía tiempo de cocinar otra cosa",
-          "Para presumir sus habilidades como cocinera"
+          "Para compartir una parte de su cultura con sus amigos"
         ],
-        "answerIndex": 0,
+        "answerIndex": 2,
         "explanation": "Lucía preparó una receta tradicional de su familia para compartir su cultura con sus amigos."
       },
       {
@@ -1582,11 +1582,11 @@
         "type": "single",
         "question": "¿Qué sugiere la reacción inicial de los invitados al ver el plato?",
         "options": [
-          "Que ya habían comido antes de llegar",
           "Que no confiaban en la comida desconocida",
-          "Que estaban cansados"
+          "Que estaban cansados",
+          "Que ya habían comido antes de llegar"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "El silencio y la falta de movimiento sugieren desconfianza hacia la comida que no reconocían."
       },
       {
@@ -1594,11 +1594,11 @@
         "type": "single",
         "question": "¿Qué efecto produce el silencio cuando Lucía levanta la tapa?",
         "options": [
+          "Indica que el guiso huele mal",
           "Es una señal de respeto hacia la anfitriona",
-          "Muestra curiosidad y desconfianza al mismo tiempo",
-          "Indica que el guiso huele mal"
+          "Muestra curiosidad y desconfianza al mismo tiempo"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El silencio refleja que los invitados tienen curiosidad pero también dudas sobre el plato."
       },
       {
@@ -1606,9 +1606,9 @@
         "type": "single",
         "question": "¿Por qué Lucía decide servirse primero?",
         "options": [
-          "Porque quería comer antes que los demás",
+          "Porque tenía hambre",
           "Para demostrar que el platillo era seguro y sabroso",
-          "Porque tenía hambre"
+          "Porque quería comer antes que los demás"
         ],
         "answerIndex": 1,
         "explanation": "Al probarlo primero y mostrar que le gusta, Lucía anima a los demás a probarlo."
@@ -1618,11 +1618,11 @@
         "type": "single",
         "question": "¿Qué transformación ocurre en los invitados a lo largo de la historia?",
         "options": [
+          "Pasan del entusiasmo al aburrimiento",
           "Pasan del interés a la indiferencia",
-          "Pasan del rechazo a la aceptación",
-          "Pasan del entusiasmo al aburrimiento"
+          "Pasan del rechazo a la aceptación"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "Los invitados pasan de no querer probar el plato a repetir y decir que está delicioso."
       },
       {
@@ -1630,9 +1630,9 @@
         "type": "single",
         "question": "¿Qué enseñanza deja el final de la historia?",
         "options": [
-          "Que no hay que invitar amigos a cenar",
+          "Que la comida tradicional siempre es mejor",
           "Que las primeras impresiones pueden ser engañosas",
-          "Que la comida tradicional siempre es mejor"
+          "Que no hay que invitar amigos a cenar"
         ],
         "answerIndex": 1,
         "explanation": "La historia enseña que no debemos juzgar sin probar, porque podemos perdernos una sorpresa agradable."
@@ -1694,11 +1694,11 @@
         "type": "single",
         "question": "¿Cómo era el abuelo del narrador?",
         "options": [
+          "Impaciente y distraído",
           "Tranquilo y trabajador",
-          "Estricto y distante",
-          "Impaciente y distraído"
+          "Estricto y distante"
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "El abuelo siempre tenía algo que reparar pero también tiempo para conversar, mostrando que era tranquilo y trabajador."
       },
       {
@@ -1706,11 +1706,11 @@
         "type": "single",
         "question": "¿Qué hacía el abuelo cada fin de semana?",
         "options": [
+          "Dormía todo el día",
           "Salía de viaje",
-          "Recibía visitas y arreglaba cosas",
-          "Dormía todo el día"
+          "Recibía visitas y arreglaba cosas"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "El narrador visitaba a su abuelo los fines de semana y el abuelo siempre tenía algo que reparar."
       },
       {
@@ -1718,11 +1718,11 @@
         "type": "single",
         "question": "¿Qué quiso decir el abuelo con su consejo?",
         "options": [
-          "Que actuar es más útil que quejarse",
+          "Que es mejor evitar los problemas",
           "Que hay que aceptar todo sin cambiar nada",
-          "Que es mejor evitar los problemas"
+          "Que actuar es más útil que quejarse"
         ],
-        "answerIndex": 0,
+        "answerIndex": 2,
         "explanation": "El abuelo dijo: 'quejarse no cambia las cosas, pero actuar sí', enfatizando la importancia de la acción."
       },
       {
@@ -1730,11 +1730,11 @@
         "type": "single",
         "question": "¿Por qué el narrador recuerda las palabras del abuelo?",
         "options": [
-          "Porque le recordaban su infancia feliz",
           "Porque le ayudaron en momentos difíciles",
-          "Porque se sintió confundido"
+          "Porque se sintió confundido",
+          "Porque le recordaban su infancia feliz"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Cada vez que algo salía mal, el narrador recordaba las palabras de su abuelo, lo que le ayudaba."
       },
       {
@@ -1742,11 +1742,11 @@
         "type": "single",
         "question": "¿Qué hace el narrador cuando su proyecto fracasa?",
         "options": [
+          "Se rinde y cambia de trabajo",
           "Ignora el problema",
-          "Toma un descanso y empieza de nuevo",
-          "Se rinde y cambia de trabajo"
+          "Toma un descanso y empieza de nuevo"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "En lugar de rendirse, respiró, preparó un café y volvió a empezar."
       },
       {
@@ -1754,9 +1754,9 @@
         "type": "single",
         "question": "¿Cuál es el mensaje principal del texto?",
         "options": [
-          "Los problemas se resuelven con suerte",
+          "Los abuelos siempre tienen razón",
           "Los consejos simples pueden tener un gran impacto",
-          "Los abuelos siempre tienen razón"
+          "Los problemas se resuelven con suerte"
         ],
         "answerIndex": 1,
         "explanation": "El narrador concluye que 'los consejos sencillos a veces son los que más fuerza tienen'."
@@ -1818,11 +1818,11 @@
         "type": "single",
         "question": "¿Qué le pasó a Mateo en la oficina?",
         "options": [
-          "Contó un chiste que no causó risa",
+          "Hizo un comentario serio",
           "Ofendió a su jefe directamente",
-          "Hizo un comentario serio"
+          "Contó un chiste que no causó risa"
         ],
-        "answerIndex": 0,
+        "answerIndex": 2,
         "explanation": "Mateo contó un chiste en la oficina y nadie se rió porque fue tomado como falta de respeto."
       },
       {
@@ -1830,11 +1830,11 @@
         "type": "single",
         "question": "¿Por qué no se rieron sus compañeros?",
         "options": [
+          "Porque el chiste era aburrido",
           "Porque no entendieron el idioma",
-          "Porque el tema se consideró inapropiado",
-          "Porque el chiste era aburrido"
+          "Porque el tema se consideró inapropiado"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "En ese país, bromear sobre el jefe se tomó como falta de respeto, aunque en el país de Mateo es normal."
       },
       {
@@ -1842,11 +1842,11 @@
         "type": "single",
         "question": "¿Qué diferencia cultural menciona Carla sobre México?",
         "options": [
+          "Que la gente evita bromear",
           "Que se ríen de sí mismos con frecuencia",
-          "Que no entienden el humor extranjero",
-          "Que la gente evita bromear"
+          "Que no entienden el humor extranjero"
         ],
-        "answerIndex": 0,
+        "answerIndex": 1,
         "explanation": "Carla menciona que en México la gente se burla de sí misma todo el tiempo."
       },
       {
@@ -1854,11 +1854,11 @@
         "type": "single",
         "question": "Según Mateo, ¿qué piensa la gente en su país si te ríes de ti mismo?",
         "options": [
-          "Que no te tomas en serio",
+          "Que eres humilde",
           "Que eres divertido",
-          "Que eres humilde"
+          "Que no te tomas en serio"
         ],
-        "answerIndex": 0,
+        "answerIndex": 2,
         "explanation": "Mateo dice que en su país, si te ríes de ti mismo, la gente piensa que no te tomas en serio."
       },
       {
@@ -1866,11 +1866,11 @@
         "type": "single",
         "question": "¿Qué compara Carla con aprender el humor local?",
         "options": [
-          "Entender los gestos",
           "Aprender el idioma",
-          "Conocer la historia del país"
+          "Conocer la historia del país",
+          "Entender los gestos"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explanation": "Mateo dice que entender el humor local es casi tan difícil como aprender el idioma."
       },
       {
@@ -1878,11 +1878,11 @@
         "type": "single",
         "question": "¿Qué idea comparten ambos al final?",
         "options": [
+          "Que el humor solo funciona en el propio idioma",
           "Que los chistes deben evitarse en otros países",
-          "Que reírse de los errores es parte de aprender",
-          "Que el humor solo funciona en el propio idioma"
+          "Que reírse de los errores es parte de aprender"
         ],
-        "answerIndex": 1,
+        "answerIndex": 2,
         "explanation": "Ambos concluyen que reírse de los errores es parte del humor y del aprendizaje."
       }
     ]

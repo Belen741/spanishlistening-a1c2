@@ -1,38 +1,19 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { ThemeToggle } from './ThemeToggle';
 
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between max-w-7xl">
-        <div className="flex items-center gap-4">
-          <Link 
-            href="/" 
-            className="text-xl font-semibold hover-elevate px-3 py-2 rounded-md" 
-            data-testid="link-home"
-          >
-            Spanish Listening
-          </Link>
-          <a 
-            href="https://hablandoconbelen.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="hover-elevate rounded-md transition-transform"
-            data-testid="link-logo"
-          >
-            <Image 
-              src="/images/logo-hablando-con-belen.png" 
-              alt="Hablando con Belén" 
-              width={160}
-              height={107}
-              className="h-16 w-auto"
-              priority
-            />
-          </a>
-        </div>
+        <Link 
+          href="/" 
+          className="text-xl font-semibold hover-elevate px-3 py-2 rounded-md" 
+          data-testid="link-home"
+        >
+          Spanish Listening
+        </Link>
         <ThemeToggle />
       </div>
     </header>

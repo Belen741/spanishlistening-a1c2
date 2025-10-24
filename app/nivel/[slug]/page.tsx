@@ -5,9 +5,13 @@ import { AdSlot } from '@components/AdSlot';
 import { LevelPageClient } from '@components/LevelPageClient';
 
 export async function generateStaticParams() {
-  return LEVELS.map((level) => ({
-    slug: level.slug,
-  }));
+  // Only generate static pages for levels that don't have custom URLs
+  // A1, A2, B1, B2 have custom routes, so exclude them
+  return LEVELS
+    .filter(level => !['a1', 'a2', 'b1', 'b2'].includes(level.slug))
+    .map((level) => ({
+      slug: level.slug,
+    }));
 }
 
 export async function generateMetadata({

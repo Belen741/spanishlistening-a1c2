@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getLevelBySlug, isValidLevelSlug, LEVELS } from '@lib/levels';
 import { AdSlot } from '@components/AdSlot';
@@ -42,6 +42,11 @@ export default async function LevelPage({
 }: {
   params: { slug: string };
 }) {
+  // Redirect A1 to its custom URL
+  if (params.slug === 'a1') {
+    redirect('/spanish-audio-for-beginners');
+  }
+
   if (!isValidLevelSlug(params.slug)) {
     notFound();
   }

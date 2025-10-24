@@ -7,9 +7,11 @@ interface LevelCardProps {
 }
 
 export function LevelCard({ level }: LevelCardProps) {
+  const href = level.slug === 'a1' ? '/spanish-audio-for-beginners' : `/nivel/${level.slug}`;
+  
   return (
     <Link
-      href={`/nivel/${level.slug}`}
+      href={href}
       prefetch={false}
       className="group relative block"
       data-testid={`card-level-${level.slug}`}

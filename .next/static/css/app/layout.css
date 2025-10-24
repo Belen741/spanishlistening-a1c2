@@ -1283,6 +1283,9 @@ video {
 .top-24 {
   top: 6rem;
 }
+.top-4 {
+  top: 1rem;
+}
 .z-50 {
   z-index: 50;
 }

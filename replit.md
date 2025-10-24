@@ -17,15 +17,17 @@ Preferred communication style: Simple, everyday language.
 ### Branding Update - "Spanish Listening"
 - **Change**: Changed all branding from "Listening por Niveles" to "Spanish Listening" throughout the site
 - **Reason**: Better SEO optimization with English branding for international audience
+- **URL Structure**: Root URL `/` now redirects to `/spanish-listening` (English version is the main page)
 - **Updated files**:
   - `components/Header.tsx` - Header logo/link
-  - `app/page.tsx` - H1 title on homepage
+  - `app/page.tsx` - Server-side redirect to `/spanish-listening`
+  - `app/spanish-listening/page.tsx` - Main landing page in English
+  - `app/spanish-listening/layout.tsx` - SEO metadata for main page
   - `app/layout.tsx` - Meta title, OpenGraph, and footer
   - `app/nivel/[slug]/page.tsx` - Level page meta titles
   - `app/legal/terminos/page.tsx` - Terms page
   - `app/legal/privacidad/page.tsx` - Privacy page
-  - `app/spanish-listening/page.tsx` - New English landing page
-- **Result**: Consistent "Spanish Listening" branding across all pages and meta tags
+- **Result**: Consistent "Spanish Listening" branding across all pages and meta tags. Main page is now in English at `/spanish-listening`
 
 ### Paginated Audio System
 - **Problem**: Need to support multiple audio exercises per level with efficient loading

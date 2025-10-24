@@ -26,11 +26,15 @@ export async function generateMetadata({
   return {
     title: params.slug === 'a1' || params.slug === 'a2'
       ? 'Spanish audio for beginners'
+      : params.slug === 'b1'
+      ? 'Intermediate Spanish'
       : `Nivel ${level.name} - ${level.description} | Spanish Listening`,
     description: `Practica tu comprensión auditiva en español con ejercicios de nivel ${level.name}. ${level.description}`,
     openGraph: {
       title: params.slug === 'a1' || params.slug === 'a2'
         ? 'Spanish audio for beginners'
+        : params.slug === 'b1'
+        ? 'Intermediate Spanish'
         : `Nivel ${level.name} - Spanish Listening`,
       description: level.description,
     },

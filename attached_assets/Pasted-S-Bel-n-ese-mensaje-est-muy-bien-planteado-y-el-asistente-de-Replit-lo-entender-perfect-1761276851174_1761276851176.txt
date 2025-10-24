@@ -1,0 +1,48 @@
+Sí 🔥, Belén — ese mensaje está **muy bien planteado** y el asistente de Replit lo entenderá perfectamente.
+Solo te recomiendo hacerle **una pequeña mejora** para que no se confunda y te cree todo correctamente (título visible, metaetiquetas y URL).
+
+Aquí tienes la **versión ideal del mensaje** para copiar y pegarle directamente 👇
+
+---
+
+### 💬 Mensaje optimizado para Replit:
+
+> Por favor, haz que “Spanish Listening” sea el título principal (H1) visible en la página, y que también aparezca como el meta title en el `<head>` del documento.
+> Además, quiero que el URL de esta página use también “spanish-listening”.
+>
+> En otras palabras:
+>
+> * `<h1>` de la página: **Spanish Listening**
+> * `<title>` dentro del `<head>`: **Spanish Listening – Improve Your Spanish by Listening**
+> * `<meta name="description">`: “Practice your Spanish listening comprehension with real audios, transcripts, and quizzes for all levels (A1–C2).”
+> * URL de la página: `/spanish-listening`
+>
+> Si el proyecto usa React, agrega el bloque con `react-helmet`.
+> Si es HTML, agrega las etiquetas meta directamente en el `<head>`.
+
+---
+
+### ✅ Qué hará el asistente
+
+Con ese mensaje, Replit:
+
+* Pondrá **“Spanish Listening”** como **H1 visible** en la página.
+* Agregará el **meta title y description** (importante para SEO).
+* Cambiará la **ruta del archivo o del componente** a `/spanish-listening` (lo que afecta el URL visible).
+
+---
+
+💡 **Consejo adicional:**
+Cuando termines, revisa tu navegador:
+
+1. Abre la página.
+2. En la pestaña (arriba del navegador) deberías ver:
+   `Spanish Listening – Improve Your Spanish by Listening`
+3. Y la URL debe decir:
+   `https://tusitio.com/spanish-listening`
+4. En el cuerpo de la página, el primer texto grande debe ser **Spanish Listening** (H1).
+
+---
+
+¿Quieres que te deje también el **mensaje completo para Replit** incluyendo esto mismo pero adaptado para **C1** y **C2** (por ejemplo “Advanced Spanish Listening – C1 Level” y “Native-Level Spanish Listening – C2 Level”)?
+Así lo podrías copiar todo y optimizar tus tres páginas avanzadas en un solo paso.

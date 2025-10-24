@@ -24,10 +24,14 @@ export async function generateMetadata({
   }
 
   return {
-    title: `Nivel ${level.name} - ${level.description} | Spanish Listening`,
+    title: params.slug === 'a1' 
+      ? 'Spanish audio for beginners'
+      : `Nivel ${level.name} - ${level.description} | Spanish Listening`,
     description: `Practica tu comprensión auditiva en español con ejercicios de nivel ${level.name}. ${level.description}`,
     openGraph: {
-      title: `Nivel ${level.name} - Spanish Listening`,
+      title: params.slug === 'a1' 
+        ? 'Spanish audio for beginners'
+        : `Nivel ${level.name} - Spanish Listening`,
       description: level.description,
     },
   };

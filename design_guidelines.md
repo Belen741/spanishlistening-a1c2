@@ -17,24 +17,26 @@ Drawing inspiration from successful educational platforms (Duolingo, Khan Academ
 ## Color Palette
 
 ### Light Mode
-**Primary Brand:** 59 91% 47% (vibrant blue - trustworthy, educational)
-**Primary Hover:** 59 91% 42%
-**Secondary:** 142 76% 36% (success green for correct answers)
-**Background Base:** 0 0% 100% (pure white)
-**Background Elevated:** 220 13% 97% (subtle gray for cards)
-**Text Primary:** 222 47% 11% (near-black for readability)
-**Text Secondary:** 215 16% 47% (muted for descriptions)
-**Border Default:** 214 32% 91%
-**Error/Incorrect:** 0 84% 60% (red for wrong answers)
-**Warning:** 38 92% 50% (amber for hints)
+**Primary Brand:** 217 91% 60% (#3B82F6 - azul tranquilo, profesional y educativo)
+**Primary Hover:** 217 91% 54% (#2563EB - tono más oscuro para interacción)
+**Secondary:** 160 84% 39% (#10B981 - verde menta para éxito/correcto)
+**Accent:** 43 96% 56% (#FBBF24 - amarillo mostaza para destacar botones/quizzes)
+**Background Base:** 210 20% 98% (#F9FAFB - blanco cálido, sensación de limpieza)
+**Background Cards:** 0 0% 100% (blanco puro para cards elevados)
+**Text Primary:** 220 26% 14% (#111827 - gris oscuro, evita negro puro)
+**Text Secondary:** 220 13% 46% (#6B7280 - gris medio para descripciones)
+**Border Default:** 220 13% 91% (bordes sutiles)
+**Error/Incorrect:** 0 84% 60% (rojo para respuestas incorrectas)
 
 ### Dark Mode
-**Primary Brand:** 59 91% 60% (lighter blue for contrast)
-**Background Base:** 222 47% 11%
-**Background Elevated:** 217 33% 17%
-**Text Primary:** 210 40% 98%
-**Text Secondary:** 215 20% 65%
-**Border Default:** 217 33% 25%
+**Primary Brand:** 217 91% 65% (azul ligeramente más claro para contraste)
+**Secondary:** 160 84% 45% (verde menta ajustado)
+**Accent:** 43 96% 60% (amarillo mostaza ajustado)
+**Background Base:** 220 26% 10% (gris muy oscuro)
+**Background Elevated:** 220 20% 14% (cards ligeramente elevados)
+**Text Primary:** 210 20% 98% (casi blanco)
+**Text Secondary:** 220 13% 65% (gris claro para descripciones)
+**Border Default:** 217 19% 25% (bordes oscuros pero visibles)
 
 **Accent Colors (Minimal Use):**
 - Level badges: Use hue shifts (A1=180, A2=200, B1=220, B2=240, C1=260, C2=280) with 70% saturation, 50% lightness

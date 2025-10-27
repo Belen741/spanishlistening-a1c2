@@ -105,7 +105,14 @@ export function PaginatedAudioList({
 
     return () => {
       isMounted = false;
-      abortController.abort();
+      // Only abort if not already aborted to prevent "aborted without reason" error
+      if (!abortController.signal.aborted) {
+        try {
+          abortController.abort();
+        } catch (error) {
+          // Silently ignore abort errors during cleanup
+        }
+      }
     };
   }, [level, currentPage, pageSize]);
 

@@ -83,3 +83,13 @@ Preferred communication style: Simple, everyday language.
 - **UX Flow**: Click play on audio card → Modal opens → Click play button to start audio → Click "Ver transcripción" or "Hacer quiz" → Modal closes, mini player appears, **page auto-scrolls to selected section** (transcript auto-expands if collapsed) → User can pause/play from mini player while reading → Click X to stop audio completely
 - **Auto-Scroll Feature**: When closing modal via action buttons, page automatically scrolls to the relevant section with -100px offset for sticky header compensation. Transcript section auto-expands if collapsed.
 - **Files Modified**: `components/PaginatedAudioList.tsx`, `components/AudioModal.tsx`
+
+### AbortController Error Fix (October 27, 2025)
+- **Problem**: "AbortError: signal is aborted without reason" was appearing when navigating between pages or when components unmounted during fetch operations
+- **Root Cause**: `abortController.abort()` was being called unconditionally in cleanup function, even if signal was already aborted
+- **Solution Implemented**:
+  - Added conditional check `!abortController.signal.aborted` before calling `abort()`
+  - Wrapped `abort()` in try/catch block to silently handle any cleanup errors
+  - Maintained existing `isMounted` flag to prevent state updates on unmounted components
+- **Result**: Clean navigation between levels with no console errors or runtime exceptions
+- **Files Modified**: `components/PaginatedAudioList.tsx` (lines 109-119)

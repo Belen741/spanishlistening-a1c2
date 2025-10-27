@@ -14,6 +14,33 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes (October 2025)
 
+### Smart CTA with Last Level Memory (October 27, 2025)
+- **Change**: Implemented intelligent CTA system that remembers last visited level
+- **Features**:
+  - If user has visited a level, CTA shows "Continuar en Nivel X" and navigates to that level
+  - For first-time visitors, CTA shows "Explorar niveles" and scrolls to level cards
+  - "Elegir otro nivel" link appears when user has a saved level
+  - Feature icons: ⏱️ Audios cortos, 📝 Transcripción, ❓ Quiz
+  - GA4 tracking via `home_cta_click` event with variant ('continue' or 'explore') and level data
+- **Implementation**:
+  - Created `components/SaveLastLevel.tsx` - client component to save level to localStorage ('sl:lastLevel')
+  - Updated `app/spanish-listening/page.tsx` - reads last level from localStorage and renders smart CTA
+  - All 6 level pages (A1-C2) now include SaveLastLevel component to track visits
+  - Added aria-label to all LevelCard components for accessibility
+- **SEO**: H1 remains sr-only with SEO-optimized text, H2 "Elige tu nivel" added above grid
+- **UX**: Homepage shows tagline + CTA + feature icons + level cards "above the fold" without scrolling
+- **Files**: `components/SaveLastLevel.tsx`, `app/spanish-listening/page.tsx`, `components/LevelCard.tsx`, all 6 level pages updated
+
+### Compact Homepage - Levels Above the Fold (October 27, 2025)
+- **Change**: Simplified homepage hero to show all 6 level cards without scrolling
+- **Implementation**:
+  - H1 uses sr-only class (visually hidden but accessible for SEO)
+  - Removed large welcome card and replaced with one-line tagline
+  - Reduced padding/margins (pt-6 pb-2 for hero section, py-6 for levels)
+  - Added sr-only CSS utility class for accessibility
+- **Result**: Users immediately see tagline and all 6 levels without scrolling on both desktop and mobile
+- **Files**: `app/spanish-listening/page.tsx`, `app/globals.css`
+
 ### Custom SEO-Optimized URLs for All 6 CEFR Levels
 - **Change**: All 6 CEFR levels (A1-C2) now have custom SEO-optimized English URLs
   - A1: `/spanish-audio-for-beginners-a1`

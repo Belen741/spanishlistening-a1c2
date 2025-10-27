@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { getLevelBySlug } from '@lib/levels';
 import { AdSlot } from '@components/AdSlot';
 import { LevelPageClient } from '@components/LevelPageClient';
+import { SaveLastLevel } from '@components/SaveLastLevel';
 
 export const metadata: Metadata = {
   title: 'Intermediate Spanish',
@@ -22,6 +23,7 @@ export default async function IntermediateSpanishB1Page() {
 
   return (
     <div className="container mx-auto px-4 py-8 max-w-7xl">
+      <SaveLastLevel level="b1" />
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8">
         <div className="space-y-8">
           <div>

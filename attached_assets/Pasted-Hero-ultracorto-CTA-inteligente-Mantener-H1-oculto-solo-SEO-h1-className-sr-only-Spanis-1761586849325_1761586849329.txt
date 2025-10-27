@@ -1,0 +1,89 @@
+Hero ultracorto + CTA inteligente
+
+Mantener H1 oculto (solo SEO):
+
+<h1 className="sr-only">
+  Spanish Listening A1–C2: audios con transcripciones, vocabulario y quizzes
+</h1>
+
+
+Tagline de una línea y CTA que no fije A1. Si el usuario ya visitó un nivel, el botón dice “Continuar en Nivel X”; si es su primera vez, dice “Explorar niveles”.
+
+import { useEffect, useState } from "react";
+
+function HomeHero() {
+  const [lastLevel, setLastLevel] = useState<string | null>(null);
+
+  useEffect(() => {
+    const v = localStorage.getItem("sl:lastLevel"); // guardar este valor en páginas de nivel
+    if (v) setLastLevel(v);
+  }, []);
+
+  const ctaLabel = lastLevel ? `Continuar en Nivel ${lastLevel}` : "Explorar niveles";
+  const ctaHref  = lastLevel ? `/nivel-${lastLevel.toLowerCase()}` : "/spanish-listening";
+
+  const handleCta = () => {
+    if (window.gtag) {
+      window.gtag('event', 'home_cta_click', { variant: lastLevel ? 'continue' : 'explore', last_level: lastLevel || 'none' });
+    }
+    window.location.href = ctaHref;
+  };
+
+  return (
+    <section className="max-w-3xl mx-auto px-4 pt-6 pb-2">
+      <p className="text-center text-sm md:text-base text-gray-700">
+        🎧 Improve your Spanish listening with real audios, transcripts, and quizzes by Belén.
+      </p>
+      <div className="mt-3 flex items-center justify-center gap-3">
+        <button onClick={handleCta} className="btn btn-primary">{ctaLabel}</button>
+        <a href="/spanish-listening" className="link">Elegir otro nivel</a>
+      </div>
+      <ul className="mt-3 grid grid-cols-3 gap-2 text-center text-xs md:text-sm text-gray-600">
+        <li>⏱️ Audios cortos</li><li>📝 Transcripción</li><li>❓ Quiz</li>
+      </ul>
+    </section>
+  );
+}
+
+
+Grid de niveles “above the fold”
+
+Renderiza la grid de niveles inmediatamente después del <HomeHero />, sin bloque de bienvenida grande. Ajustar paddings para que en móvil se vean al menos 2 cards sin scroll.
+
+Guardar el último nivel visitado
+
+En cada página de nivel (A1, A2, B1, B2, C1, C2) setear:
+
+useEffect(() => {
+  localStorage.setItem('sl:lastLevel', 'A2'); // reemplazar por el nivel actual
+}, []);
+
+
+Esto habilita el CTA “Continuar en Nivel X” la próxima vez que el usuario entre.
+
+Analytics (GA4)
+
+Ya que usamos gtag, registra clic del CTA como:
+
+gtag('event', 'home_cta_click', { variant: 'continue' | 'explore', last_level: 'A1'|'A2'|'none' });
+
+
+Accesibilidad/SEO
+
+H2: “Elige tu nivel”.
+
+aria-label en cada card de nivel (ej. aria-label="Nivel B1 – temas de interés personal").
+
+No cargar MP3 en la home.
+
+Criterios de aceptación
+
+La home no muestra un CTA que apunte a A1 por defecto.
+
+Si el usuario ya visitó un nivel, el CTA ofrece “Continuar en Nivel X”.
+
+En desktop y móvil se ven tagline + CTA + primeras cards de nivel sin scroll.
+
+GA4 recibe home_cta_click.
+
+Commit: feat(home): neutral CTA + remember last level + levels above the fold.

@@ -22,12 +22,15 @@ export function LevelCard({ level }: LevelCardProps) {
   } else if (level.slug === 'c2') {
     href = '/advanced-spanish-c2';
   }
+
+  const ariaLabel = `Nivel ${level.name} – ${level.description}`;
   
   return (
     <Link
       href={href}
       prefetch={false}
       className="group relative block"
+      aria-label={ariaLabel}
       data-testid={`card-level-${level.slug}`}
     >
       <div className="relative rounded-2xl border-2 bg-card p-6 transition-all hover:shadow-lg hover:-translate-y-1 overflow-visible">

@@ -1,0 +1,62 @@
+¡Perfecto! Aquí tienes el **mensaje listo para pegar al Asistente de Replit** (opción A: compactar la bienvenida y mostrar los niveles “above the fold”). Copia y pega tal cual:
+
+---
+
+**Mensaje para Replit (opción A):**
+
+Quiero simplificar la “sección de bienvenida” en la página principal para que los botones de niveles queden visibles inmediatamente (above the fold), sin hacer scroll.
+
+**Objetivo:**
+
+* Reemplazar el bloque grande de bienvenida (título grande + párrafo + tarjeta) por **una sola línea breve** centrada, y debajo dejar inmediatamente la **grid de niveles**.
+* Mantener un **H1 para SEO** pero **visualmente oculto** (sr-only), para no perder relevancia en buscadores.
+* No tocar Google Analytics ni AdSense.
+
+**Cambios solicitados (por favor, hazlos y confirma con un diff):**
+
+1. Localiza el componente/route que renderiza la home (donde aparece “Bienvenido a Spanish Listening” y la tarjeta con el texto). En mi proyecto es React + Vite; el archivo puede llamarse algo como `Home.tsx`, `Index.tsx`, `pages/Home.tsx` o la ruta donde se ve “Bienvenido a Spanish Listening”.
+
+2. Reemplaza el “hero” por:
+
+   * Un H1 **solo para SEO** (no visible):
+
+     ```jsx
+     <h1 className="sr-only">
+       Spanish Listening – Audios por niveles A1–C2 con transcripciones y quizzes
+     </h1>
+     ```
+   * Un **tagline compacto** centrado, justo encima de la grid de niveles:
+
+     ```jsx
+     <section className="max-w-3xl mx-auto px-4 pt-4 pb-2">
+       <p className="text-center text-sm md:text-base text-gray-600">
+         🎧 Improve your Spanish listening with real audios, transcripts, and quizzes by Belén.
+       </p>
+     </section>
+     ```
+
+3. Asegúrate de que **la grid de niveles** (A1–C2) quede **inmediatamente** después de ese `<section>` (sin bloques grandes entre medio). Reduce cualquier `mt-20/mt-16` del contenedor superior a algo como `mt-4` o `mt-6`.
+
+4. Ajustes de estilo mínimos:
+
+   * Quita paddings/margins excesivos del contenedor superior (usa `pt-6 md:pt-8` como máximo).
+   * En móvil, que los primeros **cards de nivel** sean visibles sin scroll.
+   * No elimines contenido SEO útil; solo **compacta**.
+
+5. Accesibilidad:
+
+   * Mantén el H1 con `sr-only` (Tailwind) u otra clase equivalente para “visually hidden”.
+   * Los botones/cards de nivel deben tener `aria-label` descriptivo (ej.: `aria-label="Nivel A1 – Audios para principiantes"`).
+
+**Criterios de aceptación:**
+
+* Al cargar la home, se ve **de inmediato** el tagline de una línea y **los primeros cards de nivel** sin hacer scroll (en desktop y móvil).
+* No hay cambios en el código de Google Analytics ni en scripts de terceros.
+* Lighthouse/CLS sin regresiones (no introducir saltos de layout).
+* Commit con mensaje: `feat: compact welcome and show levels above the fold`.
+
+Si detectas el bloque antiguo (título “Bienvenido a Spanish Listening” + párrafo + tarjeta), **elimínalo** o coméntalo, dejando solo el H1 sr-only + tagline compacto + grid de niveles.
+
+---
+
+Si quieres, luego te doy un mini “antes/después” visual para revisar que quedó como lo imaginaste.

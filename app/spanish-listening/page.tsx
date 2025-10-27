@@ -7,33 +7,20 @@ import { LEVELS } from '../../lib/levels';
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
-      {/* Hero Section */}
-      <section className="container mx-auto px-6 py-8 md:py-12 max-w-4xl text-center">
-        <h1 
-          className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 tracking-tight"
-          style={{ color: '#3b82f6' }}
-          data-testid="text-main-title"
-        >
-          Bienvenido a Spanish Listening
-        </h1>
-        
-        <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed" data-testid="text-subtitle">
-          Practice your Spanish listening comprehension with real audios, transcripts, and interactive exercises.
-        </p>
+      {/* SEO-only H1 (visually hidden) */}
+      <h1 className="sr-only">
+        Spanish Listening – Audios por niveles A1–C2 con transcripciones y quizzes
+      </h1>
 
-        <div className="bg-card border rounded-xl p-8 mb-4 text-left max-w-2xl mx-auto">
-          <p className="text-base leading-relaxed text-foreground" data-testid="text-introduction">
-            I'm Belén, an online Spanish teacher and creator of Spanish Listening. On this site, you'll find audios organized by level (A1 to C2), each with transcripts, key vocabulary, and quizzes. All materials are original and designed for Spanish learners like you.
-          </p>
-        </div>
+      {/* Compact Tagline */}
+      <section className="max-w-3xl mx-auto px-4 pt-4 pb-2">
+        <p className="text-center text-sm md:text-base text-muted-foreground">
+          🎧 Improve your Spanish listening with real audios, transcripts, and quizzes by Belén.
+        </p>
       </section>
 
-      {/* Levels Section */}
-      <section className="container mx-auto px-6 py-4 max-w-6xl">
-        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-10" data-testid="text-levels-heading">
-          Elige tu nivel
-        </h2>
-        
+      {/* Levels Section - Above the Fold */}
+      <section className="container mx-auto px-4 py-6 max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {LEVELS.map((level) => (
             <LevelCard

@@ -64,7 +64,6 @@ export function PaginatedAudioList({
 
   useEffect(() => {
     let isMounted = true;
-    const abortController = new AbortController();
     
     const fetchAudios = async () => {
       setIsLoading(true);
@@ -72,8 +71,7 @@ export function PaginatedAudioList({
       
       try {
         const response = await fetch(
-          `/api/audios?level=${level}&page=${currentPage}&pageSize=${pageSize}`,
-          { signal: abortController.signal }
+          `/api/audios?level=${level}&page=${currentPage}&pageSize=${pageSize}`
         );
         
         if (!response.ok) {
@@ -82,20 +80,16 @@ export function PaginatedAudioList({
         
         const result: PaginatedResponse = await response.json();
         
-        if (isMounted && !abortController.signal.aborted) {
+        if (isMounted) {
           setData(result);
         }
       } catch (err) {
-        if (err instanceof Error && err.name === 'AbortError') {
-          // Expected error when component unmounts, ignore it
-          return;
-        }
         if (isMounted) {
           setError(err instanceof Error ? err.message : 'Error al cargar audios');
           console.error('Error fetching audios:', err);
         }
       } finally {
-        if (isMounted && !abortController.signal.aborted) {
+        if (isMounted) {
           setIsLoading(false);
         }
       }
@@ -105,14 +99,6 @@ export function PaginatedAudioList({
 
     return () => {
       isMounted = false;
-      // Only abort if not already aborted to prevent "aborted without reason" error
-      if (!abortController.signal.aborted) {
-        try {
-          abortController.abort();
-        } catch (error) {
-          // Silently ignore abort errors during cleanup
-        }
-      }
     };
   }, [level, currentPage, pageSize]);
 

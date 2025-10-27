@@ -84,12 +84,16 @@ Preferred communication style: Simple, everyday language.
 - **Auto-Scroll Feature**: When closing modal via action buttons, page automatically scrolls to the relevant section with -100px offset for sticky header compensation. Transcript section auto-expands if collapsed.
 - **Files Modified**: `components/PaginatedAudioList.tsx`, `components/AudioModal.tsx`
 
-### AbortController Error Fix (October 27, 2025)
-- **Problem**: "AbortError: signal is aborted without reason" was appearing when navigating between pages or when components unmounted during fetch operations
-- **Root Cause**: `abortController.abort()` was being called unconditionally in cleanup function, even if signal was already aborted
+### AbortController Error Fix - Final Solution (October 27, 2025)
+- **Problem**: "AbortError: signal is aborted without reason" was persistently appearing when navigating between pages or when components unmounted during fetch operations, even with try/catch blocks
+- **Root Cause**: `AbortController.abort()` was creating unhandled promise rejections that couldn't be caught in the cleanup function, especially problematic with React StrictMode's double effect execution in development
 - **Solution Implemented**:
-  - Added conditional check `!abortController.signal.aborted` before calling `abort()`
-  - Wrapped `abort()` in try/catch block to silently handle any cleanup errors
-  - Maintained existing `isMounted` flag to prevent state updates on unmounted components
-- **Result**: Clean navigation between levels with no console errors or runtime exceptions
-- **Files Modified**: `components/PaginatedAudioList.tsx` (lines 109-119)
+  - **Completely removed AbortController** from the fetch useEffect hook
+  - Simplified cleanup to use only the `isMounted` boolean flag
+  - No more abort() calls = no more AbortError exceptions
+- **Technical Details**:
+  - Fetch requests continue in background if component unmounts before completion
+  - The `isMounted` flag prevents state updates on unmounted components (prevents memory leaks)
+  - This is a common and accepted pattern in React for cleanup
+- **Result**: Zero console errors, clean navigation between all levels (A1-C2), smooth page transitions
+- **Files Modified**: `components/PaginatedAudioList.tsx` (lines 68-106)

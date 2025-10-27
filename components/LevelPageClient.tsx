@@ -37,16 +37,22 @@ export function LevelPageClient({ levelSlug }: LevelPageClientProps) {
       />
 
       {selectedAudio && (
-        <div className="space-y-8 mt-12 pt-8 border-t">
+        <div className="space-y-8 mt-12 pt-8 border-t" id="audio-content">
           <div>
             <h2 className="text-2xl font-bold mb-6" data-testid="text-selected-audio-title">
               {selectedAudio.title}
             </h2>
           </div>
 
-          <Transcript text={selectedAudio.transcript} />
-          <VocabList items={selectedAudio.vocab} />
-          <Quiz questions={selectedAudio.quiz} levelSlug={`${levelSlug}-${selectedAudio.id}`} />
+          <div id="transcript-section">
+            <Transcript text={selectedAudio.transcript} />
+          </div>
+          <div id="vocab-section">
+            <VocabList items={selectedAudio.vocab} />
+          </div>
+          <div id="quiz-section">
+            <Quiz questions={selectedAudio.quiz} levelSlug={`${levelSlug}-${selectedAudio.id}`} />
+          </div>
         </div>
       )}
     </div>

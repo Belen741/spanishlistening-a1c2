@@ -80,5 +80,6 @@ Preferred communication style: Simple, everyday language.
   - Close button (X) to stop audio and dismiss player
   - Fixed position at bottom-right corner, stays visible while scrolling
   - Automatically switches when user selects a different audio
-- **UX Flow**: Click play on audio card → Modal opens → Click play button to start audio → Click "Ver transcripción" or "Hacer quiz" → Modal closes, mini player appears → User can pause/play from mini player while reading → Click X to stop audio completely
+- **UX Flow**: Click play on audio card → Modal opens → Click play button to start audio → Click "Ver transcripción" or "Hacer quiz" → Modal closes, mini player appears, **page auto-scrolls to selected section** (transcript auto-expands if collapsed) → User can pause/play from mini player while reading → Click X to stop audio completely
+- **Auto-Scroll Feature**: When closing modal via action buttons, page automatically scrolls to the relevant section with -100px offset for sticky header compensation. Transcript section auto-expands if collapsed.
 - **Files Modified**: `components/PaginatedAudioList.tsx`, `components/AudioModal.tsx`

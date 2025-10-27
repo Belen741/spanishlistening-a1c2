@@ -168,6 +168,24 @@ export function PaginatedAudioList({
       setSelectedAudioId(modalAudio.id);
       setIsModalOpen(false);
       onAudioSelect?.(modalAudio);
+      
+      // Wait for content to render, then scroll to transcript
+      setTimeout(() => {
+        const transcriptSection = document.getElementById('transcript-section');
+        if (transcriptSection) {
+          const yOffset = -100; // Offset for sticky header
+          const y = transcriptSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+          
+          // Auto-expand transcript if collapsed
+          setTimeout(() => {
+            const expandButton = document.querySelector('[data-testid="button-toggle-transcript"]') as HTMLButtonElement;
+            if (expandButton && expandButton.getAttribute('aria-expanded') === 'false') {
+              expandButton.click();
+            }
+          }, 400);
+        }
+      }, 300);
     }
   };
 
@@ -176,10 +194,14 @@ export function PaginatedAudioList({
       setSelectedAudioId(modalAudio.id);
       setIsModalOpen(false);
       onAudioSelect?.(modalAudio);
+      
+      // Wait for content to render, then scroll to quiz
       setTimeout(() => {
-        const quizElement = document.querySelector('[data-testid="quiz-section"]');
-        if (quizElement) {
-          quizElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const quizSection = document.getElementById('quiz-section');
+        if (quizSection) {
+          const yOffset = -100; // Offset for sticky header
+          const y = quizSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
         }
       }, 300);
     }

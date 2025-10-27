@@ -40,7 +40,7 @@ export default async function IntermediateSpanishB1Page() {
               Intermediate Spanish - B1
             </h1>
             <p className="text-lg text-muted-foreground" data-testid="text-level-description">
-              {level.description}
+              🗣️ Everyday Spanish conversations for intermediate learners (with transcripts and quizzes)
             </p>
           </div>
 

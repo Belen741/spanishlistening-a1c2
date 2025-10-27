@@ -26,6 +26,7 @@ export interface AudioItem {
   title: string;
   duration: string;
   file: string;
+  snippet?: string;
   transcript: string;
   vocab: VocabItem[];
   quiz: QuizQuestion[];

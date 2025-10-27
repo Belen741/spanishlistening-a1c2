@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import { AudioCard } from './AudioCard';
+import { AudioModal } from './AudioModal';
+import { NextLevelCTA } from './NextLevelCTA';
 import { ChevronLeft, ChevronRight, Loader2, AlertCircle } from 'lucide-react';
 
 interface AudioItem {
@@ -10,6 +12,7 @@ interface AudioItem {
   title: string;
   duration: string;
   file: string;
+  snippet?: string;
   transcript: string;
   vocab: Array<{ term: string; meaning: string }>;
   quiz: Array<any>;
@@ -39,10 +42,14 @@ export function PaginatedAudioList({
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedAudioId, setSelectedAudioId] = useState<string | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalAudio, setModalAudio] = useState<AudioItem | null>(null);
 
   useEffect(() => {
     setCurrentPage(1);
     setSelectedAudioId(null);
+    setIsModalOpen(false);
+    setModalAudio(null);
   }, [level]);
 
   useEffect(() => {
@@ -105,11 +112,31 @@ export function PaginatedAudioList({
     setCurrentPage(currentPage);
   };
 
-  const handleAudioSelect = (id: string) => {
-    setSelectedAudioId(id);
+  const handleAudioPlayClick = (id: string) => {
     const audio = data?.items.find(item => item.id === id);
-    if (audio && onAudioSelect) {
-      onAudioSelect(audio);
+    if (audio) {
+      setModalAudio(audio);
+      setIsModalOpen(true);
+    }
+  };
+
+  const handleShowTranscript = () => {
+    if (modalAudio) {
+      setSelectedAudioId(modalAudio.id);
+      onAudioSelect?.(modalAudio);
+    }
+  };
+
+  const handleShowQuiz = () => {
+    if (modalAudio) {
+      setSelectedAudioId(modalAudio.id);
+      onAudioSelect?.(modalAudio);
+      setTimeout(() => {
+        const quizElement = document.querySelector('[data-testid="quiz-section"]');
+        if (quizElement) {
+          quizElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 300);
     }
   };
 
@@ -151,53 +178,96 @@ export function PaginatedAudioList({
   }
 
   return (
-    <div className="space-y-8" data-testid="paginated-audio-list">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {data.items.map((audio) => (
-          <AudioCard
-            key={audio.id}
-            id={audio.id}
-            title={audio.title}
-            duration={audio.duration}
-            file={audio.file}
-            onSelect={handleAudioSelect}
-          />
-        ))}
+    <>
+      <div className="space-y-8" data-testid="paginated-audio-list">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {data.items.slice(0, 2).map((audio) => (
+            <AudioCard
+              key={audio.id}
+              id={audio.id}
+              title={audio.title}
+              duration={audio.duration}
+              snippet={audio.snippet}
+              level={audio.level}
+              onPlayClick={() => handleAudioPlayClick(audio.id)}
+            />
+          ))}
+          
+          {data.items.length > 2 && (
+            <>
+              <div className="ad-placeholder bg-muted/30 rounded-xl border-2 border-dashed border-muted-foreground/20 p-6 flex items-center justify-center min-h-[200px]" data-testid="ad-placeholder">
+                <p className="text-sm text-muted-foreground text-center">
+                  Ad Placement
+                </p>
+              </div>
+
+              {data.items.slice(2).map((audio) => (
+                <AudioCard
+                  key={audio.id}
+                  id={audio.id}
+                  title={audio.title}
+                  duration={audio.duration}
+                  snippet={audio.snippet}
+                  level={audio.level}
+                  onPlayClick={() => handleAudioPlayClick(audio.id)}
+                />
+              ))}
+            </>
+          )}
+        </div>
+
+        {data.totalPages > 1 && (
+          <div className="flex items-center justify-center gap-4 pt-8 border-t">
+            <button
+              onClick={handlePreviousPage}
+              disabled={currentPage === 1}
+              className="flex items-center gap-2 px-4 py-2 rounded-md border hover-elevate active-elevate-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:no-default-hover-elevate"
+              data-testid="button-previous-page"
+            >
+              <ChevronLeft className="h-4 w-4" />
+              Anterior
+            </button>
+
+            <span className="text-sm text-muted-foreground" data-testid="text-page-info">
+              Página {currentPage} de {data.totalPages}
+            </span>
+
+            <button
+              onClick={handleNextPage}
+              disabled={currentPage === data.totalPages}
+              className="flex items-center gap-2 px-4 py-2 rounded-md border hover-elevate active-elevate-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:no-default-hover-elevate"
+              data-testid="button-next-page">
+              Siguiente
+              <ChevronRight className="h-4 w-4" />
+            </button>
+          </div>
+        )}
+
+        {data.total > 0 && (
+          <>
+            <p className="text-center text-sm text-muted-foreground" data-testid="text-total-audios">
+              {data.total} {data.total === 1 ? 'audio' : 'audios'} en total
+            </p>
+            <NextLevelCTA currentLevel={level as 'a1' | 'a2' | 'b1' | 'b2' | 'c1' | 'c2'} />
+          </>
+        )}
       </div>
 
-      {data.totalPages > 1 && (
-        <div className="flex items-center justify-center gap-4 pt-8 border-t">
-          <button
-            onClick={handlePreviousPage}
-            disabled={currentPage === 1}
-            className="flex items-center gap-2 px-4 py-2 rounded-md border hover-elevate active-elevate-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:no-default-hover-elevate"
-            data-testid="button-previous-page"
-          >
-            <ChevronLeft className="h-4 w-4" />
-            Anterior
-          </button>
-
-          <span className="text-sm text-muted-foreground" data-testid="text-page-info">
-            Página {currentPage} de {data.totalPages}
-          </span>
-
-          <button
-            onClick={handleNextPage}
-            disabled={currentPage === data.totalPages}
-            className="flex items-center gap-2 px-4 py-2 rounded-md border hover-elevate active-elevate-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:no-default-hover-elevate"
-            data-testid="button-next-page"
-          >
-            Siguiente
-            <ChevronRight className="h-4 w-4" />
-          </button>
-        </div>
+      {modalAudio && (
+        <AudioModal
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+          audio={{
+            id: modalAudio.id,
+            title: modalAudio.title,
+            file: modalAudio.file,
+            snippet: modalAudio.snippet,
+            level: modalAudio.level,
+          }}
+          onShowTranscript={handleShowTranscript}
+          onShowQuiz={handleShowQuiz}
+        />
       )}
-
-      {data.total > 0 && (
-        <p className="text-center text-sm text-muted-foreground" data-testid="text-total-audios">
-          {data.total} {data.total === 1 ? 'audio' : 'audios'} en total
-        </p>
-      )}
-    </div>
+    </>
   );
 }

@@ -40,7 +40,7 @@ export default async function AdvancedSpanishC1Page() {
               Advanced Spanish - C1
             </h1>
             <p className="text-lg text-muted-foreground" data-testid="text-level-description">
-              {level.description}
+              🗣️ Everyday Spanish conversations for advanced learners (with transcripts and quizzes)
             </p>
           </div>
 

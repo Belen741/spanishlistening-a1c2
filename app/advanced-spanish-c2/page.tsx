@@ -40,7 +40,7 @@ export default async function AdvancedSpanishC2Page() {
               Advanced Spanish - C2
             </h1>
             <p className="text-lg text-muted-foreground" data-testid="text-level-description">
-              {level.description}
+              🗣️ Everyday Spanish conversations for advanced learners (with transcripts and quizzes)
             </p>
           </div>
 

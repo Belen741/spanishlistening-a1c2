@@ -40,7 +40,7 @@ export default async function SpanishAudioForBeginnersPage() {
               Spanish audio for beginners A1
             </h1>
             <p className="text-lg text-muted-foreground" data-testid="text-level-description">
-              {level.description}
+              🗣️ Everyday Spanish conversations for beginners (with transcripts and quizzes)
             </p>
           </div>
 

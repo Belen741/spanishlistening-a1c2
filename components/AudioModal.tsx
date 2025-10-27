@@ -1,7 +1,6 @@
 'use client';
 
-import { useRef, useState } from 'react';
-import { X, FileText, HelpCircle } from 'lucide-react';
+import { X, FileText, HelpCircle, Play, Pause } from 'lucide-react';
 
 interface AudioModalProps {
   isOpen: boolean;
@@ -13,6 +12,8 @@ interface AudioModalProps {
     snippet?: string;
     level: string;
   };
+  isPlaying: boolean;
+  onPlayPause: () => void;
   onShowTranscript: () => void;
   onShowQuiz: () => void;
 }
@@ -20,42 +21,18 @@ interface AudioModalProps {
 export function AudioModal({ 
   isOpen, 
   onClose, 
-  audio, 
+  audio,
+  isPlaying,
+  onPlayPause,
   onShowTranscript, 
   onShowQuiz 
 }: AudioModalProps) {
-  const audioRef = useRef<HTMLAudioElement>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-
   if (!isOpen) return null;
-
-  const handlePlayPause = () => {
-    const audioElement = audioRef.current;
-    if (!audioElement) return;
-
-    if (isPlaying) {
-      audioElement.pause();
-      setIsPlaying(false);
-    } else {
-      audioElement.play();
-      setIsPlaying(true);
-    }
-  };
-
-  const handleClose = () => {
-    const audioElement = audioRef.current;
-    if (audioElement) {
-      audioElement.pause();
-      audioElement.currentTime = 0;
-    }
-    setIsPlaying(false);
-    onClose();
-  };
 
   return (
     <div 
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4"
-      onClick={handleClose}
+      onClick={onClose}
       data-testid="modal-audio-overlay"
     >
       <div 
@@ -68,7 +45,7 @@ export function AudioModal({
             {audio.title}
           </h2>
           <button
-            onClick={handleClose}
+            onClick={onClose}
             className="p-2 rounded-lg hover-elevate active-elevate-2"
             aria-label="Cerrar modal"
             data-testid="button-modal-close"
@@ -78,16 +55,23 @@ export function AudioModal({
         </div>
 
         <div className="space-y-4">
-          <audio
-            ref={audioRef}
-            src={audio.file}
-            controls
-            preload="none"
-            className="w-full"
-            onPlay={() => setIsPlaying(true)}
-            onPause={() => setIsPlaying(false)}
-            data-testid="audio-player-modal"
-          />
+          <div className="bg-accent/20 border rounded-lg p-6 flex items-center justify-center gap-4">
+            <button
+              onClick={onPlayPause}
+              className="p-4 rounded-full bg-primary text-primary-foreground hover-elevate active-elevate-2 border-2 border-primary-border"
+              aria-label={isPlaying ? "Pausar audio" : "Reproducir audio"}
+              data-testid="button-play-pause"
+            >
+              {isPlaying ? (
+                <Pause className="h-8 w-8" />
+              ) : (
+                <Play className="h-8 w-8" />
+              )}
+            </button>
+            <div className="text-sm text-muted-foreground">
+              {isPlaying ? "Reproduciendo..." : "Haz clic para reproducir"}
+            </div>
+          </div>
 
           {audio.snippet && (
             <div className="bg-muted/50 rounded-lg p-4 border">
@@ -100,10 +84,7 @@ export function AudioModal({
 
         <div className="flex flex-wrap gap-3">
           <button
-            onClick={() => {
-              handleClose();
-              onShowTranscript();
-            }}
+            onClick={onShowTranscript}
             className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover-elevate active-elevate-2 border-2 border-primary-border"
             data-testid="button-show-transcript"
           >
@@ -111,10 +92,7 @@ export function AudioModal({
             📝 Ver transcripción completa
           </button>
           <button
-            onClick={() => {
-              handleClose();
-              onShowQuiz();
-            }}
+            onClick={onShowQuiz}
             className="flex items-center gap-2 px-4 py-2 bg-accent text-accent-foreground rounded-lg hover-elevate active-elevate-2 border"
             data-testid="button-show-quiz"
           >
@@ -122,6 +100,10 @@ export function AudioModal({
             ❓ Hacer quiz
           </button>
         </div>
+
+        <p className="text-xs text-muted-foreground text-center">
+          💡 El audio continuará reproduciéndose mientras navegas por la transcripción o el quiz
+        </p>
       </div>
     </div>
   );

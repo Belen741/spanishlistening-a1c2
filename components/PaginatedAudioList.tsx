@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { AudioCard } from './AudioCard';
 import { AudioModal } from './AudioModal';
 import { NextLevelCTA } from './NextLevelCTA';
@@ -44,6 +44,8 @@ export function PaginatedAudioList({
   const [selectedAudioId, setSelectedAudioId] = useState<string | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalAudio, setModalAudio] = useState<AudioItem | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
     setCurrentPage(1);
@@ -117,12 +119,31 @@ export function PaginatedAudioList({
     if (audio) {
       setModalAudio(audio);
       setIsModalOpen(true);
+      
+      // Load new audio if different from current
+      if (audioRef.current) {
+        if (audioRef.current.src !== audio.file) {
+          audioRef.current.src = audio.file;
+          audioRef.current.load();
+        }
+      }
+    }
+  };
+
+  const handlePlayPause = () => {
+    if (audioRef.current) {
+      if (isPlaying) {
+        audioRef.current.pause();
+      } else {
+        audioRef.current.play();
+      }
     }
   };
 
   const handleShowTranscript = () => {
     if (modalAudio) {
       setSelectedAudioId(modalAudio.id);
+      setIsModalOpen(false);
       onAudioSelect?.(modalAudio);
     }
   };
@@ -130,6 +151,7 @@ export function PaginatedAudioList({
   const handleShowQuiz = () => {
     if (modalAudio) {
       setSelectedAudioId(modalAudio.id);
+      setIsModalOpen(false);
       onAudioSelect?.(modalAudio);
       setTimeout(() => {
         const quizElement = document.querySelector('[data-testid="quiz-section"]');
@@ -138,6 +160,11 @@ export function PaginatedAudioList({
         }
       }, 300);
     }
+  };
+
+  const handleModalClose = () => {
+    setIsModalOpen(false);
+    // Audio continues playing, we don't stop it
   };
 
   if (isLoading) {
@@ -179,6 +206,16 @@ export function PaginatedAudioList({
 
   return (
     <>
+      {/* Persistent audio element that stays mounted */}
+      <audio
+        ref={audioRef}
+        preload="none"
+        onPlay={() => setIsPlaying(true)}
+        onPause={() => setIsPlaying(false)}
+        onEnded={() => setIsPlaying(false)}
+        className="hidden"
+      />
+
       <div className="space-y-8" data-testid="paginated-audio-list">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {data.items.slice(0, 2).map((audio) => (
@@ -256,7 +293,7 @@ export function PaginatedAudioList({
       {modalAudio && (
         <AudioModal
           isOpen={isModalOpen}
-          onClose={() => setIsModalOpen(false)}
+          onClose={handleModalClose}
           audio={{
             id: modalAudio.id,
             title: modalAudio.title,
@@ -264,6 +301,8 @@ export function PaginatedAudioList({
             snippet: modalAudio.snippet,
             level: modalAudio.level,
           }}
+          isPlaying={isPlaying}
+          onPlayPause={handlePlayPause}
           onShowTranscript={handleShowTranscript}
           onShowQuiz={handleShowQuiz}
         />

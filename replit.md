@@ -61,3 +61,17 @@ Preferred communication style: Simple, everyday language.
 
 ### Fonts
 - **Google Fonts**: Inter (UI/content), JetBrains Mono (code/vocab).
+
+## Recent Changes (October 2025)
+
+### Persistent Audio Playback System (October 27, 2025)
+- **Change**: Audio playback now persists when modal closes, allowing users to continue listening while reading transcripts or taking quizzes
+- **Problem Solved**: Previously, audio would stop when users clicked "Ver transcripción completa" or "Hacer quiz", interrupting their learning flow
+- **Solution**: Moved `<audio>` element from AudioModal to PaginatedAudioList (parent level) so it stays mounted across modal open/close events
+- **Architecture**:
+  - `PaginatedAudioList` manages persistent audio element and playback state (`isPlaying`)
+  - `AudioModal` receives `isPlaying` state and `onPlayPause` callback to control the persistent player
+  - Custom play/pause button in modal instead of native HTML5 audio controls
+  - Helper text in modal: "💡 El audio continuará reproduciéndose mientras navegas por la transcripción o el quiz"
+- **UX Flow**: Click play on audio card → Modal opens → Click play button to start audio → Click "Ver transcripción" or "Hacer quiz" → Modal closes BUT audio continues playing in background → User can read/take quiz while listening
+- **Files Modified**: `components/PaginatedAudioList.tsx`, `components/AudioModal.tsx`

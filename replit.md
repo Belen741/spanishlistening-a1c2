@@ -14,11 +14,11 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes (October 2025)
 
-### Smart CTA with Last Level Memory (October 27, 2025)
-- **Change**: Implemented intelligent CTA system that remembers last visited level
+### Smart CTA with Last Level Memory + Visual Refinements (October 27, 2025)
+- **Change**: Implemented intelligent CTA system that remembers last visited level + visual/UX optimizations
 - **Features**:
   - If user has visited a level, CTA shows "Continuar en Nivel X" and navigates to that level
-  - For first-time visitors, CTA shows "Explorar niveles" and scrolls to level cards
+  - For first-time visitors, CTA shows "Explorar niveles ↓" and smoothly scrolls to level cards
   - "Elegir otro nivel" link appears when user has a saved level
   - Feature icons: ⏱️ Audios cortos, 📝 Transcripción, ❓ Quiz
   - GA4 tracking via `home_cta_click` event with variant ('continue' or 'explore') and level data
@@ -27,8 +27,14 @@ Preferred communication style: Simple, everyday language.
   - Updated `app/spanish-listening/page.tsx` - reads last level from localStorage and renders smart CTA
   - All 6 level pages (A1-C2) now include SaveLastLevel component to track visits
   - Added aria-label to all LevelCard components for accessibility
+  - Smooth scroll with header offset compensation (-80px) for sticky header
+- **Visual Optimizations**:
+  - Reduced vertical spacing: Hero `pt-4 pb-1` (was `pt-6 pb-2`), Levels `py-4` (was `py-6`), H2 `mb-6` (was `mb-8`)
+  - Changed emoji from 🎧 to 🔊 for better visual clarity
+  - Added section anchor `id="niveles"` for smooth scroll target
+  - Compact, fluent flow: tagline → button → icons → "Elige tu nivel" → grid
 - **SEO**: H1 remains sr-only with SEO-optimized text, H2 "Elige tu nivel" added above grid
-- **UX**: Homepage shows tagline + CTA + feature icons + level cards "above the fold" without scrolling
+- **UX**: Homepage shows tagline + CTA + feature icons + level cards "above the fold" without scrolling on both desktop and mobile
 - **Files**: `components/SaveLastLevel.tsx`, `app/spanish-listening/page.tsx`, `components/LevelCard.tsx`, all 6 level pages updated
 
 ### Compact Homepage - Levels Above the Fold (October 27, 2025)

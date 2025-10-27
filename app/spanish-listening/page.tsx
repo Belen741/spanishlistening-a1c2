@@ -36,12 +36,17 @@ export default function HomePage() {
     if (lastLevel) {
       window.location.href = getLevelUrl(lastLevel);
     } else {
-      const firstLevelCard = document.querySelector('[data-testid="card-level-a1"]');
-      firstLevelCard?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const nivelesSection = document.getElementById('niveles');
+      if (nivelesSection) {
+        // Calculate offset for sticky header (approximately 60px)
+        const yOffset = -80;
+        const y = nivelesSection.getBoundingClientRect().top + window.scrollY + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
     }
   };
 
-  const ctaLabel = lastLevel ? `Continuar en Nivel ${lastLevel.toUpperCase()}` : 'Explorar niveles';
+  const ctaLabel = lastLevel ? `Continuar en Nivel ${lastLevel.toUpperCase()}` : 'Explorar niveles ↓';
 
   return (
     <div className="min-h-screen bg-background">
@@ -51,9 +56,9 @@ export default function HomePage() {
       </h1>
 
       {/* Hero Section with Smart CTA */}
-      <section className="max-w-3xl mx-auto px-4 pt-6 pb-2">
+      <section className="max-w-3xl mx-auto px-4 pt-4 pb-1">
         <p className="text-center text-sm md:text-base text-muted-foreground">
-          🎧 Improve your Spanish listening with real audios, transcripts, and quizzes by Belén.
+          🔊 Improve your Spanish listening with real audios, transcripts, and quizzes by Belén.
         </p>
         
         <div className="mt-3 flex items-center justify-center gap-3 flex-wrap">
@@ -83,8 +88,8 @@ export default function HomePage() {
       </section>
 
       {/* Levels Section - Above the Fold */}
-      <section className="container mx-auto px-4 py-6 max-w-6xl">
-        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8" data-testid="text-levels-heading">
+      <section id="niveles" className="container mx-auto px-4 py-4 max-w-6xl">
+        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6" data-testid="text-levels-heading">
           Elige tu nivel
         </h2>
         

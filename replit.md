@@ -69,9 +69,16 @@ Preferred communication style: Simple, everyday language.
 - **Problem Solved**: Previously, audio would stop when users clicked "Ver transcripción completa" or "Hacer quiz", interrupting their learning flow
 - **Solution**: Moved `<audio>` element from AudioModal to PaginatedAudioList (parent level) so it stays mounted across modal open/close events
 - **Architecture**:
-  - `PaginatedAudioList` manages persistent audio element and playback state (`isPlaying`)
+  - `PaginatedAudioList` manages persistent audio element and playback state (`isPlaying`, `currentAudio`)
   - `AudioModal` receives `isPlaying` state and `onPlayPause` callback to control the persistent player
+  - **Floating Mini Player**: Appears at bottom-right corner when modal closes while audio is loaded
   - Custom play/pause button in modal instead of native HTML5 audio controls
   - Helper text in modal: "💡 El audio continuará reproduciéndose mientras navegas por la transcripción o el quiz"
-- **UX Flow**: Click play on audio card → Modal opens → Click play button to start audio → Click "Ver transcripción" or "Hacer quiz" → Modal closes BUT audio continues playing in background → User can read/take quiz while listening
+- **Mini Player Features**:
+  - Displays current audio title and playback status ("Reproduciendo..." or "Pausado")
+  - Play/Pause button to control playback
+  - Close button (X) to stop audio and dismiss player
+  - Fixed position at bottom-right corner, stays visible while scrolling
+  - Automatically switches when user selects a different audio
+- **UX Flow**: Click play on audio card → Modal opens → Click play button to start audio → Click "Ver transcripción" or "Hacer quiz" → Modal closes, mini player appears → User can pause/play from mini player while reading → Click X to stop audio completely
 - **Files Modified**: `components/PaginatedAudioList.tsx`, `components/AudioModal.tsx`

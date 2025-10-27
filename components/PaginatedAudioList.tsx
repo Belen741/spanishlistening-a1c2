@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { AudioCard } from './AudioCard';
 import { AudioModal } from './AudioModal';
 import { NextLevelCTA } from './NextLevelCTA';
-import { ChevronLeft, ChevronRight, Loader2, AlertCircle } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Loader2, AlertCircle, Play, Pause, X } from 'lucide-react';
 
 interface AudioItem {
   id: string;
@@ -44,6 +44,7 @@ export function PaginatedAudioList({
   const [selectedAudioId, setSelectedAudioId] = useState<string | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalAudio, setModalAudio] = useState<AudioItem | null>(null);
+  const [currentAudio, setCurrentAudio] = useState<AudioItem | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
@@ -52,6 +53,13 @@ export function PaginatedAudioList({
     setSelectedAudioId(null);
     setIsModalOpen(false);
     setModalAudio(null);
+    // Stop audio when changing levels
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    setCurrentAudio(null);
+    setIsPlaying(false);
   }, [level]);
 
   useEffect(() => {
@@ -117,16 +125,20 @@ export function PaginatedAudioList({
   const handleAudioPlayClick = (id: string) => {
     const audio = data?.items.find(item => item.id === id);
     if (audio) {
-      setModalAudio(audio);
-      setIsModalOpen(true);
-      
-      // Load new audio if different from current
-      if (audioRef.current) {
-        if (audioRef.current.src !== audio.file) {
+      // If clicking on a different audio, stop current one
+      if (currentAudio?.id !== audio.id) {
+        if (audioRef.current) {
+          audioRef.current.pause();
+          audioRef.current.currentTime = 0;
           audioRef.current.src = audio.file;
           audioRef.current.load();
         }
+        setCurrentAudio(audio);
+        setIsPlaying(false);
       }
+      
+      setModalAudio(audio);
+      setIsModalOpen(true);
     }
   };
 
@@ -135,9 +147,20 @@ export function PaginatedAudioList({
       if (isPlaying) {
         audioRef.current.pause();
       } else {
-        audioRef.current.play();
+        audioRef.current.play().catch((error) => {
+          console.error('Error playing audio:', error);
+        });
       }
     }
+  };
+
+  const handleStopAudio = () => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    setCurrentAudio(null);
+    setIsPlaying(false);
   };
 
   const handleShowTranscript = () => {
@@ -164,7 +187,6 @@ export function PaginatedAudioList({
 
   const handleModalClose = () => {
     setIsModalOpen(false);
-    // Audio continues playing, we don't stop it
   };
 
   if (isLoading) {
@@ -206,7 +228,7 @@ export function PaginatedAudioList({
 
   return (
     <>
-      {/* Persistent audio element that stays mounted */}
+      {/* Persistent audio element */}
       <audio
         ref={audioRef}
         preload="none"
@@ -215,6 +237,41 @@ export function PaginatedAudioList({
         onEnded={() => setIsPlaying(false)}
         className="hidden"
       />
+
+      {/* Floating mini player when audio is loaded and modal is closed */}
+      {currentAudio && !isModalOpen && (
+        <div 
+          className="fixed bottom-4 right-4 bg-background border-2 rounded-xl shadow-lg p-4 flex items-center gap-3 z-40 max-w-sm"
+          data-testid="mini-player"
+        >
+          <button
+            onClick={handlePlayPause}
+            className="p-2 rounded-full bg-primary text-primary-foreground hover-elevate active-elevate-2 border-2 border-primary-border flex-shrink-0"
+            aria-label={isPlaying ? "Pausar" : "Reproducir"}
+            data-testid="button-mini-play-pause"
+          >
+            {isPlaying ? (
+              <Pause className="h-5 w-5" />
+            ) : (
+              <Play className="h-5 w-5" />
+            )}
+          </button>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-medium truncate">{currentAudio.title}</p>
+            <p className="text-xs text-muted-foreground">
+              {isPlaying ? "Reproduciendo..." : "Pausado"}
+            </p>
+          </div>
+          <button
+            onClick={handleStopAudio}
+            className="p-2 rounded-lg hover-elevate active-elevate-2 flex-shrink-0"
+            aria-label="Cerrar reproductor"
+            data-testid="button-mini-close"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        </div>
+      )}
 
       <div className="space-y-8" data-testid="paginated-audio-list">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

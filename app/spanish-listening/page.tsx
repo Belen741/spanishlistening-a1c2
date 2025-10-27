@@ -81,8 +81,8 @@ export default function HomePage() {
         </div>
 
         <ul className="mt-3 grid grid-cols-3 gap-2 text-center text-xs md:text-sm text-muted-foreground">
-          <li>⏱️ Audios cortos</li>
-          <li>📝 Transcripción</li>
+          <li>⏱️ Short audios</li>
+          <li>📝 Transcript</li>
           <li>❓ Quiz</li>
         </ul>
       </section>
@@ -90,7 +90,7 @@ export default function HomePage() {
       {/* Levels Section - Above the Fold */}
       <section id="niveles" className="container mx-auto px-4 py-4 max-w-6xl">
         <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6" data-testid="text-levels-heading">
-          Elige tu nivel
+          Choose your level
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

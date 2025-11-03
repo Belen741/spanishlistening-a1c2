@@ -20,6 +20,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/spanish-listening/layout.js"
+    ],
+    "/advanced-spanish-c1/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/advanced-spanish-c1/page.js"
     ]
   }
 }

@@ -3348,6 +3348,119 @@
     "snippet": "Locutora: Bienvenidos a \"Conversaciones al margen\". Hoy hablaremos de un tema que todos usamos, pero pocos comprendemos: la ironía."
   },
   {
+    "id": "c1-05",
+    "level": "c1",
+    "title": "Las decisiones y el azar",
+    "duration": "1m 45s",
+    "file": "/audios/c1_05.mp3",
+    "snippet": "Locutora: Bienvenidos a \"Perspectivas\", el espacio donde exploramos cómo pensamos y decidimos. Hoy hablamos de un tema tan cotidiano como misterioso: el azar.",
+    "transcript": "Locutora: Bienvenidos a \"Perspectivas\", el espacio donde exploramos cómo pensamos y decidimos. Hoy hablamos de un tema tan cotidiano como misterioso: el azar.\n\nInvitado: Solemos creer que nuestras decisiones son racionales, que controlamos cada paso que damos. Pero, si miramos con atención, descubrimos que muchos de nuestros grandes cambios empezaron con algo pequeño e inesperado: una conversación, una coincidencia, un retraso, una llamada.\n\nLocutora: Es verdad. A veces basta un minuto para que todo cambie.\n\nInvitado: Exacto. Lo interesante es que el azar no elimina nuestra libertad, sino que la desafía. Podemos elegir, sí, pero lo hacemos dentro de un escenario que no controlamos. Y en ese equilibrio entre lo planeado y lo imprevisible se juega gran parte de nuestra vida.\n\nLocutora: Entonces, ¿somos responsables de lo que elegimos, incluso si el contexto nos empuja?\n\nInvitado: Tal vez la libertad no esté en controlar las circunstancias, sino en cómo respondemos a ellas. No elegimos los dados, pero sí cómo jugamos la partida.",
+    "vocab": [
+      {
+        "term": "azar",
+        "meaning": "chance / randomness"
+      },
+      {
+        "term": "coincidencia",
+        "meaning": "coincidence"
+      },
+      {
+        "term": "circunstancia",
+        "meaning": "circumstance"
+      },
+      {
+        "term": "equilibrio",
+        "meaning": "balance"
+      },
+      {
+        "term": "desafiar",
+        "meaning": "to challenge"
+      },
+      {
+        "term": "imprevisible",
+        "meaning": "unpredictable"
+      },
+      {
+        "term": "racional",
+        "meaning": "rational"
+      },
+      {
+        "term": "libertad",
+        "meaning": "freedom"
+      },
+      {
+        "term": "escenario",
+        "meaning": "scenario / setting"
+      },
+      {
+        "term": "partida",
+        "meaning": "game / match"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "Según el invitado, ¿qué papel juega el azar en nuestras vidas?",
+        "options": [
+          "Controla absolutamente todo lo que ocurre",
+          "Elimina completamente la libertad",
+          "Desafía nuestra libertad y forma parte de nuestras decisiones"
+        ],
+        "answerIndex": 2,
+        "explanation": "El invitado menciona que el azar no elimina nuestra libertad, sino que la desafía."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué ejemplo se da para mostrar cómo algo pequeño puede cambiarlo todo?",
+        "options": [
+          "Un viaje planificado con meses de anticipación",
+          "Una conversación o coincidencia inesperada",
+          "Un estudio científico sobre decisiones"
+        ],
+        "answerIndex": 1,
+        "explanation": "El invitado menciona que muchos cambios empezaron con algo pequeño e inesperado: una conversación, una coincidencia, un retraso, una llamada."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué significa la frase 'no elegimos los dados, pero sí cómo jugamos la partida'?",
+        "options": [
+          "Que el azar determina totalmente el resultado",
+          "Que no controlamos las circunstancias, pero sí nuestras reacciones",
+          "Que debemos evitar los riesgos al decidir"
+        ],
+        "answerIndex": 1,
+        "explanation": "Esta frase simboliza que aunque no podemos controlar las circunstancias (los dados), sí podemos elegir cómo respondemos a ellas (cómo jugamos)."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué relación propone el texto entre libertad y contexto?",
+        "options": [
+          "La libertad depende de ignorar el contexto",
+          "El contexto determina completamente la libertad",
+          "La libertad existe dentro de límites que no controlamos"
+        ],
+        "answerIndex": 2,
+        "explanation": "El invitado explica que podemos elegir, pero lo hacemos dentro de un escenario que no controlamos."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Cuál podría ser el mensaje principal del texto?",
+        "options": [
+          "No vale la pena planear porque todo depende del azar",
+          "La vida es un equilibrio entre lo planeado y lo imprevisible",
+          "El azar es más importante que la responsabilidad"
+        ],
+        "answerIndex": 1,
+        "explanation": "El invitado menciona que en ese equilibrio entre lo planeado y lo imprevisible se juega gran parte de nuestra vida."
+      }
+    ]
+  },
+  {
     "id": "c2-01",
     "level": "c2",
     "title": "El valor de cambiar de opinión",

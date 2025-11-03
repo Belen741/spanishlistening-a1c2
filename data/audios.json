@@ -1166,6 +1166,103 @@
     "snippet": "Empleada: Buenos días, oficina de información turística, ¿en qué puedo ayudarle. María: Buenos días."
   },
   {
+    "id": "a2-05",
+    "level": "a2",
+    "title": "Mi rutina diaria",
+    "duration": "1m 5s",
+    "file": "/audios/a2_05.mp3",
+    "snippet": "Me llamo Clara y soy estudiante. De lunes a viernes me levanto a las siete de la mañana.",
+    "transcript": "Me llamo Clara y soy estudiante. De lunes a viernes me levanto a las siete de la mañana. Después me ducho y me visto rápidamente. Siempre desayuno café con pan antes de salir.\n\nA las ocho voy a la universidad. Las clases empiezan a las ocho y media y terminan al mediodía. Luego almuerzo con mis amigos en la cafetería.\n\nPor la tarde estudio un poco y escucho música. A veces salgo a caminar con mi perro. Por la noche ceno con mi familia y veo la televisión. Finalmente me acuesto a las once.\n\nEs un día normal, pero me gusta mi rutina.",
+    "vocab": [
+      {
+        "term": "levantarse",
+        "meaning": "to get up"
+      },
+      {
+        "term": "ducharse",
+        "meaning": "to take a shower"
+      },
+      {
+        "term": "desayunar",
+        "meaning": "to have breakfast"
+      },
+      {
+        "term": "almorzar",
+        "meaning": "to have lunch"
+      },
+      {
+        "term": "cenar",
+        "meaning": "to have dinner"
+      },
+      {
+        "term": "acostarse",
+        "meaning": "to go to bed"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿A qué hora se levanta Clara?",
+        "options": [
+          "A las seis",
+          "A las siete",
+          "A las ocho"
+        ],
+        "answerIndex": 1,
+        "explanation": "Clara se levanta a las siete de la mañana de lunes a viernes."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué toma Clara en el desayuno?",
+        "options": [
+          "Jugo y fruta",
+          "Café con pan",
+          "Té con leche"
+        ],
+        "answerIndex": 1,
+        "explanation": "Clara siempre desayuna café con pan antes de salir."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Con quién almuerza Clara?",
+        "options": [
+          "Con su familia",
+          "Con sus amigos",
+          "Sola"
+        ],
+        "answerIndex": 1,
+        "explanation": "Clara almuerza con sus amigos en la cafetería."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué hace por la tarde?",
+        "options": [
+          "Trabaja en una oficina",
+          "Estudia y escucha música",
+          "Va al cine"
+        ],
+        "answerIndex": 1,
+        "explanation": "Por la tarde Clara estudia un poco y escucha música."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿A qué hora se acuesta Clara?",
+        "options": [
+          "A las once",
+          "A las diez",
+          "A las doce"
+        ],
+        "answerIndex": 0,
+        "explanation": "Clara se acuesta a las once de la noche."
+      }
+    ]
+  },
+  {
     "id": "b1-01",
     "level": "b1",
     "title": "El mensaje equivocado",

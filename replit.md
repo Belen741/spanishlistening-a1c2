@@ -62,6 +62,43 @@ Preferred communication style: Simple, everyday language.
 ### Fonts
 - **Google Fonts**: Inter (UI/content), JetBrains Mono (code/vocab).
 
+## Recent Changes (November 2025)
+
+### Gamification & Progress Tracking System (November 3, 2025)
+- **Feature**: Complete Duolingo-style gamification system with progress bars, badges, daily streaks, and statistics
+- **Motivation**: Enhance user engagement and motivation through visible progress tracking and achievement systems
+- **Architecture**:
+  - **Progress Management** (`lib/progress.ts`): Centralized localStorage-based system for tracking all user progress
+  - **Data Model**: TypeScript interfaces for `AudioProgress`, `DailyStreak`, `LevelStats`, `Badge`, and `UserProgress`
+  - **Badge System**: 14 unlockable achievements across 4 categories (streak, completion, mastery, speed)
+  - **Daily Streaks**: Automatic tracking of consecutive practice days with current and longest streak display
+- **UI Components**:
+  - `ProgressBar`: Visual progress indicator with percentage
+  - `StreakCounter`: Flame icon display with current and best streak
+  - `BadgeDisplay`: Grid layout showing locked/unlocked badges with lock icons
+  - `StatsCard`: Metric cards for quick stats overview
+  - Shadcn components added: `Card` and `Progress` with Radix UI primitives
+- **Dashboard Page** (`/progreso`):
+  - Overall progress bar showing completion of all 36 audios
+  - Statistics grid: completed audios, quizzes taken, average score, badges unlocked
+  - Streak counter prominent display
+  - Per-level progress cards with links to each level
+  - Full badge gallery with unlock status
+- **Integration Points**:
+  - **Header**: Progress link with live percentage indicator (updates on progress)
+  - **Audio Playback**: Tracks when users listen to audios via `markAudioAsListened()`
+  - **Quiz Completion**: Records scores and completion via `recordQuizResult()`
+  - **Streak Logic**: Automatically updates daily streaks, handles day gaps, tracks longest streaks
+  - **Badge Unlocking**: Automatic unlock based on achievements (e.g., 7-day streak, complete A1, perfect score)
+- **User Experience**:
+  - Progress persists in localStorage (no authentication required)
+  - Real-time updates in header when progress changes
+  - Visual feedback with badges, streaks, and percentages
+  - Motivational system similar to language learning apps
+  - Encourages consistent practice through daily streaks
+- **Files Created**: `lib/progress.ts`, `components/ProgressBar.tsx`, `components/StreakCounter.tsx`, `components/BadgeDisplay.tsx`, `components/StatsCard.tsx`, `components/ui/card.tsx`, `components/ui/progress.tsx`, `app/progreso/page.tsx`
+- **Files Modified**: `components/Header.tsx` (added progress link), `components/Quiz.tsx` (integrated recordQuizResult), `components/PaginatedAudioList.tsx` (integrated markAudioAsListened)
+
 ## Recent Changes (October 2025)
 
 ### Persistent Audio Playback System (October 27, 2025)

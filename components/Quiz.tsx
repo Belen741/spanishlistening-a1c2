@@ -3,10 +3,13 @@
 import { useState, useEffect } from 'react';
 import { CheckCircle2, XCircle, RotateCcw, ChevronDown, ChevronUp } from 'lucide-react';
 import type { QuizQuestion } from '@/types/level';
+import { recordQuizResult } from '@/lib/progress';
 
 interface QuizProps {
   questions: QuizQuestion[];
   levelSlug: string;
+  audioId?: string;
+  level?: string;
 }
 
 interface QuizResult {
@@ -16,7 +19,7 @@ interface QuizResult {
   timestamp: number;
 }
 
-export function Quiz({ questions, levelSlug }: QuizProps) {
+export function Quiz({ questions, levelSlug, audioId, level }: QuizProps) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [answers, setAnswers] = useState<(number | number[])[]>([]);
   const [submitted, setSubmitted] = useState(false);
@@ -85,6 +88,11 @@ export function Quiz({ questions, levelSlug }: QuizProps) {
     localStorage.setItem(`quiz:${levelSlug}`, JSON.stringify(result));
     setLastResult(result);
     setSubmitted(true);
+
+    if (audioId && level) {
+      const scorePercentage = Math.round((score / questions.length) * 100);
+      recordQuizResult(audioId, level, scorePercentage);
+    }
 
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
   };

@@ -51,7 +51,12 @@ export function LevelPageClient({ levelSlug }: LevelPageClientProps) {
             <VocabList items={selectedAudio.vocab} />
           </div>
           <div id="quiz-section">
-            <Quiz questions={selectedAudio.quiz} levelSlug={`${levelSlug}-${selectedAudio.id}`} />
+            <Quiz 
+              questions={selectedAudio.quiz} 
+              levelSlug={`${levelSlug}-${selectedAudio.id}`}
+              audioId={selectedAudio.id}
+              level={selectedAudio.level}
+            />
           </div>
         </div>
       )}

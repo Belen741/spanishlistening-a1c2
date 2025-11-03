@@ -5,6 +5,7 @@ import { AudioCard } from './AudioCard';
 import { AudioModal } from './AudioModal';
 import { NextLevelCTA } from './NextLevelCTA';
 import { ChevronLeft, ChevronRight, Loader2, AlertCircle, Play, Pause, X } from 'lucide-react';
+import { markAudioAsListened } from '@/lib/progress';
 
 interface AudioItem {
   id: string;
@@ -252,7 +253,12 @@ export function PaginatedAudioList({
       <audio
         ref={audioRef}
         preload="none"
-        onPlay={() => setIsPlaying(true)}
+        onPlay={() => {
+          setIsPlaying(true);
+          if (currentAudio) {
+            markAudioAsListened(currentAudio.id, currentAudio.level);
+          }
+        }}
         onPause={() => setIsPlaying(false)}
         onEnded={() => setIsPlaying(false)}
         className="hidden"

@@ -1852,6 +1852,119 @@
     "snippet": "Diego: Hola, Laura. ¿Viste que hoy todos hablan del nuevo reto en redes sociales."
   },
   {
+    "id": "b1-05",
+    "level": "b1",
+    "title": "La entrevista de trabajo",
+    "duration": "1m 10s",
+    "file": "/audios/b1_05.mp3",
+    "snippet": "Laura tenía una entrevista en una empresa de tecnología y estaba un poco nerviosa. Había preparado su currículum y practicado sus respuestas frente al espejo.",
+    "transcript": "Laura tenía una entrevista en una empresa de tecnología y estaba un poco nerviosa. Había preparado su currículum y practicado sus respuestas frente al espejo.\n\nCuando llegó, el entrevistador, el señor Ramírez, la saludó con amabilidad.\n—Buenos días, Laura. ¿Cómo estás?\n—Buenos días, un poco nerviosa, pero muy contenta de estar aquí —respondió ella sonriendo.\n\nDurante la entrevista, hablaron sobre su experiencia anterior. Laura explicó que había trabajado tres años como asistente administrativa y que le gustaba aprender cosas nuevas.\n—¿Por qué quieres trabajar con nosotros? —preguntó el señor Ramírez.\n—Porque quiero seguir creciendo profesionalmente y creo que esta empresa me puede dar esa oportunidad —dijo Laura con confianza.\n\nAl final, el entrevistador le agradeció su tiempo y le dijo que la llamarían en unos días. Laura salió de la oficina con una sonrisa. Había hecho lo mejor que podía.",
+    "vocab": [
+      {
+        "term": "entrevista",
+        "meaning": "interview (formal conversation for a job)"
+      },
+      {
+        "term": "currículum",
+        "meaning": "resume / CV"
+      },
+      {
+        "term": "empresa",
+        "meaning": "company"
+      },
+      {
+        "term": "experiencia",
+        "meaning": "experience"
+      },
+      {
+        "term": "oportunidad",
+        "meaning": "opportunity"
+      },
+      {
+        "term": "confianza",
+        "meaning": "confidence"
+      },
+      {
+        "term": "asistente administrativa",
+        "meaning": "administrative assistant"
+      },
+      {
+        "term": "crecer profesionalmente",
+        "meaning": "to grow professionally"
+      },
+      {
+        "term": "frente al espejo",
+        "meaning": "in front of the mirror"
+      },
+      {
+        "term": "amabilidad",
+        "meaning": "kindness"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Dónde tenía la entrevista Laura?",
+        "options": [
+          "En un hospital",
+          "En una empresa de tecnología",
+          "En una escuela"
+        ],
+        "answerIndex": 1,
+        "explanation": "Laura tenía una entrevista en una empresa de tecnología."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Cómo se sentía antes de la entrevista?",
+        "options": [
+          "Tranquila",
+          "Cansada",
+          "Nerviosa"
+        ],
+        "answerIndex": 2,
+        "explanation": "Laura estaba un poco nerviosa antes de la entrevista."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué hizo para prepararse?",
+        "options": [
+          "Practicó sus respuestas",
+          "Hizo ejercicio",
+          "Escribió una carta"
+        ],
+        "answerIndex": 0,
+        "explanation": "Laura había preparado su currículum y practicado sus respuestas frente al espejo."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Cuántos años trabajó como asistente administrativa?",
+        "options": [
+          "Dos",
+          "Tres",
+          "Cinco"
+        ],
+        "answerIndex": 1,
+        "explanation": "Laura explicó que había trabajado tres años como asistente administrativa."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Cómo terminó la entrevista?",
+        "options": [
+          "Con una sonrisa",
+          "Con una discusión",
+          "Con una llamada telefónica"
+        ],
+        "answerIndex": 0,
+        "explanation": "Laura salió de la oficina con una sonrisa después de la entrevista."
+      }
+    ]
+  },
+  {
     "id": "b2-01",
     "level": "b2",
     "title": "La invitación inesperada",

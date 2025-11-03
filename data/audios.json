@@ -1263,6 +1263,119 @@
     ]
   },
   {
+    "id": "a2-06",
+    "level": "a2",
+    "title": "El cumpleaños de Ana",
+    "duration": "55s",
+    "file": "/audios/a2_06.mp3",
+    "snippet": "Hoy es el cumpleaños de Ana. Ella cumple veinticinco años y está muy contenta.",
+    "transcript": "Hoy es el cumpleaños de Ana. Ella cumple veinticinco años y está muy contenta. Por la mañana recibe mensajes de sus amigos y habla con su familia por teléfono.\n\nPor la tarde va al supermercado para comprar refrescos, pastel y globos. A las siete, llegan sus amigos con regalos y música.\n\nTodos cantan \"Feliz cumpleaños\" y comen pastel. Después bailan y toman fotos. Ana dice gracias y dice: \"¡Fue un día perfecto!\".",
+    "vocab": [
+      {
+        "term": "cumpleaños",
+        "meaning": "birthday"
+      },
+      {
+        "term": "regalo",
+        "meaning": "gift"
+      },
+      {
+        "term": "pastel",
+        "meaning": "cake"
+      },
+      {
+        "term": "globos",
+        "meaning": "balloons"
+      },
+      {
+        "term": "cantar",
+        "meaning": "to sing"
+      },
+      {
+        "term": "bailar",
+        "meaning": "to dance"
+      },
+      {
+        "term": "mensaje",
+        "meaning": "message"
+      },
+      {
+        "term": "supermercado",
+        "meaning": "supermarket"
+      },
+      {
+        "term": "refresco",
+        "meaning": "soft drink / soda"
+      },
+      {
+        "term": "foto",
+        "meaning": "photo"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Cuántos años cumple Ana?",
+        "options": [
+          "20",
+          "25",
+          "30"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ana cumple veinticinco años."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué compra en el supermercado?",
+        "options": [
+          "Ropa y flores",
+          "Refrescos, pastel y globos",
+          "Pan y café"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ana va al supermercado para comprar refrescos, pastel y globos."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué hacen sus amigos en la fiesta?",
+        "options": [
+          "Ven una película",
+          "Juegan videojuegos",
+          "Cantan y bailan"
+        ],
+        "answerIndex": 2,
+        "explanation": "Todos cantan 'Feliz cumpleaños', comen pastel y después bailan."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Con quién habla Ana por la mañana?",
+        "options": [
+          "Con su familia",
+          "Con su jefe",
+          "Con su doctora"
+        ],
+        "answerIndex": 0,
+        "explanation": "Por la mañana Ana habla con su familia por teléfono."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Cómo describe Ana el día?",
+        "options": [
+          "Un día aburrido",
+          "Un día perfecto",
+          "Un día normal"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ana dice: '¡Fue un día perfecto!'."
+      }
+    ]
+  },
+  {
     "id": "b1-01",
     "level": "b1",
     "title": "El mensaje equivocado",

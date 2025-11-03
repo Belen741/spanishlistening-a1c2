@@ -577,6 +577,119 @@
     ]
   },
   {
+    "id": "a1-06",
+    "level": "a1",
+    "title": "Profesiones",
+    "duration": "40s",
+    "file": "/audios/a1_06.mp3",
+    "snippet": "Lucía es doctora. Trabaja en un hospital. Ayuda a las personas todos los días.",
+    "transcript": "Lucía es doctora. Trabaja en un hospital. Ayuda a las personas todos los días. Su amigo Carlos es maestro. Enseña a los niños en una escuela. Los niños leen y escriben con él. La amiga de Lucía se llama Ana. Ella es cocinera. Prepara comida en un restaurante. Los tres están contentos con su trabajo.",
+    "vocab": [
+      {
+        "term": "doctora",
+        "meaning": "doctor"
+      },
+      {
+        "term": "hospital",
+        "meaning": "hospital"
+      },
+      {
+        "term": "ayudar",
+        "meaning": "to help"
+      },
+      {
+        "term": "maestro",
+        "meaning": "teacher"
+      },
+      {
+        "term": "enseñar",
+        "meaning": "to teach"
+      },
+      {
+        "term": "escuela",
+        "meaning": "school"
+      },
+      {
+        "term": "cocinera",
+        "meaning": "cook"
+      },
+      {
+        "term": "preparar comida",
+        "meaning": "to prepare food"
+      },
+      {
+        "term": "restaurante",
+        "meaning": "restaurant"
+      },
+      {
+        "term": "trabajo",
+        "meaning": "job / work"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Dónde trabaja Lucía?",
+        "options": [
+          "En una escuela",
+          "En un hospital",
+          "En una tienda"
+        ],
+        "answerIndex": 1,
+        "explanation": "Lucía es doctora y trabaja en un hospital."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué hace Carlos?",
+        "options": [
+          "Cocina",
+          "Enseña a los niños",
+          "Conduce un autobús"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carlos es maestro y enseña a los niños en una escuela."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Dónde trabaja Ana?",
+        "options": [
+          "En un restaurante",
+          "En una oficina",
+          "En un hospital"
+        ],
+        "answerIndex": 0,
+        "explanation": "Ana es cocinera y prepara comida en un restaurante."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué hacen los niños con Carlos?",
+        "options": [
+          "Leen y escriben",
+          "Duermen",
+          "Juegan fútbol"
+        ],
+        "answerIndex": 0,
+        "explanation": "Los niños leen y escriben con Carlos en la escuela."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Cómo están Lucía, Carlos y Ana?",
+        "options": [
+          "Tristes",
+          "Cansados",
+          "Contentos"
+        ],
+        "answerIndex": 2,
+        "explanation": "Los tres están contentos con su trabajo."
+      }
+    ]
+  },
+  {
     "id": "a2-01",
     "level": "a2",
     "title": "El nuevo vecino",

@@ -1440,6 +1440,9 @@ video {
 .top-24 {
   top: 6rem;
 }
+.top-4 {
+  top: 1rem;
+}
 .z-40 {
   z-index: 40;
 }
@@ -1542,9 +1545,6 @@ video {
 }
 .h-96 {
   height: 24rem;
-}
-.min-h-\[200px\] {
-  min-height: 200px;
 }
 .min-h-\[250px\] {
   min-height: 250px;
@@ -1775,9 +1775,6 @@ video {
 .border-destructive {
   --tw-border-opacity: 1;
   border-color: hsl(var(--destructive) / var(--tw-border-opacity, 1));
-}
-.border-muted-foreground\/20 {
-  border-color: hsl(var(--muted-foreground) / 0.2);
 }
 .border-primary {
   --tw-border-opacity: 1;

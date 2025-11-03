@@ -295,7 +295,7 @@ export function PaginatedAudioList({
 
       <div className="space-y-8" data-testid="paginated-audio-list">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {data.items.slice(0, 2).map((audio) => (
+          {data.items.map((audio) => (
             <AudioCard
               key={audio.id}
               id={audio.id}
@@ -306,28 +306,6 @@ export function PaginatedAudioList({
               onPlayClick={() => handleAudioPlayClick(audio.id)}
             />
           ))}
-          
-          {data.items.length > 2 && (
-            <>
-              <div className="ad-placeholder bg-muted/30 rounded-xl border-2 border-dashed border-muted-foreground/20 p-6 flex items-center justify-center min-h-[200px]" data-testid="ad-placeholder">
-                <p className="text-sm text-muted-foreground text-center">
-                  Ad Placement
-                </p>
-              </div>
-
-              {data.items.slice(2).map((audio) => (
-                <AudioCard
-                  key={audio.id}
-                  id={audio.id}
-                  title={audio.title}
-                  duration={audio.duration}
-                  snippet={audio.snippet}
-                  level={audio.level}
-                  onPlayClick={() => handleAudioPlayClick(audio.id)}
-                />
-              ))}
-            </>
-          )}
         </div>
 
         {data.totalPages > 1 && (

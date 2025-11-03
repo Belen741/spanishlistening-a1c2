@@ -4173,5 +4173,118 @@
         "explanation": "Desde Estados Unidos continuó su trabajo científico y su activismo por la paz y los derechos humanos."
       }
     ]
+  },
+  {
+    "id": "c2-06",
+    "level": "c2",
+    "title": "Desigualdad social y movilidad económica en el siglo XXI",
+    "duration": "2m 30s",
+    "file": "/audios/c2_06.mp3",
+    "snippet": "La desigualdad social se manifiesta como la acumulación de diferencias profundas en el acceso a recursos, oportunidades y poder entre individuos y grupos dentro de una sociedad.",
+    "transcript": "La desigualdad social se manifiesta como la acumulación de diferencias profundas en el acceso a recursos, oportunidades y poder entre individuos y grupos dentro de una sociedad. En el siglo XXI, esta forma de desigualdad no solo persiste, sino que adopta nuevos rostros: brechas en ingresos, en riqueza heredada, en la calidad de educación, en la atención sanitaria, en la conectividad digital y en la movilidad intergeneracional.\n\nLa movilidad económica —o movilidad social ascendente— se refiere al grado en que los miembros de una sociedad pueden cambiar su posición socioeconómica respecto de la de sus padres o de su situación de origen.\n\nSin embargo, cuando la desigualdad es alta, la llamada \"curva de la gran Gatsby\" (la relación entre nivel de desigualdad y baja movilidad) muestra que la capacidad de ascender se reduce significativamente.\n\nEn muchas economías modernas, se observa que aunque haya crecimiento económico agregado, la distribución de sus frutos no es equitativa. Los ingresos derivados del capital crecen más rápido que los ingresos del trabajo, lo que intensifica la concentración de riqueza en un reducido número de personas.\n\nPor lo tanto, aunque una persona use todos sus recursos y talentos, su posición de origen—su familia, entorno, raza, género o región—puede seguir siendo un factor determinante de su futuro económico.\n\nLa consecuencia de esta dinámica es doble: por un lado, se perpetúan las desigualdades intergeneracionales; por otro, la movilidad social real se reduce, lo que afecta la cohesión social, la justicia y el sentido de que \"todos tienen oportunidad\". Por ejemplo, en la práctica, muchas personas que nacen en entornos de menores recursos encuentran barreras estructurales para mejorar su situación económica, aunque se eduquen y trabajen diligentemente.\n\nPara abordar esta problemática, es crucial diseñar políticas integradas que incluyan la redistribución efectiva de recursos, inversión sustancial en educación de calidad, igualdad de oportunidades desde la infancia, y mecanismos que permitan que el acceso al capital —no solo al trabajo— no esté reservado a unos pocos. Asimismo, resulta indispensable medir y monitorear tanto la desigualdad como la movilidad con indicadores sólidos como el coeficiente de Gini, el índice de Palma o la elasticidad intergeneracional del ingreso.\n\nEn resumen, en el siglo XXI la desigualdad social y la movilidad económica están íntimamente ligadas: una elevada desigualdad suele traducirse en menor movilidad. Para que una sociedad sea verdaderamente justa y dinámica, no basta con crecimiento económico: debe acompañarse de igualdad de condiciones y posibilidad real de ascenso para todos.\n\nMuchas gracias por escuchar.",
+    "vocab": [
+      {
+        "term": "movilidad intergeneracional",
+        "meaning": "ability to improve or worsen one's socioeconomic position compared to parents"
+      },
+      {
+        "term": "curva de la gran Gatsby",
+        "meaning": "relationship showing how societies with greater inequality have lower social mobility"
+      },
+      {
+        "term": "concentración de riqueza",
+        "meaning": "accumulation of large economic resources in a small number of individuals"
+      },
+      {
+        "term": "brechas estructurales",
+        "meaning": "deep and persistent differences in opportunities or social conditions"
+      },
+      {
+        "term": "cohesión social",
+        "meaning": "degree of unity, trust and sense of belonging within a society"
+      },
+      {
+        "term": "redistribución de recursos",
+        "meaning": "policies aimed at balancing economic differences between social groups"
+      },
+      {
+        "term": "elasticidad intergeneracional del ingreso",
+        "meaning": "measure indicating how much parents' economic level influences their children's"
+      },
+      {
+        "term": "equidad",
+        "meaning": "fairness / equity"
+      },
+      {
+        "term": "coeficiente de Gini",
+        "meaning": "Gini coefficient (inequality measure)"
+      },
+      {
+        "term": "perpetuar",
+        "meaning": "to perpetuate"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Cuál es la relación entre desigualdad y movilidad según la llamada 'curva de la gran Gatsby'?",
+        "options": [
+          "A mayor desigualdad, mayor posibilidad de movilidad social",
+          "A mayor desigualdad, menor movilidad social",
+          "No existe relación entre ambas variables"
+        ],
+        "answerIndex": 1,
+        "explanation": "La curva de la gran Gatsby muestra que cuando la desigualdad es alta, la capacidad de ascender se reduce significativamente."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "El texto sugiere que la desigualdad contemporánea es más compleja que la del pasado porque…",
+        "options": [
+          "Ya no depende de la educación ni de la riqueza heredada",
+          "Se manifiesta en múltiples dimensiones, no solo en los ingresos",
+          "Afecta solo a los países en desarrollo"
+        ],
+        "answerIndex": 1,
+        "explanation": "El texto menciona que la desigualdad adopta nuevos rostros: brechas en ingresos, riqueza heredada, educación, atención sanitaria, conectividad digital y movilidad intergeneracional."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "Según el texto, ¿qué efecto tiene la concentración de riqueza sobre la movilidad social?",
+        "options": [
+          "Fomenta la competencia económica y el mérito individual",
+          "Incentiva el crecimiento económico inclusivo",
+          "Reduce las oportunidades de ascenso para los sectores más desfavorecidos"
+        ],
+        "answerIndex": 2,
+        "explanation": "El texto explica que las personas que nacen en entornos de menores recursos encuentran barreras estructurales para mejorar su situación económica."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "Cuando el texto afirma que 'el acceso al capital no debe estar reservado a unos pocos', se está defendiendo…",
+        "options": [
+          "Una política de privatización total de los recursos financieros",
+          "La ampliación del acceso a inversiones y créditos como vía de equidad",
+          "La sustitución del trabajo por el capital en la economía"
+        ],
+        "answerIndex": 1,
+        "explanation": "El texto propone mecanismos que permitan que el acceso al capital no esté reservado a unos pocos como parte de políticas integradas para reducir la desigualdad."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué enfoque global propone el texto para reducir la desigualdad y mejorar la movilidad?",
+        "options": [
+          "Aumentar el PIB y reducir los impuestos a las grandes empresas",
+          "Reformar únicamente el sistema educativo",
+          "Implementar políticas integrales que combinen redistribución, educación y acceso al capital"
+        ],
+        "answerIndex": 2,
+        "explanation": "El texto propone políticas integradas que incluyan redistribución de recursos, inversión en educación de calidad, igualdad de oportunidades y acceso al capital."
+      }
+    ]
   }
 ]

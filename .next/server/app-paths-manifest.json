@@ -1,4 +1,6 @@
 {
-  "/page": "app/page.js",
+  "/spanish-audio-for-beginners-a1/page": "app/spanish-audio-for-beginners-a1/page.js",
+  "/spanish-audio-for-beginners-a2/page": "app/spanish-audio-for-beginners-a2/page.js",
+  "/api/audios/route": "app/api/audios/route.js",
   "/spanish-listening/page": "app/spanish-listening/page.js"
 }

@@ -4060,5 +4060,118 @@
       }
     ],
     "snippet": "A lo largo de la historia, los líderes han comprendido algo que a veces los ciudadanos olvidan: el poder no reside únicamente en las armas o en la ..."
+  },
+  {
+    "id": "c2-05",
+    "level": "c2",
+    "title": "Biografía de Albert Einstein",
+    "duration": "2m 20s",
+    "file": "/audios/c2_05.mp3",
+    "snippet": "Albert Einstein nació el 14 de marzo de 1879 en la ciudad de Ulm, en Alemania. Provenía de una familia judía secular.",
+    "transcript": "Albert Einstein nació el 14 de marzo de 1879 en la ciudad de Ulm, en Alemania.\n\nProvenía de una familia judía secular; su padre, Hermann Einstein, era empresario, y su madre, Pauline Koch, una pianista aficionada. Desde pequeño mostró una profunda curiosidad por los misterios del mundo físico. A los cinco años, una simple brújula despertó en él la fascinación por las fuerzas invisibles que gobiernan la naturaleza.\n\nEinstein estudió en Múnich, pero pronto abandonó el sistema educativo alemán por considerarlo demasiado estricto. Continuó su formación en Suiza, donde más tarde obtuvo la ciudadanía y el título de profesor de física.\n\nEl año 1905 es conocido como su \"año milagroso\". En ese periodo publicó varios artículos revolucionarios en la revista Annalen der Physik, entre ellos el que presentó la teoría especial de la relatividad y la célebre ecuación E=mc², que demuestra la equivalencia entre masa y energía.\n\nUna década después, en 1915, desarrolló la teoría general de la relatividad, que transformó para siempre la manera en que la humanidad entiende el espacio, el tiempo y la gravedad.\n\nEn 1921 recibió el Premio Nobel de Física, no por la relatividad, sino por sus aportes al estudio del efecto fotoeléctrico, un descubrimiento clave para el desarrollo de la física cuántica.\n\nEn 1933, ante el ascenso del nazismo en Alemania, Einstein se exilió en Estados Unidos, donde aceptó una plaza en el Institute for Advanced Study, en Princeton, Nueva Jersey. Desde allí continuó su trabajo científico y su activismo por la paz y los derechos humanos.\n\nAlbert Einstein falleció el 18 de abril de 1955 en Princeton. Su legado transformó la ciencia moderna y sentó las bases de campos como la cosmología, la energía nuclear y la tecnología satelital. Más allá de sus teorías, dejó una profunda reflexión sobre el valor de la imaginación, la curiosidad y la responsabilidad ética del conocimiento.",
+    "vocab": [
+      {
+        "term": "fascinación",
+        "meaning": "intense attraction / deep interest"
+      },
+      {
+        "term": "fuerzas invisibles",
+        "meaning": "invisible forces (physical phenomena not directly visible)"
+      },
+      {
+        "term": "revolucionario",
+        "meaning": "revolutionary / that produces radical change"
+      },
+      {
+        "term": "equivalencia",
+        "meaning": "equivalence / equality in value or meaning"
+      },
+      {
+        "term": "efecto fotoeléctrico",
+        "meaning": "photoelectric effect"
+      },
+      {
+        "term": "exilio",
+        "meaning": "exile"
+      },
+      {
+        "term": "cosmología",
+        "meaning": "cosmology (science of the universe)"
+      },
+      {
+        "term": "legado",
+        "meaning": "legacy"
+      },
+      {
+        "term": "año milagroso",
+        "meaning": "miracle year"
+      },
+      {
+        "term": "responsabilidad ética",
+        "meaning": "ethical responsibility"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "Según el texto, ¿qué aspecto de la infancia de Einstein anticipaba su manera futura de pensar?",
+        "options": [
+          "Su fascinación por lo invisible y su curiosidad por las leyes naturales",
+          "Su rechazo a la música y las artes, por considerarlas poco útiles",
+          "Su gusto por las matemáticas aplicadas a la ingeniería"
+        ],
+        "answerIndex": 0,
+        "explanation": "Desde pequeño mostró curiosidad por los misterios del mundo físico, como las fuerzas invisibles que observó en una brújula."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "La decisión de Einstein de abandonar el sistema educativo alemán puede interpretarse como…",
+        "options": [
+          "Una muestra de rebeldía adolescente sin consecuencias posteriores",
+          "Un indicio temprano de su pensamiento independiente y crítico",
+          "Una estrategia para evitar el servicio militar obligatorio"
+        ],
+        "answerIndex": 1,
+        "explanation": "Einstein abandonó el sistema por considerarlo demasiado estricto, lo que refleja su pensamiento independiente."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué sugiere el texto sobre el impacto de la teoría de la relatividad en la ciencia moderna?",
+        "options": [
+          "Que fue una idea innovadora pero rápidamente superada",
+          "Que cambió radicalmente la comprensión del tiempo, el espacio y la gravedad",
+          "Que generó controversia por falta de evidencia experimental"
+        ],
+        "answerIndex": 1,
+        "explanation": "La teoría transformó para siempre la manera en que la humanidad entiende el espacio, el tiempo y la gravedad."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Por qué se menciona que Einstein recibió el Nobel por el efecto fotoeléctrico y no por la relatividad?",
+        "options": [
+          "Para destacar que incluso sus teorías 'secundarias' eran revolucionarias",
+          "Porque el jurado del Nobel no entendía la relatividad",
+          "Para señalar que su obra fue reconocida más por la política que por la ciencia"
+        ],
+        "answerIndex": 0,
+        "explanation": "El texto resalta que su trabajo sobre el efecto fotoeléctrico fue un descubrimiento clave para la física cuántica."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "En el texto, el traslado de Einstein a Estados Unidos representa…",
+        "options": [
+          "Una derrota personal frente a las dificultades políticas de Europa",
+          "El inicio de su retiro definitivo de la investigación",
+          "Una transición desde el científico teórico hacia el pensador humanista"
+        ],
+        "answerIndex": 2,
+        "explanation": "Desde Estados Unidos continuó su trabajo científico y su activismo por la paz y los derechos humanos."
+      }
+    ]
   }
 ]

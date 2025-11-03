@@ -3461,6 +3461,119 @@
     ]
   },
   {
+    "id": "c1-06",
+    "level": "c1",
+    "title": "Una noche inolvidable en el Bernabéu",
+    "duration": "2m 05s",
+    "file": "/audios/c1_06.mp3",
+    "snippet": "Locutor: Anoche, el estadio Santiago Bernabéu volvió a vivir una de esas noches que quedan grabadas en la memoria colectiva.",
+    "transcript": "Locutor: Anoche, el estadio Santiago Bernabéu volvió a vivir una de esas noches que quedan grabadas en la memoria colectiva. El Real Madrid se impuso tres a dos frente al Manchester City en un partido que tuvo de todo: emoción, polémica y momentos de auténtico arte futbolístico.\n\nReportera: Desde el primer minuto, ambos equipos mostraron sus cartas. El City dominó la posesión, fiel a su estilo de pases cortos y ritmo constante. Pero el Madrid respondió con lo que mejor sabe hacer: transiciones rápidas y una fe que parece no tener límites.\n\nLocutor: El primer gol llegó en el minuto veintidós, con un disparo impecable de Bellingham desde fuera del área. La grada explotó. Sin embargo, la alegría duró poco: apenas siete minutos después, Haaland empató con un cabezazo imposible para el portero.\n\nReportera: En el segundo tiempo, el encuentro se convirtió en un auténtico ajedrez táctico. Los entrenadores movían las piezas con precisión quirúrgica, sabiendo que un error podía costarles el partido.\n\nLocutor: Y cuando todo parecía encaminado a un empate, apareció Vinícius. En el minuto ochenta y nueve, controló el balón con una elegancia casi insultante y, con un toque sutil, lo envió al fondo de la red. El estadio estalló. Miles de voces coreaban su nombre mientras los jugadores se abrazaban.\n\nReportera: Fue una victoria que no solo vale tres puntos, sino también un golpe anímico que puede definir la temporada. En Madrid ya se habla de \"la noche de Vinícius\", y muchos la comparan con las grandes gestas europeas del club.\n\nLocutor: Una vez más, el Bernabéu demostró que el fútbol no se explica solo con estadísticas. Hay algo más: ese impulso invisible que hace creer a los que nunca dejan de luchar.",
+    "vocab": [
+      {
+        "term": "gesta",
+        "meaning": "heroic deed / memorable achievement"
+      },
+      {
+        "term": "transición",
+        "meaning": "transition / quick change from defense to attack"
+      },
+      {
+        "term": "ajedrez táctico",
+        "meaning": "tactical chess (metaphor for strategic play)"
+      },
+      {
+        "term": "anímico",
+        "meaning": "emotional / related to mood"
+      },
+      {
+        "term": "disparo impecable",
+        "meaning": "perfect shot / flawless strike"
+      },
+      {
+        "term": "grada",
+        "meaning": "stands / bleachers (in a stadium)"
+      },
+      {
+        "term": "memoria colectiva",
+        "meaning": "collective memory"
+      },
+      {
+        "term": "polémica",
+        "meaning": "controversy"
+      },
+      {
+        "term": "precisión quirúrgica",
+        "meaning": "surgical precision"
+      },
+      {
+        "term": "corear",
+        "meaning": "to chant / to cheer in unison"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué característica destaca del juego del Manchester City en el partido?",
+        "options": [
+          "Su defensa cerrada y juego físico",
+          "Su dominio de la posesión y pases cortos",
+          "Su estilo de contraataque rápido"
+        ],
+        "answerIndex": 1,
+        "explanation": "El City dominó la posesión, fiel a su estilo de pases cortos y ritmo constante."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Cómo reaccionó el Real Madrid al dominio del City?",
+        "options": [
+          "Con un estilo defensivo muy conservador",
+          "Con transiciones rápidas y confianza en sí mismo",
+          "Con una estrategia completamente improvisada"
+        ],
+        "answerIndex": 1,
+        "explanation": "El Madrid respondió con transiciones rápidas y una fe que parece no tener límites."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué simboliza el gol de Vinícius en el minuto ochenta y nueve?",
+        "options": [
+          "Un golpe de suerte sin importancia",
+          "El momento decisivo que cambió el resultado y el ánimo del equipo",
+          "Un error del portero rival"
+        ],
+        "answerIndex": 1,
+        "explanation": "Fue una victoria que vale tres puntos y también un golpe anímico que puede definir la temporada."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué significa la frase 'un auténtico ajedrez táctico'?",
+        "options": [
+          "Que los jugadores discutieron en el campo",
+          "Que el partido fue aburrido y lento",
+          "Que ambos entrenadores tomaban decisiones muy estratégicas"
+        ],
+        "answerIndex": 2,
+        "explanation": "Los entrenadores movían las piezas con precisión quirúrgica, sabiendo que un error podía costarles el partido."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué idea resume el cierre del reportaje?",
+        "options": [
+          "El fútbol solo se entiende con estadísticas y análisis",
+          "La suerte es lo único que decide los partidos",
+          "En el fútbol hay una energía emocional que trasciende los números"
+        ],
+        "answerIndex": 2,
+        "explanation": "El Bernabéu demostró que el fútbol no se explica solo con estadísticas. Hay algo más: ese impulso invisible que hace creer."
+      }
+    ]
+  },
+  {
     "id": "c2-01",
     "level": "c2",
     "title": "El valor de cambiar de opinión",

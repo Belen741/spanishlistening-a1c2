@@ -1965,6 +1965,119 @@
     ]
   },
   {
+    "id": "b1-06",
+    "level": "b1",
+    "title": "En una peluquería",
+    "duration": "1m 5s",
+    "file": "/audios/b1_06.mp3",
+    "snippet": "Carla entró a la peluquería un sábado por la mañana. Quería cambiar de look porque tenía una fiesta importante esa noche.",
+    "transcript": "Carla entró a la peluquería un sábado por la mañana. Quería cambiar de look porque tenía una fiesta importante esa noche. La recibió Sofía, la estilista, con una sonrisa.\n\n—¡Hola! ¿Qué te gustaría hacerte hoy? —preguntó Sofía.\n—Quiero cortarme el cabello un poco y también cambiar el color —respondió Carla.\n\nSofía le mostró algunas fotos con distintos tonos y estilos.\n—Este tono de castaño claro te quedaría muy bien —dijo.\n—Perfecto, confío en ti —respondió Carla.\n\nMientras hablaban, Carla contó que hacía meses que no visitaba una peluquería. Le encantaba el ambiente: la música, el aroma del champú y la sensación de renovarse.\n\nCuando Sofía terminó, Carla se miró al espejo y sonrió. El cambio era justo lo que necesitaba.",
+    "vocab": [
+      {
+        "term": "peluquería",
+        "meaning": "hair salon"
+      },
+      {
+        "term": "estilista",
+        "meaning": "stylist / hairdresser"
+      },
+      {
+        "term": "corte",
+        "meaning": "haircut"
+      },
+      {
+        "term": "color",
+        "meaning": "color (hair dye)"
+      },
+      {
+        "term": "tono",
+        "meaning": "tone / shade"
+      },
+      {
+        "term": "cabello",
+        "meaning": "hair"
+      },
+      {
+        "term": "champú",
+        "meaning": "shampoo"
+      },
+      {
+        "term": "renovarse",
+        "meaning": "to renew oneself / to feel refreshed"
+      },
+      {
+        "term": "castaño claro",
+        "meaning": "light brown"
+      },
+      {
+        "term": "cambiar de look",
+        "meaning": "to change one's look"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué fue Carla a la peluquería?",
+        "options": [
+          "Porque tenía una entrevista de trabajo",
+          "Porque tenía una fiesta importante",
+          "Porque quería visitar a una amiga"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carla quería cambiar de look porque tenía una fiesta importante esa noche."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué quería hacer con su cabello?",
+        "options": [
+          "Cortarlo y cambiar el color",
+          "Peinarlo para una boda",
+          "Hacerse un tratamiento"
+        ],
+        "answerIndex": 0,
+        "explanation": "Carla quería cortarse el cabello un poco y también cambiar el color."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué tono le recomendó Sofía?",
+        "options": [
+          "Negro oscuro",
+          "Castaño claro",
+          "Rubio intenso"
+        ],
+        "answerIndex": 1,
+        "explanation": "Sofía le recomendó el tono de castaño claro."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Cómo reaccionó Sofía cuando la vio?",
+        "options": [
+          "Estaba apurada",
+          "Estaba seria",
+          "La recibió con una sonrisa"
+        ],
+        "answerIndex": 2,
+        "explanation": "La recibió Sofía, la estilista, con una sonrisa."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Cómo se sintió Carla al final?",
+        "options": [
+          "Decepcionada",
+          "Cansada del cambio",
+          "Feliz con el resultado"
+        ],
+        "answerIndex": 2,
+        "explanation": "Cuando Sofía terminó, Carla se miró al espejo y sonrió. El cambio era justo lo que necesitaba."
+      }
+    ]
+  },
+  {
     "id": "b2-01",
     "level": "b2",
     "title": "La invitación inesperada",

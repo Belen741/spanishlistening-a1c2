@@ -97,7 +97,13 @@ Preferred communication style: Simple, everyday language.
   - Motivational system similar to language learning apps
   - Encourages consistent practice through daily streaks
 - **Files Created**: `lib/progress.ts`, `components/ProgressBar.tsx`, `components/StreakCounter.tsx`, `components/BadgeDisplay.tsx`, `components/StatsCard.tsx`, `components/ui/card.tsx`, `components/ui/progress.tsx`, `app/progreso/page.tsx`
-- **Files Modified**: `components/Header.tsx` (added progress link), `components/Quiz.tsx` (integrated recordQuizResult), `components/PaginatedAudioList.tsx` (integrated markAudioAsListened)
+- **Files Modified**: `components/Header.tsx` (added progress link), `components/Quiz.tsx` (integrated recordQuizResult and fixed ID mismatch), `components/PaginatedAudioList.tsx` (integrated markAudioAsListened), `components/LevelPageClient.tsx` (passes audioId and level as props to Quiz)
+- **Critical Bug Fix** (November 3, 2025):
+  - **Problem**: Quiz submissions were creating progress entries with mismatched audio IDs, preventing proper progress tracking
+  - **Root Cause**: Quiz component was parsing audioId from levelSlug string, which could introduce errors
+  - **Solution**: Modified Quiz to accept `audioId` and `level` as separate explicit props instead of parsing from levelSlug
+  - **Impact**: Both `markAudioAsListened()` and `recordQuizResult()` now use identical IDs, ensuring progress, streaks, and badges update correctly
+  - **Files Modified**: `components/Quiz.tsx` (added audioId and level props), `components/LevelPageClient.tsx` (passes audioId={selectedAudio.id} and level={selectedAudio.level})
 
 ## Recent Changes (October 2025)
 

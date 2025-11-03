@@ -2679,6 +2679,119 @@
     ]
   },
   {
+    "id": "b2-06",
+    "level": "b2",
+    "title": "El error en la presentación",
+    "duration": "1m 15s",
+    "file": "/audios/b2_06.mp3",
+    "snippet": "Daniel llevaba dos semanas preparando una presentación muy importante para su empresa. Revisó cada dato, cada gráfico y ensayó su discurso varias veces frente al espejo.",
+    "transcript": "Daniel llevaba dos semanas preparando una presentación muy importante para su empresa. Revisó cada dato, cada gráfico y ensayó su discurso varias veces frente al espejo.\n\nEl día de la reunión, todo marchaba perfecto hasta que, en medio de la exposición, notó que el gráfico principal tenía una cifra equivocada. Por un instante, sintió que el suelo se movía bajo sus pies.\n\nSin embargo, respiró hondo, sonrió y dijo:\n—Parece que mi gráfico también necesita un café, igual que yo.\n\nLa sala estalló en risas, y Daniel continuó sin perder el control. Al final, su jefe se acercó y le dijo:\n—Tu presentación fue excelente. Los errores ocurren, lo importante es cómo reaccionas.",
+    "vocab": [
+      {
+        "term": "ensayar",
+        "meaning": "to rehearse / to practice"
+      },
+      {
+        "term": "cifra",
+        "meaning": "number / figure"
+      },
+      {
+        "term": "equivocada",
+        "meaning": "wrong / incorrect"
+      },
+      {
+        "term": "respirar hondo",
+        "meaning": "to take a deep breath / to calm down"
+      },
+      {
+        "term": "perder el control",
+        "meaning": "to lose control"
+      },
+      {
+        "term": "estallar en risas",
+        "meaning": "to burst out laughing"
+      },
+      {
+        "term": "reaccionar",
+        "meaning": "to react"
+      },
+      {
+        "term": "confianza",
+        "meaning": "confidence"
+      },
+      {
+        "term": "exposición",
+        "meaning": "presentation / exposition"
+      },
+      {
+        "term": "gráfico",
+        "meaning": "chart / graph"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué demuestra la reacción de Daniel ante el error?",
+        "options": [
+          "Que se rinde fácilmente",
+          "Que ignora los problemas",
+          "Que mantiene la calma y usa el humor"
+        ],
+        "answerIndex": 2,
+        "explanation": "Daniel respiró hondo, sonrió y usó el humor para manejar la situación del error en el gráfico."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Por qué el jefe valora su presentación?",
+        "options": [
+          "Porque el contenido era perfecto",
+          "Porque supo manejar bien la situación",
+          "Porque nadie notó el error"
+        ],
+        "answerIndex": 1,
+        "explanation": "El jefe dijo que los errores ocurren, lo importante es cómo reaccionas, valorando la forma en que Daniel manejó la situación."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué enseñanza deja la historia?",
+        "options": [
+          "Que los errores deben ocultarse",
+          "Que es mejor no hacer presentaciones",
+          "Que la actitud puede ser más importante que la perfección"
+        ],
+        "answerIndex": 2,
+        "explanation": "La historia enseña que cómo reaccionas ante los errores puede ser más importante que ser perfecto."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué simboliza la frase 'mi gráfico también necesita un café'?",
+        "options": [
+          "Una excusa técnica",
+          "Una forma ligera de reconocer el fallo",
+          "Un comentario sin sentido"
+        ],
+        "answerIndex": 1,
+        "explanation": "La frase fue una forma humorística y ligera de reconocer el error sin perder la compostura."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué cualidad destaca más en Daniel?",
+        "options": [
+          "Su memoria",
+          "Su honestidad y autocontrol",
+          "Su velocidad para corregir errores"
+        ],
+        "answerIndex": 1,
+        "explanation": "Daniel destaca por su honestidad al reconocer el error y su autocontrol al no perder la calma."
+      }
+    ]
+  },
+  {
     "id": "c1-01",
     "level": "c1",
     "title": "El silencio en las conversaciones",

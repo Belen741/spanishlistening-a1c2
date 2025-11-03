@@ -464,6 +464,119 @@
     ]
   },
   {
+    "id": "a1-05",
+    "level": "a1",
+    "title": "En el trabajo",
+    "duration": "45s",
+    "file": "/audios/a1_05.mp3",
+    "snippet": "Lucía: ¡Hola, Pedro! ¿Es tu primer día en la oficina?\nPedro: Sí, hoy empiezo. Estoy un poco nervioso.",
+    "transcript": "Lucía: ¡Hola, Pedro! ¿Es tu primer día en la oficina?\nPedro: Sí, hoy empiezo. Estoy un poco nervioso.\nLucía: No te preocupes. Todos son muy amables aquí.\nPedro: Gracias. ¿Dónde está mi escritorio?\nLucía: Está junto a la ventana, al lado de Marta.\nPedro: Perfecto. ¿A qué hora tenemos la reunión?\nLucía: A las nueve y media. El jefe siempre llega puntual.\nPedro: Bien, entonces voy a encender la computadora.\nLucía: Muy bien. ¡Bienvenido al equipo!\nPedro: ¡Gracias, Lucía!",
+    "vocab": [
+      {
+        "term": "oficina",
+        "meaning": "office"
+      },
+      {
+        "term": "escritorio",
+        "meaning": "desk"
+      },
+      {
+        "term": "nervioso",
+        "meaning": "nervous"
+      },
+      {
+        "term": "amable",
+        "meaning": "kind"
+      },
+      {
+        "term": "ventana",
+        "meaning": "window"
+      },
+      {
+        "term": "reunión",
+        "meaning": "meeting"
+      },
+      {
+        "term": "jefe",
+        "meaning": "boss"
+      },
+      {
+        "term": "encender",
+        "meaning": "to turn on"
+      },
+      {
+        "term": "computadora",
+        "meaning": "computer"
+      },
+      {
+        "term": "equipo",
+        "meaning": "team"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Dónde trabaja Lucía?",
+        "options": [
+          "En una tienda",
+          "En una oficina",
+          "En un hospital"
+        ],
+        "answerIndex": 1,
+        "explanation": "La conversación ocurre en una oficina."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué hace Pedro en la oficina?",
+        "options": [
+          "Empieza su primer día de trabajo",
+          "Visita a un amigo",
+          "Busca información"
+        ],
+        "answerIndex": 0,
+        "explanation": "Es el primer día de trabajo de Pedro en la oficina."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Cómo es el jefe?",
+        "options": [
+          "Muy amable",
+          "Siempre llega puntual",
+          "Un poco nervioso"
+        ],
+        "answerIndex": 1,
+        "explanation": "Lucía dice que el jefe siempre llega puntual."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Dónde está el escritorio de Pedro?",
+        "options": [
+          "Junto a la puerta",
+          "En el pasillo",
+          "Junto a la ventana"
+        ],
+        "answerIndex": 2,
+        "explanation": "El escritorio de Pedro está junto a la ventana, al lado de Marta."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué hace Pedro al final del diálogo?",
+        "options": [
+          "Llama al jefe",
+          "Enciende la computadora",
+          "Sale de la oficina"
+        ],
+        "answerIndex": 1,
+        "explanation": "Pedro dice que va a encender la computadora."
+      }
+    ]
+  },
+  {
     "id": "a2-01",
     "level": "a2",
     "title": "El nuevo vecino",

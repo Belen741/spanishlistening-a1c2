@@ -2566,6 +2566,119 @@
     "snippet": "Carla: Oye, Mateo, ¿te diste cuenta de que la gente aquí se ríe de cosas muy distintas. Mateo: Totalmente."
   },
   {
+    "id": "b2-05",
+    "level": "b2",
+    "title": "El vecino misterioso",
+    "duration": "1m 20s",
+    "file": "/audios/b2_05.mp3",
+    "snippet": "Durante semanas, Laura observó que su nuevo vecino salía solo por la noche. Apenas lo veía durante el día y, cuando lo hacía, él apenas saludaba.",
+    "transcript": "Durante semanas, Laura observó que su nuevo vecino salía solo por la noche. Apenas lo veía durante el día y, cuando lo hacía, él apenas saludaba. En el edificio todos hablaban de él: algunos decían que trabajaba con computadoras, otros que simplemente era antisocial.\n\nUna noche, un apagón dejó sin luz a todo el edificio. Laura estaba buscando velas cuando alguien tocó a su puerta. Era el vecino, con una linterna en la mano.\n\n—Vi que estabas sin luz —le dijo—, tengo una batería extra, si quieres te la dejo.\n\nConversaron unos minutos, y Laura descubrió que él era enfermero y que sus turnos nocturnos lo obligaban a dormir de día.\n\nDesde entonces, cada vez que lo ve, le sonríe con cierta vergüenza. Había pasado semanas imaginando historias… y todas eran falsas.",
+    "vocab": [
+      {
+        "term": "apagón",
+        "meaning": "power outage"
+      },
+      {
+        "term": "linterna",
+        "meaning": "flashlight"
+      },
+      {
+        "term": "turno nocturno",
+        "meaning": "night shift"
+      },
+      {
+        "term": "antisocial",
+        "meaning": "antisocial / unfriendly"
+      },
+      {
+        "term": "batería extra",
+        "meaning": "extra battery"
+      },
+      {
+        "term": "imaginar historias",
+        "meaning": "to imagine / make up stories"
+      },
+      {
+        "term": "vergüenza",
+        "meaning": "shame / embarrassment"
+      },
+      {
+        "term": "falsa impresión",
+        "meaning": "false impression"
+      },
+      {
+        "term": "enfermero",
+        "meaning": "nurse"
+      },
+      {
+        "term": "prejuicio",
+        "meaning": "prejudice"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué pensaban los vecinos sobre el hombre?",
+        "options": [
+          "Que era amable con todos",
+          "Que tenía un trabajo extraño o era antisocial",
+          "Que organizaba fiestas nocturnas"
+        ],
+        "answerIndex": 1,
+        "explanation": "En el edificio todos hablaban de él: algunos decían que trabajaba con computadoras, otros que simplemente era antisocial."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué reveló el apagón sobre el vecino?",
+        "options": [
+          "Que en realidad era ingeniero eléctrico",
+          "Que trabajaba de noche y era solidario",
+          "Que tenía miedo a la oscuridad"
+        ],
+        "answerIndex": 1,
+        "explanation": "Laura descubrió que él era enfermero y que sus turnos nocturnos lo obligaban a dormir de día, y él le ofreció ayuda con la batería."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Por qué Laura sintió vergüenza al final?",
+        "options": [
+          "Porque el vecino no aceptó su ayuda",
+          "Porque se dio cuenta de que lo había juzgado mal",
+          "Porque olvidó darle las gracias"
+        ],
+        "answerIndex": 1,
+        "explanation": "Laura sintió vergüenza porque había pasado semanas imaginando historias sobre él y todas eran falsas."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué actitud tiene la historia hacia los prejuicios?",
+        "options": [
+          "Los considera inevitables",
+          "Los presenta como algo divertido",
+          "Los critica mostrando una lección"
+        ],
+        "answerIndex": 2,
+        "explanation": "La historia muestra cómo Laura juzgó mal a su vecino basándose en apariencias, enseñando una lección sobre los prejuicios."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué mensaje principal transmite la historia?",
+        "options": [
+          "Que hay que desconfiar de los vecinos",
+          "Que las apariencias pueden engañar",
+          "Que el trabajo nocturno es difícil"
+        ],
+        "answerIndex": 1,
+        "explanation": "El mensaje principal es que las apariencias pueden engañar y no debemos juzgar sin conocer a las personas."
+      }
+    ]
+  },
+  {
     "id": "c1-01",
     "level": "c1",
     "title": "El silencio en las conversaciones",

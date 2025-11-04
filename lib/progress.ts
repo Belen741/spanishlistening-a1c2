@@ -206,6 +206,23 @@ export function saveProgress(progress: UserProgress): void {
 }
 
 export function markAudioAsListened(audioId: string, level: string, percentage: number = 0): void {
+  // Quick check to avoid unnecessary localStorage reads
+  if (typeof window !== 'undefined') {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) {
+      try {
+        const parsed = JSON.parse(stored);
+        const existing = parsed.audioProgress?.[audioId];
+        // Short-circuit if new percentage is not greater than stored
+        if (existing && (existing.listenPercentage || 0) >= percentage) {
+          return;
+        }
+      } catch (e) {
+        // Continue with normal flow if parsing fails
+      }
+    }
+  }
+
   const progress = getProgress();
   
   if (!progress.audioProgress[audioId]) {

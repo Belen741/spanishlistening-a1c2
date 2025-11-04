@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { List, FileText, BookOpen, HelpCircle, Layers } from 'lucide-react';
+import { List, FileText, BookOpen, HelpCircle, ChevronDown } from 'lucide-react';
 import { LEVELS } from '@/lib/levels';
 import type { LevelSlug } from '@/types/level';
 
@@ -13,6 +13,7 @@ interface TableOfContentsProps {
 
 export function TableOfContents({ hasSelectedAudio, currentLevelSlug }: TableOfContentsProps) {
   const [activeSection, setActiveSection] = useState<string>('');
+  const [isLevelsOpen, setIsLevelsOpen] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -116,25 +117,39 @@ export function TableOfContents({ hasSelectedAudio, currentLevelSlug }: TableOfC
       </div>
 
       <div className="border-t pt-4">
-        <h3 className="text-sm font-semibold text-muted-foreground mb-4 px-3">
-          OTROS NIVELES
-        </h3>
-        <div className="space-y-1">
-          {otherLevels.map((level) => (
-            <Link
-              key={level.slug}
-              href={level.url}
-              className="w-full flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors text-muted-foreground hover-elevate active-elevate-2"
-              data-testid={`toc-link-level-${level.slug}`}
-            >
-              <div
-                className="h-4 w-4 rounded-sm flex-shrink-0"
-                style={{ backgroundColor: level.color }}
-              />
-              <span>Nivel {level.name}</span>
-            </Link>
-          ))}
-        </div>
+        <button
+          onClick={() => setIsLevelsOpen(!isLevelsOpen)}
+          className="w-full flex items-center justify-between px-3 py-2 rounded-lg text-sm font-semibold text-muted-foreground hover-elevate active-elevate-2 transition-colors"
+          data-testid="button-toggle-levels"
+          aria-expanded={isLevelsOpen}
+          aria-controls="other-levels-menu"
+        >
+          <span>OTROS NIVELES</span>
+          <ChevronDown 
+            className={`h-4 w-4 transition-transform duration-200 ${
+              isLevelsOpen ? 'rotate-180' : ''
+            }`}
+          />
+        </button>
+        
+        {isLevelsOpen && (
+          <div id="other-levels-menu" className="space-y-1 mt-2">
+            {otherLevels.map((level) => (
+              <Link
+                key={level.slug}
+                href={level.url}
+                className="w-full flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors text-muted-foreground hover-elevate active-elevate-2"
+                data-testid={`toc-link-level-${level.slug}`}
+              >
+                <div
+                  className="h-4 w-4 rounded-sm flex-shrink-0"
+                  style={{ backgroundColor: level.color }}
+                />
+                <span>Nivel {level.name}</span>
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
     </nav>
   );

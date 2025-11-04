@@ -56,7 +56,7 @@ The platform includes a gamification system to enhance engagement.
 
 ### Navigation
 
-**Table of Contents**: A sticky left-side table of contents with internal navigation links and automatic active section tracking improves navigation within level pages. Includes two sections: "ÍNDICE" for page sections (audio list, transcript, vocabulary, quiz) with IntersectionObserver-based active detection, and "OTROS NIVELES" for quick navigation between all 6 CEFR levels with colored level indicators.
+**Table of Contents**: A sticky left-side table of contents with internal navigation links and automatic active section tracking improves navigation within level pages. Includes two sections: "ÍNDICE" for page sections (audio list, transcript, vocabulary, quiz) with IntersectionObserver-based active detection, and "OTROS NIVELES" collapsible menu for quick navigation between all 6 CEFR levels with colored level indicators. The menu starts collapsed to save space and expands on click with smooth chevron animation.
 
 ## External Dependencies
 

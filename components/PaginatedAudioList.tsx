@@ -47,7 +47,7 @@ export function PaginatedAudioList({
   const [modalAudio, setModalAudio] = useState<AudioItem | null>(null);
   const [currentAudio, setCurrentAudio] = useState<AudioItem | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [listenedAudios, setListenedAudios] = useState<Set<string>>(new Set());
+  const [audioProgress, setAudioProgress] = useState<Record<string, number>>({});
   const audioRef = useRef<HTMLAudioElement>(null);
   const lastSavedPercentageRef = useRef<number>(0);
 
@@ -64,15 +64,13 @@ export function PaginatedAudioList({
     setCurrentAudio(null);
     setIsPlaying(false);
     
-    // Load listened audios from progress (only those with >= 90% completion)
+    // Load audio progress percentages
     const progress = getProgress();
-    const listened = new Set<string>();
-    Object.values(progress.audioProgress).forEach(audioProgress => {
-      if (audioProgress.listenPercentage >= 90) {
-        listened.add(audioProgress.audioId);
-      }
+    const percentages: Record<string, number> = {};
+    Object.values(progress.audioProgress).forEach(ap => {
+      percentages[ap.audioId] = ap.listenPercentage || 0;
     });
-    setListenedAudios(listened);
+    setAudioProgress(percentages);
   }, [level]);
 
   useEffect(() => {
@@ -269,7 +267,7 @@ export function PaginatedAudioList({
           setIsPlaying(true);
           if (currentAudio) {
             markAudioAsListened(currentAudio.id, currentAudio.level, 0);
-            setListenedAudios(prev => new Set(prev).add(currentAudio.id));
+            setAudioProgress(prev => ({ ...prev, [currentAudio.id]: 0 }));
             lastSavedPercentageRef.current = 0;
           }
         }}
@@ -286,10 +284,8 @@ export function PaginatedAudioList({
                 markAudioAsListened(currentAudio.id, currentAudio.level, percentage);
                 lastSavedPercentageRef.current = percentage;
                 
-                // Actualizar el estado visual si alcanzó el 90%
-                if (percentage >= 90) {
-                  setListenedAudios(prev => new Set(prev).add(currentAudio.id));
-                }
+                // Actualizar el estado visual
+                setAudioProgress(prev => ({ ...prev, [currentAudio.id]: percentage }));
               }
             }
           }
@@ -301,7 +297,7 @@ export function PaginatedAudioList({
             // Marcar como 100% cuando termina
             markAudioAsListened(currentAudio.id, currentAudio.level, 100);
             lastSavedPercentageRef.current = 100;
-            setListenedAudios(prev => new Set(prev).add(currentAudio.id));
+            setAudioProgress(prev => ({ ...prev, [currentAudio.id]: 100 }));
           }
         }}
         className="hidden"
@@ -353,7 +349,7 @@ export function PaginatedAudioList({
               snippet={audio.snippet}
               level={audio.level}
               onPlayClick={() => handleAudioPlayClick(audio.id)}
-              isListened={listenedAudios.has(audio.id)}
+              listenPercentage={audioProgress[audio.id] || 0}
             />
           ))}
         </div>

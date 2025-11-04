@@ -1,6 +1,6 @@
 'use client';
 
-import { Play, CheckCircle } from 'lucide-react';
+import { Play, CheckCircle, Clock } from 'lucide-react';
 
 interface AudioCardProps {
   id: string;
@@ -9,10 +9,10 @@ interface AudioCardProps {
   snippet?: string;
   level: string;
   onPlayClick?: () => void;
-  isListened?: boolean;
+  listenPercentage?: number;
 }
 
-export function AudioCard({ id, title, duration, snippet, level, onPlayClick, isListened = false }: AudioCardProps) {
+export function AudioCard({ id, title, duration, snippet, level, onPlayClick, listenPercentage = 0 }: AudioCardProps) {
   const handlePlayClick = () => {
     if (typeof window !== 'undefined' && (window as any).gtag) {
       (window as any).gtag('event', 'audio_play', {
@@ -23,12 +23,21 @@ export function AudioCard({ id, title, duration, snippet, level, onPlayClick, is
     onPlayClick?.();
   };
 
+  const isCompleted = listenPercentage >= 90;
+  const isInProgress = listenPercentage > 0 && listenPercentage < 90;
+
   return (
     <div className="bg-card rounded-xl border p-4 hover-elevate active-elevate-2 transition-all relative" data-testid={`card-audio-${id}`}>
-      {isListened && (
-        <div className="absolute top-3 right-3 flex items-center gap-1.5 bg-green-500/10 text-green-600 dark:text-green-400 px-2.5 py-1 rounded-full text-xs font-medium border border-green-500/20">
+      {isCompleted && (
+        <div className="absolute top-3 right-3 flex items-center gap-1.5 bg-green-500/10 text-green-600 dark:text-green-400 px-2.5 py-1 rounded-full text-xs font-medium border border-green-500/20" data-testid={`badge-completed-${id}`}>
           <CheckCircle className="h-3.5 w-3.5" />
           <span>Escuchado</span>
+        </div>
+      )}
+      {isInProgress && (
+        <div className="absolute top-3 right-3 flex items-center gap-1.5 bg-yellow-500/10 text-yellow-600 dark:text-yellow-400 px-2.5 py-1 rounded-full text-xs font-medium border border-yellow-500/20" data-testid={`badge-in-progress-${id}`}>
+          <Clock className="h-3.5 w-3.5" />
+          <span>En progreso</span>
         </div>
       )}
       <div className="space-y-3">

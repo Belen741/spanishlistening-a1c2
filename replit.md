@@ -105,22 +105,33 @@ Preferred communication style: Simple, everyday language.
   - **Impact**: Both `markAudioAsListened()` and `recordQuizResult()` now use identical IDs, ensuring progress, streaks, and badges update correctly
   - **Files Modified**: `components/Quiz.tsx` (added audioId and level props), `components/LevelPageClient.tsx` (passes audioId={selectedAudio.id} and level={selectedAudio.level})
 
-### Visual Listened Audio Indicator (November 4, 2025)
-- **Feature**: Visual badge indicator on audio cards showing which audios have been listened to
-- **Motivation**: Provide immediate visual feedback to users about their listening progress directly on the audio grid
+### Percentage-Based Audio Progress Tracking (November 4, 2025)
+- **Feature**: Enhanced audio progress tracking with percentage-based completion indicators showing "En progreso" vs "Escuchado" states
+- **Motivation**: Distinguish between partially-listened (< 90%) and fully-completed (≥ 90%) audios to provide more granular feedback to users
 - **Implementation**:
-  - **AudioCard Component**: Added `isListened` prop that displays a green "Escuchado" badge with CheckCircle icon in top-right corner
-  - **Badge Styling**: Green color scheme (`bg-green-500/10 text-green-600 dark:text-green-400`) with proper light/dark mode support
-  - **PaginatedAudioList**: Loads listened audios from progress on mount, maintains state in a Set for O(1) lookup performance
-  - **Real-time Updates**: Badge appears immediately when audio starts playing, updates local state synchronously
-  - **Persistence**: State persists across page refreshes via localStorage through existing progress system
+  - **AudioProgress Interface**: Extended with `listenPercentage` field (0-100) to track exact playback completion
+  - **markAudioAsListened**: Modified to accept `percentage` parameter with `Math.max()` logic to preserve highest percentage reached
+  - **Performance Optimization**: Added short-circuit check in `markAudioAsListened` to avoid unnecessary localStorage reads when new percentage is not greater than stored value
+  - **Real-time Tracking**: `onTimeUpdate` event in PaginatedAudioList saves progress every 5% to reduce localStorage writes
+  - **AudioCard Component**: Changed from boolean `isListened` to numeric `listenPercentage` prop with conditional badge rendering
+- **Badge States**:
+  - **0%**: No badge shown (audio not started)
+  - **1-89%**: Yellow/amber "En progreso" badge with Clock icon (`bg-yellow-500/10 text-yellow-600`)
+  - **90-100%**: Green "Escuchado" badge with CheckCircle icon (`bg-green-500/10 text-green-600`)
+- **State Management**:
+  - **PaginatedAudioList**: Maintains `audioProgress` Record<string, number> instead of Set<string> for percentage tracking
+  - Loads percentages from localStorage on mount
+  - Updates local state in real-time during playback
 - **User Experience**:
-  - Users can quickly scan which audios they've completed without opening the progress dashboard
-  - Visual confirmation appears instantly when they start listening
-  - Consistent with gamification system's progress tracking
-  - Works seamlessly with existing audio playback system
-- **Files Modified**: `components/AudioCard.tsx` (added isListened prop and badge UI), `components/PaginatedAudioList.tsx` (tracks and passes listened state)
-- **Testing**: End-to-end test confirmed badge appears on play, persists on refresh, and works correctly with progress system
+  - Clear visual distinction between in-progress and completed audios
+  - Progress persists across page refreshes
+  - Motivates users to complete audios to unlock the green "Escuchado" badge
+  - Seamless integration with existing gamification system
+- **Files Modified**: 
+  - `lib/progress.ts` (added percentage parameter to markAudioAsListened, implemented short-circuit optimization)
+  - `components/AudioCard.tsx` (changed to listenPercentage prop, added dual-badge logic)
+  - `components/PaginatedAudioList.tsx` (changed to Record state, added onTimeUpdate tracking)
+- **Testing**: Two successful end-to-end tests confirmed badge transitions, persistence, and performance optimizations work correctly
 
 ## Recent Changes (October 2025)
 

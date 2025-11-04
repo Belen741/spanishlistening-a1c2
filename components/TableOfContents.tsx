@@ -13,22 +13,42 @@ export function TableOfContents({ hasSelectedAudio }: TableOfContentsProps) {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-          }
-        });
+        // Find the entry with the highest intersection ratio
+        const visibleEntries = entries.filter((entry) => entry.isIntersecting);
+        
+        if (visibleEntries.length > 0) {
+          // Sort by intersection ratio (most visible first)
+          const mostVisible = visibleEntries.sort(
+            (a, b) => b.intersectionRatio - a.intersectionRatio
+          )[0];
+          
+          setActiveSection(mostVisible.target.id);
+        }
       },
       {
-        rootMargin: '-20% 0px -70% 0px',
+        threshold: [0, 0.25, 0.5, 0.75, 1],
+        rootMargin: '-100px 0px -66% 0px',
       }
     );
 
-    const sections = document.querySelectorAll('[id]');
-    sections.forEach((section) => observer.observe(section));
+    // Observe only the specific section IDs we care about
+    const sectionIds = [
+      'audio-list',
+      'audio-content',
+      'transcript-section',
+      'vocab-section',
+      'quiz-section',
+    ];
+
+    sectionIds.forEach((id) => {
+      const element = document.getElementById(id);
+      if (element) {
+        observer.observe(element);
+      }
+    });
 
     return () => observer.disconnect();
-  }, []);
+  }, [hasSelectedAudio]); // Re-observe when audio selection changes
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -77,6 +97,7 @@ export function TableOfContents({ hasSelectedAudio }: TableOfContentsProps) {
                     : 'text-muted-foreground hover-elevate active-elevate-2'
                 }
               `}
+              aria-current={isActive ? 'location' : undefined}
               data-testid={`toc-link-${section.id}`}
             >
               <Icon className="h-4 w-4 flex-shrink-0" />

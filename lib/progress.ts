@@ -3,6 +3,7 @@ export interface AudioProgress {
   level: string;
   completed: boolean;
   listenedAt?: Date;
+  listenPercentage: number; // Porcentaje de reproducción (0-100)
   quizScore?: number;
   quizAttempts: number;
 }
@@ -204,7 +205,7 @@ export function saveProgress(progress: UserProgress): void {
   }
 }
 
-export function markAudioAsListened(audioId: string, level: string): void {
+export function markAudioAsListened(audioId: string, level: string, percentage: number = 0): void {
   const progress = getProgress();
   
   if (!progress.audioProgress[audioId]) {
@@ -212,11 +213,17 @@ export function markAudioAsListened(audioId: string, level: string): void {
       audioId,
       level,
       completed: false,
-      quizAttempts: 0
+      quizAttempts: 0,
+      listenPercentage: 0
     };
   }
 
   progress.audioProgress[audioId].listenedAt = new Date();
+  progress.audioProgress[audioId].listenPercentage = Math.max(
+    progress.audioProgress[audioId].listenPercentage || 0,
+    percentage
+  );
+  
   updateStreak(progress);
   checkAndUnlockBadges(progress);
   saveProgress(progress);
@@ -230,7 +237,8 @@ export function recordQuizResult(audioId: string, level: string, score: number):
       audioId,
       level,
       completed: false,
-      quizAttempts: 0
+      quizAttempts: 0,
+      listenPercentage: 0
     };
   }
 

@@ -2009,6 +2009,9 @@ video {
 .pt-8 {
   padding-top: 2rem;
 }
+.text-left {
+  text-align: left;
+}
 .text-center {
   text-align: center;
 }
@@ -2519,6 +2522,10 @@ video {
 
   .lg\:grid-cols-\[1fr_300px\] {
     grid-template-columns: 1fr 300px;
+  }
+
+  .lg\:grid-cols-\[220px_1fr\] {
+    grid-template-columns: 220px 1fr;
   }
 }
 

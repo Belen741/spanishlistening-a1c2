@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import { PaginatedAudioList } from './PaginatedAudioList';
+import { TableOfContents } from './TableOfContents';
 import type { AudioItem } from '@/types/level';
 
 const Transcript = dynamic(() => import('@components/Transcript').then(mod => ({ default: mod.Transcript })), {
@@ -30,36 +31,46 @@ export function LevelPageClient({ levelSlug }: LevelPageClientProps) {
   }, [levelSlug]);
 
   return (
-    <div className="space-y-8">
-      <PaginatedAudioList 
-        level={levelSlug} 
-        onAudioSelect={setSelectedAudio}
-      />
+    <div className="grid grid-cols-1 lg:grid-cols-[220px_1fr] gap-8">
+      {/* Table of Contents - Left Side */}
+      <aside className="hidden lg:block">
+        <TableOfContents hasSelectedAudio={!!selectedAudio} />
+      </aside>
 
-      {selectedAudio && (
-        <div className="space-y-8 mt-12 pt-8 border-t" id="audio-content">
-          <div>
-            <h2 className="text-2xl font-bold mb-6" data-testid="text-selected-audio-title">
-              {selectedAudio.title}
-            </h2>
-          </div>
-
-          <div id="transcript-section">
-            <Transcript text={selectedAudio.transcript} />
-          </div>
-          <div id="vocab-section">
-            <VocabList items={selectedAudio.vocab} />
-          </div>
-          <div id="quiz-section">
-            <Quiz 
-              questions={selectedAudio.quiz} 
-              levelSlug={`${levelSlug}-${selectedAudio.id}`}
-              audioId={selectedAudio.id}
-              level={selectedAudio.level}
-            />
-          </div>
+      {/* Main Content */}
+      <div className="space-y-8">
+        <div id="audio-list">
+          <PaginatedAudioList 
+            level={levelSlug} 
+            onAudioSelect={setSelectedAudio}
+          />
         </div>
-      )}
+
+        {selectedAudio && (
+          <div className="space-y-8 mt-12 pt-8 border-t" id="audio-content">
+            <div>
+              <h2 className="text-2xl font-bold mb-6" data-testid="text-selected-audio-title">
+                {selectedAudio.title}
+              </h2>
+            </div>
+
+            <div id="transcript-section">
+              <Transcript text={selectedAudio.transcript} />
+            </div>
+            <div id="vocab-section">
+              <VocabList items={selectedAudio.vocab} />
+            </div>
+            <div id="quiz-section">
+              <Quiz 
+                questions={selectedAudio.quiz} 
+                levelSlug={`${levelSlug}-${selectedAudio.id}`}
+                audioId={selectedAudio.id}
+                level={selectedAudio.level}
+              />
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

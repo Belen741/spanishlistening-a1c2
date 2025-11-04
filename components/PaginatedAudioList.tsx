@@ -5,7 +5,7 @@ import { AudioCard } from './AudioCard';
 import { AudioModal } from './AudioModal';
 import { NextLevelCTA } from './NextLevelCTA';
 import { ChevronLeft, ChevronRight, Loader2, AlertCircle, Play, Pause, X } from 'lucide-react';
-import { markAudioAsListened } from '@/lib/progress';
+import { markAudioAsListened, getProgress } from '@/lib/progress';
 
 interface AudioItem {
   id: string;
@@ -47,6 +47,7 @@ export function PaginatedAudioList({
   const [modalAudio, setModalAudio] = useState<AudioItem | null>(null);
   const [currentAudio, setCurrentAudio] = useState<AudioItem | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [listenedAudios, setListenedAudios] = useState<Set<string>>(new Set());
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
@@ -61,6 +62,16 @@ export function PaginatedAudioList({
     }
     setCurrentAudio(null);
     setIsPlaying(false);
+    
+    // Load listened audios from progress
+    const progress = getProgress();
+    const listened = new Set<string>();
+    Object.values(progress.audioProgress).forEach(audioProgress => {
+      if (audioProgress.listenedAt) {
+        listened.add(audioProgress.audioId);
+      }
+    });
+    setListenedAudios(listened);
   }, [level]);
 
   useEffect(() => {
@@ -257,6 +268,7 @@ export function PaginatedAudioList({
           setIsPlaying(true);
           if (currentAudio) {
             markAudioAsListened(currentAudio.id, currentAudio.level);
+            setListenedAudios(prev => new Set(prev).add(currentAudio.id));
           }
         }}
         onPause={() => setIsPlaying(false)}
@@ -310,6 +322,7 @@ export function PaginatedAudioList({
               snippet={audio.snippet}
               level={audio.level}
               onPlayClick={() => handleAudioPlayClick(audio.id)}
+              isListened={listenedAudios.has(audio.id)}
             />
           ))}
         </div>

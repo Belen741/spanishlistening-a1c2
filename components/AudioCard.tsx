@@ -1,6 +1,6 @@
 'use client';
 
-import { Play } from 'lucide-react';
+import { Play, CheckCircle } from 'lucide-react';
 
 interface AudioCardProps {
   id: string;
@@ -9,9 +9,10 @@ interface AudioCardProps {
   snippet?: string;
   level: string;
   onPlayClick?: () => void;
+  isListened?: boolean;
 }
 
-export function AudioCard({ id, title, duration, snippet, level, onPlayClick }: AudioCardProps) {
+export function AudioCard({ id, title, duration, snippet, level, onPlayClick, isListened = false }: AudioCardProps) {
   const handlePlayClick = () => {
     if (typeof window !== 'undefined' && (window as any).gtag) {
       (window as any).gtag('event', 'audio_play', {
@@ -23,10 +24,16 @@ export function AudioCard({ id, title, duration, snippet, level, onPlayClick }: 
   };
 
   return (
-    <div className="bg-card rounded-xl border p-4 hover-elevate active-elevate-2 transition-all" data-testid={`card-audio-${id}`}>
+    <div className="bg-card rounded-xl border p-4 hover-elevate active-elevate-2 transition-all relative" data-testid={`card-audio-${id}`}>
+      {isListened && (
+        <div className="absolute top-3 right-3 flex items-center gap-1.5 bg-green-500/10 text-green-600 dark:text-green-400 px-2.5 py-1 rounded-full text-xs font-medium border border-green-500/20">
+          <CheckCircle className="h-3.5 w-3.5" />
+          <span>Escuchado</span>
+        </div>
+      )}
       <div className="space-y-3">
         <div>
-          <h3 className="font-semibold text-lg mb-1" data-testid={`text-audio-title-${id}`}>
+          <h3 className="font-semibold text-lg mb-1 pr-24" data-testid={`text-audio-title-${id}`}>
             {title}
           </h3>
           <p className="text-sm text-muted-foreground mb-2" data-testid={`text-audio-duration-${id}`}>

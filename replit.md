@@ -105,6 +105,23 @@ Preferred communication style: Simple, everyday language.
   - **Impact**: Both `markAudioAsListened()` and `recordQuizResult()` now use identical IDs, ensuring progress, streaks, and badges update correctly
   - **Files Modified**: `components/Quiz.tsx` (added audioId and level props), `components/LevelPageClient.tsx` (passes audioId={selectedAudio.id} and level={selectedAudio.level})
 
+### Visual Listened Audio Indicator (November 4, 2025)
+- **Feature**: Visual badge indicator on audio cards showing which audios have been listened to
+- **Motivation**: Provide immediate visual feedback to users about their listening progress directly on the audio grid
+- **Implementation**:
+  - **AudioCard Component**: Added `isListened` prop that displays a green "Escuchado" badge with CheckCircle icon in top-right corner
+  - **Badge Styling**: Green color scheme (`bg-green-500/10 text-green-600 dark:text-green-400`) with proper light/dark mode support
+  - **PaginatedAudioList**: Loads listened audios from progress on mount, maintains state in a Set for O(1) lookup performance
+  - **Real-time Updates**: Badge appears immediately when audio starts playing, updates local state synchronously
+  - **Persistence**: State persists across page refreshes via localStorage through existing progress system
+- **User Experience**:
+  - Users can quickly scan which audios they've completed without opening the progress dashboard
+  - Visual confirmation appears instantly when they start listening
+  - Consistent with gamification system's progress tracking
+  - Works seamlessly with existing audio playback system
+- **Files Modified**: `components/AudioCard.tsx` (added isListened prop and badge UI), `components/PaginatedAudioList.tsx` (tracks and passes listened state)
+- **Testing**: End-to-end test confirmed badge appears on play, persists on refresh, and works correctly with progress system
+
 ## Recent Changes (October 2025)
 
 ### Persistent Audio Playback System (October 27, 2025)

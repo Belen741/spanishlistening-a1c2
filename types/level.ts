@@ -39,4 +39,5 @@ export interface LevelInfo {
   name: string;
   description: string;
   color: string;
+  url: string;
 }

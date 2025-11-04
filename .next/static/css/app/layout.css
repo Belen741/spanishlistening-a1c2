@@ -1786,6 +1786,9 @@ video {
 .rounded-md {
   border-radius: .375rem;
 }
+.rounded-sm {
+  border-radius: .1875rem;
+}
 .rounded-xl {
   border-radius: 0.75rem;
 }

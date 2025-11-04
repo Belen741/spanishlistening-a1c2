@@ -1,13 +1,17 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { List, FileText, BookOpen, HelpCircle } from 'lucide-react';
+import Link from 'next/link';
+import { List, FileText, BookOpen, HelpCircle, Layers } from 'lucide-react';
+import { LEVELS } from '@/lib/levels';
+import type { LevelSlug } from '@/types/level';
 
 interface TableOfContentsProps {
   hasSelectedAudio: boolean;
+  currentLevelSlug: LevelSlug;
 }
 
-export function TableOfContents({ hasSelectedAudio }: TableOfContentsProps) {
+export function TableOfContents({ hasSelectedAudio, currentLevelSlug }: TableOfContentsProps) {
   const [activeSection, setActiveSection] = useState<string>('');
 
   useEffect(() => {
@@ -72,39 +76,65 @@ export function TableOfContents({ hasSelectedAudio }: TableOfContentsProps) {
     { id: 'quiz-section', label: 'Quiz', icon: HelpCircle, alwaysShow: false },
   ];
 
+  const otherLevels = LEVELS.filter((level) => level.slug !== currentLevelSlug);
+
   return (
-    <nav className="sticky top-4 space-y-2" data-testid="table-of-contents">
-      <h3 className="text-sm font-semibold text-muted-foreground mb-4 px-3">
-        ÍNDICE
-      </h3>
-      <div className="space-y-1">
-        {sections.map((section) => {
-          const shouldShow = section.alwaysShow || hasSelectedAudio;
-          if (!shouldShow) return null;
+    <nav className="sticky top-4 space-y-6" data-testid="table-of-contents">
+      <div>
+        <h3 className="text-sm font-semibold text-muted-foreground mb-4 px-3">
+          ÍNDICE
+        </h3>
+        <div className="space-y-1">
+          {sections.map((section) => {
+            const shouldShow = section.alwaysShow || hasSelectedAudio;
+            if (!shouldShow) return null;
 
-          const Icon = section.icon;
-          const isActive = activeSection === section.id;
+            const Icon = section.icon;
+            const isActive = activeSection === section.id;
 
-          return (
-            <button
-              key={section.id}
-              onClick={() => scrollToSection(section.id)}
-              className={`
-                w-full flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors text-left
-                ${
-                  isActive
-                    ? 'bg-primary/10 text-primary font-medium'
-                    : 'text-muted-foreground hover-elevate active-elevate-2'
-                }
-              `}
-              aria-current={isActive ? 'location' : undefined}
-              data-testid={`toc-link-${section.id}`}
+            return (
+              <button
+                key={section.id}
+                onClick={() => scrollToSection(section.id)}
+                className={`
+                  w-full flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors text-left
+                  ${
+                    isActive
+                      ? 'bg-primary/10 text-primary font-medium'
+                      : 'text-muted-foreground hover-elevate active-elevate-2'
+                  }
+                `}
+                aria-current={isActive ? 'location' : undefined}
+                data-testid={`toc-link-${section.id}`}
+              >
+                <Icon className="h-4 w-4 flex-shrink-0" />
+                <span>{section.label}</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="border-t pt-4">
+        <h3 className="text-sm font-semibold text-muted-foreground mb-4 px-3">
+          OTROS NIVELES
+        </h3>
+        <div className="space-y-1">
+          {otherLevels.map((level) => (
+            <Link
+              key={level.slug}
+              href={level.url}
+              className="w-full flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors text-muted-foreground hover-elevate active-elevate-2"
+              data-testid={`toc-link-level-${level.slug}`}
             >
-              <Icon className="h-4 w-4 flex-shrink-0" />
-              <span>{section.label}</span>
-            </button>
-          );
-        })}
+              <div
+                className="h-4 w-4 rounded-sm flex-shrink-0"
+                style={{ backgroundColor: level.color }}
+              />
+              <span>Nivel {level.name}</span>
+            </Link>
+          ))}
+        </div>
       </div>
     </nav>
   );

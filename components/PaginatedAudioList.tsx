@@ -49,6 +49,7 @@ export function PaginatedAudioList({
   const [isPlaying, setIsPlaying] = useState(false);
   const [listenedAudios, setListenedAudios] = useState<Set<string>>(new Set());
   const audioRef = useRef<HTMLAudioElement>(null);
+  const lastSavedPercentageRef = useRef<number>(0);
 
   useEffect(() => {
     setCurrentPage(1);
@@ -63,11 +64,11 @@ export function PaginatedAudioList({
     setCurrentAudio(null);
     setIsPlaying(false);
     
-    // Load listened audios from progress
+    // Load listened audios from progress (only those with >= 90% completion)
     const progress = getProgress();
     const listened = new Set<string>();
     Object.values(progress.audioProgress).forEach(audioProgress => {
-      if (audioProgress.listenedAt) {
+      if (audioProgress.listenPercentage >= 90) {
         listened.add(audioProgress.audioId);
       }
     });
@@ -267,12 +268,42 @@ export function PaginatedAudioList({
         onPlay={() => {
           setIsPlaying(true);
           if (currentAudio) {
-            markAudioAsListened(currentAudio.id, currentAudio.level);
+            markAudioAsListened(currentAudio.id, currentAudio.level, 0);
             setListenedAudios(prev => new Set(prev).add(currentAudio.id));
+            lastSavedPercentageRef.current = 0;
+          }
+        }}
+        onTimeUpdate={() => {
+          if (currentAudio && audioRef.current) {
+            const currentTime = audioRef.current.currentTime;
+            const duration = audioRef.current.duration;
+            
+            if (duration > 0) {
+              const percentage = Math.floor((currentTime / duration) * 100);
+              
+              // Guardar cada 5% de progreso para reducir escrituras en localStorage
+              if (percentage >= lastSavedPercentageRef.current + 5 || percentage >= 90) {
+                markAudioAsListened(currentAudio.id, currentAudio.level, percentage);
+                lastSavedPercentageRef.current = percentage;
+                
+                // Actualizar el estado visual si alcanzó el 90%
+                if (percentage >= 90) {
+                  setListenedAudios(prev => new Set(prev).add(currentAudio.id));
+                }
+              }
+            }
           }
         }}
         onPause={() => setIsPlaying(false)}
-        onEnded={() => setIsPlaying(false)}
+        onEnded={() => {
+          setIsPlaying(false);
+          if (currentAudio) {
+            // Marcar como 100% cuando termina
+            markAudioAsListened(currentAudio.id, currentAudio.level, 100);
+            lastSavedPercentageRef.current = 100;
+            setListenedAudios(prev => new Set(prev).add(currentAudio.id));
+          }
+        }}
         className="hidden"
       />
 

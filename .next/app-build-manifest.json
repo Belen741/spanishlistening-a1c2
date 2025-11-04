@@ -20,6 +20,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/spanish-listening/layout.js"
+    ],
+    "/progreso/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/progreso/page.js"
+    ],
+    "/spanish-audio-for-beginners-a1/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/spanish-audio-for-beginners-a1/page.js"
     ]
   }
 }

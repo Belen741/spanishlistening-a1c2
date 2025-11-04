@@ -1,4 +1,6 @@
 {
-  "/page": "app/page.js",
+  "/progreso/page": "app/progreso/page.js",
+  "/spanish-audio-for-beginners-a1/page": "app/spanish-audio-for-beginners-a1/page.js",
+  "/api/audios/route": "app/api/audios/route.js",
   "/spanish-listening/page": "app/spanish-listening/page.js"
 }

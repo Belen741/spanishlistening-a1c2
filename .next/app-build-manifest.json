@@ -1,40 +1,143 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/app/_not-found/page-b16e6e1adeac67a0.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/css/9c504287a79a8ef1.css",
+      "static/chunks/972-fe6f604fa223df1a.js",
+      "static/chunks/app/layout-953a4cca3d0d7c90.js"
     ],
-    "/spanish-listening/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-listening/page.js"
-    ],
-    "/spanish-listening/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-listening/layout.js"
-    ],
-    "/spanish-audio-for-beginners-a1/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-audio-for-beginners-a1/page.js"
+    "/page": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/app/page-b34a28d6f17e83f4.js"
     ],
     "/progreso/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/progreso/page.js"
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/972-fe6f604fa223df1a.js",
+      "static/chunks/443-a37eee6d757c1192.js",
+      "static/chunks/app/progreso/page-4281d959d31663c2.js"
+    ],
+    "/contacto/page": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/972-fe6f604fa223df1a.js",
+      "static/chunks/app/contacto/page-e022875afe2178ac.js"
+    ],
+    "/advanced-spanish-c1/page": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/972-fe6f604fa223df1a.js",
+      "static/chunks/505-ea20ce452136fa7e.js",
+      "static/chunks/407-30c5f0090d4b5c33.js",
+      "static/chunks/app/advanced-spanish-c1/page-3fa23e14dbf0da2c.js"
+    ],
+    "/legal/terminos/page": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/app/legal/terminos/page-4bafd06820e1a5a0.js"
+    ],
+    "/intermediate-spanish-b1/page": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/972-fe6f604fa223df1a.js",
+      "static/chunks/505-ea20ce452136fa7e.js",
+      "static/chunks/407-30c5f0090d4b5c33.js",
+      "static/chunks/app/intermediate-spanish-b1/page-3ef08e1330abd16d.js"
+    ],
+    "/nivel/[slug]/page": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/972-fe6f604fa223df1a.js",
+      "static/chunks/505-ea20ce452136fa7e.js",
+      "static/chunks/407-30c5f0090d4b5c33.js",
+      "static/chunks/app/nivel/[slug]/page-111ff311623dc758.js"
+    ],
+    "/legal/privacidad/page": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/app/legal/privacidad/page-265d0fae7a0c6d94.js"
+    ],
+    "/advanced-spanish-c2/page": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/972-fe6f604fa223df1a.js",
+      "static/chunks/505-ea20ce452136fa7e.js",
+      "static/chunks/407-30c5f0090d4b5c33.js",
+      "static/chunks/app/advanced-spanish-c2/page-9dfaaf41c01062a4.js"
+    ],
+    "/spanish-audio-for-beginners-a1/page": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/972-fe6f604fa223df1a.js",
+      "static/chunks/505-ea20ce452136fa7e.js",
+      "static/chunks/407-30c5f0090d4b5c33.js",
+      "static/chunks/app/spanish-audio-for-beginners-a1/page-d6c756de24e582fd.js"
     ],
     "/spanish-audio-for-beginners-a2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-audio-for-beginners-a2/page.js"
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/972-fe6f604fa223df1a.js",
+      "static/chunks/505-ea20ce452136fa7e.js",
+      "static/chunks/407-30c5f0090d4b5c33.js",
+      "static/chunks/app/spanish-audio-for-beginners-a2/page-c6109804b7d78761.js"
+    ],
+    "/intermediate-spanish-b2/page": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/972-fe6f604fa223df1a.js",
+      "static/chunks/505-ea20ce452136fa7e.js",
+      "static/chunks/407-30c5f0090d4b5c33.js",
+      "static/chunks/app/intermediate-spanish-b2/page-c60d2a13c0c6e3e3.js"
+    ],
+    "/spanish-listening/page": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/972-fe6f604fa223df1a.js",
+      "static/chunks/app/spanish-listening/page-9b4964ef1fba9dcf.js"
+    ],
+    "/spanish-listening/layout": [
+      "static/chunks/webpack-2e3ea511829f09a7.js",
+      "static/chunks/fd9d1056-ec10134d27c13f3d.js",
+      "static/chunks/117-303d363a72875751.js",
+      "static/chunks/main-app-61364510572d1477.js",
+      "static/chunks/app/spanish-listening/layout-3a0656c4e190014e.js"
     ]
   }
 }

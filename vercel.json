@@ -1,9 +1,9 @@
 {
   "redirects": [
     {
-      "source": "https://spanishlisteninga1c2.com/:path*",
+      "source": "/:path*",
       "destination": "https://www.spanishlisteninga1c2.com/:path*",
-      "statusCode": 301
+      "permanent": true
     }
   ]
 }

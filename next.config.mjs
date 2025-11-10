@@ -9,6 +9,17 @@ const nextConfig = {
     formats: ['image/webp'],
   },
   
+  // Permanent redirects (301) for SEO
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/spanish-listening',
+        statusCode: 301, // Permanent redirect for Google indexing
+      },
+    ];
+  },
+  
   // Optimize audio serving
   async headers() {
     return [

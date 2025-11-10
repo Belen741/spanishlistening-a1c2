@@ -1,9 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  
+  // Force trailing slash behavior to avoid unnecessary redirects
+  trailingSlash: false,
+  
   images: {
     formats: ['image/webp'],
   },
+  
   // Optimize audio serving
   async headers() {
     return [

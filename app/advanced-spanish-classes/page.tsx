@@ -126,7 +126,6 @@ export default function AdvancedSpanishClassesPage() {
               <h2 className="text-lg font-semibold mb-2.5">My classes are ideal for you if…</h2>
               <ul className="ml-5 list-disc text-sm space-y-1">
                 <li>You already have an intermediate/advanced level</li>
-                <li>You want to speak naturally, precisely, and with confidence</li>
                 <li>
                   You want to work on your Spanish daily with the exercises I send you
                 </li>

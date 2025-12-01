@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { ThemeToggle } from './ThemeToggle';
-import { Award } from 'lucide-react';
+import { Award, GraduationCap } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { getProgress, getOverallProgress } from '@/lib/progress';
 
@@ -29,6 +29,16 @@ export function Header() {
         </Link>
         
         <div className="flex items-center gap-2">
+          <Link
+            href="/advanced-spanish-classes"
+            className="flex items-center gap-2 hover-elevate px-3 py-2 rounded-md text-orange-500 hover:text-orange-400 transition-colors"
+            data-testid="link-advanced-classes"
+          >
+            <GraduationCap className="w-5 h-5" />
+            <span className="hidden sm:inline text-sm font-medium">
+              Advanced Classes
+            </span>
+          </Link>
           {mounted && (
             <Link
               href="/progreso"

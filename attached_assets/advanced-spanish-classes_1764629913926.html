@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Advanced Spanish Classes with Belén Martínez</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Master real Spanish with a specialized Mexican teacher for advanced students who want to perfect their fluency, precision, and natural expression."
+  />
+  <style>
+    :root {
+      --bg: #0f172a;
+      --bg-alt: #020617;
+      --card: #020617;
+      --accent: #f97316;
+      --accent-soft: rgba(249, 115, 22, 0.12);
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #1f2937;
+      --radius: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .page {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 32px 16px 48px;
+    }
+
+    header {
+      text-align: left;
+      margin-bottom: 32px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8rem;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    .badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    h1 {
+      font-size: clamp(2.1rem, 4vw, 2.6rem);
+      margin-bottom: 10px;
+      letter-spacing: 0.02em;
+    }
+
+    .hero-subtitle {
+      font-size: 1rem;
+      color: var(--muted);
+      max-width: 600px;
+    }
+
+    .hero-card {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1.6fr);
+      gap: 20px;
+      align-items: center;
+      padding: 20px;
+      border-radius: var(--radius);
+      background: linear-gradient(
+        135deg,
+        rgba(15, 23, 42, 0.96),
+        rgba(15, 23, 42, 0.8)
+      );
+      border: 1px solid rgba(148, 163, 184, 0.3);
+    }
+
+    @media (max-width: 720px) {
+      .hero-card {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .hero-text {
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+
+    .hero-text strong {
+      font-weight: 600;
+    }
+
+    .cta-block {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 0.92rem;
+      background: radial-gradient(circle at top left, #1f2937 0, #020617 60%);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      border: 1px solid rgba(31, 41, 55, 0.8);
+    }
+
+    .cta-label {
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease,
+        background-color 0.15s ease, color 0.15s ease;
+      cursor: pointer;
+      border: 1px solid transparent;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #020617;
+      box-shadow: 0 10px 25px rgba(249, 115, 22, 0.35);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 30px rgba(249, 115, 22, 0.45);
+    }
+
+    .btn-secondary {
+      border-color: rgba(148, 163, 184, 0.5);
+      color: var(--text);
+      background: rgba(15, 23, 42, 0.8);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(17, 24, 39, 0.9);
+      transform: translateY(-1px);
+    }
+
+    main {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    section {
+      border-radius: var(--radius);
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid var(--border);
+      padding: 20px 22px;
+    }
+
+    section h2 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      font-size: 0.94rem;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    ul {
+      margin-left: 1.25rem;
+      margin-top: 6px;
+      margin-bottom: 4px;
+    }
+
+    li {
+      margin-bottom: 4px;
+      font-size: 0.94rem;
+      color: var(--text);
+    }
+
+    .two-columns {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    @media (max-width: 720px) {
+      .two-columns {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .list-title {
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .footer-cta {
+      text-align: left;
+    }
+
+    .footer-cta p {
+      margin-bottom: 8px;
+    }
+
+    .highlight-line {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .highlight-line span {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .contact-inline {
+      margin-top: 10px;
+      font-size: 0.93rem;
+    }
+
+    .contact-inline a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .contact-inline a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="badge">
+        <span class="badge-dot"></span>
+        1:1 Spanish coaching for advanced learners
+      </div>
+      <h1>Advanced Spanish Classes with Belén Martínez</h1>
+      <p class="hero-subtitle">
+        Master real Spanish with a specialized teacher for advanced students who
+        want to perfect their fluency, precision, and natural expression.
+      </p>
+
+      <div class="hero-card">
+        <div class="hero-text">
+          <p>
+            <strong>Write to me:</strong> WhatsApp only — no SMS<br />
+            <span class="muted">+52 220 280 9637</span>
+          </p>
+          <p style="margin-top: 8px">
+            <strong>Email me for more information:</strong><br />
+            <span class="muted">hablandoconbelen@gmail.com</span>
+          </p>
+        </div>
+
+        <div class="cta-block">
+          <div class="cta-label">Start your next level in Spanish</div>
+          <div class="cta-buttons">
+            <a
+              class="btn btn-primary"
+              href="https://wa.me/522202809637"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Message me on WhatsApp
+            </a>
+            <a class="btn btn-secondary" href="mailto:hablandoconbelen@gmail.com">
+              Email me for details
+            </a>
+          </div>
+          <p class="highlight-line">
+            I only work 1:1 with committed, advanced students who want
+            <span>real progress</span>.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Hi, I'm Belén.</h2>
+        <p>
+          I’m a Mexican Spanish teacher with more than five years of experience
+          teaching advanced students from all over the world.
+        </p>
+        <p>I specialize in:</p>
+        <ul>
+          <li>Advanced conversation</li>
+          <li>Direct and indirect objects</li>
+          <li>Subjunctive</li>
+          <li>Past subjunctive</li>
+          <li>Verbal periphrasis</li>
+          <li>Preparation for interviews, presentations, and real-life situations</li>
+        </ul>
+        <p>
+          I only teach 1:1 classes to guarantee clear, personalized, and
+          measurable progress in every session.
+        </p>
+      </section>
+
+      <section>
+        <h2>What are my classes like?</h2>
+        <p>
+          Fully personalized sessions focused on your real goals: conversation,
+          advanced grammar, final corrections, natural language use, professional
+          Spanish, and more.
+        </p>
+        <ul>
+          <li>
+            ✔ Detailed corrections, clear explanations, and exercises adapted to
+            your learning style
+          </li>
+          <li>✔ Exclusive materials (books, audio, exercises, interactive practice)</li>
+          <li>
+            ✔ Constant follow-up: personalized study plan and homework designed
+            just for you
+          </li>
+          <li>
+            ✔ A clear, structured, and proven method, built over years of helping
+            advanced students “break the ceiling” of their Spanish
+          </li>
+        </ul>
+        <p>
+          These classes are designed for students who truly want to reach the
+          next level and value professional, deep, and personalized support.
+        </p>
+      </section>
+
+      <section class="two-columns">
+        <div>
+          <h2>My classes are ideal for you if…</h2>
+          <ul>
+            <li>You already have an intermediate/advanced level</li>
+            <li>You want to speak naturally, precisely, and with confidence</li>
+            <li>
+              You want to work on your Spanish daily with the exercises I send you
+            </li>
+            <li>
+              You need professional Spanish (work, daily life, travel,
+              presentations)
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>These classes are NOT for you if…</h2>
+          <ul>
+            <li>You’re starting from zero</li>
+            <li>You only want casual conversation without guidance or corrections</li>
+            <li>You don’t plan to commit to homework or ongoing practice</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>How do the sessions work?</h2>
+        <ul>
+          <li>Duration: 50 minutes</li>
+          <li>Platform: Zoom or Google Meet</li>
+          <li>Personalized plan from the first class</li>
+          <li>Constant feedback and practice between sessions</li>
+          <li>
+            Materials included (PDFs, audios, transcripts, corrections, extra
+            practices)
+          </li>
+        </ul>
+      </section>
+
+      <section class="footer-cta">
+        <h2>Do you want 1:1 classes with me?</h2>
+        <p>
+          Send me a message to receive full information about:
+        </p>
+        <ul>
+          <li>availability</li>
+          <li>enrollment process</li>
+          <li>payment methods</li>
+          <li>booking options</li>
+          <li>first steps</li>
+        </ul>
+
+        <p class="contact-inline">
+          👉 WhatsApp:
+          <a
+            href="https://wa.me/522202809637"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            +52 220 280 9637
+          </a>
+          <br />
+          👉 Email:
+          <a href="mailto:hablandoconbelen@gmail.com">hablandoconbelen@gmail.com</a>
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

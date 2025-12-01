@@ -105,7 +105,7 @@ export default function AdvancedSpanishClassesPage() {
                 Detailed corrections, clear explanations, and exercises adapted to
                 your learning style
               </li>
-              <li>Exclusive materials (books, audio, exercises, interactive practice)</li>
+              <li>Exclusive materials (audio, exercises, interactive practice)</li>
               <li>
                 Constant follow-up: personalized study plan and homework designed
                 just for you

@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
+import belenPhoto from '@/attached_assets/WhatsApp Image 2025-12-01 at 5.42.06 PM_1764632615809.jpeg';
 
 export const metadata: Metadata = {
   title: 'Advanced Spanish Classes with Belén Martínez',
@@ -73,24 +75,39 @@ export default function AdvancedSpanishClassesPage() {
 
         <main className="mt-8 flex flex-col gap-6">
           <section className="rounded-2xl bg-slate-800/90 border border-slate-700 p-5">
-            <h2 className="text-lg font-semibold mb-2.5">Hi, I'm Belén.</h2>
-            <p className="text-sm mb-2">
-              I'm a Mexican Spanish teacher with more than five years of experience
-              teaching advanced students from all over the world.
-            </p>
-            <p className="text-sm">I specialize in:</p>
-            <ul className="ml-5 mt-1.5 mb-1 list-disc text-sm space-y-1">
-              <li>Advanced conversation</li>
-              <li>Direct and indirect objects</li>
-              <li>Subjunctive</li>
-              <li>Past subjunctive</li>
-              <li>Verbal periphrasis</li>
-              <li>Preparation for interviews, presentations, and real-life situations</li>
-            </ul>
-            <p className="text-sm">
-              I only teach 1:1 classes to guarantee clear, personalized, and
-              measurable progress in every session.
-            </p>
+            <div className="flex flex-col md:flex-row gap-5 items-start">
+              <div className="flex-shrink-0 mx-auto md:mx-0">
+                <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden ring-4 ring-orange-500/30 shadow-xl shadow-orange-500/10">
+                  <Image
+                    src={belenPhoto}
+                    alt="Belén Martínez - Spanish Teacher"
+                    fill
+                    className="object-cover object-top"
+                    priority
+                  />
+                </div>
+              </div>
+              <div className="flex-1">
+                <h2 className="text-lg font-semibold mb-2.5">Hi, I'm Belén.</h2>
+                <p className="text-sm mb-2">
+                  I'm a Mexican Spanish teacher with more than five years of experience
+                  teaching advanced students from all over the world.
+                </p>
+                <p className="text-sm">I specialize in:</p>
+                <ul className="ml-5 mt-1.5 mb-1 list-disc text-sm space-y-1">
+                  <li>Advanced conversation</li>
+                  <li>Direct and indirect objects</li>
+                  <li>Subjunctive</li>
+                  <li>Past subjunctive</li>
+                  <li>Verbal periphrasis</li>
+                  <li>Preparation for interviews, presentations, and real-life situations</li>
+                </ul>
+                <p className="text-sm">
+                  I only teach 1:1 classes to guarantee clear, personalized, and
+                  measurable progress in every session.
+                </p>
+              </div>
+            </div>
           </section>
 
           <section className="rounded-2xl bg-slate-800/90 border border-slate-700 p-5">

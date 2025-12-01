@@ -1546,6 +1546,9 @@ video {
 .hidden {
   display: none;
 }
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
 .h-2 {
   height: 0.5rem;
 }

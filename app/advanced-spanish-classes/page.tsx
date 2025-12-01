@@ -94,6 +94,19 @@ export default function AdvancedSpanishClassesPage() {
           </section>
 
           <section className="rounded-2xl bg-slate-800/90 border border-slate-700 p-5">
+            <h2 className="text-lg font-semibold mb-2.5">Watch a Sample Class</h2>
+            <div className="aspect-video w-full rounded-xl overflow-hidden">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/ooOG3V05Vz4"
+                title="Sample Spanish Class with Belén"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </section>
+
+          <section className="rounded-2xl bg-slate-800/90 border border-slate-700 p-5">
             <h2 className="text-lg font-semibold mb-2.5">What are my classes like?</h2>
             <p className="text-sm mb-2">
               Fully personalized sessions focused on your real goals: conversation,

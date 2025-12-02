@@ -2,6 +2,10 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import belenPhoto from '@/attached_assets/WhatsApp Image 2025-12-01 at 5.42.06 PM_1764632615809.jpeg';
+import reviewJeremy from '@/attached_assets/image_1764710445913.png';
+import reviewNealie from '@/attached_assets/image_1764710458917.png';
+import reviewAdrienne from '@/attached_assets/image_1764710468944.png';
+import reviewCorey from '@/attached_assets/image_1764710479652.png';
 
 export const metadata: Metadata = {
   title: 'Advanced Spanish Classes with Belén Martínez',
@@ -188,6 +192,40 @@ export default function AdvancedSpanishClassesPage() {
                 practices)
               </li>
             </ul>
+          </section>
+
+          <section className="rounded-2xl bg-slate-800/90 border border-slate-700 p-5">
+            <h2 className="text-lg font-semibold mb-4">What My Students Say</h2>
+            <div className="grid gap-4">
+              <div className="rounded-xl overflow-hidden bg-white">
+                <Image
+                  src={reviewJeremy}
+                  alt="Review from Jeremy - 5 stars"
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden bg-white">
+                <Image
+                  src={reviewNealie}
+                  alt="Review from Nealie - 5 stars"
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden bg-white">
+                <Image
+                  src={reviewAdrienne}
+                  alt="Review from Adrienne - 5 stars"
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden bg-white">
+                <Image
+                  src={reviewCorey}
+                  alt="Review from Corey - 5 stars"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
           </section>
 
           <section className="rounded-2xl bg-slate-800/90 border border-slate-700 p-5 text-left">

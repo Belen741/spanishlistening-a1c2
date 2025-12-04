@@ -32,12 +32,13 @@ export interface AudioItem {
   quiz: QuizQuestion[];
 }
 
-export type LevelSlug = 'a1' | 'a2' | 'b1' | 'b2' | 'c1' | 'c2';
+export type LevelSlug = 'accents' | 'a1' | 'a2' | 'b1' | 'b2' | 'c1' | 'c2';
 
 export interface LevelInfo {
-  slug: LevelSlug;
+  slug: LevelSlug | string;
   name: string;
   description: string;
   color: string;
   url: string;
+  icon?: string;
 }

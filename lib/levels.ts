@@ -1,5 +1,14 @@
 import type { LevelInfo, LevelSlug } from '@/types/level';
 
+export const ACCENTS_LEVEL: LevelInfo = {
+  slug: 'accents',
+  name: 'Accents',
+  description: 'Explore Spanish accents from different countries',
+  color: 'hsl(30 90% 55%)',
+  url: '/spanish-accents-by-country',
+  icon: 'globe',
+};
+
 export const LEVELS: LevelInfo[] = [
   {
     slug: 'a1',

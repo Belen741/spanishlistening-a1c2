@@ -4387,5 +4387,110 @@
         "explanation": "El desayuno es de 7 a 11 de la mañana en el restaurante del lobby."
       }
     ]
+  },
+  {
+    "id": "arg-01",
+    "level": "accent-argentine",
+    "title": "Comprando mate y bombilla",
+    "duration": "1:35",
+    "file": "/audios/arg-01.mp3",
+    "snippet": "Diálogo entre una vendedora y un cliente que quiere empezar a tomar mate. Aprenderás vocabulario argentino como 'che', 'viste', 'te copa' y más.",
+    "transcript": "Vendedora: —¡Buen día, che! ¿En qué te puedo ayudar?\n\nCliente: —Hola, viste que estoy empezando con esto del mate y quería llevar una yerba y una bombilla, pero no tengo idea de las diferencias.\n\nVendedora: —Tranqui, te cuento. Tenés yerba suave, que es más livianita; intensa, que pega un poco más; con palo, que es la más tradicional; y sin palo, que es más fuerte y dura menos. ¿Te copa algo más suave para empezar?\n\nCliente: —Sí, creo que suave estaría bien. ¿Y el mate? Hay un montón…\n\nVendedora: —Claro. Podés elegir uno de calabaza, que es el clásico; uno de madera, que mantiene bien el sabor; o de acero inoxidable, que es fácil de limpiar. ¿Querés algo práctico?\n\nCliente: —Sí, práctico. Entonces me llevo el de acero. ¿Y la bombilla?\n\nVendedora: —Mirá, tenés esta de acero con filtro fino, que va bárbaro para yerba suave. Además dura años.\n\nCliente: —Perfecto. Y… ¿cómo preparo el mate para que salga rico?\n\nVendedora: —Clave: llená el mate hasta la mitad, agitá un poquito, dejá la yerba inclinada y poné agua tibia primero, no hirviendo, viste. Después sí, agregás agua más caliente y no le movés la bombilla.\n\nCliente: —Genial, che. Gracias por todas las recomendaciones.\n\nVendedora: —¡De nada! Cualquier cosa, chiflame. ¡Que lo disfrutes!",
+    "vocab": [
+      {
+        "term": "che",
+        "meaning": "Friendly attention-getter, like 'hey'"
+      },
+      {
+        "term": "viste",
+        "meaning": "Filler meaning 'you know?'"
+      },
+      {
+        "term": "tranqui",
+        "meaning": "Short for 'tranquilo'; means 'relax, no worries'"
+      },
+      {
+        "term": "tenés",
+        "meaning": "Argentine form of 'tienes' ('you have')"
+      },
+      {
+        "term": "te copa",
+        "meaning": "Means 'do you like it?' / 'are you into it?'"
+      },
+      {
+        "term": "mirá",
+        "meaning": "'Look'; used to introduce information"
+      },
+      {
+        "term": "bárbaro",
+        "meaning": "Means 'great / awesome'"
+      },
+      {
+        "term": "chiflame",
+        "meaning": "Informal 'let me know' (literally 'whistle at me')"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué tipo de yerba recomienda la vendedora para alguien que está empezando?",
+        "options": [
+          "Yerba intensa",
+          "Yerba suave",
+          "Yerba sin palo"
+        ],
+        "answerIndex": 1,
+        "explanation": "La vendedora recomienda yerba suave para alguien que está empezando porque es más livianita."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué tipo de mate elige finalmente el cliente?",
+        "options": [
+          "Un mate de calabaza",
+          "Un mate de madera",
+          "Un mate de acero inoxidable"
+        ],
+        "answerIndex": 2,
+        "explanation": "El cliente elige el mate de acero inoxidable porque es práctico y fácil de limpiar."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué característica destaca la vendedora de la bombilla que ofrece?",
+        "options": [
+          "Que es muy decorativa",
+          "Que tiene filtro fino y dura años",
+          "Que cambia el sabor de la yerba"
+        ],
+        "answerIndex": 1,
+        "explanation": "La vendedora destaca que la bombilla tiene filtro fino y dura años."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Cuál es una recomendación clave para preparar bien el mate?",
+        "options": [
+          "Mover la bombilla todo el tiempo",
+          "Usar agua hirviendo desde el inicio",
+          "Colocar agua tibia primero y no mover la bombilla después"
+        ],
+        "answerIndex": 2,
+        "explanation": "La vendedora recomienda poner agua tibia primero y no mover la bombilla después."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué expresión argentina usa la vendedora para cerrar la conversación?",
+        "options": [
+          "Nos vemos, pana",
+          "¡Chao, compa!",
+          "Cualquier cosa, chiflame"
+        ],
+        "answerIndex": 2,
+        "explanation": "'Chiflame' es una expresión argentina informal que significa 'avísame' o 'let me know'."
+      }
+    ]
   }
 ]

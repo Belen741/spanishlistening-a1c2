@@ -1,8 +1,8 @@
-// File: /home/runner/workspace/app/advanced-spanish-classes/page.tsx
-import * as entry from '../../../../app/advanced-spanish-classes/page.js'
+// File: /home/runner/workspace/app/intermediate-spanish-b2/page.tsx
+import * as entry from '../../../../app/intermediate-spanish-b2/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../app/advanced-spanish-classes/page.js')
+type TEntry = typeof import('../../../../app/intermediate-spanish-b2/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

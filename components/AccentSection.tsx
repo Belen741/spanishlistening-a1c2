@@ -40,10 +40,11 @@ export function AccentSection({ accent }: AccentSectionProps) {
         const response = await fetch(`/api/audios?level=${accent.slug}`);
         if (response.ok) {
           const data = await response.json();
-          setAudios(data);
+          setAudios(Array.isArray(data) ? data : (data.items || []));
         }
       } catch (error) {
         console.error('Error fetching audios:', error);
+        setAudios([]);
       } finally {
         setIsLoading(false);
       }

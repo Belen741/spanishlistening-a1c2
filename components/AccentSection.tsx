@@ -6,23 +6,35 @@ import { ChevronDown, ChevronUp, Volume2 } from 'lucide-react';
 import type { AudioItem } from '@/types/level';
 import type { AccentInfo } from '@/lib/levels';
 
-const AudioPlayer = dynamic(() => import('@components/AudioPlayer').then(mod => ({ default: mod.AudioPlayer })), {
-  loading: () => <div className="h-16 bg-card rounded-lg border animate-pulse" />,
-  ssr: false,
-});
+const AudioPlayer = dynamic(
+  () => import('@/components/AudioPlayer').then(mod => ({ default: mod.AudioPlayer })),
+  {
+    loading: () => <div className="h-16 bg-card rounded-lg border animate-pulse" />,
+    ssr: false,
+  }
+);
 
-const Transcript = dynamic(() => import('@components/Transcript').then(mod => ({ default: mod.Transcript })), {
-  loading: () => <div className="h-32 bg-card rounded-xl border animate-pulse" />,
-});
+const Transcript = dynamic(
+  () => import('@/components/Transcript').then(mod => ({ default: mod.Transcript })),
+  {
+    loading: () => <div className="h-32 bg-card rounded-xl border animate-pulse" />,
+  }
+);
 
-const VocabList = dynamic(() => import('@components/VocabList').then(mod => ({ default: mod.VocabList })), {
-  loading: () => <div className="h-48 bg-card rounded-xl border animate-pulse" />,
-});
+const VocabList = dynamic(
+  () => import('@/components/VocabList').then(mod => ({ default: mod.VocabList })),
+  {
+    loading: () => <div className="h-48 bg-card rounded-xl border animate-pulse" />,
+  }
+);
 
-const Quiz = dynamic(() => import('@components/Quiz').then(mod => ({ default: mod.Quiz })), {
-  loading: () => <div className="h-96 bg-card rounded-xl border animate-pulse" />,
-  ssr: false,
-});
+const Quiz = dynamic(
+  () => import('@/components/Quiz').then(mod => ({ default: mod.Quiz })),
+  {
+    loading: () => <div className="h-96 bg-card rounded-xl border animate-pulse" />,
+    ssr: false,
+  }
+);
 
 interface AccentSectionProps {
   accent: AccentInfo;

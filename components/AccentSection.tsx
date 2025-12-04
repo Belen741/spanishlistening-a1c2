@@ -68,7 +68,12 @@ export function AccentSection({ accent }: AccentSectionProps) {
         data-testid={`button-toggle-${accent.slug}`}
       >
         <div className="flex items-center gap-3 md:gap-4">
-          <span className="text-3xl md:text-4xl">{accent.flag}</span>
+          <div 
+            className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center text-white font-bold text-lg"
+            style={{ backgroundColor: accent.color }}
+          >
+            {accent.countryCode}
+          </div>
           <div className="text-left">
             <h2 className="text-lg md:text-xl font-bold" style={{ color: accent.color }}>
               {accent.name}

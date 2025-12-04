@@ -13,7 +13,7 @@ export interface AccentInfo {
   slug: string;
   name: string;
   country: string;
-  flag: string;
+  countryCode: string;
   color: string;
   description: string;
 }
@@ -23,7 +23,7 @@ export const ACCENT_COUNTRIES: AccentInfo[] = [
     slug: 'accent-mexican',
     name: 'Mexican Accent',
     country: 'Mexico',
-    flag: '🇲🇽',
+    countryCode: 'MX',
     color: 'hsl(145 63% 42%)',
     description: 'Learn the melodic and clear Mexican Spanish accent',
   },
@@ -31,7 +31,7 @@ export const ACCENT_COUNTRIES: AccentInfo[] = [
     slug: 'accent-argentine',
     name: 'Argentine Accent',
     country: 'Argentina',
-    flag: '🇦🇷',
+    countryCode: 'AR',
     color: 'hsl(199 89% 48%)',
     description: 'Discover the unique rioplatense accent with its Italian influences',
   },
@@ -39,7 +39,7 @@ export const ACCENT_COUNTRIES: AccentInfo[] = [
     slug: 'accent-spanish',
     name: 'Spanish Accent',
     country: 'Spain',
-    flag: '🇪🇸',
+    countryCode: 'ES',
     color: 'hsl(0 72% 51%)',
     description: 'Master the Castilian Spanish accent from Spain',
   },
@@ -47,7 +47,7 @@ export const ACCENT_COUNTRIES: AccentInfo[] = [
     slug: 'accent-colombian',
     name: 'Colombian Accent',
     country: 'Colombia',
-    flag: '🇨🇴',
+    countryCode: 'CO',
     color: 'hsl(45 93% 47%)',
     description: 'Experience the clear and neutral Colombian Spanish',
   },
@@ -55,7 +55,7 @@ export const ACCENT_COUNTRIES: AccentInfo[] = [
     slug: 'accent-puerto-rican',
     name: 'Puerto Rican Accent',
     country: 'Puerto Rico',
-    flag: '🇵🇷',
+    countryCode: 'PR',
     color: 'hsl(210 79% 46%)',
     description: 'Explore the Caribbean rhythms of Puerto Rican Spanish',
   },

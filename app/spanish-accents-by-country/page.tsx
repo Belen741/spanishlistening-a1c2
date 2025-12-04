@@ -90,7 +90,12 @@ export default function SpanishAccentsByCountryPage() {
                       className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm hover-elevate active-elevate-2 transition-colors"
                       data-testid={`nav-${accent.slug}`}
                     >
-                      <span>{accent.flag}</span>
+                      <span 
+                        className="w-6 h-6 rounded-full flex items-center justify-center text-white text-xs font-bold"
+                        style={{ backgroundColor: accent.color }}
+                      >
+                        {accent.countryCode.charAt(0)}
+                      </span>
                       <span>{accent.country}</span>
                     </a>
                   ))}

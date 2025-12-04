@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import { PaginatedAudioList } from './PaginatedAudioList';
 import { TableOfContents } from './TableOfContents';
-import type { AudioItem, LevelSlug } from '@/types/level';
+import type { AudioItem } from '@/types/level';
 
 const Transcript = dynamic(() => import('@components/Transcript').then(mod => ({ default: mod.Transcript })), {
   loading: () => <div className="h-32 bg-card rounded-xl border animate-pulse" />,
@@ -36,7 +36,7 @@ export function LevelPageClient({ levelSlug }: LevelPageClientProps) {
       <aside className="hidden lg:block">
         <TableOfContents 
           hasSelectedAudio={!!selectedAudio} 
-          currentLevelSlug={levelSlug as LevelSlug}
+          currentLevelSlug={levelSlug}
         />
       </aside>
 

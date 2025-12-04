@@ -8,6 +8,7 @@ interface NextLevelCTAProps {
 }
 
 const levelMap: Record<string, { next?: string; url?: string; label?: string }> = {
+  accents: { next: 'A1', url: '/spanish-audio-for-beginners-a1', label: 'Start with level A1' },
   a1: { next: 'A2', url: '/spanish-audio-for-beginners-a2', label: 'Ir al nivel A2' },
   a2: { next: 'B1', url: '/intermediate-spanish-b1', label: 'Ir al nivel B1' },
   b1: { next: 'B2', url: '/intermediate-spanish-b2', label: 'Ir al nivel B2' },

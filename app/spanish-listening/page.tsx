@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { Globe } from 'lucide-react';
 import { LevelCard } from '../../components/LevelCard';
-import { LEVELS } from '../../lib/levels';
+import { LEVELS, ACCENTS_LEVEL } from '../../lib/levels';
 
 export default function HomePage() {
   const [lastLevel, setLastLevel] = useState<string | null>(null);
@@ -85,6 +86,42 @@ export default function HomePage() {
           <li>📝 Transcript</li>
           <li>❓ Quiz</li>
         </ul>
+      </section>
+
+      {/* Spanish Accents Section */}
+      <section className="container mx-auto px-4 py-6 max-w-6xl">
+        <Link 
+          href={ACCENTS_LEVEL.url}
+          className="block group"
+          data-testid="link-accents-section"
+        >
+          <div 
+            className="relative overflow-hidden rounded-xl p-6 md:p-8 hover-elevate active-elevate-2 transition-all"
+            style={{ 
+              background: `linear-gradient(135deg, hsl(30 90% 55%) 0%, hsl(25 85% 45%) 100%)`,
+            }}
+          >
+            <div className="flex items-center gap-4">
+              <div className="bg-white/20 rounded-full p-3">
+                <Globe className="h-8 w-8 text-white" />
+              </div>
+              <div className="flex-1">
+                <h2 className="text-xl md:text-2xl font-bold text-white mb-1" data-testid="text-accents-heading">
+                  Spanish Accents by Country
+                </h2>
+                <p className="text-white/90 text-sm md:text-base">
+                  Explore how Spanish sounds in Spain, Mexico, Argentina, Colombia and more
+                </p>
+              </div>
+              <div className="hidden md:flex items-center text-white/80 group-hover:text-white transition-colors">
+                <span className="text-sm font-medium mr-2">Explore</span>
+                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </Link>
       </section>
 
       {/* Levels Section - Above the Fold */}

@@ -8,7 +8,7 @@ import type { LevelSlug } from '@/types/level';
 
 interface TableOfContentsProps {
   hasSelectedAudio: boolean;
-  currentLevelSlug: LevelSlug;
+  currentLevelSlug: string;
 }
 
 export function TableOfContents({ hasSelectedAudio, currentLevelSlug }: TableOfContentsProps) {

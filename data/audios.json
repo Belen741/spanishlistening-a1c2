@@ -4286,5 +4286,106 @@
         "explanation": "El texto propone políticas integradas que incluyan redistribución de recursos, inversión en educación de calidad, igualdad de oportunidades y acceso al capital."
       }
     ]
+  },
+  {
+    "id": "b2-2-01",
+    "level": "b2-2",
+    "title": "Reservando un hotel",
+    "duration": "2:30",
+    "file": "/audios/b2-2-01.mp3",
+    "snippet": "Buenas tardes, Hotel Mirador, ¿en qué puedo ayudarle? Quisiera saber si tienen habitaciones disponibles para este fin de semana.",
+    "transcript": "Reservando un hotel\n\nLlamando para reservar\n\nRecepcionista y Cliente\n\n—Buenas tardes, Hotel Mirador, ¿en qué puedo ayudarle?\n\n—Hola, buenas tardes. Quisiera saber si tienen habitaciones disponibles para este fin de semana.\n\n—Claro, permítame un momento… Sí, tenemos habitaciones estándar y también una suite. ¿Para cuántas personas sería?\n\n—Para dos personas, por favor.\n\n—Perfecto. La habitación estándar tiene cama king, desayuno incluido y cancelación gratuita. La suite es más amplia y tiene vista al mar. ¿Cuál prefiere?\n\n—Creo que la estándar está bien. ¿Cuál sería el precio por noche?\n\n—Son 95 dólares por noche, impuestos incluidos.\n\n—Está bien. ¿Puedo hacer la reserva para viernes y sábado?\n\n—Claro que sí. ¿A nombre de quién la pongo?\n\n—A nombre de José Martínez.\n\n—Perfecto, señor Martinez. ¿Me puede proporcionar un número de teléfono y un correo electrónico?\n\n—Sí, claro: 555-982-443 y josejose@email.com.\n\n—Listo. Su reserva está confirmada. Le llegará un correo en unos minutos. Si necesita hacer cambios, solo llame aquí mismo.\n\n—Perfecto, muchas gracias por la ayuda.\n\n—Con gusto. ¡Lo esperamos el viernes!\n\nLlegando al hotel – Check-in\n\n—Buenas tardes, bienvenido al Hotel Mirador. ¿Tiene una reserva?\n\n—Sí, está a nombre de José Martínez.\n\n—Permítame verificar… Sí, aquí está: habitación estándar, dos noches. ¿Trae una identificación, por favor?\n\n—Sí, aquí tiene.\n\n—Gracias. ¿Desea pagar ahora o al momento del check-out?\n\n—Pago ahora, por favor.\n\n—Perfecto. ¿Tarjeta o efectivo?\n\n—Con tarjeta.\n\n—Muy bien... Aquí está su tarjeta… ¿Desea que le abra una cuenta para consumo en restaurante o minibar?\n\n—No, gracias. Prefiero pagar cada vez.\n\nAquí tiene sus llaves. Su habitación está en el piso cuatro, número 417. Los elevadores están a la derecha.\n\n—Perfecto. ¿A qué hora es el desayuno?\n\n—De 7 a 11 de la mañana en el restaurante del lobby.\n\n—Excelente. Muchas gracias.\n\n—Con gusto, señor Martínez. Que tenga una estancia muy agradable.",
+    "vocab": [
+      {
+        "term": "disponible",
+        "meaning": "available"
+      },
+      {
+        "term": "estándar",
+        "meaning": "standard"
+      },
+      {
+        "term": "suite",
+        "meaning": "suite"
+      },
+      {
+        "term": "impuestos",
+        "meaning": "taxes"
+      },
+      {
+        "term": "cancelación",
+        "meaning": "cancellation"
+      },
+      {
+        "term": "consumo",
+        "meaning": "charges / consumption"
+      },
+      {
+        "term": "estancia",
+        "meaning": "stay"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué tipo de habitaciones tenía disponibles el hotel?",
+        "options": [
+          "Solo habitaciones estándar",
+          "Habitaciones estándar y una suite",
+          "Solo suites"
+        ],
+        "answerIndex": 1,
+        "explanation": "El hotel tenía habitaciones estándar y también una suite disponibles."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Cuánto cuesta la habitación estándar por noche?",
+        "options": [
+          "75 dólares",
+          "95 dólares",
+          "120 dólares"
+        ],
+        "answerIndex": 1,
+        "explanation": "La habitación estándar cuesta 95 dólares por noche, impuestos incluidos."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué información pidió la recepcionista para completar la reserva?",
+        "options": [
+          "Pasaporte y dirección",
+          "País de origen y fecha de nacimiento",
+          "Número de teléfono y correo electrónico"
+        ],
+        "answerIndex": 2,
+        "explanation": "La recepcionista pidió un número de teléfono y un correo electrónico para completar la reserva."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "Al llegar al hotel, ¿qué le pide la recepcionista a José?",
+        "options": [
+          "Un depósito en efectivo",
+          "Su tarjeta de crédito",
+          "Su identificación"
+        ],
+        "answerIndex": 2,
+        "explanation": "Al llegar al hotel, la recepcionista le pide a José su identificación."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿A qué hora es el desayuno?",
+        "options": [
+          "De 6 a 10 de la mañana",
+          "De 7 a 11 de la mañana",
+          "De 8 a 12 de la tarde"
+        ],
+        "answerIndex": 1,
+        "explanation": "El desayuno es de 7 a 11 de la mañana en el restaurante del lobby."
+      }
+    ]
   }
 ]

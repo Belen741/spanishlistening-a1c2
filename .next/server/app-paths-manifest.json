@@ -1,4 +1,4 @@
 {
-  "/intermediate-spanish-b2-part-2/page": "app/intermediate-spanish-b2-part-2/page.js",
+  "/api/audios/route": "app/api/audios/route.js",
   "/spanish-listening/page": "app/spanish-listening/page.js"
 }

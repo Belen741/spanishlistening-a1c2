@@ -4492,5 +4492,102 @@
         "explanation": "'Chiflame' es una expresión argentina informal que significa 'avísame' o 'let me know'."
       }
     ]
+  },
+  {
+    "id": "arg-02",
+    "level": "accent-argentine",
+    "title": "En una librería (literatura argentina)",
+    "duration": "1:26",
+    "file": "/audios/arg-02.mp3",
+    "snippet": "Una clienta busca libros de literatura argentina. La vendedora recomienda obras de Borges, Cortázar y Samanta Schweblin.",
+    "transcript": "—Hola, ¿qué tal? Estoy buscando algo de literatura argentina. ¿Tenés algo más de este autor? —muestra un libro de Borges.\n\n—Sí, claro, che. De Borges tenemos Ficciones y El Aleph. Si te gusta lo más fantástico, Ficciones es una joyita este libro.\n\n—¡Buenísimo! También quería algo de Cortázar. Siempre escucho hablar de Rayuela, viste.\n\n—Obvio. Rayuela es más largo y experimental, pero si querés empezar con algo corto, te recomiendo sus cuentos. Final del juego y Bestiario son lecturas rápidas pero potentes.\n\n—Perfecto. ¿Y algo más contemporáneo? Escuché el nombre Samanta Schweblin varias veces.\n\n—Sí, ella escribe terror psicológico muy sutil. Su novela Distancia de rescate sale mucho. También tenemos Pájaros en la boca, que es de cuentos y está bárbaro.\n\n—¿Y de precios cómo andan?\n\n—Mirá, los de Borges están alrededor de 5 mil pesos, los de Cortázar cerca de 4 mil, y Schweblin unos 6 mil porque es más reciente.\n\n—Bien. Me llevo Ficciones y Pájaros en la boca. A mí me encanta leer porque siento que desconecto del mundo por un rato, ¿viste?\n\n—Te entiendo. Para mí leer es viajar sin moverte. Bueno, che, te preparo los libros.\n\n—Genial, gracias por las recomendaciones.\n\n—¡De nada! Que los disfrutes.",
+    "vocab": [
+      {
+        "term": "experimental",
+        "meaning": "Experimental"
+      },
+      {
+        "term": "potentes",
+        "meaning": "Powerful / impactful"
+      },
+      {
+        "term": "terror psicológico",
+        "meaning": "Psychological horror"
+      },
+      {
+        "term": "sutil",
+        "meaning": "Subtle"
+      },
+      {
+        "term": "bárbaro",
+        "meaning": "Awesome / great (Argentine slang)"
+      },
+      {
+        "term": "desconectar",
+        "meaning": "To disconnect / to switch off mentally"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué dice la vendedora sobre el libro Ficciones de Borges?",
+        "options": [
+          "Que es muy difícil de entender",
+          "Que 'es una joyita este libro'",
+          "Que casi nadie lo compra"
+        ],
+        "answerIndex": 1,
+        "explanation": "La vendedora describe Ficciones como 'una joyita', expresión argentina para algo excelente."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué recomienda la vendedora para empezar con Cortázar?",
+        "options": [
+          "Leer solo Rayuela",
+          "Empezar por sus novelas más largas",
+          "Empezar con sus cuentos, como Final del juego o Bestiario"
+        ],
+        "answerIndex": 2,
+        "explanation": "La vendedora recomienda empezar con los cuentos de Cortázar porque son lecturas rápidas pero potentes."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Cómo describe la vendedora la escritura de Samanta Schweblin?",
+        "options": [
+          "Humor absurdo",
+          "Ensayo político",
+          "Terror psicológico muy sutil"
+        ],
+        "answerIndex": 2,
+        "explanation": "La vendedora describe a Schweblin como autora de terror psicológico muy sutil."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Cuál es la razón que da el cliente para decir que le gusta leer?",
+        "options": [
+          "Porque aprende más sobre historia argentina",
+          "Porque mejora su vocabulario académico",
+          "Porque siente que desconecta del mundo por un rato"
+        ],
+        "answerIndex": 2,
+        "explanation": "El cliente dice que le encanta leer porque siente que desconecta del mundo por un rato."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué comparación usa la vendedora para explicar lo que significa leer para ella?",
+        "options": [
+          "Leer es como ir al cine",
+          "Leer es como hacer deporte",
+          "Leer es como viajar sin moverte"
+        ],
+        "answerIndex": 2,
+        "explanation": "La vendedora dice que para ella leer es como viajar sin moverte."
+      }
+    ]
   }
 ]

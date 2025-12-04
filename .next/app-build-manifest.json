@@ -20,6 +20,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/intermediate-spanish-b2-part-2/page.js"
+    ],
+    "/intermediate-spanish-b2/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/intermediate-spanish-b2/page.js"
     ]
   }
 }

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { Play, Pause, Download, Volume2, SkipBack, SkipForward } from 'lucide-react';
+import { Play, Pause, Volume2, SkipBack, SkipForward } from 'lucide-react';
 
 interface AudioPlayerProps {
   src: string;
@@ -88,18 +88,7 @@ export function AudioPlayer({ src, title }: AudioPlayerProps) {
     <div className="bg-card rounded-xl border p-6 space-y-4" data-testid="audio-player">
       <audio ref={audioRef} src={src} preload="metadata" />
       
-      <div className="flex items-center justify-between">
-        <h3 className="font-medium text-sm text-muted-foreground">Audio</h3>
-        <a
-          href={src}
-          download
-          className="text-sm text-primary hover:underline flex items-center gap-1"
-          data-testid="button-download-audio"
-        >
-          <Download className="h-4 w-4" />
-          Descargar
-        </a>
-      </div>
+      <h3 className="font-medium text-sm text-muted-foreground">Audio</h3>
 
       <div className="space-y-3">
         <div className="flex items-center gap-3">

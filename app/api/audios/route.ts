@@ -18,7 +18,8 @@ export async function GET(request: NextRequest) {
     }
 
     const filteredAudios = audiosData.filter(
-      (audio) => audio.level === level
+      (audio) => audio.level === level || 
+        (level === 'b2-2' && audio.level === 'b2-2')
     );
 
     const total = filteredAudios.length;

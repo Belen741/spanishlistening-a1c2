@@ -20,6 +20,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...levelPages,
     {
+      url: `${baseUrl}/intermediate-spanish-b2-part-2`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/advanced-spanish-classes`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
       url: `${baseUrl}/legal/privacidad`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

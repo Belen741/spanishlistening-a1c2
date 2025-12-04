@@ -1,12 +1,14 @@
 import type { Metadata } from 'next';
-import { ACCENTS_LEVEL } from '@lib/levels';
+import Link from 'next/link';
+import { Home } from 'lucide-react';
+import { ACCENTS_LEVEL, ACCENT_COUNTRIES } from '@lib/levels';
 import { AdSlot } from '@components/AdSlot';
-import { LevelPageClient } from '@components/LevelPageClient';
+import { AccentSection } from '@components/AccentSection';
 import { SaveLastLevel } from '@components/SaveLastLevel';
 
 export const metadata: Metadata = {
   title: 'Spanish Accents by Country - Learn Different Spanish Dialects',
-  description: 'Explore Spanish accents from different countries. Listen to native speakers from Spain, Mexico, Argentina, Colombia and more with transcripts and quizzes.',
+  description: 'Explore Spanish accents from Mexico, Argentina, Spain, Colombia and Puerto Rico. Listen to native speakers with transcripts, vocabulary and quizzes.',
   openGraph: {
     title: 'Spanish Accents by Country',
     description: 'Explore Spanish accents from different countries with audio examples, transcripts and quizzes.',
@@ -34,15 +36,68 @@ export default function SpanishAccentsByCountryPage() {
             Spanish Accents by Country
           </h1>
           <p className="text-lg text-muted-foreground" data-testid="text-level-description">
-            Discover how Spanish sounds across different countries with native speakers from Spain, Mexico, Argentina, Colombia and more.
+            Discover how Spanish sounds across different countries. Each section features audio from native speakers with transcripts, vocabulary and quizzes.
           </p>
         </div>
 
         <div className="grid grid-cols-1 xl:grid-cols-[1fr_300px] gap-8">
-          <LevelPageClient levelSlug="accents" />
+          <div className="space-y-6">
+            {ACCENT_COUNTRIES.map((accent) => (
+              <AccentSection key={accent.slug} accent={accent} />
+            ))}
+
+            <div className="bg-accent/30 border rounded-xl p-6 space-y-4 mt-8" data-testid="next-level-cta">
+              <div className="text-center space-y-2">
+                <p className="text-lg font-semibold">
+                  Ready to practice by level?
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Continue your learning journey with our CEFR-structured lessons.
+                </p>
+              </div>
+
+              <div className="flex flex-wrap items-center justify-center gap-3">
+                <Link
+                  href="/spanish-audio-for-beginners-a1"
+                  className="flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover-elevate active-elevate-2 border-2 border-primary-border font-medium"
+                  data-testid="button-start-a1"
+                >
+                  Start with Level A1
+                </Link>
+                <Link
+                  href="/spanish-listening"
+                  className="flex items-center gap-2 px-6 py-3 bg-background border rounded-lg hover-elevate active-elevate-2 font-medium"
+                  data-testid="button-back-home"
+                >
+                  <Home className="h-4 w-4" />
+                  Back to Home
+                </Link>
+              </div>
+            </div>
+          </div>
           
           <aside className="space-y-6 hidden xl:block">
-            <AdSlot slot="sidebar" className="sticky top-4" />
+            <div className="sticky top-4 space-y-6">
+              <nav className="bg-card border rounded-xl p-4">
+                <h3 className="text-sm font-semibold text-muted-foreground mb-4">
+                  COUNTRIES
+                </h3>
+                <div className="space-y-1">
+                  {ACCENT_COUNTRIES.map((accent) => (
+                    <a
+                      key={accent.slug}
+                      href={`#${accent.slug}`}
+                      className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm hover-elevate active-elevate-2 transition-colors"
+                      data-testid={`nav-${accent.slug}`}
+                    >
+                      <span>{accent.flag}</span>
+                      <span>{accent.country}</span>
+                    </a>
+                  ))}
+                </div>
+              </nav>
+              <AdSlot slot="sidebar" />
+            </div>
           </aside>
         </div>
       </div>

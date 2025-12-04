@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { ArrowRight, Home } from 'lucide-react';
 
 interface NextLevelCTAProps {
-  currentLevel: 'a1' | 'a2' | 'b1' | 'b2' | 'c1' | 'c2';
+  currentLevel: string;
 }
 
 const levelMap: Record<string, { next?: string; url?: string; label?: string }> = {
@@ -12,12 +12,13 @@ const levelMap: Record<string, { next?: string; url?: string; label?: string }> 
   a2: { next: 'B1', url: '/intermediate-spanish-b1', label: 'Ir al nivel B1' },
   b1: { next: 'B2', url: '/intermediate-spanish-b2', label: 'Ir al nivel B2' },
   b2: { next: 'C1', url: '/advanced-spanish-c1', label: 'Ir al nivel C1' },
+  'b2-2': { next: 'C1', url: '/advanced-spanish-c1', label: 'Ir al nivel C1' },
   c1: { next: 'C2', url: '/advanced-spanish-c2', label: 'Ir al nivel C2' },
   c2: {},
 };
 
 export function NextLevelCTA({ currentLevel }: NextLevelCTAProps) {
-  const levelInfo = levelMap[currentLevel];
+  const levelInfo = levelMap[currentLevel] || {};
 
   return (
     <div className="bg-accent/30 border rounded-xl p-6 space-y-4 mt-8" data-testid="next-level-cta">

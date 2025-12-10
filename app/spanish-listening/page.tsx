@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Globe } from 'lucide-react';
+import { Headphones, ChevronRight } from 'lucide-react';
 import { LevelCard } from '../../components/LevelCard';
 import { LEVELS, ACCENTS_LEVEL } from '../../lib/levels';
 
@@ -96,28 +96,63 @@ export default function HomePage() {
           data-testid="link-accents-section"
         >
           <div 
-            className="relative overflow-hidden rounded-xl p-6 md:p-8 hover-elevate active-elevate-2 transition-all"
+            className="relative overflow-hidden rounded-xl px-8 md:px-10 py-6 md:py-8 transition-all duration-300 group-hover:scale-[1.01] group-hover:brightness-105"
             style={{ 
-              background: `linear-gradient(135deg, hsl(30 90% 55%) 0%, hsl(25 85% 45%) 100%)`,
+              background: `linear-gradient(135deg, hsl(45 95% 55%) 0%, hsl(30 90% 55%) 35%, hsl(15 85% 50%) 70%, hsl(0 80% 50%) 100%)`,
             }}
           >
-            <div className="flex items-center gap-4">
-              <div className="bg-white/20 rounded-full p-3">
-                <Globe className="h-8 w-8 text-white" />
+            {/* Subtle wave pattern overlay */}
+            <div 
+              className="absolute inset-0 opacity-[0.06] pointer-events-none"
+              style={{
+                backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23ffffff' d='M0,160L48,170.7C96,181,192,203,288,186.7C384,171,480,117,576,112C672,107,768,149,864,165.3C960,181,1056,171,1152,149.3C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E")`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            />
+            
+            <div className="relative flex items-center gap-4 md:gap-5">
+              <div className="bg-white/25 backdrop-blur-sm rounded-full p-3 shadow-lg">
+                <Headphones className="h-7 w-7 md:h-8 md:w-8 text-white drop-shadow-md" />
               </div>
               <div className="flex-1">
-                <h2 className="text-xl md:text-2xl font-bold text-white mb-1" data-testid="text-accents-heading">
+                <h2 
+                  className="text-xl md:text-2xl font-extrabold text-white mb-1" 
+                  style={{ textShadow: '0 2px 4px rgba(0,0,0,0.15)' }}
+                  data-testid="text-accents-heading"
+                >
                   Spanish Accents by Country
                 </h2>
-                <p className="text-white/90 text-sm md:text-base">
+                <p 
+                  className="text-white/95 text-sm md:text-base font-medium"
+                  style={{ textShadow: '0 1px 2px rgba(0,0,0,0.1)' }}
+                >
                   Explore how Spanish sounds in Spain, Mexico, Argentina, Colombia and more
                 </p>
+                
+                {/* Country flags */}
+                <div className="flex items-center gap-2 mt-3">
+                  {[
+                    { code: 'MX', colors: ['#006847', '#fff', '#ce1126'] },
+                    { code: 'ES', colors: ['#c60b1e', '#ffc400', '#c60b1e'] },
+                    { code: 'CO', colors: ['#fcd116', '#003893', '#ce1126'] },
+                    { code: 'AR', colors: ['#74acdf', '#fff', '#74acdf'] },
+                    { code: 'PR', colors: ['#ed0000', '#fff', '#0050f0'] },
+                  ].map((flag) => (
+                    <div 
+                      key={flag.code}
+                      className="w-6 h-6 rounded-full overflow-hidden shadow-md border border-white/30 flex-shrink-0"
+                      style={{
+                        background: `linear-gradient(180deg, ${flag.colors[0]} 0%, ${flag.colors[0]} 33%, ${flag.colors[1]} 33%, ${flag.colors[1]} 66%, ${flag.colors[2]} 66%, ${flag.colors[2]} 100%)`,
+                      }}
+                      title={flag.code}
+                    />
+                  ))}
+                </div>
               </div>
-              <div className="hidden md:flex items-center text-white/80 group-hover:text-white transition-colors">
-                <span className="text-sm font-medium mr-2">Explore</span>
-                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
+              <div className="hidden md:flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-white font-medium transition-all duration-300 group-hover:bg-white/30 group-hover:scale-105 shadow-lg">
+                <span className="text-sm">Explore</span>
+                <ChevronRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5" />
               </div>
             </div>
           </div>

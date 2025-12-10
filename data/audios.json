@@ -4589,5 +4589,110 @@
         "explanation": "La vendedora dice que para ella leer es como viajar sin moverte."
       }
     ]
+  },
+  {
+    "id": "mex-01",
+    "level": "accent-mexican",
+    "title": "Un día normal en la Ciudad de México",
+    "duration": "2:15",
+    "file": "/audios/mex-01.mp3",
+    "snippet": "Diálogo sobre la vida cotidiana en la Ciudad de México: el metro, el tráfico, los puestos de comida y el ritmo acelerado de la capital.",
+    "transcript": "A: —¿Qué onda, María? ¿Cómo te fue hoy en la Ciudad de México?\n\nB: —Híjole… estuvo intenso. El metro venía llenísimo desde temprano. Me tuve que dejar pasar como tres trenes porque simplemente no cabía.\n\nA: —Sí, en la mañana es imposible. ¿Te fuiste por la Línea 3 otra vez?\n\nB: —Ajá, y luego el transborde estaba eterno. Después intenté agarrar el Metrobús, pero se tardó un buen por el tráfico en Insurgentes.\n\nA: —Clásico. A mí me pasó igual ayer; salí como a las siete y llegué a la oficina casi a las nueve. ¿Y al menos desayunaste algo?\n\nB: —Sí, afuera del metro había un puestito. Me compré un tamal verde y un atole de fresa. Eso sí, riquísimos.\n\nA: —Ah, qué bueno. Esos puestitos salvan la mañana. ¿Y cómo estuvo el regreso?\n\nB: —Un poco mejor, pero igual había tráfico pesado. Al final llegué como a las ocho de la noche.\n\nA: —Así es esto. El ritmo de vida aquí no perdona.\n\nB: —Para nada. Pero bueno, ya estoy en casa, así que a descansar.",
+    "vocab": [
+      {
+        "term": "¿Qué onda?",
+        "meaning": "Informal greeting meaning 'What's up?'"
+      },
+      {
+        "term": "¿Cómo te fue?",
+        "meaning": "'How did it go?' Used to ask about someone's day or experience."
+      },
+      {
+        "term": "Se tardó un buen",
+        "meaning": "'It took a long time / it was really slow.' Mexican informal expression."
+      },
+      {
+        "term": "Hora pico",
+        "meaning": "'Rush hour.' The busiest time with heavy traffic."
+      },
+      {
+        "term": "Puesto / puestito",
+        "meaning": "'Street food stand / small vendor.' Very typical in Mexican cities."
+      },
+      {
+        "term": "Tacos de canasta / tamales",
+        "meaning": "Common Mexican street foods, inexpensive and bought on the go."
+      },
+      {
+        "term": "El metro venía llenísimo",
+        "meaning": "'The subway was completely packed.' Natural way to describe crowded transport."
+      },
+      {
+        "term": "El ritmo de vida no perdona",
+        "meaning": "'The fast pace of life doesn't forgive.' Life in the city is intense and demanding."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué María tuvo que dejar pasar varios trenes del metro?",
+        "options": [
+          "Porque llegó tarde",
+          "Porque se equivocó de línea",
+          "Porque venían llenísimos y no cabía"
+        ],
+        "answerIndex": 2,
+        "explanation": "María dice que tuvo que dejar pasar como tres trenes porque simplemente no cabía."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué transporte intentó tomar María después del metro?",
+        "options": [
+          "Un taxi",
+          "El Metrobús",
+          "Un trolebús"
+        ],
+        "answerIndex": 1,
+        "explanation": "Después del metro, María intentó agarrar el Metrobús pero se tardó por el tráfico en Insurgentes."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué compró María para desayunar afuera del metro?",
+        "options": [
+          "Un tamal verde y un atole de fresa",
+          "Unos tacos de canasta",
+          "Un café y una concha"
+        ],
+        "answerIndex": 0,
+        "explanation": "María se compró un tamal verde y un atole de fresa en un puestito afuera del metro."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "Según la conversación, ¿qué caracteriza al ritmo de vida en la Ciudad de México?",
+        "options": [
+          "Es lento y relajado",
+          "Es muy ordenado",
+          "Es rápido y exigente"
+        ],
+        "answerIndex": 2,
+        "explanation": "El amigo dice que 'el ritmo de vida aquí no perdona', indicando que es rápido y exigente."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Cómo estuvo el regreso de María a su casa?",
+        "options": [
+          "Mucho peor que en la mañana",
+          "Un poco mejor, pero con tráfico pesado",
+          "Muy rápido y sin tráfico"
+        ],
+        "answerIndex": 1,
+        "explanation": "María dice que el regreso estuvo un poco mejor, pero igual había tráfico pesado."
+      }
+    ]
   }
 ]

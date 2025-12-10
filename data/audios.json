@@ -4799,5 +4799,98 @@
         "explanation": "Al cliente le encanta el campechano y decide pedir dos tacos más de suadero."
       }
     ]
+  },
+  {
+    "id": "mex-03",
+    "level": "accent-mexican",
+    "title": "Planeando un viaje por México",
+    "duration": "1:50",
+    "file": "/audios/mex-03.mp3",
+    "snippet": "Ana y Carlos planean un viaje por México. Aprenderás expresiones como 'está muy padre', 'imperdible', 'vale la pena' y vocabulario de viajes.",
+    "transcript": "Ana: —Carlos, estoy planeando un viaje por México para enero. ¿Qué ciudades me recomiendas?\n\nCarlos: —Pues si quieres cultura y comida rica, Oaxaca es imperdible. El clima en enero está súper agradable.\n\nAna: —Oaxaca me encanta. También pensé en Guadalajara, porque dicen que está muy padre para caminar.\n\nCarlos: —Sí, y Tlaquepaque es buenísimo para artesanías. ¿Y la CDMX? Tiene muchísimo que hacer.\n\nAna: —Sí quiero ir, pero el tráfico me asusta.\n\nCarlos: —Usa metro o metrobús y ya. Además, hay hospedaje para todos los presupuestos.\n\nAna: —También quiero pasar por Puebla, nunca he probado el mole allá.\n\nCarlos: —Tienes que ir. Solo lleva suéter porque hace frío en la noche.\n\nAna: —¿Y Monterrey? Me dijeron que es caro.\n\nCarlos: —Un poco, sí, pero los paisajes valen la pena. Ahí conviene rentar coche.\n\nAna: —Creo que haré Oaxaca → CDMX → Puebla → Guadalajara. ¿Suena bien?\n\nCarlos: —Perfecto. Solo revisa vuelos entre ciudades para ahorrar tiempo.\n\nAna: —Gracias, Carlos. ¡Me emocioné más!\n\nCarlos: —Cuando vuelvas me cuentas… y me traes un mezcalito, ¿eh?\n\nAna: —Órale, queda hecho.",
+    "vocab": [
+      {
+        "term": "Imperdible",
+        "meaning": "Must-see / unmissable"
+      },
+      {
+        "term": "Está súper agradable",
+        "meaning": "It's really nice / very pleasant"
+      },
+      {
+        "term": "Está muy padre",
+        "meaning": "It's really cool / it's great (Mexican slang)"
+      },
+      {
+        "term": "Artesanías",
+        "meaning": "Handicrafts / handcrafted goods"
+      },
+      {
+        "term": "Hospedaje",
+        "meaning": "Lodging / accommodation"
+      },
+      {
+        "term": "Presupuestos",
+        "meaning": "Budgets / price ranges"
+      },
+      {
+        "term": "Valen la pena",
+        "meaning": "They're worth it"
+      },
+      {
+        "term": "Órale, queda hecho",
+        "meaning": "Alright! / Deal! / Sounds good, it's done"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué Carlos recomienda Oaxaca?",
+        "options": [
+          "Porque es una ciudad muy barata",
+          "Porque tiene cultura y comida rica",
+          "Porque está cerca de Monterrey"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carlos dice que Oaxaca es imperdible si quieres cultura y comida rica."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué le preocupa a Ana sobre visitar la CDMX?",
+        "options": [
+          "El clima",
+          "El tráfico",
+          "Los museos"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ana dice que sí quiere ir a la CDMX pero el tráfico le asusta."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué recomienda Carlos para moverse en la CDMX?",
+        "options": [
+          "Caminar siempre",
+          "Usar metro o metrobús",
+          "Tomar taxis privados únicamente"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carlos recomienda usar metro o metrobús para evitar el tráfico."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué dice Carlos sobre Monterrey?",
+        "options": [
+          "Que es muy económico",
+          "Que no vale la pena visitarlo",
+          "Que es un poco caro, pero sus paisajes valen la pena"
+        ],
+        "answerIndex": 2,
+        "explanation": "Carlos dice que Monterrey es un poco caro, pero los paisajes valen la pena."
+      }
+    ]
   }
 ]

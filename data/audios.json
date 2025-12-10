@@ -4694,5 +4694,110 @@
         "explanation": "María dice que el regreso estuvo un poco mejor, pero igual había tráfico pesado."
       }
     ]
+  },
+  {
+    "id": "mex-02",
+    "level": "accent-mexican",
+    "title": "Conversación en una taquería",
+    "duration": "2:30",
+    "file": "/audios/mex-02.mp3",
+    "snippet": "Un cliente llega a una taquería por la noche. Aprenderás vocabulario típico mexicano como 'órale', 'con todo', 'campechano' y expresiones de los taqueros.",
+    "transcript": "Cliente: —¡Buenas noches! ¿Todavía hay tacos?\n\nTaquero: —¡Órale, pásale! Aquí nunca se acaban. ¿De cuáles va a querer? Tengo pastor, suadero, campechano y longaniza.\n\nCliente: —Mmm… dame dos de pastor con piña y uno campechano, por favor.\n\nTaquero: —Va, ya están saliendo. ¿Con todo?\n\nCliente: —Sí, con todo, pero la cebolla poquita.\n\nTaquero: —Perfecto. ¿Y de salsas cómo anda? Tengo verde, roja, y una especial que sí pica en serio.\n\nCliente: —Uy… a ver, quiero probar, pero tampoco quiero llorar.\n\nTaquero: —Jajaja, entonces no le pongo de la especial. Esa sí está brava. Le pongo tantita verde, ¿sale?\n\nCliente: —Sí, mejor poquita. No quiero que me arda todo el camino a mi casa.\n\nTaquero: —Listo. ¿Va a querer algo de tomar? Tengo jamaica, horchata, tamarindo y limón con chía.\n\nCliente: —Uy, horchata, por favor. Un vaso grande.\n\nTaquero: —Ahorita se lo sirvo. Oiga, ¿va a querer más después? Porque los de suadero están buenos hoy, eh.\n\nCliente: —¿Sí? A ver… si me gustan estos regreso por dos más.\n\nTaquero: —Eso, así me gusta. Aquí estamos. Sus tacos están listos, joven.\n\nCliente: —¡Gracias! Se ven buenísimos.\n\nTaquero: —Pues órale, pruebe y me dice.\n\nCliente: —Mmm… ¡no inventes! El campechano está buenísimo.\n\nTaquero: —Le dije, joven. Aquí puro taco ganador.\n\nCliente: —Ya valí… sí me voy a echar otros dos de suadero.\n\nTaquero: —¡Eso! Ahorita se los preparo.",
+    "vocab": [
+      {
+        "term": "Órale",
+        "meaning": "Mexican expression meaning 'wow,' 'okay,' 'sounds good,' or 'let's go,' depending on tone."
+      },
+      {
+        "term": "Con todo",
+        "meaning": "'With everything on it' (all toppings/ingredients included)."
+      },
+      {
+        "term": "Pastor",
+        "meaning": "Marinated pork cooked on a vertical spit, often served with pineapple."
+      },
+      {
+        "term": "Suadero",
+        "meaning": "A soft, thin cut of beef commonly used in street tacos."
+      },
+      {
+        "term": "Campechano",
+        "meaning": "A mix of two meats in one taco (e.g., suadero + longaniza)."
+      },
+      {
+        "term": "Aguas frescas",
+        "meaning": "Traditional Mexican flavored drinks (horchata, jamaica, tamarindo, etc.)."
+      },
+      {
+        "term": "¿De cuáles va a querer?",
+        "meaning": "'Which ones would you like?' Typical taquero question."
+      },
+      {
+        "term": "Está brava (la salsa)",
+        "meaning": "'The salsa is really spicy / very hot.'"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué el taquero decide no ponerle la salsa especial al cliente?",
+        "options": [
+          "Porque ya no le quedaba",
+          "Porque el cliente dijo que no quería llorar por lo picosa que estaba",
+          "Porque solo se la ofrece a clientes frecuentes"
+        ],
+        "answerIndex": 1,
+        "explanation": "El cliente dijo que quería probar pero no quería llorar, así que el taquero no le puso la salsa especial."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué tipo de bebida pide el cliente para acompañar sus tacos?",
+        "options": [
+          "Agua de jamaica",
+          "Horchata",
+          "Limón con chía"
+        ],
+        "answerIndex": 1,
+        "explanation": "El cliente pide horchata, un vaso grande."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué intención tiene el taquero cuando le pregunta al cliente si va a querer más tacos después?",
+        "options": [
+          "Quiere saber si debe cerrar la taquería",
+          "Quiere recomendarle los tacos de pastor",
+          "Quiere convencerlo de probar los tacos de suadero, que están buenos ese día"
+        ],
+        "answerIndex": 2,
+        "explanation": "El taquero le dice que los de suadero están buenos ese día para convencerlo de probar más."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué expresa el taquero al decir 'órale' al inicio de la conversación?",
+        "options": [
+          "Una bienvenida amistosa y aprobación para que el cliente pase",
+          "Enfado porque el cliente llegó tarde",
+          "Una despedida informal"
+        ],
+        "answerIndex": 0,
+        "explanation": "'Órale, pásale' es una bienvenida amistosa típica mexicana."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué reacción tiene el cliente después de probar el taco campechano?",
+        "options": [
+          "Dice que está demasiado salado",
+          "Decide no pedir nada más",
+          "Le gusta tanto que pide dos tacos más"
+        ],
+        "answerIndex": 2,
+        "explanation": "Al cliente le encanta el campechano y decide pedir dos tacos más de suadero."
+      }
+    ]
   }
 ]

@@ -5078,5 +5078,98 @@
         "explanation": "Carlos propone mirar los horarios de los trenes antes de que suban los precios."
       }
     ]
+  },
+  {
+    "id": "esp-03",
+    "level": "accent-spanish",
+    "title": "En un supermercado en España",
+    "duration": "1:30",
+    "file": "/audios/esp-03.mp3",
+    "snippet": "Un cliente pregunta por productos en un supermercado español. Aprenderás el uso del vosotros y expresiones como 'un pelín', 'de sobra' y '¿Queréis bolsa?'.",
+    "transcript": "Empleado: —Buenas, ¿os puedo ayudar en algo?\n\nCliente: —Sí, por favor. ¿Sabéis dónde están las galletas integrales? No las encuentro por ningún lado.\n\nEmpleado: —Claro, están en el pasillo tres, justo al lado de los cereales. Si queréis, os acompaño.\n\nCliente: —Perfecto, gracias. Oye, ¿tenéis leche sin lactosa de esta marca? En mi país es muy común, pero aquí no la veo tanto.\n\nEmpleado: —Sí, aquí manejamos menos marcas, pero mirad: tenemos esta que es bastante buena.\n\nCliente: —Genial. ¿Y sabéis si hoy abre la sección de pescadería? Me dijeron que los horarios cambian según el día.\n\nEmpleado: —Sí, hoy cierra un pelín antes, a las seis. Si os pasáis ahora, llegáis de sobra.\n\nCliente: —Vale, me paso luego.\n\nEmpleado: —Perfecto. Cuando terminéis, pasaos por la caja, por favor.\n\nCliente (en la caja): —Buenas.\n\nEmpleado: —Hola. ¿Queréis bolsa? Tenemos de papel o de tela.\n\nCliente: —Una de papel, gracias.\n\nEmpleado: —Fenomenal. ¿Tenéis la tarjeta del supermercado?\n\nCliente: —No, todavía no la tenemos.\n\nEmpleado: —No pasa nada. Pues serían 12,40 €.\n\nCliente: —Aquí tenéis. ¡Gracias por todo!\n\nEmpleado: —A vosotros. ¡Que tengáis buen día!",
+    "vocab": [
+      {
+        "term": "un pelín",
+        "meaning": "A little bit / just a tiny bit."
+      },
+      {
+        "term": "pasáis (por la caja)",
+        "meaning": "You all go / you all pass through."
+      },
+      {
+        "term": "llegáis de sobra",
+        "meaning": "You arrive with plenty of time / more than enough time."
+      },
+      {
+        "term": "¿Os puedo ayudar en algo?",
+        "meaning": "Can I help you with anything?"
+      },
+      {
+        "term": "¿Tenéis…?",
+        "meaning": "Do you (plural) have…?"
+      },
+      {
+        "term": "justo al lado de…",
+        "meaning": "Right next to…"
+      },
+      {
+        "term": "si queréis, os acompaño",
+        "meaning": "If you (plural) want, I'll go with you / I can show you."
+      },
+      {
+        "term": "¿Queréis bolsa?",
+        "meaning": "Do you (plural) want a bag?"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué indica el cliente cuando comenta que en su país la leche sin lactosa es 'muy común'?",
+        "options": [
+          "Que prefiere no comprar leche en España",
+          "Que no sabe si en España existe ese producto",
+          "Que le sorprende que en España haya menos variedad de esa marca"
+        ],
+        "answerIndex": 2,
+        "explanation": "El cliente expresa sorpresa de que en España no sea tan común como en su país."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué sugiere el empleado al decir 'Si os pasáis ahora, llegáis de sobra'?",
+        "options": [
+          "Que la pescadería está cerrada y no vale la pena ir",
+          "Que todavía hay tiempo para ir antes de que cierre a las seis",
+          "Que deberían ir mañana porque hoy está demasiado llena"
+        ],
+        "answerIndex": 1,
+        "explanation": "El empleado indica que si van ahora, llegarán con tiempo de sobra antes de que cierre a las seis."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Por qué el empleado ofrece acompañar al cliente al pasillo tres?",
+        "options": [
+          "Porque el supermercado es muy grande y complicado",
+          "Porque el cliente pidió ayuda para encontrar los cereales",
+          "Porque quiere facilitarle encontrar las galletas integrales sin perder tiempo"
+        ],
+        "answerIndex": 2,
+        "explanation": "El empleado ofrece acompañarlo para que encuentre fácilmente las galletas integrales."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué se puede inferir cuando el empleado pregunta si tienen la tarjeta del supermercado?",
+        "options": [
+          "Que sin la tarjeta no pueden pagar",
+          "Que la tarjeta es obligatoria para comprar productos frescos",
+          "Que existe un sistema de fidelidad o descuentos asociado a la tarjeta"
+        ],
+        "answerIndex": 2,
+        "explanation": "La pregunta sobre la tarjeta indica un sistema de fidelidad o descuentos para clientes."
+      }
+    ]
   }
 ]

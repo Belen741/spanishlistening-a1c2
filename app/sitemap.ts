@@ -3,7 +3,7 @@ import { LEVELS } from '@lib/levels';
 import { ACCENT_THEMES } from '@lib/accentThemes';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://listening-niveles.replit.app';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.spanishlisteninga1c2.com';
 
   const levelUrlMap: Record<string, string> = {
     'a1': '/spanish-audio-for-beginners-a1',

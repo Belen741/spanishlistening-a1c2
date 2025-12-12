@@ -5349,5 +5349,98 @@
         "explanation": "'Rendido' significa que terminó muy cansado después del paseo."
       }
     ]
+  },
+  {
+    "id": "col-03",
+    "level": "accent-colombian",
+    "title": "Preguntando direcciones en Bogotá",
+    "duration": "1:15",
+    "file": "/audios/col-03.mp3",
+    "snippet": "Carlos pide direcciones para llegar a una estación de TransMilenio. Aprenderás diminutivos colombianos como 'derechito', 'cuadrita', 'vueltica' y 'mismito'.",
+    "transcript": "Carlos: —Hola, disculpa, ¿tú sabes cómo llego a una estación de TransMilenio por aquí cerca?\n\nPaula: —Claro, ¿a cuál vas?\n\nCarlos: —A la de Calle 72, creo que así se llama.\n\nPaula: —Sí, esa queda cerquita. Mira, sigues derechito por esta carrera hasta la próxima esquina.\n\nCarlos: —¿Por la Carrera 11?\n\nPaula: —Exacto, por la 11. Caminas como dos cuadritas y en la segunda te metes por ahí a la vueltica a la derecha.\n\nCarlos: —Perfecto. ¿Y de ahí ya se ve la estación?\n\nPaula: —Sí, ahí mismito. Vas a ver la entrada grande roja. Cuando subas al bus, acuérdate: te bajas en la siguiente si vas hacia el norte.\n\nCarlos: —Listo, súper claro. Muchas gracias.\n\nPaula: —Con gusto. Bogotá es grande, pero uno se acostumbra.\n\nCarlos: —Sí, se nota. Bueno, me voy antes de que se llene más.\n\nPaula: —Dale, que te vaya bien. ¡Chao!\n\nCarlos: —¡Chao, gracias!",
+    "vocab": [
+      {
+        "term": "derechito",
+        "meaning": "Straight ahead / straight forward."
+      },
+      {
+        "term": "mismito",
+        "meaning": "Right there / exactly there."
+      },
+      {
+        "term": "vueltica",
+        "meaning": "A small turn / just around the corner."
+      },
+      {
+        "term": "te bajas en la siguiente",
+        "meaning": "You get off at the next stop."
+      },
+      {
+        "term": "cuadrita",
+        "meaning": "Small block (short street block)."
+      },
+      {
+        "term": "TransMilenio",
+        "meaning": "Bogotá's bus rapid transit system (BRT)."
+      },
+      {
+        "term": "enredada",
+        "meaning": "Confusing / tricky to navigate."
+      },
+      {
+        "term": "ubicar(se)",
+        "meaning": "To find your way / to orient yourself."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué instrucción inicial le da Paula a Carlos para encontrar la estación?",
+        "options": [
+          "Girar a la derecha inmediatamente",
+          "Seguir derechito por la carrera hasta la próxima esquina",
+          "Cruzar hacia la avenida principal"
+        ],
+        "answerIndex": 1,
+        "explanation": "Paula le dice que siga derechito por la carrera hasta la próxima esquina."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Por qué Paula menciona que la estación está 'ahí mismito'?",
+        "options": [
+          "Porque es difícil de encontrar",
+          "Porque está muy cerca y es fácil de identificar",
+          "Porque Carlos ya había ido antes"
+        ],
+        "answerIndex": 1,
+        "explanation": "'Ahí mismito' indica que la estación está muy cerca y es fácil de ver."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué se puede inferir de la recomendación 'te bajas en la siguiente si vas hacia el norte'?",
+        "options": [
+          "Que Carlos debe bajarse después de varias paradas",
+          "Que la dirección no importa para bajarse",
+          "Que la parada correcta depende de la dirección del bus"
+        ],
+        "answerIndex": 2,
+        "explanation": "La instrucción indica que la parada correcta depende de hacia dónde va el bus."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué implica que Carlos diga 'me voy antes de que se llene más'?",
+        "options": [
+          "Que prefiere caminar todo el trayecto",
+          "Que el transporte suele llenarse y quiere evitar aglomeraciones",
+          "Que la estación está cerrada a esa hora"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carlos quiere irse antes de que el transporte se llene más de gente."
+      }
+    ]
   }
 ]

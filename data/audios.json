@@ -5171,5 +5171,90 @@
         "explanation": "La pregunta sobre la tarjeta indica un sistema de fidelidad o descuentos para clientes."
       }
     ]
+  },
+  {
+    "id": "col-01",
+    "level": "accent-colombian",
+    "title": "Tomando tinto en una cafetería",
+    "duration": "1:20",
+    "file": "/audios/col-01.mp3",
+    "snippet": "Andrés y Laura se encuentran en una cafetería en Bogotá. Aprenderás expresiones colombianas como 'quiubo', 'tintico', 'una nota' y 'aguacero'.",
+    "transcript": "Andrés: —¡Quiubo! Hace rato no te veía.\n\nLaura: —¡Andrés! ¿Cómo estás? Yo bien, ahí voy. ¿Y tú qué? Te ves un poco cansado.\n\nAndrés: —Sí, el tráfico estaba terrible hoy. Pero bueno, ya con este tintico el día mejora.\n\nLaura: —Total. Aquí preparan un tinto delicioso. ¿Quieres pedir algo para acompañar? Tienen un cheesecake de maracuyá que es una nota.\n\nAndrés: —Uy, suena buenísimo. ¿Y tú qué planes tienes para hoy?\n\nLaura: —Nada muy especial. Voy a trabajar un rato desde casa y luego tengo que pasar por el centro, pero ojalá no llueva porque el clima está todo loco.\n\nAndrés: —Sí, amaneció con sol y ahora parece que va a caer un aguacero en cualquier momento.\n\nLaura: —Así es Bogotá. Bueno, pide tú primero.\n\nAndrés: —Listo. Eh, joven, ¿nos regala dos tintos y una porción de cheesecake, por favor?\n\nMesero: —Claro que sí, ya se los traigo.\n\nLaura: —Gracias. Bueno, cuéntame, ¿cómo va todo en el trabajo?\n\nAndrés: —Ahí, movidito, pero bien. Te cuento mientras llega el tinto.",
+    "vocab": [
+      {
+        "term": "tinto",
+        "meaning": "Black coffee (Colombian style)."
+      },
+      {
+        "term": "quiubo",
+        "meaning": "Hey! / What's up?"
+      },
+      {
+        "term": "una nota",
+        "meaning": "Awesome / really good."
+      },
+      {
+        "term": "aguacero",
+        "meaning": "Downpour / heavy rain."
+      },
+      {
+        "term": "el clima está todo loco",
+        "meaning": "The weather is really unpredictable / crazy weather."
+      },
+      {
+        "term": "movidito",
+        "meaning": "Busy / hectic / full of activity."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué sugiere la reacción de Andrés cuando dice que el tintico 'mejora el día'?",
+        "options": [
+          "Que no le gusta el café colombiano",
+          "Que el tinto le ayuda a relajarse después de un día estresante",
+          "Que solo fue a la cafetería por el postre"
+        ],
+        "answerIndex": 1,
+        "explanation": "Andrés llegó cansado por el tráfico, pero el tinto le ayuda a sentirse mejor."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Por qué Laura menciona que 'el clima está todo loco'?",
+        "options": [
+          "Porque no quiere pasar por el centro",
+          "Porque el clima cambió rápidamente de sol a amenaza de aguacero",
+          "Porque no le gusta el clima de su ciudad"
+        ],
+        "answerIndex": 1,
+        "explanation": "Laura dice que el clima está loco porque amaneció con sol pero parece que va a llover."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué se puede inferir cuando Laura describe el cheesecake de maracuyá como 'una nota'?",
+        "options": [
+          "Que no lo recomienda porque es demasiado dulce",
+          "Que nunca lo ha probado antes",
+          "Que es muy bueno y lo recomienda con entusiasmo"
+        ],
+        "answerIndex": 2,
+        "explanation": "'Una nota' es una expresión colombiana que significa que algo es muy bueno."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué implica la respuesta de Andrés sobre su trabajo ('movidito, pero bien')?",
+        "options": [
+          "Que está pensando en renunciar",
+          "Que ha estado ocupado, pero las cosas marchan de forma positiva",
+          "Que no tiene mucho trabajo últimamente"
+        ],
+        "answerIndex": 1,
+        "explanation": "'Movidito' indica que ha estado ocupado, pero 'bien' sugiere que todo va positivamente."
+      }
+    ]
   }
 ]

@@ -1,3 +1,5 @@
 {
+  "/api/audios/route": "app/api/audios/route.js",
+  "/spanish-accents-by-country/page": "app/spanish-accents-by-country/page.js",
   "/spanish-listening/page": "app/spanish-listening/page.js"
 }

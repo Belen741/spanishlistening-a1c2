@@ -52,12 +52,12 @@ export const ACCENT_COUNTRIES: AccentInfo[] = [
     description: 'Experience the clear and neutral Colombian Spanish',
   },
   {
-    slug: 'accent-puerto-rican',
-    name: 'Puerto Rican Accent',
-    country: 'Puerto Rico',
-    countryCode: 'PR',
+    slug: 'accent-cuban',
+    name: 'Cuban Accent (Caribbean Spanish)',
+    country: 'Cuba',
+    countryCode: 'CU',
     color: 'hsl(210 79% 46%)',
-    description: 'Explore the Caribbean rhythms of Puerto Rican Spanish',
+    description: 'Explore the vibrant Caribbean rhythms of Cuban Spanish',
   },
 ];
 

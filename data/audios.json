@@ -5442,5 +5442,98 @@
         "explanation": "Carlos quiere irse antes de que el transporte se llene más de gente."
       }
     ]
+  },
+  {
+    "id": "cu-01",
+    "level": "accent-cuban",
+    "title": "En una cafetería de barrio",
+    "duration": "1:15",
+    "file": "/audios/cu-01.mp3",
+    "snippet": "Luisa y Manuel conversan sobre comprar café en su barrio. Aprenderás expresiones cubanas como 'asere', '¿qué bolá?', 'fundido' y '¿qué va?'.",
+    "transcript": "Luisa: —Asere, ¿qué bolá? Oye, ¿tú sabes si aquí venden café pa' llevar?\n\nManuel: —Claro, mi hermana, ahí mismo en la esquina. Ese cafecito está buenísimo, fuertecito, como tiene que ser.\n\nLuisa: —Perfecto, porque ando medio fundida hoy. ¿Tú vas a pedir algo?\n\nManuel: —Sí, voy a coger uno también, chiquitico, pa' despertarme un poco. Con este calor no hay quien aguante.\n\nLuisa: —Dímelo a mí… Esto está fuerte de verdad. Oye, ¿y demoran mucho?\n\nManuel: —No, qué va. Eso es rápido. Pides, pagas y en nada ya estás saliendo con el café en la mano.\n\nLuisa: —Buenísimo. Entonces vamos ahora, que después se llena.\n\nManuel: —Dale, vamos pa' allá. Así aprovechamos antes de que apriete más el sol.",
+    "vocab": [
+      {
+        "term": "asere",
+        "meaning": "Buddy / mate. Very common informal way to address a friend in Cuba."
+      },
+      {
+        "term": "¿qué bolá?",
+        "meaning": "What's up? Extremely typical Cuban greeting used among friends."
+      },
+      {
+        "term": "pa'",
+        "meaning": "For / to. Informal reduction of 'para', very common in spoken Cuban Spanish."
+      },
+      {
+        "term": "cafecito",
+        "meaning": "Small coffee / espresso. Diminutive used to sound friendly or affectionate."
+      },
+      {
+        "term": "fuertecito",
+        "meaning": "Strong. Diminutive that softens the tone, not the meaning."
+      },
+      {
+        "term": "ando medio fundido",
+        "meaning": "I'm pretty exhausted. Colloquial expression meaning very tired."
+      },
+      {
+        "term": "¿qué va?",
+        "meaning": "No way / not at all. Used to strongly deny or downplay something."
+      },
+      {
+        "term": "en nada",
+        "meaning": "In no time. Means something will happen very quickly."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué Luisa quiere comprar café?",
+        "options": [
+          "Porque tiene frío",
+          "Porque va a trabajar toda la noche",
+          "Porque está cansada"
+        ],
+        "answerIndex": 2,
+        "explanation": "Luisa dice que anda 'medio fundida', lo que significa que está cansada."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Cómo describe Manuel el café del lugar?",
+        "options": [
+          "Suave y dulce",
+          "Muy caro",
+          "Fuerte y de buena calidad"
+        ],
+        "answerIndex": 2,
+        "explanation": "Manuel dice que el cafecito está 'buenísimo, fuertecito, como tiene que ser'."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué comenta Manuel sobre el tiempo de espera?",
+        "options": [
+          "Que siempre hay mucha fila",
+          "Que es rápido y no demora",
+          "Que hay que esperar bastante"
+        ],
+        "answerIndex": 1,
+        "explanation": "Manuel dice 'No, qué va. Eso es rápido. En nada ya estás saliendo con el café'."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Por qué deciden ir en ese momento a comprar el café?",
+        "options": [
+          "Porque el lugar va a cerrar",
+          "Porque quieren evitar que se llene más tarde",
+          "Porque ya no hace calor"
+        ],
+        "answerIndex": 1,
+        "explanation": "Luisa dice 'vamos ahora, que después se llena' para evitar las multitudes."
+      }
+    ]
   }
 ]

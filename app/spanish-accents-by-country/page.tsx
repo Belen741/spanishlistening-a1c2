@@ -8,7 +8,7 @@ import { SaveLastLevel } from '@components/SaveLastLevel';
 
 export const metadata: Metadata = {
   title: 'Spanish Accents by Country - Learn Different Spanish Dialects',
-  description: 'Explore Spanish accents from Mexico, Argentina, Spain, Colombia and Puerto Rico. Listen to native speakers with transcripts, vocabulary and quizzes.',
+  description: 'Explore Spanish accents from Mexico, Argentina, Spain, Colombia and Cuba. Listen to native speakers with transcripts, vocabulary and quizzes.',
   openGraph: {
     title: 'Spanish Accents by Country',
     description: 'Explore Spanish accents from different countries with audio examples, transcripts and quizzes.',

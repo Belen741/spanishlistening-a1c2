@@ -4985,5 +4985,98 @@
         "explanation": "Marta propone quedar sobre las seis."
       }
     ]
+  },
+  {
+    "id": "esp-02",
+    "level": "accent-spanish",
+    "title": "Planeando un viaje por España",
+    "duration": "1:40",
+    "file": "/audios/esp-02.mp3",
+    "snippet": "Lucía y Carlos planean un viaje por España: Madrid, Sevilla, Valencia y Barcelona. Aprenderás expresiones como 'pillar un tren', 'está a tope' y 'viajazo'.",
+    "transcript": "Lucía: —Oye, Carlos, ¿ya habéis pensado por dónde queréis empezar el viaje por España? Yo había pensado empezar por Madrid.\n\nCarlos: —Sí, lo estuvimos comentando. Desde allí es fácil pillar un tren de Renfe. Podríamos coger el AVE a Sevilla, que se llega en nada.\n\nLucía: —¡Genial! Sevilla merece la pena, aunque he oído que estos días está a tope de turistas.\n\nCarlos: —Ya… pero aun así me apetece mucho ir. Y después podríamos bajar a Valencia. Así probáis una paella auténtica.\n\nLucía: —Me parece perfecto. Y ya para rematar, Barcelona. Dicen que la Sagrada Familia impresiona muchísimo.\n\nCarlos: —Sí, así hacéis un recorrido completo. ¿Queréis que vaya mirando ya horarios antes de que suban los precios?\n\nLucía: —Sí, porfa. Echadle un vistazo esta tarde y luego me decís qué opción os convence más.\n\nCarlos: —Hecho. ¡Va a ser un viajazo!",
+    "vocab": [
+      {
+        "term": "Pillar (un tren)",
+        "meaning": "To catch / to take (a train)."
+      },
+      {
+        "term": "Está a tope",
+        "meaning": "It's packed / very crowded."
+      },
+      {
+        "term": "Merece la pena",
+        "meaning": "It's worth it."
+      },
+      {
+        "term": "Paella auténtica",
+        "meaning": "Authentic paella."
+      },
+      {
+        "term": "Rematar (el recorrido)",
+        "meaning": "To finish off / to wrap up (the route)."
+      },
+      {
+        "term": "Impresiona muchísimo",
+        "meaning": "It's extremely impressive."
+      },
+      {
+        "term": "Echadle un vistazo",
+        "meaning": "Take a look (at it)."
+      },
+      {
+        "term": "Viajazo",
+        "meaning": "An amazing trip / an epic trip."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué Lucía propone empezar el viaje en Madrid?",
+        "options": [
+          "Porque allí vive su familia",
+          "Porque es fácil pillar un tren desde allí",
+          "Porque los hoteles son más baratos"
+        ],
+        "answerIndex": 1,
+        "explanation": "Desde Madrid es fácil pillar un tren de Renfe para ir a otras ciudades."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué dice Lucía sobre Sevilla?",
+        "options": [
+          "Que no le interesa visitarla",
+          "Que merece la pena, aunque está a tope de turistas",
+          "Que queda muy lejos y es complicado llegar"
+        ],
+        "answerIndex": 1,
+        "explanation": "Lucía dice que Sevilla merece la pena, aunque está a tope de turistas."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Cuál es la razón para ir a Valencia según Carlos?",
+        "options": [
+          "Para que prueben una paella auténtica",
+          "Porque es la ciudad más barata del viaje",
+          "Porque allí tienen amigos"
+        ],
+        "answerIndex": 0,
+        "explanation": "Carlos propone ir a Valencia para que prueben una paella auténtica."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué propone Carlos hacer antes de que suban los precios?",
+        "options": [
+          "Reservar los hoteles",
+          "Comprar las entradas para la Sagrada Familia",
+          "Mirar los horarios de los trenes"
+        ],
+        "answerIndex": 2,
+        "explanation": "Carlos propone mirar los horarios de los trenes antes de que suban los precios."
+      }
+    ]
   }
 ]

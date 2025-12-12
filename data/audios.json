@@ -5535,5 +5535,98 @@
         "explanation": "Luisa dice 'vamos ahora, que después se llena' para evitar las multitudes."
       }
     ]
+  },
+  {
+    "id": "cu-02",
+    "level": "accent-cuban",
+    "title": "Preguntando direcciones en La Habana",
+    "duration": "1:10",
+    "file": "/audios/cu-02.mp3",
+    "snippet": "Raúl pide direcciones para llegar a la Plaza Vieja. Aprenderás expresiones cubanas como 'momentico', 'cerquita', 'no tiene pérdida' y 'en nada'.",
+    "transcript": "Raúl: —Asere, discúlpame un momentico… ¿tú sabes cómo llego a la Plaza Vieja desde aquí?\n\nClaudia: —Sí, claro, eso queda cerquita. Mira, sigues derecho por esta calle hasta el final y ahí doblas a la izquierda.\n\nRaúl: —¿Todo derecho, sin perderme?\n\nClaudia: —Exacto. No tiene pérdida. Caminas como cinco minutos y ya estás ahí mismo.\n\nRaúl: —Buenísimo. ¿Queda cerca del malecón o no?\n\nClaudia: —Sí, está relativamente cerca. Después sigues caminando un poquito más y llegas al malecón en nada.\n\nRaúl: —Perfecto, muchas gracias.\n\nClaudia: —De nada, asere. Que disfrutes La Habana.",
+    "vocab": [
+      {
+        "term": "asere",
+        "meaning": "Buddy / mate. Very common informal way to address someone in Cuba."
+      },
+      {
+        "term": "momentico",
+        "meaning": "Just a moment. Diminutive used to sound polite and friendly."
+      },
+      {
+        "term": "queda cerquita",
+        "meaning": "It's very close. Informal way to say a place is nearby."
+      },
+      {
+        "term": "sigues derecho",
+        "meaning": "Go straight. Common expression when giving directions."
+      },
+      {
+        "term": "doblas",
+        "meaning": "You turn. Informal imperative form used in spoken directions."
+      },
+      {
+        "term": "no tiene pérdida",
+        "meaning": "You can't miss it. Means it's very easy to find."
+      },
+      {
+        "term": "en nada",
+        "meaning": "In no time. Indicates something happens very quickly."
+      },
+      {
+        "term": "un poquito más",
+        "meaning": "A little bit more. Softens the instruction and sounds natural."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿A dónde quiere llegar Raúl?",
+        "options": [
+          "A la Plaza Vieja",
+          "Al malecón",
+          "A una cafetería"
+        ],
+        "answerIndex": 0,
+        "explanation": "Raúl pregunta cómo llegar a la Plaza Vieja."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué debe hacer primero Raúl según Claudia?",
+        "options": [
+          "Doblar inmediatamente a la izquierda",
+          "Caminar hasta el final de la calle",
+          "Tomar un transporte"
+        ],
+        "answerIndex": 1,
+        "explanation": "Claudia le dice que siga derecho hasta el final de la calle."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Cuánto tiempo aproximadamente le tomará llegar a la Plaza Vieja?",
+        "options": [
+          "Unos cinco minutos",
+          "Más de quince minutos",
+          "Cerca de media hora"
+        ],
+        "answerIndex": 0,
+        "explanation": "Claudia dice que camina como cinco minutos y ya está ahí."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué sugiere Claudia después de llegar a la Plaza Vieja?",
+        "options": [
+          "Volver por el mismo camino",
+          "Ir directamente a una cafetería",
+          "Seguir caminando para llegar al malecón"
+        ],
+        "answerIndex": 2,
+        "explanation": "Claudia sugiere que después puede seguir caminando un poquito más para llegar al malecón."
+      }
+    ]
   }
 ]

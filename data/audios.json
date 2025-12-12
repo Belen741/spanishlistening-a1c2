@@ -5628,5 +5628,98 @@
         "explanation": "Claudia sugiere que después puede seguir caminando un poquito más para llegar al malecón."
       }
     ]
+  },
+  {
+    "id": "cu-03",
+    "level": "accent-cuban",
+    "title": "Hablando del calor y del día",
+    "duration": "1:05",
+    "file": "/audios/cu-03.mp3",
+    "snippet": "Mario y Yanelis conversan sobre el calor intenso del día. Aprenderás expresiones cubanas como 'está fuerte', 'no afloja', 'un ratico' y 'ahorita'.",
+    "transcript": "Mario: —Oye, Yanelis, esto está fuerte hoy… desde temprano el sol no afloja.\n\nYanelis: —Dímelo a mí. Yo salí un momentico y ya estoy sudando toda. No se puede ni caminar.\n\nMario: —Y eso que todavía no es mediodía. ¿Tienes algo que hacer ahora o vas pa' la casa?\n\nYanelis: —Voy pa' la casa un ratico. Con este calor no dan ganas de hacer nada.\n\nMario: —Te entiendo perfecto. Yo pensaba pasar por el mercado, pero mejor lo dejo pa' más tarde.\n\nYanelis: —Sí, mejor. Ahorita refresca un poco y se aguanta más.\n\nMario: —Entonces hablamos después. Cuídate.\n\nYanelis: —Dale, nos vemos más tarde.",
+    "vocab": [
+      {
+        "term": "está fuerte",
+        "meaning": "It's intense / tough. Common expression to describe strong heat or difficult conditions."
+      },
+      {
+        "term": "no afloja",
+        "meaning": "It doesn't let up. Means the heat or situation continues without easing."
+      },
+      {
+        "term": "momentico",
+        "meaning": "Just a moment. Diminutive used to sound casual and friendly."
+      },
+      {
+        "term": "no se puede ni caminar",
+        "meaning": "You can barely walk. Emphasizes how overwhelming the heat feels."
+      },
+      {
+        "term": "pa' la casa",
+        "meaning": "To the house / home. Informal reduction of 'para la casa'."
+      },
+      {
+        "term": "un ratico",
+        "meaning": "For a little while. Very common informal time expression."
+      },
+      {
+        "term": "no dan ganas",
+        "meaning": "You don't feel like it. Expresses lack of motivation."
+      },
+      {
+        "term": "ahorita",
+        "meaning": "Later / in a little while. Time expression whose meaning depends on context."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿De qué hablan principalmente Mario y Yanelis?",
+        "options": [
+          "De un problema en el trabajo",
+          "De un viaje próximo",
+          "Del calor del día"
+        ],
+        "answerIndex": 2,
+        "explanation": "Mario y Yanelis hablan principalmente del calor intenso del día."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué le pasa a Yanelis cuando sale un momento?",
+        "options": [
+          "Se siente cansada por el trabajo",
+          "Empieza a sudar enseguida",
+          "Se moja por la lluvia"
+        ],
+        "answerIndex": 1,
+        "explanation": "Yanelis dice que salió un momentico y ya está sudando toda."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué planes tenía Mario inicialmente?",
+        "options": [
+          "Ir al mercado",
+          "Visitar a unos amigos",
+          "Quedarse en casa todo el día"
+        ],
+        "answerIndex": 0,
+        "explanation": "Mario pensaba pasar por el mercado, pero decide dejarlo para más tarde."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Por qué deciden dejar los planes para más tarde?",
+        "options": [
+          "Porque el mercado está cerrado",
+          "Porque están muy ocupados",
+          "Porque el calor es demasiado fuerte"
+        ],
+        "answerIndex": 2,
+        "explanation": "Deciden esperar porque el calor es muy intenso y 'ahorita refresca un poco'."
+      }
+    ]
   }
 ]

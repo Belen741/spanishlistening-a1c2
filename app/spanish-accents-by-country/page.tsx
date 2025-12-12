@@ -1,9 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Home } from 'lucide-react';
+import { Home, ArrowRight } from 'lucide-react';
 import { ACCENTS_LEVEL, ACCENT_COUNTRIES } from '@lib/levels';
 import { AdSlot } from '@components/AdSlot';
-import { AccentSection } from '@components/AccentSection';
 import { SaveLastLevel } from '@components/SaveLastLevel';
 
 export const metadata: Metadata = {
@@ -14,6 +13,10 @@ export const metadata: Metadata = {
     description: 'Explore Spanish accents from different countries with audio examples, transcripts and quizzes.',
   },
 };
+
+function getUrlSlug(accentSlug: string): string {
+  return accentSlug.replace('accent-', '');
+}
 
 export default function SpanishAccentsByCountryPage() {
   const level = ACCENTS_LEVEL;
@@ -36,14 +39,42 @@ export default function SpanishAccentsByCountryPage() {
             Spanish Accents by Country
           </h1>
           <p className="text-lg text-muted-foreground" data-testid="text-level-description">
-            Discover how Spanish sounds across different countries. Each section features audio from native speakers with transcripts, vocabulary and quizzes.
+            Discover how Spanish sounds across different countries. Click on a country to explore audio from native speakers with transcripts, vocabulary and quizzes.
           </p>
         </div>
 
         <div className="grid grid-cols-1 xl:grid-cols-[1fr_300px] gap-8">
-          <div className="space-y-6">
+          <div className="space-y-4">
             {ACCENT_COUNTRIES.map((accent) => (
-              <AccentSection key={accent.slug} accent={accent} />
+              <Link
+                key={accent.slug}
+                href={`/spanish-accents-by-country/${getUrlSlug(accent.slug)}`}
+                className="block border rounded-xl overflow-hidden hover-elevate active-elevate-2 transition-all"
+                data-testid={`card-accent-${accent.slug}`}
+              >
+                <div 
+                  className="flex items-center justify-between p-4 md:p-6"
+                  style={{ backgroundColor: `${accent.color}15` }}
+                >
+                  <div className="flex items-center gap-3 md:gap-4">
+                    <div 
+                      className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center text-white font-bold text-lg"
+                      style={{ backgroundColor: accent.color }}
+                    >
+                      {accent.countryCode}
+                    </div>
+                    <div className="text-left">
+                      <h2 className="text-lg md:text-xl font-bold" style={{ color: accent.color }}>
+                        {accent.name}
+                      </h2>
+                      <p className="text-sm text-muted-foreground hidden md:block">
+                        {accent.description}
+                      </p>
+                    </div>
+                  </div>
+                  <ArrowRight className="h-5 w-5 text-muted-foreground" />
+                </div>
+              </Link>
             ))}
 
             <div className="bg-accent/30 border rounded-xl p-6 space-y-4 mt-8" data-testid="next-level-cta">
@@ -84,9 +115,9 @@ export default function SpanishAccentsByCountryPage() {
                 </h3>
                 <div className="space-y-1">
                   {ACCENT_COUNTRIES.map((accent) => (
-                    <a
+                    <Link
                       key={accent.slug}
-                      href={`#${accent.slug}`}
+                      href={`/spanish-accents-by-country/${getUrlSlug(accent.slug)}`}
                       className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm hover-elevate active-elevate-2 transition-colors"
                       data-testid={`nav-${accent.slug}`}
                     >
@@ -97,7 +128,7 @@ export default function SpanishAccentsByCountryPage() {
                         {accent.countryCode.charAt(0)}
                       </span>
                       <span>{accent.country}</span>
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </nav>

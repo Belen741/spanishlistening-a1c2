@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Headphones, ChevronRight } from 'lucide-react';
 import { LevelCard } from '../../components/LevelCard';
 import { LEVELS, ACCENTS_LEVEL } from '../../lib/levels';
+import { FeedbackForm } from '../../components/FeedbackForm';
 
 export default function HomePage() {
   const [lastLevel, setLastLevel] = useState<string | null>(null);
@@ -175,8 +176,13 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Feedback Form */}
+      <section className="container mx-auto px-4 py-8 max-w-md">
+        <FeedbackForm />
+      </section>
+
       {/* Footer Links */}
-      <footer className="border-t mt-16">
+      <footer className="border-t mt-8">
         <div className="container mx-auto px-6 py-8 max-w-6xl">
           <nav className="flex flex-col md:flex-row justify-center items-center gap-6 text-sm text-muted-foreground">
             <Link 

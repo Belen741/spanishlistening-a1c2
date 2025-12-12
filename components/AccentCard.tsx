@@ -39,10 +39,10 @@ export function AccentCard({ theme }: AccentCardProps) {
         >
           <div className="flex items-center gap-3 md:gap-4">
             <div 
-              className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center text-white font-bold text-base md:text-lg shrink-0 shadow-sm"
+              className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center text-2xl md:text-3xl shrink-0 shadow-sm"
               style={{ backgroundColor: theme.colors.primary }}
             >
-              {theme.code}
+              {theme.flag}
             </div>
             
             <div className="min-w-0">
@@ -51,7 +51,7 @@ export function AccentCard({ theme }: AccentCardProps) {
                   className="text-lg md:text-xl font-semibold truncate"
                   style={{ color: theme.colors.text }}
                 >
-                  {theme.flag} {theme.title}
+                  {theme.title}
                 </h2>
                 <span 
                   className="text-base hidden sm:inline"
@@ -67,32 +67,6 @@ export function AccentCard({ theme }: AccentCardProps) {
               >
                 {theme.subtitle}
               </p>
-              
-              <div className="flex items-center gap-2 mt-2 flex-wrap">
-                <span 
-                  className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium"
-                  style={{ 
-                    backgroundColor: withAlpha(theme.colors.primary, 0.15),
-                    color: theme.colors.text,
-                  }}
-                >
-                  {theme.levelRange}
-                </span>
-                <span 
-                  className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium"
-                  style={{ 
-                    backgroundColor: withAlpha(theme.colors.secondary, 0.15),
-                    color: theme.colors.text,
-                  }}
-                >
-                  {theme.speed}
-                </span>
-                <span 
-                  className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-muted text-muted-foreground hidden sm:inline-flex"
-                >
-                  {theme.region}
-                </span>
-              </div>
             </div>
           </div>
           

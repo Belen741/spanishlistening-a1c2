@@ -4892,5 +4892,98 @@
         "explanation": "Carlos dice que Monterrey es un poco caro, pero los paisajes valen la pena."
       }
     ]
+  },
+  {
+    "id": "esp-01",
+    "level": "accent-spanish",
+    "title": "En una terraza tomando un café",
+    "duration": "1:30",
+    "file": "/audios/esp-01.mp3",
+    "snippet": "Marta y Diego se encuentran en una terraza y charlan sobre el calor, planes del fin de semana y quedan para verse. Aprenderás expresiones típicas españolas.",
+    "transcript": "Marta: —¡Hombre, Diego! ¿Qué tal todo? ¡Hace siglos que no te veo!\n\nDiego: —Pues bien, aquí vamos tirando. ¿Y tú qué tal?\n\nMarta: —Bien también. Oye, ¿pedimos algo? Me voy a tomar un café solo.\n\nDiego: —Yo creo que me voy a pedir un cortado… o mira, una caña, que hace un calorazo.\n\nMarta: —Jajaja, ¡siempre igual! Pero sí, hoy hace buen tiempo. Se está genial en la terraza.\n\nDiego: —Ya ves. ¿Y qué vais a hacer tú y tus compis este finde?\n\nMarta: —Pues estábamos pensando en ir a la playa o dar una vuelta por el centro. ¿Te apuntas?\n\nDiego: —¡Venga, me apunto! ¿A qué hora quedamos?\n\nMarta: —Sobre las seis, ¿te parece?\n\nDiego: —Perfecto. ¡Camarero, una caña por favor!",
+    "vocab": [
+      {
+        "term": "¡Hombre!",
+        "meaning": "An expression like 'Hey!' or 'Wow!', used to greet or show surprise."
+      },
+      {
+        "term": "Tirando",
+        "meaning": "'Getting by' / 'Doing okay.'"
+      },
+      {
+        "term": "Café solo",
+        "meaning": "Black coffee (espresso without milk)."
+      },
+      {
+        "term": "Cortado",
+        "meaning": "Espresso with a small amount of milk."
+      },
+      {
+        "term": "Caña",
+        "meaning": "A small draft beer."
+      },
+      {
+        "term": "Calorazo",
+        "meaning": "Intense heat / very hot weather."
+      },
+      {
+        "term": "Compis",
+        "meaning": "Colloquial for 'mates', 'buddies', or 'friends.'"
+      },
+      {
+        "term": "Camarero",
+        "meaning": "Waiter."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué bebida decide pedir finalmente Diego?",
+        "options": [
+          "Un café solo",
+          "Una caña",
+          "Un cortado"
+        ],
+        "answerIndex": 1,
+        "explanation": "Diego decide pedir una caña porque hace mucho calor."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué planes tiene Marta para el fin de semana?",
+        "options": [
+          "Visitar a su familia",
+          "Ir al cine",
+          "Ir a la playa o dar una vuelta por el centro"
+        ],
+        "answerIndex": 2,
+        "explanation": "Marta y sus compis estaban pensando en ir a la playa o dar una vuelta por el centro."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Por qué Diego decide pedir una caña?",
+        "options": [
+          "Porque tiene mucha sed después de hacer ejercicio",
+          "Porque hace mucho calor ('calorazo')",
+          "Porque Marta le insiste"
+        ],
+        "answerIndex": 1,
+        "explanation": "Diego pide una caña porque hace un calorazo (mucho calor)."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿A qué hora proponen quedar?",
+        "options": [
+          "A las cinco",
+          "Sobre las seis",
+          "A las ocho"
+        ],
+        "answerIndex": 1,
+        "explanation": "Marta propone quedar sobre las seis."
+      }
+    ]
   }
 ]

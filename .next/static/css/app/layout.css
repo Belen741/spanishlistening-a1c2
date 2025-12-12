@@ -1634,6 +1634,9 @@ video {
 .h-20 {
   height: 5rem;
 }
+.h-3 {
+  height: 0.75rem;
+}
 .h-3\.5 {
   height: 0.875rem;
 }
@@ -1693,6 +1696,9 @@ video {
 }
 .w-2 {
   width: 0.5rem;
+}
+.w-3 {
+  width: 0.75rem;
 }
 .w-3\.5 {
   width: 0.875rem;
@@ -1981,6 +1987,10 @@ video {
   --tw-border-opacity: 1;
   border-color: hsl(var(--destructive) / var(--tw-border-opacity, 1));
 }
+.border-green-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(187 247 208 / var(--tw-border-opacity, 1));
+}
 .border-green-500\/20 {
   border-color: rgb(34 197 94 / 0.2);
 }
@@ -2044,6 +2054,10 @@ video {
 }
 .bg-destructive\/10 {
   background-color: hsl(var(--destructive) / 0.1);
+}
+.bg-green-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 253 244 / var(--tw-bg-opacity, 1));
 }
 .bg-green-500\/10 {
   background-color: rgb(34 197 94 / 0.1);
@@ -2376,6 +2390,10 @@ video {
 .text-green-600 {
   --tw-text-opacity: 1;
   color: rgb(22 163 74 / var(--tw-text-opacity, 1));
+}
+.text-green-700 {
+  --tw-text-opacity: 1;
+  color: rgb(21 128 61 / var(--tw-text-opacity, 1));
 }
 .text-muted-foreground {
   --tw-text-opacity: 1;
@@ -2734,6 +2752,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:bg-accent\/50:hover {
+  background-color: hsl(var(--accent) / 0.5);
+}
+
 .hover\:bg-muted:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--muted) / var(--tw-bg-opacity, 1));
@@ -2780,6 +2802,12 @@ video {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.focus\:ring-1:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
 .focus\:ring-2:focus {
@@ -2867,6 +2895,15 @@ video {
 .group:hover .group-hover\:brightness-105 {
   --tw-brightness: brightness(1.05);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.dark\:border-green-900:is(.dark *) {
+  --tw-border-opacity: 1;
+  border-color: rgb(20 83 45 / var(--tw-border-opacity, 1));
+}
+
+.dark\:bg-green-950\/20:is(.dark *) {
+  background-color: rgb(5 46 22 / 0.2);
 }
 
 .dark\:bg-orange-900:is(.dark *) {

@@ -1,12 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import { Send, MessageSquare, Lightbulb, CheckCircle } from 'lucide-react';
+import { Send, MessageSquare, ChevronDown, ChevronUp, CheckCircle } from 'lucide-react';
 
 export function FeedbackForm() {
-  const [type, setType] = useState<'comment' | 'suggestion'>('suggestion');
+  const [isOpen, setIsOpen] = useState(false);
   const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -21,7 +20,7 @@ export function FeedbackForm() {
       const response = await fetch('/api/feedback', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, email, message, type }),
+        body: JSON.stringify({ name, message, type: 'suggestion' }),
       });
 
       if (!response.ok) {
@@ -31,10 +30,9 @@ export function FeedbackForm() {
 
       setIsSuccess(true);
       setName('');
-      setEmail('');
       setMessage('');
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Error al enviar el mensaje');
+      setError(err instanceof Error ? err.message : 'Error al enviar');
     } finally {
       setIsSubmitting(false);
     }
@@ -42,126 +40,65 @@ export function FeedbackForm() {
 
   if (isSuccess) {
     return (
-      <div className="bg-card border rounded-xl p-6 text-center">
-        <CheckCircle className="h-12 w-12 text-green-500 mx-auto mb-3" />
-        <h3 className="text-lg font-semibold mb-2">Mensaje enviado</h3>
-        <p className="text-muted-foreground mb-4">Gracias por tu feedback</p>
+      <div className="border rounded-lg p-4 text-center bg-green-50 dark:bg-green-950/20 border-green-200 dark:border-green-900">
+        <CheckCircle className="h-5 w-5 text-green-500 mx-auto mb-2" />
+        <p className="text-sm text-green-700 dark:text-green-400">Gracias por tu mensaje</p>
         <button
           onClick={() => setIsSuccess(false)}
-          className="text-primary hover:underline text-sm"
+          className="text-xs text-muted-foreground hover:underline mt-1"
           data-testid="button-send-another"
         >
-          Enviar otro mensaje
+          Enviar otro
         </button>
       </div>
     );
   }
 
   return (
-    <div className="bg-card border rounded-xl p-6">
-      <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
-        <MessageSquare className="h-5 w-5" />
-        Comentarios y Sugerencias
-      </h3>
+    <div className="border rounded-lg overflow-hidden">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full flex items-center justify-between px-4 py-3 text-sm text-muted-foreground hover:bg-accent/50 transition-colors"
+        data-testid="button-toggle-feedback"
+      >
+        <span className="flex items-center gap-2">
+          <MessageSquare className="h-4 w-4" />
+          Comentarios y sugerencias
+        </span>
+        {isOpen ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
+      </button>
 
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <div className="flex gap-2">
-          <button
-            type="button"
-            onClick={() => setType('suggestion')}
-            className={`flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded-lg border text-sm font-medium transition-colors ${
-              type === 'suggestion'
-                ? 'bg-primary text-primary-foreground border-primary'
-                : 'bg-background hover-elevate'
-            }`}
-            data-testid="button-type-suggestion"
-          >
-            <Lightbulb className="h-4 w-4" />
-            Sugerencia
-          </button>
-          <button
-            type="button"
-            onClick={() => setType('comment')}
-            className={`flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded-lg border text-sm font-medium transition-colors ${
-              type === 'comment'
-                ? 'bg-primary text-primary-foreground border-primary'
-                : 'bg-background hover-elevate'
-            }`}
-            data-testid="button-type-comment"
-          >
-            <MessageSquare className="h-4 w-4" />
-            Comentario
-          </button>
-        </div>
-
-        <div>
-          <label htmlFor="feedback-name" className="block text-sm font-medium mb-1">
-            Nombre (opcional)
-          </label>
+      {isOpen && (
+        <form onSubmit={handleSubmit} className="p-4 pt-0 space-y-3">
           <input
-            id="feedback-name"
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="Tu nombre"
-            className="w-full px-3 py-2 rounded-lg border bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+            placeholder="Nombre (opcional)"
+            className="w-full px-3 py-2 text-sm rounded-lg border bg-background focus:outline-none focus:ring-1 focus:ring-primary"
             data-testid="input-feedback-name"
           />
-        </div>
-
-        <div>
-          <label htmlFor="feedback-email" className="block text-sm font-medium mb-1">
-            Email (opcional)
-          </label>
-          <input
-            id="feedback-email"
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="tu@email.com"
-            className="w-full px-3 py-2 rounded-lg border bg-background focus:outline-none focus:ring-2 focus:ring-primary"
-            data-testid="input-feedback-email"
-          />
-        </div>
-
-        <div>
-          <label htmlFor="feedback-message" className="block text-sm font-medium mb-1">
-            Mensaje *
-          </label>
           <textarea
-            id="feedback-message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            placeholder={type === 'suggestion' ? 'Cuéntame tu sugerencia...' : 'Escribe tu comentario...'}
-            rows={4}
+            placeholder="Tu mensaje..."
+            rows={3}
             required
-            className="w-full px-3 py-2 rounded-lg border bg-background focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+            className="w-full px-3 py-2 text-sm rounded-lg border bg-background focus:outline-none focus:ring-1 focus:ring-primary resize-none"
             data-testid="input-feedback-message"
           />
-        </div>
-
-        {error && (
-          <p className="text-sm text-red-500" data-testid="text-feedback-error">
-            {error}
-          </p>
-        )}
-
-        <button
-          type="submit"
-          disabled={isSubmitting || !message.trim()}
-          className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover-elevate active-elevate-2 disabled:opacity-50 disabled:cursor-not-allowed"
-          data-testid="button-submit-feedback"
-        >
-          {isSubmitting ? (
-            'Enviando...'
-          ) : (
-            <>
-              <Send className="h-4 w-4" />
-              Enviar
-            </>
-          )}
-        </button>
-      </form>
+          {error && <p className="text-xs text-red-500">{error}</p>}
+          <button
+            type="submit"
+            disabled={isSubmitting || !message.trim()}
+            className="w-full flex items-center justify-center gap-2 px-3 py-2 text-sm bg-primary text-primary-foreground rounded-lg font-medium hover-elevate disabled:opacity-50"
+            data-testid="button-submit-feedback"
+          >
+            <Send className="h-3 w-3" />
+            {isSubmitting ? 'Enviando...' : 'Enviar'}
+          </button>
+        </form>
+      )}
     </div>
   );
 }

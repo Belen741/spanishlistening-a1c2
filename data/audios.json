@@ -5256,5 +5256,98 @@
         "explanation": "'Movidito' indica que ha estado ocupado, pero 'bien' sugiere que todo va positivamente."
       }
     ]
+  },
+  {
+    "id": "col-02",
+    "level": "accent-colombian",
+    "title": "Una visita al centro de Medellín",
+    "duration": "1:25",
+    "file": "/audios/col-02.mp3",
+    "snippet": "Juan le cuenta a Mariana sobre su visita al centro de Medellín. Aprenderás expresiones paisas como 'parce', 'bacano', 'ratico' y 'nos vemos pues'.",
+    "transcript": "Mariana: —¡Ey, Juan! ¿Cómo te fue hoy por el centro? Dicen que el tráfico está una locura.\n\nJuan: —No, parce, tenés que ver eso. Los buses iban llenísimos y el metro iba rápido, pero igual tocó esperar un ratico.\n\nMariana: —Me lo imagino. Igual, el centro siempre está movido. ¿Alcanzaste a pasar por el Parque Berrío?\n\nJuan: —Sí, pasé un momentico. La gente por allá es muy querida, todo el mundo te saluda. Además, todo queda cerquita, entonces uno camina y llega de una a los sitios.\n\nMariana: —Qué bacano. Yo casi no voy, siempre me quedo por Laureles o por El Poblado porque son más tranquilos.\n\nJuan: —Sí, total. Pero de vez en cuando vale la pena ir al centro, ver las esculturas de Botero, caminar un rato… Eso sí, hay que ir con paciencia por el tráfico.\n\nMariana: —Seguro. ¿Y qué vas a hacer ahora?\n\nJuan: —Voy pa' la casa a descansar un poco. Ese paseo me dejó rendido.\n\nMariana: —Hacés bien. Bueno, hablamos luego.\n\nJuan: —Listo, que estés bien. Nos vemos pues.",
+    "vocab": [
+      {
+        "term": "tráfico está una locura",
+        "meaning": "The traffic is crazy."
+      },
+      {
+        "term": "ratico",
+        "meaning": "A little while / a short moment."
+      },
+      {
+        "term": "todo queda cerquita",
+        "meaning": "Everything is very close by."
+      },
+      {
+        "term": "bacano",
+        "meaning": "Cool / great."
+      },
+      {
+        "term": "vale la pena",
+        "meaning": "It's worth it."
+      },
+      {
+        "term": "rendido",
+        "meaning": "Exhausted / worn out."
+      },
+      {
+        "term": "parce",
+        "meaning": "Dude / buddy / mate (coloquial paisa)."
+      },
+      {
+        "term": "nos vemos pues",
+        "meaning": "See you then / see you later (tono muy colombiano)."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué indica Juan cuando dice que 'los buses iban llenísimos'?",
+        "options": [
+          "Que casi no había gente en el transporte",
+          "Que el transporte público estaba completamente lleno y era difícil moverse",
+          "Que decidió no usar el bus ese día"
+        ],
+        "answerIndex": 1,
+        "explanation": "Juan indica que los buses estaban muy llenos, lo que hacía difícil moverse."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Por qué Mariana dice que casi no va al centro?",
+        "options": [
+          "Porque no conoce bien la zona",
+          "Porque le parece peligroso",
+          "Porque prefiere lugares como Laureles y El Poblado, que son más tranquilos"
+        ],
+        "answerIndex": 2,
+        "explanation": "Mariana prefiere quedarse por Laureles o El Poblado porque son más tranquilos."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué se puede inferir cuando Juan afirma que 'todo queda cerquita'?",
+        "options": [
+          "Que el centro tiene pocas cosas para ver",
+          "Que las distancias son tan grandes que es mejor usar transporte",
+          "Que es fácil caminar y llegar rápido a muchos lugares del centro"
+        ],
+        "answerIndex": 2,
+        "explanation": "Juan dice que todo queda cerca, así que uno puede caminar y llegar rápido."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué transmite Juan al decir que el paseo lo dejó 'rendido'?",
+        "options": [
+          "Que no disfrutó la visita",
+          "Que quiere volver al centro de inmediato",
+          "Que terminó muy cansado después de caminar y lidiar con el tráfico"
+        ],
+        "answerIndex": 2,
+        "explanation": "'Rendido' significa que terminó muy cansado después del paseo."
+      }
+    ]
   }
 ]

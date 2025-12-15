@@ -1,4 +1,5 @@
 {
+  "/icon.svg/route": "app/icon.svg/route.js",
   "/api/feedback/route": "app/api/feedback/route.js",
   "/spanish-listening/page": "app/spanish-listening/page.js"
 }

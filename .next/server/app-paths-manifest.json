@@ -1,4 +1,4 @@
 {
-  "/api/feedback/route": "app/api/feedback/route.js",
+  "/advanced-spanish-classes/page": "app/advanced-spanish-classes/page.js",
   "/spanish-listening/page": "app/spanish-listening/page.js"
 }

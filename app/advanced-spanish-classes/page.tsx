@@ -61,13 +61,6 @@ export default function AdvancedSpanishClassesPage() {
                 >
                   Message me on WhatsApp
                 </a>
-                <a
-                  className="inline-flex items-center justify-center px-4 py-2 rounded-full text-sm font-medium border border-slate-500/50 text-gray-200 bg-slate-800/80 hover:bg-slate-700/90 hover:-translate-y-0.5 transition-all"
-                  href="mailto:hablandoconbelen@gmail.com"
-                  data-testid="link-email"
-                >
-                  Email me for details
-                </a>
               </div>
               <p className="text-sm text-gray-400">
                 I only work 1:1 with committed, advanced students who want{' '}

@@ -4672,6 +4672,87 @@
     ]
   },
   {
+    "id": "arg-04",
+    "level": "accent-argentine",
+    "title": "En una clase de tango",
+    "duration": "0:50",
+    "file": "/audios/argentino_04_en_una_clase_de_tango.mp3",
+    "snippet": "Ana, la profesora de tango, ayuda a Sofía a mejorar su postura, ritmo y conexión con la música durante una clase.",
+    "transcript": "Ana: —Bueno, Sofi, arrancamos de nuevo desde el paso básico. Acordate de mantener la postura: espalda derecha, hombros relajados.\n\nSofía: —Dale, Ana. Siento que me apuro un poco cuando cambia el ritmo.\n\nAna: —Sí, se nota. No te apures. El tango no se corre, se camina. Escuchá bien la música y marcá más suave con los pies.\n\nSofía: —Ok, voy a tratar de aflojar. ¿Así está mejor?\n\nAna: —Mucho mejor. Ahora seguí mi guía, no pienses tanto el paso. Dejá que el cuerpo acompañe el ritmo.\n\nSofía: —Me cuesta no anticiparme, pero cuando me concentro en la música fluye más.\n\nAna: —Exacto. Mirá, en el giro bajá un poco más el peso y mantené el eje. Eso, ahí está.\n\nSofía: —¡Ah! Ahora lo sentí distinto. Es como más natural.\n\nAna: —Tal cual. Cuando conectás postura, ritmo y abrazo, el tango sale solo.",
+    "vocab": [
+      {
+        "term": "Arrancar (de nuevo)",
+        "meaning": "To start (again) — Used informally to mean beginning an activity, very common in classes or instructions."
+      },
+      {
+        "term": "Postura",
+        "meaning": "Posture — Refers to the correct position of the body, especially important in dance."
+      },
+      {
+        "term": "No te apures",
+        "meaning": "Don't rush / Take your time — A very common correction in Argentine Spanish."
+      },
+      {
+        "term": "Seguí mi guía",
+        "meaning": "Follow my lead — Typical expression in tango, meaning to trust and follow the instructor's movements."
+      },
+      {
+        "term": "Fluye",
+        "meaning": "It flows / It feels natural — Used when movements happen smoothly, without overthinking."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué le pide la profesora a Sofía al inicio de la clase?",
+        "options": [
+          "Que cambie de pareja",
+          "Que empiece con pasos avanzados",
+          "Que vuelva al paso básico y cuide la postura"
+        ],
+        "answerIndex": 2,
+        "explanation": "Ana le pide a Sofía que arranquen desde el paso básico y que mantenga la postura."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Cuál es el principal problema que tiene Sofía al bailar?",
+        "options": [
+          "No escucha la música",
+          "Se apura cuando cambia el ritmo",
+          "No recuerda los pasos"
+        ],
+        "answerIndex": 1,
+        "explanation": "Sofía dice que siente que se apura un poco cuando cambia el ritmo."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué consejo le da la profesora para mejorar el baile?",
+        "options": [
+          "Pensar más cada movimiento",
+          "Bailar más rápido",
+          "Escuchar la música y marcar más suave"
+        ],
+        "answerIndex": 2,
+        "explanation": "Ana le dice que escuche bien la música y marque más suave con los pies."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué ocurre cuando Sofía conecta postura, ritmo y guía?",
+        "options": [
+          "El baile se vuelve más difícil",
+          "El tango fluye de forma natural",
+          "Necesita más correcciones"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ana dice que cuando conectás postura, ritmo y abrazo, el tango sale solo."
+      }
+    ]
+  },
+  {
     "id": "mex-01",
     "level": "accent-mexican",
     "title": "Un día normal en la Ciudad de México",

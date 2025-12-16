@@ -4753,6 +4753,99 @@
     ]
   },
   {
+    "id": "arg-05",
+    "level": "accent-argentine",
+    "title": "Hablando del último partido",
+    "duration": "0:55",
+    "file": "/audios/argentino_05_hablando_del_ultimo_partido.mp3",
+    "snippet": "Nico y Fede comentan el emocionante partido de anoche entre Boca y River, el golazo, el ambiente del estadio y la pasión de la hinchada.",
+    "transcript": "Nico: —Che, ¿viste el partido de anoche? Tremendo lo de Boca, eh.\n\nFede: —Sí, boludo, estuvo re parejo hasta el segundo tiempo. Pero ese gol… ¡qué golazo!\n\nNico: —Mal. La clavó al ángulo, el arquero no pudo hacer nada. Ese pibe la rompió toda la noche.\n\nFede: —Totalmente. Igual River también jugó bien, eh. Hubo un par de jugadas que casi nos embocan.\n\nNico: —Sí, zafamos ahí. Pero el ambiente del estadio fue una locura, la gente no paraba de cantar.\n\nFede: —Eso suma un montón. Cuando la hinchada empuja, los jugadores se agrandan.\n\nNico: —Tal cual. Yo salí afónico de tanto gritar, pero valió la pena.\n\nFede: —De una. Partidos así dan gusto verlos, más allá de quién gane.",
+    "vocab": [
+      {
+        "term": "Che",
+        "meaning": "Hey / You know — Very common Argentine interjection used to get attention or start a sentence."
+      },
+      {
+        "term": "Estuvo re parejo",
+        "meaning": "The match was very even / very close — Re is an informal intensifier meaning very."
+      },
+      {
+        "term": "¡Qué golazo!",
+        "meaning": "What an amazing goal! — The suffix -azo adds emphasis and admiration."
+      },
+      {
+        "term": "La clavó al ángulo",
+        "meaning": "He placed it perfectly in the top corner — Common football expression for a precise, unstoppable shot."
+      },
+      {
+        "term": "La rompió",
+        "meaning": "He crushed it / He played amazingly well — Informal phrase meaning someone performed extremely well."
+      },
+      {
+        "term": "Zafar / zafamos",
+        "meaning": "To get away with it / to escape danger — Used when a team avoids conceding a goal."
+      },
+      {
+        "term": "La hinchada",
+        "meaning": "The fans / supporters — Refers to the passionate crowd supporting a team in the stadium."
+      },
+      {
+        "term": "De una",
+        "meaning": "For sure / Absolutely — Strong, enthusiastic agreement in Argentine Spanish."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué sensación general les dejó el partido a los dos amigos?",
+        "options": [
+          "Que fue fácil para un solo equipo",
+          "Que estuvo muy disputado y emocionante",
+          "Que fue desordenado y sin público"
+        ],
+        "answerIndex": 1,
+        "explanation": "Fede dice que estuvo re parejo hasta el segundo tiempo, indicando que fue muy disputado."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "Cuando dicen \"la clavó al ángulo\", ¿qué quieren expresar principalmente?",
+        "options": [
+          "Que el gol fue suerte",
+          "Que fue un remate muy preciso y difícil de atajar",
+          "Que el arquero estaba mal ubicado"
+        ],
+        "answerIndex": 1,
+        "explanation": "La expresión 'la clavó al ángulo' describe un remate muy preciso al ángulo del arco."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Por qué el ambiente del estadio fue tan importante para ellos?",
+        "options": [
+          "Porque distrajo a los jugadores",
+          "Porque hizo que el partido se suspendiera",
+          "Porque la energía de la gente influyó en el juego y la experiencia"
+        ],
+        "answerIndex": 2,
+        "explanation": "Fede dice que cuando la hinchada empuja, los jugadores se agrandan."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué se puede inferir de la actitud de Nico al final de la conversación?",
+        "options": [
+          "Que se arrepiente de haber ido",
+          "Que, aunque quedó sin voz, disfrutó mucho el partido",
+          "Que no le gusta ver fútbol en el estadio"
+        ],
+        "answerIndex": 1,
+        "explanation": "Nico dice que salió afónico de tanto gritar, pero valió la pena."
+      }
+    ]
+  },
+  {
     "id": "mex-01",
     "level": "accent-mexican",
     "title": "Un día normal en la Ciudad de México",

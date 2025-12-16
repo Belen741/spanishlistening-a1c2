@@ -4591,6 +4591,87 @@
     ]
   },
   {
+    "id": "arg-03",
+    "level": "accent-argentine",
+    "title": "Paseando por Palermo",
+    "duration": "0:45",
+    "file": "/audios/argentino_03_paseando_por_palermo.mp3",
+    "snippet": "Lucía y Martín pasean por el barrio de Palermo en Buenos Aires, disfrutando del ambiente, los cafés y la arquitectura que mezcla lo moderno con lo antiguo.",
+    "transcript": "Lucía: —Che, está re lindo el día, ¿no? Este solcito acompaña un montón.\n\nMartín: —Sí, mal. Palermo así da ganas de caminar sin apuro. Vamos tranqui, total no tenemos nada que hacer.\n\nLucía: —Tal cual. Mirá ese café de la esquina, está lleno. Los domingos se arma lindo ambiente por acá.\n\nMartín: —Y sí, entre los cafés, el parque y la gente paseando, tiene onda. Fijate allá, hay una feria, capaz venden cosas artesanales.\n\nLucía: —Buenísimo. Me encanta cómo se mezcla lo moderno con lo antiguo en Buenos Aires. Esos edificios viejos tienen mucha historia.\n\nMartín: —Re sí. San Telmo y Recoleta también tienen esa arquitectura antigua que te hace viajar en el tiempo.\n\nLucía: —Totalmente. Bueno, caminemos un poco más y después nos sentamos a tomar un café, ¿te parece?\n\nMartín: —De una. Así disfrutamos el día como corresponde.",
+    "vocab": [
+      {
+        "term": "Che",
+        "meaning": "Hey / Oye / You know — Used to get someone's attention or start a conversation."
+      },
+      {
+        "term": "Re lindo / re + adjetivo",
+        "meaning": "Really / very (nice, pretty, etc.) — Informal intensifier, very common in Argentina."
+      },
+      {
+        "term": "Vamos tranqui",
+        "meaning": "Let's take it easy / Let's go slow — Doing something calmly, without rushing."
+      },
+      {
+        "term": "Tiene onda",
+        "meaning": "It's cool / It has a nice vibe — Said about places, people, or situations."
+      },
+      {
+        "term": "De una",
+        "meaning": "Sure / Absolutely / For sure — Strong, enthusiastic agreement."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué dicen que el día está \"re lindo\"?",
+        "options": [
+          "Porque va a llover más tarde",
+          "Porque hay sol y el clima acompaña",
+          "Porque hay pocos cafés abiertos"
+        ],
+        "answerIndex": 1,
+        "explanation": "Lucía dice que el día está 're lindo' porque hay sol y el clima acompaña."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué les dan ganas de hacer en Palermo?",
+        "options": [
+          "Irse rápido a otro barrio",
+          "Quedarse en casa",
+          "Caminar sin apuro"
+        ],
+        "answerIndex": 2,
+        "explanation": "Martín dice que Palermo así da ganas de caminar sin apuro."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué lugares menciona Martín como parte del ambiente del barrio?",
+        "options": [
+          "Solo edificios modernos",
+          "Cafés, el parque y la gente paseando",
+          "Museos y teatros"
+        ],
+        "answerIndex": 1,
+        "explanation": "Martín menciona los cafés, el parque y la gente paseando como parte del ambiente."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué les gusta de la arquitectura de Buenos Aires?",
+        "options": [
+          "Que todos los edificios son nuevos",
+          "Que es igual en toda la ciudad",
+          "Que mezcla lo moderno con lo antiguo y tiene historia"
+        ],
+        "answerIndex": 2,
+        "explanation": "A Lucía le encanta cómo se mezcla lo moderno con lo antiguo y que los edificios viejos tienen mucha historia."
+      }
+    ]
+  },
+  {
     "id": "mex-01",
     "level": "accent-mexican",
     "title": "Un día normal en la Ciudad de México",

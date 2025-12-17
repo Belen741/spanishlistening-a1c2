@@ -25,6 +25,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/spanish-accents-by-country/page.js"
+    ],
+    "/spanish-listening/[category]/[audio]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/spanish-listening/[category]/[audio]/page.js"
     ]
   }
 }

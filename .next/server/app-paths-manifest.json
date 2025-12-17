@@ -1,4 +1,4 @@
 {
-  "/icon.svg/route": "app/icon.svg/route.js",
-  "/spanish-listening/page": "app/spanish-listening/page.js"
+  "/spanish-listening/page": "app/spanish-listening/page.js",
+  "/spanish-accents-by-country/page": "app/spanish-accents-by-country/page.js"
 }

@@ -6,7 +6,6 @@ import { ACCENT_THEMES } from '@lib/accentThemes';
 import { AccentCard } from '@components/AccentCard';
 import { AdSlot } from '@components/AdSlot';
 import { SaveLastLevel } from '@components/SaveLastLevel';
-import { FeedbackForm } from '@components/FeedbackForm';
 
 export const metadata: Metadata = {
   title: 'Spanish Accents by Country - Learn Different Spanish Dialects',
@@ -76,8 +75,6 @@ export default function SpanishAccentsByCountryPage() {
                 </Link>
               </div>
             </div>
-
-            <FeedbackForm />
           </div>
           
           <aside className="space-y-6 hidden xl:block">

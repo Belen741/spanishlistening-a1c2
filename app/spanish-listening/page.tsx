@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { Headphones, ChevronRight } from 'lucide-react';
 import { LevelCard } from '../../components/LevelCard';
 import { LEVELS, ACCENTS_LEVEL } from '../../lib/levels';
-import { FeedbackForm } from '../../components/FeedbackForm';
 
 export default function HomePage() {
   const [lastLevel, setLastLevel] = useState<string | null>(null);
@@ -174,11 +173,6 @@ export default function HomePage() {
             />
           ))}
         </div>
-      </section>
-
-      {/* Feedback Form */}
-      <section className="container mx-auto px-4 py-8 max-w-md">
-        <FeedbackForm />
       </section>
 
       {/* Footer Links */}

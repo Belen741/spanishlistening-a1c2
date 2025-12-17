@@ -1,4 +1,5 @@
 {
+  "/spanish-accents-by-country/page": "app/spanish-accents-by-country/page.js",
   "/spanish-accents-by-country/[slug]/page": "app/spanish-accents-by-country/[slug]/page.js",
   "/api/audios/route": "app/api/audios/route.js",
   "/icon.svg/route": "app/icon.svg/route.js",

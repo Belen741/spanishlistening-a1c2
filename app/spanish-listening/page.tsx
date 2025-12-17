@@ -175,6 +175,23 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Comments and Suggestions */}
+      <section className="container mx-auto px-4 py-8 max-w-md text-center">
+        <h3 className="text-lg font-semibold mb-2" data-testid="text-feedback-heading">
+          Comments and Suggestions
+        </h3>
+        <p className="text-sm text-muted-foreground mb-3">
+          Have feedback or ideas? I'd love to hear from you!
+        </p>
+        <a 
+          href="mailto:hablandoconbelen@gmail.com"
+          className="inline-flex items-center gap-2 text-primary hover:underline"
+          data-testid="link-feedback-email"
+        >
+          hablandoconbelen@gmail.com
+        </a>
+      </section>
+
       {/* Footer Links */}
       <footer className="border-t mt-8">
         <div className="container mx-auto px-6 py-8 max-w-6xl">

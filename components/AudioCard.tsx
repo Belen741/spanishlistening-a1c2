@@ -1,6 +1,7 @@
 'use client';
 
-import { Play, CheckCircle, Clock } from 'lucide-react';
+import Link from 'next/link';
+import { Play, CheckCircle, Clock, ExternalLink } from 'lucide-react';
 
 interface AudioCardProps {
   id: string;
@@ -10,10 +11,13 @@ interface AudioCardProps {
   level: string;
   onPlayClick?: () => void;
   listenPercentage?: number;
+  href?: string;
 }
 
-export function AudioCard({ id, title, duration, snippet, level, onPlayClick, listenPercentage = 0 }: AudioCardProps) {
-  const handlePlayClick = () => {
+export function AudioCard({ id, title, duration, snippet, level, onPlayClick, listenPercentage = 0, href }: AudioCardProps) {
+  const handlePlayClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
     if (typeof window !== 'undefined' && (window as any).gtag) {
       (window as any).gtag('event', 'audio_play', {
         level: level.toUpperCase(),
@@ -67,6 +71,16 @@ export function AudioCard({ id, title, duration, snippet, level, onPlayClick, li
           <span className="text-sm text-muted-foreground">
             Click to listen
           </span>
+          {href && (
+            <Link
+              href={href}
+              className="ml-auto flex items-center gap-1.5 text-sm text-primary hover:underline"
+              data-testid={`link-audio-detail-${id}`}
+            >
+              <ExternalLink className="h-3.5 w-3.5" />
+              View details
+            </Link>
+          )}
         </div>
       </div>
     </div>

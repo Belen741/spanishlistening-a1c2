@@ -7,6 +7,34 @@ import { NextLevelCTA } from './NextLevelCTA';
 import { ChevronLeft, ChevronRight, Loader2, AlertCircle, Play, Pause, X } from 'lucide-react';
 import { markAudioAsListened, getProgress } from '@/lib/progress';
 
+function generateAudioHref(level: string, title: string): string {
+  const categoryMap: Record<string, string> = {
+    'a1': 'a1',
+    'a2': 'a2',
+    'b1': 'b1',
+    'b2': 'b2',
+    'c1': 'c1',
+    'c2': 'c2',
+    'accent-mexican': 'mexican',
+    'accent-argentine': 'argentine',
+    'accent-spanish': 'spanish',
+    'accent-colombian': 'colombian',
+    'accent-cuban': 'cuban',
+  };
+  
+  const category = categoryMap[level] || level;
+  const slug = title
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+  
+  return `/spanish-listening/${category}/${slug}`;
+}
+
 interface AudioItem {
   id: string;
   level: string;
@@ -350,6 +378,7 @@ export function PaginatedAudioList({
               level={audio.level}
               onPlayClick={() => handleAudioPlayClick(audio.id)}
               listenPercentage={audioProgress[audio.id] || 0}
+              href={generateAudioHref(audio.level, audio.title)}
             />
           ))}
         </div>

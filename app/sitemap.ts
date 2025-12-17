@@ -1,9 +1,17 @@
 import { MetadataRoute } from 'next';
 import { LEVELS } from '@lib/levels';
 import { ACCENT_THEMES } from '@lib/accentThemes';
+import { getAllAudios } from '@lib/audioIndex';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.spanishlisteninga1c2.com';
+  
+  const audioPages = getAllAudios().map((audio) => ({
+    url: `${baseUrl}${audio.path}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }));
 
   const levelUrlMap: Record<string, string> = {
     'a1': '/spanish-audio-for-beginners-a1',
@@ -49,6 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...levelPages,
     ...accentPages,
+    ...audioPages,
     {
       url: `${baseUrl}/intermediate-spanish-b2-part-2`,
       lastModified: new Date(),

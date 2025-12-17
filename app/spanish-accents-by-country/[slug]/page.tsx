@@ -182,6 +182,17 @@ export default function AccentDetailPage({ params }: { params: { slug: string } 
                       {audio.snippet && (
                         <p className="text-sm text-muted-foreground line-clamp-2">{audio.snippet}</p>
                       )}
+                      <div className="mt-3 pt-3 border-t flex justify-end">
+                        <Link
+                          href={`/spanish-listening/${params.slug}/${audio.title.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`}
+                          className="text-sm font-medium hover:underline"
+                          style={{ color: accent.color }}
+                          onClick={(e) => e.stopPropagation()}
+                          data-testid={`link-audio-details-${audio.id}`}
+                        >
+                          View details →
+                        </Link>
+                      </div>
                     </div>
 
                     {selectedAudio?.id === audio.id && (

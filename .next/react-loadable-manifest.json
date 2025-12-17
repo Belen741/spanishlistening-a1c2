@@ -1,1 +1,26 @@
-{}
+{
+  "app/spanish-accents-by-country/[slug]/page.tsx -> @/components/AudioPlayer": {
+    "id": "app/spanish-accents-by-country/[slug]/page.tsx -> @/components/AudioPlayer",
+    "files": [
+      "static/chunks/_app-pages-browser_components_AudioPlayer_tsx.js"
+    ]
+  },
+  "app/spanish-accents-by-country/[slug]/page.tsx -> @/components/Quiz": {
+    "id": "app/spanish-accents-by-country/[slug]/page.tsx -> @/components/Quiz",
+    "files": [
+      "static/chunks/_app-pages-browser_components_Quiz_tsx.js"
+    ]
+  },
+  "app/spanish-accents-by-country/[slug]/page.tsx -> @/components/Transcript": {
+    "id": "app/spanish-accents-by-country/[slug]/page.tsx -> @/components/Transcript",
+    "files": [
+      "static/chunks/_app-pages-browser_components_Transcript_tsx.js"
+    ]
+  },
+  "app/spanish-accents-by-country/[slug]/page.tsx -> @/components/VocabList": {
+    "id": "app/spanish-accents-by-country/[slug]/page.tsx -> @/components/VocabList",
+    "files": [
+      "static/chunks/_app-pages-browser_components_VocabList_tsx.js"
+    ]
+  }
+}

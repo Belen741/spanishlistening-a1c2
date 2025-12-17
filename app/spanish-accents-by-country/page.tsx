@@ -75,6 +75,23 @@ export default function SpanishAccentsByCountryPage() {
                 </Link>
               </div>
             </div>
+
+            {/* Comments and Suggestions */}
+            <div className="text-center py-8">
+              <h3 className="text-lg font-semibold mb-2" data-testid="text-feedback-heading">
+                Comments and Suggestions
+              </h3>
+              <p className="text-sm text-muted-foreground mb-3">
+                Have feedback or ideas? I'd love to hear from you!
+              </p>
+              <a 
+                href="mailto:hablandoconbelen@gmail.com"
+                className="inline-flex items-center gap-2 text-primary hover:underline"
+                data-testid="link-feedback-email"
+              >
+                hablandoconbelen@gmail.com
+              </a>
+            </div>
           </div>
           
           <aside className="space-y-6 hidden xl:block">

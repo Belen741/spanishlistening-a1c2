@@ -1,16 +1,5 @@
 {
   "pages": {
-    "/spanish-accents-by-country/[slug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-accents-by-country/[slug]/page.js"
-    ],
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
     "/spanish-listening/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -21,25 +10,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/spanish-listening/layout.js"
     ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
     "/spanish-audio-for-beginners-a1/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/spanish-audio-for-beginners-a1/page.js"
-    ],
-    "/spanish-accents-by-country/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-accents-by-country/page.js"
-    ],
-    "/spanish-listening/[category]/[audio]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-listening/[category]/[audio]/page.js"
-    ],
-    "/spanish-audio-for-beginners-a2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-audio-for-beginners-a2/page.js"
     ]
   }
 }

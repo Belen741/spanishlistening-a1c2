@@ -376,7 +376,6 @@ export function PaginatedAudioList({
               duration={audio.duration}
               snippet={audio.snippet}
               level={audio.level}
-              onPlayClick={() => handleAudioPlayClick(audio.id)}
               listenPercentage={audioProgress[audio.id] || 0}
               href={generateAudioHref(audio.level, audio.title)}
             />

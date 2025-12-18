@@ -2,40 +2,18 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import dynamic from 'next/dynamic';
-import { ArrowLeft, Volume2, Home } from 'lucide-react';
+import { ArrowLeft, Volume2, Home, ChevronRight } from 'lucide-react';
 import { ACCENT_COUNTRIES, type AccentInfo } from '@/lib/levels';
 import type { AudioItem } from '@/types/level';
 
-const AudioPlayer = dynamic(
-  () => import('@/components/AudioPlayer').then(mod => ({ default: mod.AudioPlayer })),
-  {
-    loading: () => <div className="h-16 bg-card rounded-lg border animate-pulse" />,
-    ssr: false,
-  }
-);
-
-const Transcript = dynamic(
-  () => import('@/components/Transcript').then(mod => ({ default: mod.Transcript })),
-  {
-    loading: () => <div className="h-32 bg-card rounded-xl border animate-pulse" />,
-  }
-);
-
-const VocabList = dynamic(
-  () => import('@/components/VocabList').then(mod => ({ default: mod.VocabList })),
-  {
-    loading: () => <div className="h-48 bg-card rounded-xl border animate-pulse" />,
-  }
-);
-
-const Quiz = dynamic(
-  () => import('@/components/Quiz').then(mod => ({ default: mod.Quiz })),
-  {
-    loading: () => <div className="h-96 bg-card rounded-xl border animate-pulse" />,
-    ssr: false,
-  }
-);
+function generateAudioSlug(title: string): string {
+  return title
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
 
 function getAccentByUrlSlug(urlSlug: string): AccentInfo | undefined {
   const mapping: Record<string, string> = {
@@ -56,7 +34,6 @@ function getUrlSlug(accent: AccentInfo): string {
 export default function AccentDetailPage({ params }: { params: { slug: string } }) {
   const [audios, setAudios] = useState<AudioItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [selectedAudio, setSelectedAudio] = useState<AudioItem | null>(null);
 
   const accent = getAccentByUrlSlug(params.slug);
 
@@ -93,10 +70,6 @@ export default function AccentDetailPage({ params }: { params: { slug: string } 
       </div>
     );
   }
-
-  const handleAudioSelect = (audio: AudioItem) => {
-    setSelectedAudio(selectedAudio?.id === audio.id ? null : audio);
-  };
 
   const otherAccents = ACCENT_COUNTRIES.filter(a => a.slug !== accent.slug);
 
@@ -158,69 +131,25 @@ export default function AccentDetailPage({ params }: { params: { slug: string } 
                 <p className="text-sm text-muted-foreground mt-1">Check back soon!</p>
               </div>
             ) : (
-              <div className="space-y-4">
+              <div className="space-y-3">
                 {audios.map((audio) => (
-                  <div key={audio.id} className="space-y-4">
-                    <div
-                      className={`
-                        border rounded-lg p-4 cursor-pointer transition-all
-                        ${selectedAudio?.id === audio.id 
-                          ? 'ring-2 bg-accent/30' 
-                          : 'hover-elevate active-elevate-2'
-                        }
-                      `}
-                      style={{ 
-                        borderColor: selectedAudio?.id === audio.id ? accent.color : undefined
-                      }}
-                      onClick={() => handleAudioSelect(audio)}
-                      data-testid={`audio-card-${audio.id}`}
-                    >
-                      <div className="flex items-center justify-between mb-2">
-                        <h3 className="font-medium">{audio.title}</h3>
+                  <Link
+                    key={audio.id}
+                    href={`/spanish-listening/${params.slug}/${generateAudioSlug(audio.title)}`}
+                    className="block border rounded-lg p-4 hover-elevate active-elevate-2 transition-all"
+                    data-testid={`audio-card-${audio.id}`}
+                  >
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="font-medium">{audio.title}</h3>
+                      <div className="flex items-center gap-2">
                         <span className="text-sm text-muted-foreground">{audio.duration}</span>
-                      </div>
-                      {audio.snippet && (
-                        <p className="text-sm text-muted-foreground line-clamp-2">{audio.snippet}</p>
-                      )}
-                      <div className="mt-3 pt-3 border-t flex justify-end">
-                        <Link
-                          href={`/spanish-listening/${params.slug}/${audio.title.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`}
-                          className="text-sm font-medium hover:underline"
-                          style={{ color: accent.color }}
-                          onClick={(e) => e.stopPropagation()}
-                          data-testid={`link-audio-details-${audio.id}`}
-                        >
-                          View details →
-                        </Link>
+                        <ChevronRight className="h-4 w-4 text-muted-foreground" />
                       </div>
                     </div>
-
-                    {selectedAudio?.id === audio.id && (
-                      <div className="space-y-6 pl-4 border-l-2" style={{ borderColor: accent.color }}>
-                        <AudioPlayer 
-                          src={audio.file} 
-                          title={audio.title}
-                        />
-                        
-                        <div id={`transcript-${audio.id}`}>
-                          <Transcript text={audio.transcript} />
-                        </div>
-                        
-                        <div id={`vocab-${audio.id}`}>
-                          <VocabList items={audio.vocab} />
-                        </div>
-                        
-                        <div id={`quiz-${audio.id}`}>
-                          <Quiz 
-                            questions={audio.quiz} 
-                            levelSlug={`${accent.slug}-${audio.id}`}
-                            audioId={audio.id}
-                            level={audio.level}
-                          />
-                        </div>
-                      </div>
+                    {audio.snippet && (
+                      <p className="text-sm text-muted-foreground line-clamp-2">{audio.snippet}</p>
                     )}
-                  </div>
+                  </Link>
                 ))}
               </div>
             )}

@@ -5242,6 +5242,99 @@
     ]
   },
   {
+    "id": "mex-05",
+    "level": "accent-mexican",
+    "title": "Una cita en la oficina",
+    "duration": "1:30",
+    "file": "/audios/mexican-05-cita-oficina.mp3",
+    "snippet": "Rodrigo y Carlos coordinan la entrega de un proyecto urgente antes de una junta con el jefe. Vocabulario de oficina y expresiones mexicanas coloquiales.",
+    "transcript": "Rodrigo: —Oye, Carlos, ¿tienes un minutito? Quería hablar contigo del proyecto del cliente nuevo.\n\nCarlos: —Sí, claro. Dime, ¿qué onda? ¿Ya quedó la presentación?\n\nRodrigo: —Casi. Me falta revisar unos números, pero necesito que me eches la mano con la parte del presupuesto.\n\nCarlos: —Va, sin problema. ¿Para cuándo lo quiere el jefe?\n\nRodrigo: —Para mañana en la mañana. Me dijo que lo necesitaba antes de la junta de las diez.\n\nCarlos: —Uf, está justo el tiempo. Ahorita lo checo y te aviso si veo algo raro.\n\nRodrigo: —Gracias. Oye, ¿tú vas a poder llegar temprano mañana?\n\nCarlos: —Sí, entro desde las ocho. Si quieres, lo vemos rápido antes de la junta.\n\nRodrigo: —Perfecto. Así ya vamos más tranquilos y no nos agarra el jefe en curva.\n\nCarlos: —Exacto. Tú mándame el archivo y lo reviso hoy mismo.\n\nRodrigo: —Va, te lo mando en cinco minutos. ¡Gracias otra vez!",
+    "vocab": [
+      {
+        "term": "¿Qué onda?",
+        "meaning": "What's up? / What's going on?"
+      },
+      {
+        "term": "¿Ya quedó?",
+        "meaning": "Is it done? / Is it ready?"
+      },
+      {
+        "term": "echar la mano",
+        "meaning": "To help out / to lend a hand"
+      },
+      {
+        "term": "Va",
+        "meaning": "Okay / sounds good / got it"
+      },
+      {
+        "term": "Ahorita",
+        "meaning": "Right now / in a moment (can be ambiguous in Mexican Spanish)"
+      },
+      {
+        "term": "lo checo y te aviso",
+        "meaning": "I'll check it and let you know"
+      },
+      {
+        "term": "no nos agarra en curva",
+        "meaning": "So it doesn't catch us off guard / by surprise"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Sobre qué quieren hablar Rodrigo y Carlos?",
+        "options": [
+          "Una junta interna del equipo",
+          "Un problema personal",
+          "El proyecto de un cliente nuevo",
+          "Un cambio de horario"
+        ],
+        "answerIndex": 2,
+        "explanation": "Rodrigo le dice a Carlos que quiere hablar sobre el proyecto del cliente nuevo."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Para cuándo necesita el jefe el proyecto?",
+        "options": [
+          "Para el final de la semana",
+          "Para hoy en la tarde",
+          "Para mañana en la mañana, antes de la junta",
+          "Para después de la junta"
+        ],
+        "answerIndex": 2,
+        "explanation": "Rodrigo dice que el jefe lo necesita para mañana en la mañana, antes de la junta de las diez."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "Cuando Carlos dice 'Uf, está justo el tiempo', ¿qué expresa principalmente?",
+        "options": [
+          "Que no quiere ayudar",
+          "Que el proyecto ya está terminado",
+          "Que el plazo es muy corto y hay presión de tiempo",
+          "Que no entiende el proyecto"
+        ],
+        "answerIndex": 2,
+        "explanation": "Carlos expresa que el tiempo está muy ajustado para entregar el proyecto."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué se puede inferir sobre la relación laboral entre Rodrigo y Carlos?",
+        "options": [
+          "Es distante y formal",
+          "Es competitiva",
+          "Es colaborativa y de apoyo mutuo",
+          "Es conflictiva"
+        ],
+        "answerIndex": 2,
+        "explanation": "Carlos acepta ayudar sin problema y proponen reunirse temprano para revisar juntos, mostrando colaboración."
+      }
+    ]
+  },
+  {
     "id": "esp-01",
     "level": "accent-spanish",
     "title": "En una terraza tomando un café",

@@ -5335,6 +5335,99 @@
     ]
   },
   {
+    "id": "mex-06",
+    "level": "accent-mexican",
+    "title": "Llegar tarde \"a la mexicana\"",
+    "duration": "1:20",
+    "file": "/audios/mexican-06-llegar-tarde.mp3",
+    "snippet": "Noe y Raque hablan sobre la costumbre mexicana de llegar tarde a las reuniones. Aprenderás expresiones como 'a las dos mexicanas', 'ahorita' y 'quedar mal'.",
+    "transcript": "Raque: —Oye, Noe, ¿no que la comida era a las dos?\n\nNoe: —Sí, sí… a las dos mexicanas.\n\nRaque: —Explícame eso otra vez, porque yo llegué puntual.\n\nNoe: —Pues es que aquí decir dos no siempre es dos.\n\nRaque: —Eso ya lo noté. Ya son casi tres.\n\nNoe: —Bueno, pero dime, ¿ya llegó alguien más?\n\nRaque: —Solo tu prima… y también llegó tarde.\n\nNoe: —¿Ves? Te dije.\n\nRaque: —Pero luego uno queda mal por llegar temprano.\n\nNoe: —Sí, eso sí pasa. Aquí llegas temprano y te ponen a ayudar.\n\nRaque: —Ya me di cuenta. ¿Llevo algo?\n\nNoe: —Sí, ahorita paso al Oxxo por unas bebidas.\n\nRaque: —Ay no, ¿ahorita? Eso puede ser en cinco minutos o en una hora.\n\nNoe: —Jajaja, ya voy, ya voy. ¡Órale!",
+    "vocab": [
+      {
+        "term": "a las dos mexicanas",
+        "meaning": "'Mexican time' / not exactly at two"
+      },
+      {
+        "term": "llegar puntual",
+        "meaning": "To arrive on time"
+      },
+      {
+        "term": "quedar mal",
+        "meaning": "To look bad / to leave a bad impression"
+      },
+      {
+        "term": "te ponen a ayudar",
+        "meaning": "They make you help / they put you to work"
+      },
+      {
+        "term": "¿Llevo algo?",
+        "meaning": "Should I bring anything?"
+      },
+      {
+        "term": "ahorita",
+        "meaning": "Right now / in a bit / sometime soon (often flexible in Mexican Spanish)"
+      },
+      {
+        "term": "Órale",
+        "meaning": "Alright! / Okay! / Let's go!"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué significa 'a las dos mexicanas' en la conversación?",
+        "options": [
+          "Que la comida empieza exactamente a las dos",
+          "Que la hora es aproximada y suele empezar más tarde",
+          "Que solo llegan familiares cercanos",
+          "Que la comida dura todo el día"
+        ],
+        "answerIndex": 1,
+        "explanation": "En México, 'a las dos mexicanas' significa que la hora es flexible y probablemente empezará más tarde."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué ocurre cuando alguien llega temprano, según la conversación?",
+        "options": [
+          "Se va a su casa",
+          "Es ignorado por los demás",
+          "Le piden que ayude con los preparativos",
+          "Se enoja y se queja"
+        ],
+        "answerIndex": 2,
+        "explanation": "Noe dice que si llegas temprano, te ponen a ayudar con los preparativos."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "Cuando Noe dice 'ahorita paso al Oxxo', ¿por qué Raque se preocupa?",
+        "options": [
+          "Porque el Oxxo está muy lejos",
+          "Porque Noe no sabe qué comprar",
+          "Porque Raque ya no quiere esperar",
+          "Porque 'ahorita' puede significar que tardará más de lo esperado"
+        ],
+        "answerIndex": 3,
+        "explanation": "En México, 'ahorita' es ambiguo y puede significar desde cinco minutos hasta una hora o más."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué aspecto cultural se refleja principalmente en la conversación?",
+        "options": [
+          "La importancia de la puntualidad estricta",
+          "El rechazo a ayudar en reuniones familiares",
+          "La costumbre de irse temprano de las fiestas",
+          "La flexibilidad con el tiempo en reuniones sociales"
+        ],
+        "answerIndex": 3,
+        "explanation": "La conversación refleja la flexibilidad con el tiempo que es común en reuniones sociales mexicanas."
+      }
+    ]
+  },
+  {
     "id": "esp-01",
     "level": "accent-spanish",
     "title": "En una terraza tomando un café",

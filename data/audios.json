@@ -5610,6 +5610,87 @@
     ]
   },
   {
+    "id": "mex-09",
+    "level": "accent-mexican",
+    "title": "La familia siempre opina",
+    "duration": "1:35",
+    "file": "/audios/mexican-09-familia-opina.mp3",
+    "snippet": "Sofía prepara a Diego para una comida familiar donde toda la familia querrá opinar sobre él. Aprenderás sobre la dinámica familiar mexicana y expresiones coloquiales.",
+    "transcript": "Sofía: —Oye, mi mamá volvió a preguntar si vienes el domingo.\n\nDiego: —¿Otra vez comida familiar?\n\nSofía: —Sí, y ahora también preguntó mi tía, la que siempre quiere saber todo.\n\nDiego: —¿Y por qué toda tu familia quiere saber tanto de mí?\n\nSofía: —Porque ya eres parte de la familia, aunque no quieras aceptarlo.\n\nDiego: —Eso suena un poco intenso, la verdad.\n\nSofía: —Lo es. Prepárate porque van a opinar de todo.\n\nDiego: —¿De qué tipo de cosas?\n\nSofía: —De tu trabajo, de tu acento, de si comes bien o no.\n\nDiego: —¿Y si digo que como muy sano?\n\nSofía: —No te creen. Mejor acepta la comida que te sirvan.\n\nDiego: —Entendido. Estrategia: llegar con hambre.\n\nSofía: —Exacto. Y sonreír mucho.\n\nDiego: —¿Aunque me pregunten cosas incómodas?\n\nSofía: —Sí, pero todo es con buena intención.\n\nDiego: —Eso espero.",
+    "vocab": [
+      {
+        "term": "querer saber todo",
+        "meaning": "To want to know everything / to be nosy"
+      },
+      {
+        "term": "parte de la familia",
+        "meaning": "Part of the family"
+      },
+      {
+        "term": "opinar de todo",
+        "meaning": "To have an opinion about everything"
+      },
+      {
+        "term": "no te creen",
+        "meaning": "They don't believe you"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué la familia de Sofía pregunta tanto por Diego?",
+        "options": [
+          "Porque no confían en él",
+          "Porque creen que Diego no quiere ir a la comida",
+          "Porque quieren invitarlo a trabajar con ellos",
+          "Porque lo consideran parte de la familia"
+        ],
+        "answerIndex": 3,
+        "explanation": "Sofía explica que la familia pregunta por Diego porque ya lo consideran parte de la familia."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué tipo de cosas menciona Sofía que su familia suele comentar?",
+        "options": [
+          "Solo temas políticos y económicos",
+          "El trabajo, el acento y la comida de Diego",
+          "Únicamente su relación con Sofía",
+          "Cosas que Diego pidió que comentaran"
+        ],
+        "answerIndex": 1,
+        "explanation": "Sofía menciona que opinan sobre su trabajo, su acento y si come bien o no."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "Cuando Sofía dice que todo es 'con buena intención', ¿qué quiere decir?",
+        "options": [
+          "Que no harán preguntas",
+          "Que solo quieren criticarlo",
+          "Que aunque puede ser incómodo, lo hacen por cariño",
+          "Que Diego no debe contestar nada"
+        ],
+        "answerIndex": 2,
+        "explanation": "Sofía quiere decir que aunque las preguntas pueden ser incómodas, la familia las hace con cariño."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Cuál es la 'estrategia' que Diego entiende al final?",
+        "options": [
+          "Evitar las comidas familiares",
+          "Llegar tarde para que no lo interroguen",
+          "No hablar con la familia",
+          "Llegar con hambre y aceptar la comida"
+        ],
+        "answerIndex": 3,
+        "explanation": "Diego entiende que debe llegar con hambre y aceptar la comida que le sirvan."
+      }
+    ]
+  },
+  {
     "id": "esp-01",
     "level": "accent-spanish",
     "title": "En una terraza tomando un café",

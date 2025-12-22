@@ -5517,6 +5517,99 @@
     ]
   },
   {
+    "id": "mex-08",
+    "level": "accent-mexican",
+    "title": "El picante y la identidad mexicana",
+    "duration": "1:30",
+    "file": "/audios/mexican-08-picante.mp3",
+    "snippet": "Tom, un extranjero, aprende sobre la cultura del picante en México con ayuda de María. Vocabulario sobre comida picante y expresiones coloquiales.",
+    "transcript": "Tom: —María, ¿segura que esta salsa no pica nada?\n\nMaría: —Sí, está muy leve.\n\nTom: —Eso dijiste ayer… y sufrí.\n\nMaría: —Es que para mí eso no pica.\n\nTom: —Creo que tenemos escalas diferentes.\n\nMaría: —Totalmente. El picante aquí es parte de la comida.\n\nTom: —¿Desde niños comen así?\n\nMaría: —Sí, poco a poco. Empiezas con poquito.\n\nTom: —Ok, voy a probar otra vez.\n\nMaría: —Échale solo tantito.\n\nTom: —(prueba) Mmm… pica, pero está rico.\n\nMaría: —¿Ves? Eso pasa siempre.\n\nTom: —Me arde un poco, pero sigo comiendo.\n\nMaría: —Jajaja, eso es muy mexicano de tu parte.\n\nTom: —Creo que me estoy adaptando.\n\nMaría: —Ya eres mexicano honorario.",
+    "vocab": [
+      {
+        "term": "no pica nada",
+        "meaning": "It's not spicy at all"
+      },
+      {
+        "term": "está muy leve",
+        "meaning": "It's very mild"
+      },
+      {
+        "term": "eso no pica",
+        "meaning": "That's not spicy (to me)"
+      },
+      {
+        "term": "échale solo tantito",
+        "meaning": "Just add a tiny bit"
+      },
+      {
+        "term": "me arde",
+        "meaning": "It burns"
+      },
+      {
+        "term": "muy mexicano de tu parte",
+        "meaning": "Very Mexican of you"
+      },
+      {
+        "term": "mexicano honorario",
+        "meaning": "Honorary Mexican"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué Tom duda cuando María dice que la salsa 'no pica'?",
+        "options": [
+          "Porque nunca ha probado salsa mexicana",
+          "Porque en otra ocasión María dijo lo mismo y la salsa sí picaba",
+          "Porque no le gusta la comida mexicana",
+          "Porque tiene alergia al chile"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom recuerda que ayer María también dijo que no picaba y él sufrió."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué explica María sobre el picante en México?",
+        "options": [
+          "Que solo los adultos lo consumen",
+          "Que se evita en comidas familiares",
+          "Que forma parte de la comida y se aprende desde niños",
+          "Que solo se usa en salsas especiales"
+        ],
+        "answerIndex": 2,
+        "explanation": "María explica que el picante es parte de la comida y que desde niños empiezan poco a poco."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "Cuando María dice que Tom ya es 'muy mexicano', ¿a qué se refiere?",
+        "options": [
+          "A que ya cocina comida mexicana",
+          "A que ya habla español perfectamente",
+          "A que ya no le pica el chile",
+          "A que se queja del picante pero sigue comiendo"
+        ],
+        "answerIndex": 3,
+        "explanation": "María dice que es 'muy mexicano' porque Tom sigue comiendo aunque le arde."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué idea cultural transmite principalmente la conversación?",
+        "options": [
+          "Que el picante es solo una moda",
+          "Que los extranjeros nunca se adaptan",
+          "Que la comida mexicana es peligrosa",
+          "Que el picante forma parte de la identidad y experiencia cultural mexicana"
+        ],
+        "answerIndex": 3,
+        "explanation": "La conversación muestra cómo el picante es parte integral de la cultura y comida mexicana."
+      }
+    ]
+  },
+  {
     "id": "esp-01",
     "level": "accent-spanish",
     "title": "En una terraza tomando un café",

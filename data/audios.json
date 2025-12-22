@@ -5428,6 +5428,95 @@
     ]
   },
   {
+    "id": "mex-07",
+    "level": "accent-mexican",
+    "title": "El verdadero significado de \"ahorita\"",
+    "duration": "1:25",
+    "file": "/audios/mexican-07-ahorita.mp3",
+    "snippet": "Ana y Luis discuten el significado ambiguo de 'ahorita' en México. Aprenderás por qué esta palabra puede significar 'ahora', 'en un rato' o incluso 'nunca'.",
+    "transcript": "Ana: —Luis, ¿me puedes mandar el archivo que te pedí?\n\nLuis: —Sí, ahorita te lo mando.\n\nAna: —Ajá… ¿ahorita cuándo exactamente?\n\nLuis: —Pues ahorita en un rato.\n\nAna: —¿Ves? Eso es justo lo que confunde.\n\nLuis: —Bueno, es que 'ahorita' puede ser muchas cosas.\n\nAna: —Para mí solo significa ahora.\n\nLuis: —Aquí no siempre. A veces es 'en unos minutos' y a veces es 'luego'.\n\nAna: —Y a veces es 'nunca'.\n\nLuis: —Jajaja, tampoco exageres.\n\nAna: —La semana pasada me dijiste 'ahorita te llamo' y nunca llamaste.\n\nLuis: —Bueno, es que se me complicó.\n\nAna: —¿Ves? Por eso los extranjeros se desesperan con nosotros.\n\nLuis: —Tienes razón. Mejor digo 'en diez minutos', suena menos directo pero al menos es claro.\n\nAna: —Eso sería un milagro viniendo de ti.\n\nLuis: —¡Oye! Ya, ya… te lo mando en cinco minutos, de verdad.",
+    "vocab": [
+      {
+        "term": "ahorita",
+        "meaning": "Right now / in a bit / later (very flexible in Mexican Spanish)"
+      },
+      {
+        "term": "ahorita en un rato",
+        "meaning": "In a little while / soon (but not now)"
+      },
+      {
+        "term": "ajá",
+        "meaning": "Uh-huh / yeah, right (often shows doubt or mild irony, depending on tone)"
+      },
+      {
+        "term": "eso es justo lo que confunde",
+        "meaning": "That's exactly what causes confusion"
+      },
+      {
+        "term": "se me complicó",
+        "meaning": "Something came up / it got complicated for me"
+      },
+      {
+        "term": "suena menos directo",
+        "meaning": "It sounds less direct"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué Ana se confunde con la respuesta de Luis?",
+        "options": [
+          "Porque no entiende de qué archivo hablan",
+          "Porque Luis se ríe en lugar de responder",
+          "Porque la palabra 'ahorita' no indica un tiempo exacto",
+          "Porque Luis se niega a mandar el archivo"
+        ],
+        "answerIndex": 2,
+        "explanation": "Ana se confunde porque 'ahorita' en México no indica un tiempo específico."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué diferentes significados puede tener 'ahorita', según la conversación?",
+        "options": [
+          "Solo significa 'ahora mismo'",
+          "Significa únicamente 'mañana'",
+          "Significa 'nunca'",
+          "Puede significar ahora, en unos minutos o más tarde"
+        ],
+        "answerIndex": 3,
+        "explanation": "Luis explica que 'ahorita' puede significar ahora, en unos minutos, o luego."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué problema cultural menciona Ana cuando habla de los extranjeros?",
+        "options": [
+          "Que no les gusta trabajar en equipo",
+          "Que se desesperan porque no entienden expresiones ambiguas",
+          "Que no comprenden los archivos digitales",
+          "Que llegan tarde a las reuniones"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ana dice que los extranjeros se desesperan porque no entienden la ambigüedad de 'ahorita'."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué cambio decide hacer Luis al final de la conversación?",
+        "options": [
+          "No volver a trabajar con Ana",
+          "Mandar el archivo al día siguiente",
+          "Dar un tiempo claro en lugar de decir 'ahorita'",
+          "Dejar de enviar archivos por mensaje"
+        ],
+        "answerIndex": 2,
+        "explanation": "Luis decide dar un tiempo específico ('en cinco minutos') en lugar de usar 'ahorita'."
+      }
+    ]
+  },
+  {
     "id": "esp-01",
     "level": "accent-spanish",
     "title": "En una terraza tomando un café",

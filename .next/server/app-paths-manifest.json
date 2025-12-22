@@ -1,5 +1,6 @@
 {
-  "/api/audios/route": "app/api/audios/route.js",
   "/spanish-accents-by-country/[slug]/page": "app/spanish-accents-by-country/[slug]/page.js",
-  "/icon.png/route": "app/icon.png/route.js"
+  "/api/audios/route": "app/api/audios/route.js",
+  "/icon.png/route": "app/icon.png/route.js",
+  "/spanish-listening/page": "app/spanish-listening/page.js"
 }

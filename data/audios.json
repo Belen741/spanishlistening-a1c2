@@ -5691,6 +5691,99 @@
     ]
   },
   {
+    "id": "mex-10",
+    "level": "accent-mexican",
+    "title": "Una fiesta mexicana \"tranqui\"",
+    "duration": "1:40",
+    "file": "/audios/mexican-10-fiesta-tranqui.mp3",
+    "snippet": "Paula y Jorge hablan sobre una fiesta 'pequeña' que resulta no ser tan pequeña. Aprenderás vocabulario sobre fiestas y expresiones coloquiales mexicanas.",
+    "transcript": "Paula: —Entonces, ¿cómo es la fiesta de hoy?\n\nJorge: —Nada grande, algo tranqui.\n\nPaula: —Eso dices siempre. ¿Cuánta gente va a ir?\n\nJorge: —Pues… como veinte o veinticinco personas.\n\nPaula: —Eso no es poquito.\n\nJorge: —Para México sí, la verdad.\n\nPaula: —Bueno… ¿y va a haber comida o tengo que cenar antes?\n\nJorge: —No, claro que va a haber comida, aunque sea taquitos y botana.\n\nPaula: —¿De cuáles tacos?\n\nJorge: —Creo que de pastor y de bistec.\n\nPaula: —Ah, entonces sí voy.\n\nJorge: —Jajaja, obvio. La comida no puede faltar.\n\nPaula: —¿Y música?\n\nJorge: —Sí, lo que salga. Cumbia, reggaetón…\n\nPaula: —¿Y a qué hora termina?\n\nJorge: —Depende de cómo se ponga la fiesta.\n\nPaula: —O sea, puede ser a las tres de la mañana.\n\nJorge: —Exacto. Es una fiesta mexicana, ¿no?",
+    "vocab": [
+      {
+        "term": "tranqui",
+        "meaning": "Chill / relaxed / low-key"
+      },
+      {
+        "term": "aunque sea",
+        "meaning": "At least / even if it's just"
+      },
+      {
+        "term": "botana",
+        "meaning": "Snacks / finger food"
+      },
+      {
+        "term": "obvio",
+        "meaning": "Obviously / of course"
+      },
+      {
+        "term": "no puede faltar",
+        "meaning": "It's a must / it can't be missing"
+      },
+      {
+        "term": "lo que salga",
+        "meaning": "Whatever comes up / whatever they play"
+      },
+      {
+        "term": "depende de cómo se ponga la fiesta",
+        "meaning": "It depends on how the party goes / how it turns out"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Cómo describe Jorge la fiesta al principio?",
+        "options": [
+          "Como una fiesta muy formal",
+          "Como una reunión solo familiar",
+          "Como algo pequeño y 'tranqui'",
+          "Como una fiesta sorpresa"
+        ],
+        "answerIndex": 2,
+        "explanation": "Jorge describe la fiesta como 'algo tranqui', es decir, algo relajado y pequeño."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué tipo de comida menciona Jorge que habrá en la fiesta?",
+        "options": [
+          "Solo pastel y postres",
+          "Tacos (de pastor y bistec) y botana",
+          "Cena elegante con varios platillos",
+          "Cada quien lleva su comida"
+        ],
+        "answerIndex": 1,
+        "explanation": "Jorge menciona que habrá taquitos de pastor y bistec, además de botana."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "Cuando Paula dice 'Eso no es poquito', ¿qué está expresando?",
+        "options": [
+          "Que no le gusta ir a fiestas",
+          "Que no conoce a nadie en la fiesta",
+          "Que para ella, 20 o 25 personas no es una fiesta pequeña",
+          "Que no quiere quedarse mucho tiempo"
+        ],
+        "answerIndex": 2,
+        "explanation": "Paula expresa que 20 o 25 personas no le parece una cantidad pequeña para una fiesta."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué idea cultural se refleja al final cuando Jorge dice 'es una fiesta mexicana'?",
+        "options": [
+          "Que suelen ser más grandes y largas de lo que se planea",
+          "Que no hay mucha música",
+          "Que solo se baila cumbia",
+          "Que siempre terminan temprano"
+        ],
+        "answerIndex": 0,
+        "explanation": "Jorge implica que las fiestas mexicanas suelen ser más grandes y largas de lo planeado."
+      }
+    ]
+  },
+  {
     "id": "esp-01",
     "level": "accent-spanish",
     "title": "En una terraza tomando un café",

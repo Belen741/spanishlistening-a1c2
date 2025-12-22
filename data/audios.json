@@ -5149,6 +5149,99 @@
     ]
   },
   {
+    "id": "mex-04",
+    "level": "accent-mexican",
+    "title": "En una fiesta familiar mexicana",
+    "duration": "1:45",
+    "file": "/audios/mexican-04-fiesta-familiar.mp3",
+    "snippet": "Laura y Carlos conversan en una fiesta familiar sobre la música, la comida y las tradiciones mexicanas como la 'carrilla' entre familiares.",
+    "transcript": "Laura: —Oye, qué buena está la música, ¿no? Primero pusieron cumbia y ahora ya andan con la banda.\n\nCarlos: —Sí, aquí siempre es así. Empiezan tranqui y luego mi tío le sube todo al norteño, como si fuera cantina.\n\nLaura: —Jajaja, típico. Oye, ¿ya probaste el mole que hizo mi abuela?\n\nCarlos: —Claro, y también los tamales y la ensalada. La neta, uno viene a estas fiestas más por la comida que por la familia.\n\nLaura: —No seas grosero… bueno, tantito sí es cierto. Además, siempre salen las bromas. ¿Ya viste cómo le están echando carrilla a mi primo por llegar tarde?\n\nCarlos: —Sí, pobre. Pero pues así somos, si no te molestan, es porque no te quieren.\n\nLaura: —Exacto. A mis amigos extranjeros les sorprende eso, dicen que somos muy llevados.\n\nCarlos: —Pues es parte de la cultura. Mucha comida, música fuerte y familia metiéndose en todo.\n\nLaura: —Y aun así, no lo cambiaríamos por nada, ¿verdad?\n\nCarlos: —Jamás. Ahora sí, vamos por otro plato antes de que se acabe.",
+    "vocab": [
+      {
+        "term": "andar con + música/estilo",
+        "meaning": "To be playing / to be into (a certain style at the moment)"
+      },
+      {
+        "term": "tranqui",
+        "meaning": "Chill / relaxed / easygoing"
+      },
+      {
+        "term": "la neta",
+        "meaning": "Honestly / the truth is"
+      },
+      {
+        "term": "echar carrilla",
+        "meaning": "To tease / to joke around with someone"
+      },
+      {
+        "term": "ser llevados",
+        "meaning": "To be very playful / to tease people a lot (in a friendly way)"
+      },
+      {
+        "term": "meterse en todo",
+        "meaning": "To get involved in everything / to meddle"
+      },
+      {
+        "term": "no lo cambiaría por nada",
+        "meaning": "I wouldn't trade it for anything"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué tipo de música se menciona en la fiesta?",
+        "options": [
+          "Solo música pop",
+          "Cumbia, banda y norteño",
+          "Rock y electrónica",
+          "Mariachi solamente"
+        ],
+        "answerIndex": 1,
+        "explanation": "Laura menciona que primero pusieron cumbia y luego banda, y Carlos habla del norteño."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué comida menciona Carlos que ya probó en la fiesta?",
+        "options": [
+          "Mole, tamales y ensalada",
+          "Pozole y tacos",
+          "Ensalada y pastel",
+          "Mole y arroz"
+        ],
+        "answerIndex": 0,
+        "explanation": "Carlos dice que probó el mole, los tamales y la ensalada."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "Cuando Carlos dice que la gente va más por la comida que por la familia, ¿qué quiere expresar realmente?",
+        "options": [
+          "Que no le gusta convivir con su familia",
+          "Que la comida es una parte muy importante de estas fiestas",
+          "Que la familia no cocina bien",
+          "Que solo le interesa comer gratis"
+        ],
+        "answerIndex": 1,
+        "explanation": "Carlos exagera de forma humorística para enfatizar lo deliciosa e importante que es la comida en las reuniones familiares mexicanas."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué se puede inferir sobre las bromas y la 'carrilla' en este contexto cultural?",
+        "options": [
+          "Son una forma de faltar al respeto",
+          "Se hacen solo a personas que no caen bien",
+          "Son una muestra de cercanía y confianza",
+          "Se evitan en reuniones familiares"
+        ],
+        "answerIndex": 2,
+        "explanation": "Carlos explica que 'si no te molestan, es porque no te quieren', indicando que la carrilla es señal de cariño y confianza."
+      }
+    ]
+  },
+  {
     "id": "esp-01",
     "level": "accent-spanish",
     "title": "En una terraza tomando un café",

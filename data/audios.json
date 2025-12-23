@@ -4,7 +4,7 @@
     "level": "a1",
     "title": "En el supermercado",
     "duration": "45s",
-    "file": "/audios/a1-01.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/a1-01.mp3",
     "snippet": "Es sábado por la mañana y Laura va al supermercado. Ella necesita comprar frutas, verduras y pan.",
     "transcript": "Es sábado por la mañana y Laura va al supermercado. Ella necesita comprar frutas, verduras y pan. Primero busca los plátanos, después las manzanas y las uvas. El vendedor le ofrece mangos, pero están muy caros. Laura sonríe y dice: \"Gracias, tal vez la próxima semana\". Luego compra pan y leche. Al final, paga en la caja y vuelve a casa contenta porque compró todo lo necesario.",
     "vocab": [
@@ -113,7 +113,7 @@
     "level": "a1",
     "title": "Un día en el parque",
     "duration": "55s",
-    "file": "/audios/a1-02.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/a1-02.mp3",
     "snippet": "Hoy hace buen tiempo y Miguel decide ir al parque. Lleva una botella de agua, su gorra y su pelota.",
     "transcript": "Hoy hace buen tiempo y Miguel decide ir al parque. Lleva una botella de agua, su gorra y su pelota. En el parque hay muchas personas: niños que juegan, adultos que caminan y algunos perros corriendo. Miguel se sienta bajo un árbol y escucha a los pájaros. Después, juega con su pelota y conoce a un niño llamado Pablo. Juegan juntos y se ríen mucho. Más tarde, Miguel compra un helado de chocolate y se sienta en una banca. Ve pasar a una familia con una bicicleta grande y un perro pequeño. Cuando el sol empieza a bajar, Miguel vuelve a casa cansado, pero contento. Fue un buen día.",
     "vocab": [
@@ -226,7 +226,7 @@
     "level": "a1",
     "title": "En el café",
     "duration": "40s",
-    "file": "/audios/a1-03.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/a1-03.mp3",
     "snippet": "Camarero: Buenos días, ¿qué desea tomar?\nAna: Buenos días. Quisiera un café con leche, por favor.",
     "transcript": "Camarero: Buenos días, ¿qué desea tomar?\nAna: Buenos días. Quisiera un café con leche, por favor.\nCamarero: Claro. ¿Desea algo para comer?\nAna: Sí, una rebanada de pastel de chocolate.\nCamarero: Perfecto. ¿Algo más?\nAna: No, gracias. ¿Cuánto cuesta?\nCamarero: Son cuarenta pesos en total.\nAna: Aquí tiene.\nCamarero: Gracias. Su café estará listo en un momento.\nAna: Muy bien, muchas gracias.\nCamarero: Que tenga un buen día.\nAna: Igualmente.",
     "vocab": [
@@ -339,7 +339,7 @@
     "level": "a1",
     "title": "En la parada del autobús",
     "duration": "50s",
-    "file": "/audios/a1-04.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/a1-04.mp3",
     "snippet": "Luis: Hola, ¿esperas el autobús 23?\nClara: Sí, lo espero desde hace diez minutos. ¿Tú también?",
     "transcript": "Luis: Hola, ¿esperas el autobús 23?\nClara: Sí, lo espero desde hace diez minutos. ¿Tú también?\nLuis: Sí. Siempre llega tarde por la mañana.\nClara: ¡Qué mal! Tengo una cita a las nueve.\nLuis: Entonces espero que llegue pronto. ¿Vas al centro?\nClara: Sí, trabajo cerca del parque principal. ¿Y tú?\nLuis: Yo estudio en la universidad que está en la misma calle.\nClara: Ah, qué bien. ¡Mira! Ahí viene el autobús.\nLuis: Por fin. Espero que no esté lleno.\nClara: Sí, yo también.",
     "vocab": [
@@ -468,7 +468,7 @@
     "level": "a1",
     "title": "En el trabajo",
     "duration": "45s",
-    "file": "/audios/a1_05.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/a1_05.mp3",
     "snippet": "Lucía: ¡Hola, Pedro! ¿Es tu primer día en la oficina?\nPedro: Sí, hoy empiezo. Estoy un poco nervioso.",
     "transcript": "Lucía: ¡Hola, Pedro! ¿Es tu primer día en la oficina?\nPedro: Sí, hoy empiezo. Estoy un poco nervioso.\nLucía: No te preocupes. Todos son muy amables aquí.\nPedro: Gracias. ¿Dónde está mi escritorio?\nLucía: Está junto a la ventana, al lado de Marta.\nPedro: Perfecto. ¿A qué hora tenemos la reunión?\nLucía: A las nueve y media. El jefe siempre llega puntual.\nPedro: Bien, entonces voy a encender la computadora.\nLucía: Muy bien. ¡Bienvenido al equipo!\nPedro: ¡Gracias, Lucía!",
     "vocab": [
@@ -581,7 +581,7 @@
     "level": "a1",
     "title": "Profesiones",
     "duration": "40s",
-    "file": "/audios/a1_06.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/a1_06.mp3",
     "snippet": "Lucía es doctora. Trabaja en un hospital. Ayuda a las personas todos los días.",
     "transcript": "Lucía es doctora. Trabaja en un hospital. Ayuda a las personas todos los días. Su amigo Carlos es maestro. Enseña a los niños en una escuela. Los niños leen y escriben con él. La amiga de Lucía se llama Ana. Ella es cocinera. Prepara comida en un restaurante. Los tres están contentos con su trabajo.",
     "vocab": [
@@ -694,7 +694,7 @@
     "level": "a2",
     "title": "El nuevo vecino",
     "duration": "1m 10s",
-    "file": "/audios/a2-01.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a2/a2-01.mp3",
     "snippet": "Hace dos semanas llegó un nuevo vecino al edificio de Marta. Se llama Tomás y viene de Argentina.",
     "transcript": "Hace dos semanas llegó un nuevo vecino al edificio de Marta. Se llama Tomás y viene de Argentina. Es muy amable y siempre saluda a todos con una sonrisa. El primer día, Marta lo vio en el ascensor y comenzaron a hablar. Tomás le contó que trabaja desde casa y que le encanta cocinar. También mencionó que todavía no conoce bien la ciudad y que está buscando lugares para comer buena comida mexicana.\n\nMarta le recomendó una taquería cerca del parque y le dijo que los tacos al pastor son los mejores. Al día siguiente, Tomás le agradeció el consejo y le comentó que había probado los tacos. \"¡Tenías razón!\", le dijo. Desde entonces, se ven seguido en el pasillo y siempre conversan un poco antes de entrar a sus departamentos.",
     "vocab": [
@@ -807,7 +807,7 @@
     "level": "a2",
     "title": "El viaje de fin de semana",
     "duration": "1m 15s",
-    "file": "/audios/a2-02.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a2/a2-02.mp3",
     "snippet": "Sofía y su hermano Andrés preparan sus maletas para pasar el fin de semana fuera de la ciudad.",
     "transcript": "El viernes por la tarde, Sofía y su hermano Andrés preparan sus maletas para pasar el fin de semana fuera de la ciudad. Van a visitar a sus abuelos, que viven en un pueblo cerca de las montañas.\n\nSofía prepara ropa cómoda, una chaqueta y su cámara de fotos. Andrés lleva una pelota, un libro y algunos bocadillos para el camino. Salen temprano el sábado y el viaje en coche dura unas tres horas.\n\nCuando llegan, los abuelos los reciben con un gran abrazo y un desayuno delicioso. Después descansan un poco y dan un paseo por el bosque. Ven mariposas, flores de muchos colores y un pequeño río. Por la noche, cenan juntos y cuentan historias frente a la chimenea.\n\nEl domingo regresan a casa cansados, pero felices. Dicen que fue el mejor fin de semana del año.",
     "vocab": [
@@ -920,7 +920,7 @@
     "level": "a2",
     "title": "Reservando un hotel",
     "duration": "1m 5s",
-    "file": "/audios/a2-03.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a2/a2-03.mp3",
     "snippet": "Recepcionista: Buenas tardes, Hotel Sol del Valle, ¿en qué puedo ayudarle?\nCarlos: Buenas tardes. Quiero reservar una habitación para este fin de semana.",
     "transcript": "Recepcionista: Buenas tardes, Hotel Sol del Valle, ¿en qué puedo ayudarle?\nCarlos: Buenas tardes. Quiero reservar una habitación para este fin de semana.\nRecepcionista: Claro, ¿para cuántas personas?\nCarlos: Para dos, por favor.\nRecepcionista: Perfecto. Tenemos habitaciones dobles con desayuno incluido. ¿Desea una con vista al mar o al jardín?\nCarlos: Con vista al mar, por favor. ¿Cuál es el precio por noche?\nRecepcionista: Son mil doscientos pesos por noche.\nCarlos: Muy bien. ¿Puedo pagar con tarjeta?\nRecepcionista: Sí, aceptamos todas las tarjetas de crédito y débito.\nCarlos: Perfecto. Llegaremos el viernes por la tarde.\nRecepcionista: Excelente. ¿Me puede dar su nombre completo, por favor?\nCarlos: Sí, Carlos Méndez García.\nRecepcionista: Listo, señor Méndez. Su reserva está confirmada para el viernes. Lo esperamos.\nCarlos: Muchas gracias.\nRecepcionista: A usted. Que tenga un buen día.",
     "vocab": [
@@ -1045,7 +1045,7 @@
     "level": "a2",
     "title": "Información turística",
     "duration": "1m 10s",
-    "file": "/audios/a2-04.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a2/a2-04.mp3",
     "transcript": "Empleada: Buenos días, oficina de información turística, ¿en qué puedo ayudarle?\nMaría: Buenos días. Es mi primera vez en la ciudad. ¿Podría recomendarme algunos lugares para visitar?\nEmpleada: Claro. El museo de arte está muy cerca y también puede caminar por el centro histórico.\nMaría: Perfecto. ¿Dónde está el museo exactamente?\nEmpleada: Está en la avenida principal, a unos diez minutos a pie. Si quiere, puede tomar el autobús número 12.\nMaría: Gracias. ¿Y algún restaurante que recomiende?\nEmpleada: Sí, el restaurante \"La Plaza\" tiene muy buena comida local. Está frente a la catedral.\nMaría: Excelente. ¿A qué hora cierra el museo?\nEmpleada: Cierra a las seis de la tarde, pero los domingos la entrada es gratis.\nMaría: Perfecto. Muchas gracias por la información.\nEmpleada: De nada. Disfrute su visita.",
     "vocab": [
       {
@@ -1170,7 +1170,7 @@
     "level": "a2",
     "title": "Mi rutina diaria",
     "duration": "1m 5s",
-    "file": "/audios/a2_05.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a2/a2_05.mp3",
     "snippet": "Me llamo Clara y soy estudiante. De lunes a viernes me levanto a las siete de la mañana.",
     "transcript": "Me llamo Clara y soy estudiante. De lunes a viernes me levanto a las siete de la mañana. Después me ducho y me visto rápidamente. Siempre desayuno café con pan antes de salir.\n\nA las ocho voy a la universidad. Las clases empiezan a las ocho y media y terminan al mediodía. Luego almuerzo con mis amigos en la cafetería.\n\nPor la tarde estudio un poco y escucho música. A veces salgo a caminar con mi perro. Por la noche ceno con mi familia y veo la televisión. Finalmente me acuesto a las once.\n\nEs un día normal, pero me gusta mi rutina.",
     "vocab": [
@@ -1267,7 +1267,7 @@
     "level": "a2",
     "title": "El cumpleaños de Ana",
     "duration": "55s",
-    "file": "/audios/a2_06.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a2/a2_06.mp3",
     "snippet": "Hoy es el cumpleaños de Ana. Ella cumple veinticinco años y está muy contenta.",
     "transcript": "Hoy es el cumpleaños de Ana. Ella cumple veinticinco años y está muy contenta. Por la mañana recibe mensajes de sus amigos y habla con su familia por teléfono.\n\nPor la tarde va al supermercado para comprar refrescos, pastel y globos. A las siete, llegan sus amigos con regalos y música.\n\nTodos cantan \"Feliz cumpleaños\" y comen pastel. Después bailan y toman fotos. Ana dice gracias y dice: \"¡Fue un día perfecto!\".",
     "vocab": [
@@ -1380,7 +1380,7 @@
     "level": "b1",
     "title": "El mensaje equivocado",
     "duration": "1m 15s",
-    "file": "/audios/b1-01.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b1/b1-01.mp3",
     "transcript": "Lucía trabaja en una pequeña oficina de arquitectura. Un lunes por la mañana, su jefe le pidió que enviara un correo importante a un cliente llamado Javier Torres con los nuevos planos de una casa. Todo parecía fácil, pero Lucía, sin darse cuenta, escribió mal la dirección y envió el correo a otro Javier, un antiguo compañero de universidad.\n\nUnas horas después, recibió una respuesta:\n\n\"Hola, Lucía. Gracias por los planos, pero creo que te has equivocado de persona. Aun así, ¡me alegra saber de ti después de tanto tiempo!\".\n\nLucía se puso roja de vergüenza. Llamó a su jefe para explicarle lo que había pasado. Él, sorprendentemente, se rió y le dijo: \"No te preocupes, todos cometemos errores. Solo asegúrate de revisarlo dos veces la próxima vez\". Desde ese día, Lucía siempre revisa cada dirección antes de enviar un correo electrónico.",
     "vocab": [
       {
@@ -1493,7 +1493,7 @@
     "level": "b1",
     "title": "El día que perdí el tren",
     "duration": "1m 10s",
-    "file": "/audios/b1-02.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b1/b1-02.mp3",
     "transcript": "Eran las siete y media de la mañana y todavía estaba en casa. El tren salía a las ocho, así que tenía media hora para llegar a la estación. \"Tengo tiempo\", pensé, pero mientras buscaba mis llaves, recordé que el celular estaba descargado. Corrí a conectarlo y perdí varios minutos.\n\nCuando por fin salí, había mucho tráfico. El autobús avanzaba muy lento y yo miraba el reloj cada dos segundos. En la estación, corrí hasta la puerta del tren, pero justo cuando llegué… se cerraron las puertas.\n\nMe quedé allí, sin aire, viendo cómo el tren se alejaba. Al principio sentí enojo conmigo misma, pero después respiré profundo. Llamé a mi jefe, le expliqué la situación y tomé el siguiente tren. Llegué tarde, sí, pero más tranquila. Ese día aprendí que a veces perder algo no es el fin del mundo, sino una forma de detenerse y respirar.",
     "vocab": [
       {
@@ -1618,7 +1618,7 @@
     "level": "b1",
     "title": "La decisión más difícil",
     "duration": "1m 20s",
-    "file": "/audios/b1-03.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b1/b1-03.mp3",
     "transcript": "Durante años, Carla soñó con tener su propio negocio. Trabajaba en una empresa grande, con un salario estable y compañeros amables, pero cada día sentía que algo le faltaba. En las noches pensaba: \"¿Y si renuncio y empiezo de nuevo?\". Sin embargo, el miedo siempre ganaba.\n\nUn día, su mejor amiga le envió un mensaje: \"Encontré un local perfecto para tu idea de pastelería. Solo falta tu decisión.\" Carla leyó el mensaje varias veces. Tenía ahorros, tenía un plan… pero no tenía seguridad.\n\nEsa noche no durmió. Al día siguiente, mientras preparaba café, pensó en todo lo que había aprendido en su trabajo: organización, atención al cliente, esfuerzo. Sonrió. Tal vez ya estaba lista.\n\nUna semana después, presentó su renuncia. No fue fácil, pero al abrir su tienda por primera vez y oler el pan recién horneado, supo que había tomado la mejor decisión de su vida.",
     "vocab": [
       {
@@ -1743,7 +1743,7 @@
     "level": "b1",
     "title": "Redes sociales y tiempo libre",
     "duration": "1m 15s",
-    "file": "/audios/b1-04.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b1/b1-04.mp3",
     "transcript": "Diego: Hola, Laura. ¿Viste que hoy todos hablan del nuevo reto en redes sociales?\nLaura: Sí, lo vi esta mañana. Me parece divertido, pero también un poco exagerado.\nDiego: Yo creo que depende de cómo se use. A mí me gusta subir fotos cuando viajo, pero no publico todo.\nLaura: A mí me pasa igual. Antes pasaba horas mirando videos, pero ahora trato de usar el teléfono solo un rato al día.\nDiego: Yo también. A veces siento que las redes me quitan tiempo para otras cosas.\nLaura: Sí, pero también tienen cosas buenas. Yo encontré mi trabajo actual gracias a una red profesional.\nDiego: Es verdad. Creo que todo es cuestión de encontrar un equilibrio.\nLaura: Exacto. Hay que saber controlarse.\nDiego: Totalmente de acuerdo.\nLaura: Bueno, es genial charlar de esto. Nos vemos luego.\nDiego: Hasta pronto, Laura.",
     "vocab": [
       {
@@ -1856,7 +1856,7 @@
     "level": "b1",
     "title": "La entrevista de trabajo",
     "duration": "1m 10s",
-    "file": "/audios/b1_05.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b1/b1_05.mp3",
     "snippet": "Laura tenía una entrevista en una empresa de tecnología y estaba un poco nerviosa. Había preparado su currículum y practicado sus respuestas frente al espejo.",
     "transcript": "Laura tenía una entrevista en una empresa de tecnología y estaba un poco nerviosa. Había preparado su currículum y practicado sus respuestas frente al espejo.\n\nCuando llegó, el entrevistador, el señor Ramírez, la saludó con amabilidad.\n—Buenos días, Laura. ¿Cómo estás?\n—Buenos días, un poco nerviosa, pero muy contenta de estar aquí —respondió ella sonriendo.\n\nDurante la entrevista, hablaron sobre su experiencia anterior. Laura explicó que había trabajado tres años como asistente administrativa y que le gustaba aprender cosas nuevas.\n—¿Por qué quieres trabajar con nosotros? —preguntó el señor Ramírez.\n—Porque quiero seguir creciendo profesionalmente y creo que esta empresa me puede dar esa oportunidad —dijo Laura con confianza.\n\nAl final, el entrevistador le agradeció su tiempo y le dijo que la llamarían en unos días. Laura salió de la oficina con una sonrisa. Había hecho lo mejor que podía.",
     "vocab": [
@@ -1969,7 +1969,7 @@
     "level": "b1",
     "title": "En una peluquería",
     "duration": "1m 5s",
-    "file": "/audios/b1_06.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b1/b1_06.mp3",
     "snippet": "Carla entró a la peluquería un sábado por la mañana. Quería cambiar de look porque tenía una fiesta importante esa noche.",
     "transcript": "Carla entró a la peluquería un sábado por la mañana. Quería cambiar de look porque tenía una fiesta importante esa noche. La recibió Sofía, la estilista, con una sonrisa.\n\n—¡Hola! ¿Qué te gustaría hacerte hoy? —preguntó Sofía.\n—Quiero cortarme el cabello un poco y también cambiar el color —respondió Carla.\n\nSofía le mostró algunas fotos con distintos tonos y estilos.\n—Este tono de castaño claro te quedaría muy bien —dijo.\n—Perfecto, confío en ti —respondió Carla.\n\nMientras hablaban, Carla contó que hacía meses que no visitaba una peluquería. Le encantaba el ambiente: la música, el aroma del champú y la sensación de renovarse.\n\nCuando Sofía terminó, Carla se miró al espejo y sonrió. El cambio era justo lo que necesitaba.",
     "vocab": [
@@ -2082,7 +2082,7 @@
     "level": "b2",
     "title": "La invitación inesperada",
     "duration": "1m 30s",
-    "file": "/audios/b2-01.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b2/b2-01.mp3",
     "transcript": "Sofía trabaja en una empresa de marketing digital y lleva meses colaborando con Daniel, un diseñador del mismo equipo. Se llevan bien, aunque casi siempre hablan solo de trabajo.\n\nUn viernes, antes de salir de la oficina, Daniel le dijo con una sonrisa:\n\n—Oye, este fin de semana hay una exposición de arte moderno. ¿Te gustaría ir?\n\nSofía dudó unos segundos. No sabía si era una invitación amistosa o algo más. Finalmente respondió:\n\n—Claro, me encanta el arte.\n\nEl sábado se encontraron en el museo. Durante la visita, hablaron de sus artistas favoritos, pero también de sus sueños, viajes y cosas personales. Daniel parecía nervioso y, en un momento, mencionó:\n\n—Nunca pensé que tendríamos tanto en común.\n\nSofía sonrió, pero no dijo nada. Al despedirse, él le escribió al día siguiente:\n\n\"Gracias por acompañarme, la pasé muy bien.\"\n\nElla leyó el mensaje varias veces antes de responder:\n\n\"Yo también.\"",
     "vocab": [
       {
@@ -2195,7 +2195,7 @@
     "level": "b2",
     "title": "La comida que nadie quiso probar",
     "duration": "1m 45s",
-    "file": "/audios/b2-02.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b2/b2-02.mp3",
     "transcript": "El viernes por la noche, Lucía invitó a sus amigos a cenar en su casa. Todos llegaron puntuales y con mucha hambre. En la mesa había pan, frutas, refrescos y un plato cubierto con una tapa metálica.\n\n—Bueno —dijo Lucía sonriendo—, este es el plato principal, una receta tradicional de mi familia.\n\nTodos la miraron con curiosidad. Cuando levantó la tapa, apareció un guiso oscuro con un olor fuerte, lleno de especias y trozos de carne que nadie pudo reconocer.\n\n—¿Qué es? —preguntó Marcos, un poco nervioso.\n—Es mole de olla —respondió Lucía—. Mi abuela lo prepara en todas las fiestas.\n\nHubo silencio. Nadie se movió. Entonces, Lucía sirvió un poco en su propio plato, lo probó y sonrió.\n—Está buenísimo —dijo.\n\nPoco a poco, los demás se animaron. Primero probaron una cucharada, luego otra… y al final repitieron.\n\n—No puedo creerlo —dijo Marcos—. Pensé que no me iba a gustar, ¡pero está delicioso!\n\nLucía se rió.\n—Por eso, en mi casa decimos: \"si no lo pruebas, te pierdes la sorpresa\".",
     "vocab": [
       {
@@ -2320,7 +2320,7 @@
     "level": "b2",
     "title": "El consejo de mi abuelo",
     "duration": "1m 30s",
-    "file": "/audios/b2-03.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b2/b2-03.mp3",
     "transcript": "Cuando era niño, solía visitar a mi abuelo todos los fines de semana. Vivía en una casa pequeña, con un jardín lleno de árboles y herramientas viejas. Siempre tenía algo que reparar, pero también tiempo para sentarse conmigo a conversar.\n\nUn día le pregunté por qué nunca se quejaba de nada. Él sonrió y me dijo:\n—Porque aprendí que quejarse no cambia las cosas, pero actuar sí.\n\nEn ese momento no entendí del todo lo que quería decir. Sin embargo, con los años, esas palabras empezaron a tener sentido. Cada vez que algo salía mal —un trabajo perdido, una discusión o un error— recordaba su voz tranquila.\n\nHace poco, cuando un proyecto importante fracasó, sentí ganas de rendirme. Pero en lugar de eso, respiré, preparé un café y volví a empezar.\n\nEse día comprendí que los consejos sencillos a veces son los que más fuerza tienen.",
     "vocab": [
       {
@@ -2445,7 +2445,7 @@
     "level": "b2",
     "title": "El humor en diferentes países",
     "duration": "1m 40s",
-    "file": "/audios/b2-04.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b2/b2-04.mp3",
     "transcript": "Carla: Oye, Mateo, ¿te diste cuenta de que la gente aquí se ríe de cosas muy distintas?\nMateo: Totalmente. El otro día conté un chiste en la oficina y nadie se rió.\nCarla: ¿En serio? ¿Sobre qué era?\nMateo: Sobre mi jefe… pero en mi país ese tipo de humor es normal. Aquí lo tomaron como falta de respeto.\nCarla: Sí, eso pasa mucho. En México, por ejemplo, la gente se burla de sí misma todo el tiempo, pero hay temas que son muy delicados.\nMateo: En mi país, si te ríes de ti mismo, la gente piensa que no te tomas en serio.\nCarla: Qué curioso. Supongo que el humor refleja la cultura.\n\nMateo: Exacto. Y entender el humor local es casi tan difícil como aprender el idioma.\nCarla: Pero cuando logras hacer reír a alguien en otra lengua… ahí sabes que realmente la dominas.\nMateo: O al menos que ya no te da miedo equivocarte.\nCarla: Eso también es parte del humor, ¿no? Reírse un poco de los errores.\nMateo: Sí, y por suerte, todos los cometemos.",
     "vocab": [
       {
@@ -2570,7 +2570,7 @@
     "level": "b2",
     "title": "El vecino misterioso",
     "duration": "1m 20s",
-    "file": "/audios/b2_05.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b2/b2_05.mp3",
     "snippet": "Durante semanas, Laura observó que su nuevo vecino salía solo por la noche. Apenas lo veía durante el día y, cuando lo hacía, él apenas saludaba.",
     "transcript": "Durante semanas, Laura observó que su nuevo vecino salía solo por la noche. Apenas lo veía durante el día y, cuando lo hacía, él apenas saludaba. En el edificio todos hablaban de él: algunos decían que trabajaba con computadoras, otros que simplemente era antisocial.\n\nUna noche, un apagón dejó sin luz a todo el edificio. Laura estaba buscando velas cuando alguien tocó a su puerta. Era el vecino, con una linterna en la mano.\n\n—Vi que estabas sin luz —le dijo—, tengo una batería extra, si quieres te la dejo.\n\nConversaron unos minutos, y Laura descubrió que él era enfermero y que sus turnos nocturnos lo obligaban a dormir de día.\n\nDesde entonces, cada vez que lo ve, le sonríe con cierta vergüenza. Había pasado semanas imaginando historias… y todas eran falsas.",
     "vocab": [
@@ -2683,7 +2683,7 @@
     "level": "b2",
     "title": "El error en la presentación",
     "duration": "1m 15s",
-    "file": "/audios/b2_06.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b2/b2_06.mp3",
     "snippet": "Daniel llevaba dos semanas preparando una presentación muy importante para su empresa. Revisó cada dato, cada gráfico y ensayó su discurso varias veces frente al espejo.",
     "transcript": "Daniel llevaba dos semanas preparando una presentación muy importante para su empresa. Revisó cada dato, cada gráfico y ensayó su discurso varias veces frente al espejo.\n\nEl día de la reunión, todo marchaba perfecto hasta que, en medio de la exposición, notó que el gráfico principal tenía una cifra equivocada. Por un instante, sintió que el suelo se movía bajo sus pies.\n\nSin embargo, respiró hondo, sonrió y dijo:\n—Parece que mi gráfico también necesita un café, igual que yo.\n\nLa sala estalló en risas, y Daniel continuó sin perder el control. Al final, su jefe se acercó y le dijo:\n—Tu presentación fue excelente. Los errores ocurren, lo importante es cómo reaccionas.",
     "vocab": [
@@ -2796,7 +2796,7 @@
     "level": "c1",
     "title": "El silencio en las conversaciones",
     "duration": "1m 50s",
-    "file": "/audios/c1-01.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/c1/c1-01.mp3",
     "transcript": "Entrevistadora: Hoy hablamos con Carlos Méndez, psicólogo especializado en comunicación interpersonal. Carlos, en tus charlas mencionas que el silencio es una forma de comunicación. ¿A qué te refieres exactamente?\n\nCarlos: Muchas personas piensan que comunicarse es hablar, pero el silencio también transmite mensajes. En una conversación, el silencio puede significar incomodidad, desacuerdo o simplemente reflexión. Lo interesante es que cada cultura interpreta esos silencios de manera diferente.\n\nEntrevistadora: ¿Podrías darnos un ejemplo?\n\nCarlos: Claro. En algunos países asiáticos, guardar silencio se considera una señal de respeto. En cambio, en muchos países occidentales, el silencio se percibe como algo negativo, como si faltara interés o no hubiera nada que decir. Sin embargo, cuando las personas aprenden a tolerar el silencio, descubren que en esos momentos también puede haber conexión, empatía o incluso confianza.\n\nEntrevistadora: Entonces, ¿escuchar también es una forma de hablar?\n\nCarlos: Exactamente. Escuchar con atención es una forma profunda de comunicación. A veces, lo más valioso que podemos decir… es nada.",
     "vocab": [
       {
@@ -2909,7 +2909,7 @@
     "level": "c1",
     "title": "La frontera invisible",
     "duration": "2m 00s",
-    "file": "/audios/c1-02.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/c1/c1-02.mp3",
     "transcript": "No todas las fronteras se pueden ver en un mapa. Algunas existen solo en la mente: límites invisibles que separan a las personas aunque compartan el mismo lugar.\n\nCuando Daniel se mudó a la gran ciudad, sintió esa frontera cada día. No era un muro real, sino una distancia hecha de miradas, acentos y silencios. En su trabajo, todos lo saludaban con cortesía, pero pocas veces con interés. \"Habla raro\", escuchó una vez por casualidad. Desde entonces, se volvió más cuidadoso con sus palabras.\n\nCon el tiempo, aprendió a moverse entre dos mundos: el de donde venía y el que intentaba habitar. Sin embargo, algo en él empezó a cambiar. Ya no sabía si debía adaptarse o resistirse, si perder su forma de hablar era ganar o rendirse.\n\nUna tarde, en el metro, una niña le preguntó de dónde era. \"De aquí\", respondió después de una pausa. Y por primera vez, lo dijo sin miedo, sin disculpas.\n\nEntonces comprendió que la frontera no estaba afuera, sino dentro: entre lo que los demás ven y lo que uno decide ser.",
     "vocab": [
       {
@@ -3058,7 +3058,7 @@
     "level": "c1",
     "title": "El cerebro y la creatividad",
     "duration": "2m 10s",
-    "file": "/audios/c1-03.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/c1/c1-03.mp3",
     "transcript": "Durante mucho tiempo, la ciencia creyó que el cerebro funcionaba como una máquina: una estructura rígida, donde cada parte tenía una tarea fija. Sin embargo, hoy sabemos que no es así. El cerebro cambia, se adapta y se reinventa constantemente.\n\nLa creatividad nace de esa flexibilidad. No aparece solo cuando un artista pinta o un músico compone; surge también cuando alguien encuentra una nueva forma de resolver un problema cotidiano. Cada vez que unimos ideas que nunca habían estado juntas, estamos creando algo.\n\nCuriosamente, los estudios muestran que el cerebro creativo no trabaja más, sino de otra manera. En lugar de seguir un camino lógico y lineal, explora rutas paralelas, conexiones inesperadas. Por eso muchas ideas brillantes surgen cuando estamos distraídos, caminando o en la ducha: el cerebro aprovecha ese espacio libre para conectar puntos invisibles.\n\nPero la creatividad no depende solo de la inspiración. También exige disciplina, paciencia y tolerancia al error. Un buen artista, un buen científico o un buen maestro no crean por accidente, sino porque practican la curiosidad cada día.\n\nEn el fondo, ser creativo no es inventar algo nuevo, sino mirar lo viejo con ojos distintos.",
     "vocab": [
       {
@@ -3203,7 +3203,7 @@
     "level": "c1",
     "title": "Entre la ironía y la verdad",
     "duration": "2m 00s",
-    "file": "/audios/c1-04.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/c1/c1-04.mp3",
     "transcript": "Locutora: Bienvenidos a \"Conversaciones al margen\". Hoy hablaremos de un tema que todos usamos, pero pocos comprendemos: la ironía. ¿Es una forma de humor o un disfraz de la verdad?\n\nInvitado: Depende del contexto. La ironía tiene algo de espejo: refleja lo que pensamos, pero distorsionado. No siempre se usa para hacer reír; a veces sirve para decir lo que no puede decirse directamente.\n\nLocutora: Como una especie de lenguaje secreto.\n\nInvitado: Exacto. La ironía puede protegernos de la confrontación. Por ejemplo, cuando alguien dice \"Qué puntual eres\" a quien llega media hora tarde, no pretende elogiarlo. Pero ese mismo tono, en otro país o en otra generación, podría sonar simplemente educado.\n\nLocutora: Entonces, ¿la ironía es universal?\n\nInvitado: No del todo. En algunos lugares, se percibe como una muestra de inteligencia; en otros, como falta de sinceridad. Lo fascinante es que exige complicidad: si nadie la entiende, deja de ser ironía y se convierte en malentendido.\n\nLocutora: En resumen, la ironía habita ese espacio ambiguo entre el ingenio y la provocación.\n\nInvitado: Sí. Y quizás por eso incomoda tanto: porque revela la verdad, pero disfrazada de sonrisa.",
     "vocab": [
       {
@@ -3352,7 +3352,7 @@
     "level": "c1",
     "title": "Las decisiones y el azar",
     "duration": "1m 45s",
-    "file": "/audios/c1_05.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/c1/c1_05.mp3",
     "snippet": "Locutora: Bienvenidos a \"Perspectivas\", el espacio donde exploramos cómo pensamos y decidimos. Hoy hablamos de un tema tan cotidiano como misterioso: el azar.",
     "transcript": "Locutora: Bienvenidos a \"Perspectivas\", el espacio donde exploramos cómo pensamos y decidimos. Hoy hablamos de un tema tan cotidiano como misterioso: el azar.\n\nInvitado: Solemos creer que nuestras decisiones son racionales, que controlamos cada paso que damos. Pero, si miramos con atención, descubrimos que muchos de nuestros grandes cambios empezaron con algo pequeño e inesperado: una conversación, una coincidencia, un retraso, una llamada.\n\nLocutora: Es verdad. A veces basta un minuto para que todo cambie.\n\nInvitado: Exacto. Lo interesante es que el azar no elimina nuestra libertad, sino que la desafía. Podemos elegir, sí, pero lo hacemos dentro de un escenario que no controlamos. Y en ese equilibrio entre lo planeado y lo imprevisible se juega gran parte de nuestra vida.\n\nLocutora: Entonces, ¿somos responsables de lo que elegimos, incluso si el contexto nos empuja?\n\nInvitado: Tal vez la libertad no esté en controlar las circunstancias, sino en cómo respondemos a ellas. No elegimos los dados, pero sí cómo jugamos la partida.",
     "vocab": [
@@ -3465,7 +3465,7 @@
     "level": "c1",
     "title": "Una noche inolvidable en el Bernabéu",
     "duration": "2m 05s",
-    "file": "/audios/c1_06.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/c1/c1_06.mp3",
     "snippet": "Locutor: Anoche, el estadio Santiago Bernabéu volvió a vivir una de esas noches que quedan grabadas en la memoria colectiva.",
     "transcript": "Locutor: Anoche, el estadio Santiago Bernabéu volvió a vivir una de esas noches que quedan grabadas en la memoria colectiva. El Real Madrid se impuso tres a dos frente al Manchester City en un partido que tuvo de todo: emoción, polémica y momentos de auténtico arte futbolístico.\n\nReportera: Desde el primer minuto, ambos equipos mostraron sus cartas. El City dominó la posesión, fiel a su estilo de pases cortos y ritmo constante. Pero el Madrid respondió con lo que mejor sabe hacer: transiciones rápidas y una fe que parece no tener límites.\n\nLocutor: El primer gol llegó en el minuto veintidós, con un disparo impecable de Bellingham desde fuera del área. La grada explotó. Sin embargo, la alegría duró poco: apenas siete minutos después, Haaland empató con un cabezazo imposible para el portero.\n\nReportera: En el segundo tiempo, el encuentro se convirtió en un auténtico ajedrez táctico. Los entrenadores movían las piezas con precisión quirúrgica, sabiendo que un error podía costarles el partido.\n\nLocutor: Y cuando todo parecía encaminado a un empate, apareció Vinícius. En el minuto ochenta y nueve, controló el balón con una elegancia casi insultante y, con un toque sutil, lo envió al fondo de la red. El estadio estalló. Miles de voces coreaban su nombre mientras los jugadores se abrazaban.\n\nReportera: Fue una victoria que no solo vale tres puntos, sino también un golpe anímico que puede definir la temporada. En Madrid ya se habla de \"la noche de Vinícius\", y muchos la comparan con las grandes gestas europeas del club.\n\nLocutor: Una vez más, el Bernabéu demostró que el fútbol no se explica solo con estadísticas. Hay algo más: ese impulso invisible que hace creer a los que nunca dejan de luchar.",
     "vocab": [
@@ -3578,7 +3578,7 @@
     "level": "c2",
     "title": "El valor de cambiar de opinión",
     "duration": "2m 15s",
-    "file": "/audios/c2-01.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/c2/c2-01.mp3",
     "transcript": "Cambiar de opinión es, para muchos, una señal de debilidad. \"Si cambias de idea\", dicen algunos, \"significa que no estabas seguro desde el principio\". Sin embargo, cada vez más estudios muestran que la capacidad de cambiar de opinión no solo es una virtud intelectual, sino también una forma de inteligencia emocional.\n\nPensemos en lo que implica mantener una creencia. Cada idea que tenemos está sostenida por experiencias, emociones y contextos específicos. Pero cuando esos contextos cambian, ¿no debería cambiar también nuestra opinión? Si alguien se aferra a una idea solo para no parecer inconstante, en realidad está sacrificando su crecimiento personal por orgullo.\n\nCambiar de opinión requiere valentía: aceptar que podemos habernos equivocado, escuchar argumentos que desafían nuestras creencias, e incluso admitir que quien antes considerábamos \"oponente\" tenía algo de razón.\n\nNo se trata de cambiar por impulso ni por moda. Se trata de hacerlo porque hemos comprendido algo nuevo, porque la evidencia o la experiencia nos mostraron un ángulo diferente.\n\nEn última instancia, cambiar de opinión no significa perder identidad, sino actualizarla. Tal vez la mente más sabia no sea la que nunca duda, sino la que se atreve a hacerlo con honestidad.",
     "vocab": [
       {
@@ -3691,7 +3691,7 @@
     "level": "c2",
     "title": "El universo como espejo del tiempo",
     "duration": "2m 20s",
-    "file": "/audios/c2-02.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/c2/c2-02.mp3",
     "transcript": "Cuando miramos el cielo nocturno, no observamos el presente, sino una secuencia infinita de pasados. Cada punto luminoso que vemos es una historia que ocurrió hace miles o millones de años. La luz de una estrella tarda tanto en llegar hasta nosotros que, mientras la contemplamos, quizá ya no exista.\n\nEsa paradoja —ver lo que fue y no lo que es— convierte al universo en un espejo del tiempo. Un espejo imperfecto, que refleja fragmentos dispersos de un relato cósmico que aún intentamos descifrar.\n\nDurante siglos, el ser humano creyó que el cosmos giraba a su alrededor. Hoy sabemos que somos apenas una nota en una sinfonía inmensa, una vibración minúscula dentro de un tejido en expansión constante. Sin embargo, cuanto más comprendemos del universo, más preguntas aparecen: ¿qué había antes del tiempo?, ¿qué hay más allá de los límites de nuestra percepción?, ¿y qué significa \"antes\" o \"más allá\" cuando hablamos del espacio y la luz?\n\nLa astronomía moderna busca respuestas con telescopios, fórmulas y partículas. Pero hay algo que los instrumentos no pueden medir: el asombro. Esa sensación de pequeñez y pertenencia al mismo tiempo.\n\nQuizás entender el universo no sea cuestión de dominarlo, sino de aprender a escucharlo. Porque cada estrella, cada silencio entre galaxias, nos recuerda lo mismo: que mirar el cielo es, en el fondo, mirar hacia adentro.",
     "vocab": [
       {
@@ -3840,7 +3840,7 @@
     "level": "c2",
     "title": "Conversación en el bar: lo que no se dice",
     "duration": "2m 30s",
-    "file": "/audios/c2-03.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/c2/c2-03.mp3",
     "transcript": "Dos hombres, Andrés y Julián, amigos desde la universidad, se encuentran en un bar después de años sin verse. Ambos han tomado caminos distintos —uno trabaja en política, el otro en periodismo— y la charla mezcla nostalgia, escepticismo y crítica social. El ruido del bar y la música de fondo crean una atmósfera íntima, pero cargada de subtexto.\n\nAndrés: No puedo creer que hayan pasado diez años. El mismo bar, las mismas luces… solo nosotros cambiamos.\n\nJulián: ¿Cambiar? No estoy tan seguro. Seguimos hablando de política, solo que ahora con más cinismo.\n\nAndrés: Tú lo llamas cinismo, yo lo llamo experiencia.\n\nJulián: O resignación.\n\n[Ríen brevemente.]\n\nAndrés: ¿Y sigues escribiendo?\n\nJulián: Claro. Aunque ya nadie lee crónicas largas. Todo tiene que caber en doscientos ochenta caracteres.\n\nAndrés: Bienvenido a la era del pensamiento instantáneo.\n\nJulián: ¿Te das cuenta? Vivimos informados, pero no entendemos nada.\n\nAndrés: Y lo peor es que nos acostumbramos. El ruido constante se volvió normal.\n\nJulián: (con tono irónico) Lo llamamos libertad de expresión, pero en realidad es saturación de expresión.\n\nAndrés: Exacto. Hoy todo el mundo opina, pero casi nadie escucha.\n\nJulián: ¿Y tú? ¿Aún crees que desde la política se puede cambiar algo?\n\nAndrés: A veces. Pero cada decisión tiene un costo moral. El poder no te cambia de golpe; te desgasta, lentamente.\n\nJulián: (pausa) Quizás por eso dejé de cubrir campañas.\n\nAndrés: Tal vez por eso sigo en ellas.\n\n[Silencio breve. Se oye el tintineo de vasos.]\n\nJulián: Brindemos, entonces.\n\nAndrés: ¿Por qué?\n\nJulián: Por lo que todavía no sabemos cómo decir.\n\n[Se escucha el sonido de un brindis. Música sube y se desvanece lentamente.]",
     "vocab": [
       {
@@ -3953,7 +3953,7 @@
     "level": "c2",
     "title": "El poder de las narrativas políticas",
     "duration": "2m 10s",
-    "file": "/audios/c2-04.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/c2/c2-04.mp3",
     "transcript": "A lo largo de la historia, los líderes han comprendido algo que a veces los ciudadanos olvidan: el poder no reside únicamente en las armas o en la economía, sino en las historias que logran que una sociedad crea en algo. Las narrativas políticas son el combustible invisible de las civilizaciones. Una nación se mantiene unida no solo por leyes, sino por relatos compartidos: la idea de justicia, la promesa del progreso o la ilusión de pertenecer a un destino común.\n\nEl lenguaje político, sin embargo, no solo describe la realidad: la fabrica. Una palabra puede legitimar una guerra o justificar una reforma; puede convertir un error en \"sacrificio\" o una mentira en \"versión\". Por eso los discursos no son inocentes: cada término, cada pausa, cada apelación emocional está cuidadosamente calibrada para producir efecto.\n\nEn la era digital, las narrativas se multiplican y fragmentan. Ya no hay un solo relato dominante, sino miles de microhistorias que compiten por atención. El algoritmo se ha convertido en el nuevo narrador: selecciona, omite, repite. Y en ese proceso, transforma la percepción colectiva del mundo.\n\nEl reto contemporáneo no es decidir en qué historia creer, sino aprender a reconocer cuándo una historia nos está creyendo a nosotros. Porque toda narrativa política —por más seductora o noble que parezca— encierra un propósito: mantener el poder de definir qué es real y qué no.",
     "vocab": [
       {
@@ -4066,7 +4066,7 @@
     "level": "c2",
     "title": "Biografía de Albert Einstein",
     "duration": "2m 20s",
-    "file": "/audios/c2_05.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/c2/c2_05.mp3",
     "snippet": "Albert Einstein nació el 14 de marzo de 1879 en la ciudad de Ulm, en Alemania. Provenía de una familia judía secular.",
     "transcript": "Albert Einstein nació el 14 de marzo de 1879 en la ciudad de Ulm, en Alemania.\n\nProvenía de una familia judía secular; su padre, Hermann Einstein, era empresario, y su madre, Pauline Koch, una pianista aficionada. Desde pequeño mostró una profunda curiosidad por los misterios del mundo físico. A los cinco años, una simple brújula despertó en él la fascinación por las fuerzas invisibles que gobiernan la naturaleza.\n\nEinstein estudió en Múnich, pero pronto abandonó el sistema educativo alemán por considerarlo demasiado estricto. Continuó su formación en Suiza, donde más tarde obtuvo la ciudadanía y el título de profesor de física.\n\nEl año 1905 es conocido como su \"año milagroso\". En ese periodo publicó varios artículos revolucionarios en la revista Annalen der Physik, entre ellos el que presentó la teoría especial de la relatividad y la célebre ecuación E=mc², que demuestra la equivalencia entre masa y energía.\n\nUna década después, en 1915, desarrolló la teoría general de la relatividad, que transformó para siempre la manera en que la humanidad entiende el espacio, el tiempo y la gravedad.\n\nEn 1921 recibió el Premio Nobel de Física, no por la relatividad, sino por sus aportes al estudio del efecto fotoeléctrico, un descubrimiento clave para el desarrollo de la física cuántica.\n\nEn 1933, ante el ascenso del nazismo en Alemania, Einstein se exilió en Estados Unidos, donde aceptó una plaza en el Institute for Advanced Study, en Princeton, Nueva Jersey. Desde allí continuó su trabajo científico y su activismo por la paz y los derechos humanos.\n\nAlbert Einstein falleció el 18 de abril de 1955 en Princeton. Su legado transformó la ciencia moderna y sentó las bases de campos como la cosmología, la energía nuclear y la tecnología satelital. Más allá de sus teorías, dejó una profunda reflexión sobre el valor de la imaginación, la curiosidad y la responsabilidad ética del conocimiento.",
     "vocab": [
@@ -4179,7 +4179,7 @@
     "level": "c2",
     "title": "Desigualdad social y movilidad económica en el siglo XXI",
     "duration": "2m 30s",
-    "file": "/audios/c2_06.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/c2/c2_06.mp3",
     "snippet": "La desigualdad social se manifiesta como la acumulación de diferencias profundas en el acceso a recursos, oportunidades y poder entre individuos y grupos dentro de una sociedad.",
     "transcript": "La desigualdad social se manifiesta como la acumulación de diferencias profundas en el acceso a recursos, oportunidades y poder entre individuos y grupos dentro de una sociedad. En el siglo XXI, esta forma de desigualdad no solo persiste, sino que adopta nuevos rostros: brechas en ingresos, en riqueza heredada, en la calidad de educación, en la atención sanitaria, en la conectividad digital y en la movilidad intergeneracional.\n\nLa movilidad económica —o movilidad social ascendente— se refiere al grado en que los miembros de una sociedad pueden cambiar su posición socioeconómica respecto de la de sus padres o de su situación de origen.\n\nSin embargo, cuando la desigualdad es alta, la llamada \"curva de la gran Gatsby\" (la relación entre nivel de desigualdad y baja movilidad) muestra que la capacidad de ascender se reduce significativamente.\n\nEn muchas economías modernas, se observa que aunque haya crecimiento económico agregado, la distribución de sus frutos no es equitativa. Los ingresos derivados del capital crecen más rápido que los ingresos del trabajo, lo que intensifica la concentración de riqueza en un reducido número de personas.\n\nPor lo tanto, aunque una persona use todos sus recursos y talentos, su posición de origen—su familia, entorno, raza, género o región—puede seguir siendo un factor determinante de su futuro económico.\n\nLa consecuencia de esta dinámica es doble: por un lado, se perpetúan las desigualdades intergeneracionales; por otro, la movilidad social real se reduce, lo que afecta la cohesión social, la justicia y el sentido de que \"todos tienen oportunidad\". Por ejemplo, en la práctica, muchas personas que nacen en entornos de menores recursos encuentran barreras estructurales para mejorar su situación económica, aunque se eduquen y trabajen diligentemente.\n\nPara abordar esta problemática, es crucial diseñar políticas integradas que incluyan la redistribución efectiva de recursos, inversión sustancial en educación de calidad, igualdad de oportunidades desde la infancia, y mecanismos que permitan que el acceso al capital —no solo al trabajo— no esté reservado a unos pocos. Asimismo, resulta indispensable medir y monitorear tanto la desigualdad como la movilidad con indicadores sólidos como el coeficiente de Gini, el índice de Palma o la elasticidad intergeneracional del ingreso.\n\nEn resumen, en el siglo XXI la desigualdad social y la movilidad económica están íntimamente ligadas: una elevada desigualdad suele traducirse en menor movilidad. Para que una sociedad sea verdaderamente justa y dinámica, no basta con crecimiento económico: debe acompañarse de igualdad de condiciones y posibilidad real de ascenso para todos.\n\nMuchas gracias por escuchar.",
     "vocab": [
@@ -4292,7 +4292,7 @@
     "level": "b2-2",
     "title": "Reservando un hotel",
     "duration": "2:30",
-    "file": "/audios/b2-2-01.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/b2/b2-2-01.mp3",
     "snippet": "Buenas tardes, Hotel Mirador, ¿en qué puedo ayudarle? Quisiera saber si tienen habitaciones disponibles para este fin de semana.",
     "transcript": "Reservando un hotel\n\nLlamando para reservar\n\nRecepcionista y Cliente\n\n—Buenas tardes, Hotel Mirador, ¿en qué puedo ayudarle?\n\n—Hola, buenas tardes. Quisiera saber si tienen habitaciones disponibles para este fin de semana.\n\n—Claro, permítame un momento… Sí, tenemos habitaciones estándar y también una suite. ¿Para cuántas personas sería?\n\n—Para dos personas, por favor.\n\n—Perfecto. La habitación estándar tiene cama king, desayuno incluido y cancelación gratuita. La suite es más amplia y tiene vista al mar. ¿Cuál prefiere?\n\n—Creo que la estándar está bien. ¿Cuál sería el precio por noche?\n\n—Son 95 dólares por noche, impuestos incluidos.\n\n—Está bien. ¿Puedo hacer la reserva para viernes y sábado?\n\n—Claro que sí. ¿A nombre de quién la pongo?\n\n—A nombre de José Martínez.\n\n—Perfecto, señor Martinez. ¿Me puede proporcionar un número de teléfono y un correo electrónico?\n\n—Sí, claro: 555-982-443 y josejose@email.com.\n\n—Listo. Su reserva está confirmada. Le llegará un correo en unos minutos. Si necesita hacer cambios, solo llame aquí mismo.\n\n—Perfecto, muchas gracias por la ayuda.\n\n—Con gusto. ¡Lo esperamos el viernes!\n\nLlegando al hotel – Check-in\n\n—Buenas tardes, bienvenido al Hotel Mirador. ¿Tiene una reserva?\n\n—Sí, está a nombre de José Martínez.\n\n—Permítame verificar… Sí, aquí está: habitación estándar, dos noches. ¿Trae una identificación, por favor?\n\n—Sí, aquí tiene.\n\n—Gracias. ¿Desea pagar ahora o al momento del check-out?\n\n—Pago ahora, por favor.\n\n—Perfecto. ¿Tarjeta o efectivo?\n\n—Con tarjeta.\n\n—Muy bien... Aquí está su tarjeta… ¿Desea que le abra una cuenta para consumo en restaurante o minibar?\n\n—No, gracias. Prefiero pagar cada vez.\n\nAquí tiene sus llaves. Su habitación está en el piso cuatro, número 417. Los elevadores están a la derecha.\n\n—Perfecto. ¿A qué hora es el desayuno?\n\n—De 7 a 11 de la mañana en el restaurante del lobby.\n\n—Excelente. Muchas gracias.\n\n—Con gusto, señor Martínez. Que tenga una estancia muy agradable.",
     "vocab": [
@@ -4393,7 +4393,7 @@
     "level": "accent-argentine",
     "title": "Comprando mate y bombilla",
     "duration": "1:35",
-    "file": "/audios/arg-01.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/arg-01.mp3",
     "snippet": "Diálogo entre una vendedora y un cliente que quiere empezar a tomar mate. Aprenderás vocabulario argentino como 'che', 'viste', 'te copa' y más.",
     "transcript": "Vendedora: —¡Buen día, che! ¿En qué te puedo ayudar?\n\nCliente: —Hola, viste que estoy empezando con esto del mate y quería llevar una yerba y una bombilla, pero no tengo idea de las diferencias.\n\nVendedora: —Tranqui, te cuento. Tenés yerba suave, que es más livianita; intensa, que pega un poco más; con palo, que es la más tradicional; y sin palo, que es más fuerte y dura menos. ¿Te copa algo más suave para empezar?\n\nCliente: —Sí, creo que suave estaría bien. ¿Y el mate? Hay un montón…\n\nVendedora: —Claro. Podés elegir uno de calabaza, que es el clásico; uno de madera, que mantiene bien el sabor; o de acero inoxidable, que es fácil de limpiar. ¿Querés algo práctico?\n\nCliente: —Sí, práctico. Entonces me llevo el de acero. ¿Y la bombilla?\n\nVendedora: —Mirá, tenés esta de acero con filtro fino, que va bárbaro para yerba suave. Además dura años.\n\nCliente: —Perfecto. Y… ¿cómo preparo el mate para que salga rico?\n\nVendedora: —Clave: llená el mate hasta la mitad, agitá un poquito, dejá la yerba inclinada y poné agua tibia primero, no hirviendo, viste. Después sí, agregás agua más caliente y no le movés la bombilla.\n\nCliente: —Genial, che. Gracias por todas las recomendaciones.\n\nVendedora: —¡De nada! Cualquier cosa, chiflame. ¡Que lo disfrutes!",
     "vocab": [
@@ -4498,7 +4498,7 @@
     "level": "accent-argentine",
     "title": "En una librería (literatura argentina)",
     "duration": "1:26",
-    "file": "/audios/arg-02.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/arg-02.mp3",
     "snippet": "Una clienta busca libros de literatura argentina. La vendedora recomienda obras de Borges, Cortázar y Samanta Schweblin.",
     "transcript": "—Hola, ¿qué tal? Estoy buscando algo de literatura argentina. ¿Tenés algo más de este autor? —muestra un libro de Borges.\n\n—Sí, claro, che. De Borges tenemos Ficciones y El Aleph. Si te gusta lo más fantástico, Ficciones es una joyita este libro.\n\n—¡Buenísimo! También quería algo de Cortázar. Siempre escucho hablar de Rayuela, viste.\n\n—Obvio. Rayuela es más largo y experimental, pero si querés empezar con algo corto, te recomiendo sus cuentos. Final del juego y Bestiario son lecturas rápidas pero potentes.\n\n—Perfecto. ¿Y algo más contemporáneo? Escuché el nombre Samanta Schweblin varias veces.\n\n—Sí, ella escribe terror psicológico muy sutil. Su novela Distancia de rescate sale mucho. También tenemos Pájaros en la boca, que es de cuentos y está bárbaro.\n\n—¿Y de precios cómo andan?\n\n—Mirá, los de Borges están alrededor de 5 mil pesos, los de Cortázar cerca de 4 mil, y Schweblin unos 6 mil porque es más reciente.\n\n—Bien. Me llevo Ficciones y Pájaros en la boca. A mí me encanta leer porque siento que desconecto del mundo por un rato, ¿viste?\n\n—Te entiendo. Para mí leer es viajar sin moverte. Bueno, che, te preparo los libros.\n\n—Genial, gracias por las recomendaciones.\n\n—¡De nada! Que los disfrutes.",
     "vocab": [
@@ -4595,7 +4595,7 @@
     "level": "accent-argentine",
     "title": "Paseando por Palermo",
     "duration": "0:45",
-    "file": "/audios/argentino_03_paseando_por_palermo.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/argentino_03_paseando_por_palermo.mp3",
     "snippet": "Lucía y Martín pasean por el barrio de Palermo en Buenos Aires, disfrutando del ambiente, los cafés y la arquitectura que mezcla lo moderno con lo antiguo.",
     "transcript": "Lucía: —Che, está re lindo el día, ¿no? Este solcito acompaña un montón.\n\nMartín: —Sí, mal. Palermo así da ganas de caminar sin apuro. Vamos tranqui, total no tenemos nada que hacer.\n\nLucía: —Tal cual. Mirá ese café de la esquina, está lleno. Los domingos se arma lindo ambiente por acá.\n\nMartín: —Y sí, entre los cafés, el parque y la gente paseando, tiene onda. Fijate allá, hay una feria, capaz venden cosas artesanales.\n\nLucía: —Buenísimo. Me encanta cómo se mezcla lo moderno con lo antiguo en Buenos Aires. Esos edificios viejos tienen mucha historia.\n\nMartín: —Re sí. San Telmo y Recoleta también tienen esa arquitectura antigua que te hace viajar en el tiempo.\n\nLucía: —Totalmente. Bueno, caminemos un poco más y después nos sentamos a tomar un café, ¿te parece?\n\nMartín: —De una. Así disfrutamos el día como corresponde.",
     "vocab": [
@@ -4676,7 +4676,7 @@
     "level": "accent-argentine",
     "title": "En una clase de tango",
     "duration": "0:50",
-    "file": "/audios/argentino_04_en_una_clase_de_tango.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/argentino_04_en_una_clase_de_tango.mp3",
     "snippet": "Ana, la profesora de tango, ayuda a Sofía a mejorar su postura, ritmo y conexión con la música durante una clase.",
     "transcript": "Ana: —Bueno, Sofi, arrancamos de nuevo desde el paso básico. Acordate de mantener la postura: espalda derecha, hombros relajados.\n\nSofía: —Dale, Ana. Siento que me apuro un poco cuando cambia el ritmo.\n\nAna: —Sí, se nota. No te apures. El tango no se corre, se camina. Escuchá bien la música y marcá más suave con los pies.\n\nSofía: —Ok, voy a tratar de aflojar. ¿Así está mejor?\n\nAna: —Mucho mejor. Ahora seguí mi guía, no pienses tanto el paso. Dejá que el cuerpo acompañe el ritmo.\n\nSofía: —Me cuesta no anticiparme, pero cuando me concentro en la música fluye más.\n\nAna: —Exacto. Mirá, en el giro bajá un poco más el peso y mantené el eje. Eso, ahí está.\n\nSofía: —¡Ah! Ahora lo sentí distinto. Es como más natural.\n\nAna: —Tal cual. Cuando conectás postura, ritmo y abrazo, el tango sale solo.",
     "vocab": [
@@ -4757,7 +4757,7 @@
     "level": "accent-argentine",
     "title": "Hablando del último partido",
     "duration": "0:55",
-    "file": "/audios/argentino_05_hablando_del_ultimo_partido.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/argentino_05_hablando_del_ultimo_partido.mp3",
     "snippet": "Nico y Fede comentan el emocionante partido de anoche entre Boca y River, el golazo, el ambiente del estadio y la pasión de la hinchada.",
     "transcript": "Nico: —Che, ¿viste el partido de anoche? Tremendo lo de Boca, eh.\n\nFede: —Sí, boludo, estuvo re parejo hasta el segundo tiempo. Pero ese gol… ¡qué golazo!\n\nNico: —Mal. La clavó al ángulo, el arquero no pudo hacer nada. Ese pibe la rompió toda la noche.\n\nFede: —Totalmente. Igual River también jugó bien, eh. Hubo un par de jugadas que casi nos embocan.\n\nNico: —Sí, zafamos ahí. Pero el ambiente del estadio fue una locura, la gente no paraba de cantar.\n\nFede: —Eso suma un montón. Cuando la hinchada empuja, los jugadores se agrandan.\n\nNico: —Tal cual. Yo salí afónico de tanto gritar, pero valió la pena.\n\nFede: —De una. Partidos así dan gusto verlos, más allá de quién gane.",
     "vocab": [
@@ -4850,7 +4850,7 @@
     "level": "accent-mexican",
     "title": "Un día normal en la Ciudad de México",
     "duration": "2:15",
-    "file": "/audios/mex-01.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/mex-01.mp3",
     "snippet": "Diálogo sobre la vida cotidiana en la Ciudad de México: el metro, el tráfico, los puestos de comida y el ritmo acelerado de la capital.",
     "transcript": "A: —¿Qué onda, María? ¿Cómo te fue hoy en la Ciudad de México?\n\nB: —Híjole… estuvo intenso. El metro venía llenísimo desde temprano. Me tuve que dejar pasar como tres trenes porque simplemente no cabía.\n\nA: —Sí, en la mañana es imposible. ¿Te fuiste por la Línea 3 otra vez?\n\nB: —Ajá, y luego el transborde estaba eterno. Después intenté agarrar el Metrobús, pero se tardó un buen por el tráfico en Insurgentes.\n\nA: —Clásico. A mí me pasó igual ayer; salí como a las siete y llegué a la oficina casi a las nueve. ¿Y al menos desayunaste algo?\n\nB: —Sí, afuera del metro había un puestito. Me compré un tamal verde y un atole de fresa. Eso sí, riquísimos.\n\nA: —Ah, qué bueno. Esos puestitos salvan la mañana. ¿Y cómo estuvo el regreso?\n\nB: —Un poco mejor, pero igual había tráfico pesado. Al final llegué como a las ocho de la noche.\n\nA: —Así es esto. El ritmo de vida aquí no perdona.\n\nB: —Para nada. Pero bueno, ya estoy en casa, así que a descansar.",
     "vocab": [
@@ -4955,7 +4955,7 @@
     "level": "accent-mexican",
     "title": "Conversación en una taquería",
     "duration": "2:30",
-    "file": "/audios/mex-02.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/mex-02.mp3",
     "snippet": "Un cliente llega a una taquería por la noche. Aprenderás vocabulario típico mexicano como 'órale', 'con todo', 'campechano' y expresiones de los taqueros.",
     "transcript": "Cliente: —¡Buenas noches! ¿Todavía hay tacos?\n\nTaquero: —¡Órale, pásale! Aquí nunca se acaban. ¿De cuáles va a querer? Tengo pastor, suadero, campechano y longaniza.\n\nCliente: —Mmm… dame dos de pastor con piña y uno campechano, por favor.\n\nTaquero: —Va, ya están saliendo. ¿Con todo?\n\nCliente: —Sí, con todo, pero la cebolla poquita.\n\nTaquero: —Perfecto. ¿Y de salsas cómo anda? Tengo verde, roja, y una especial que sí pica en serio.\n\nCliente: —Uy… a ver, quiero probar, pero tampoco quiero llorar.\n\nTaquero: —Jajaja, entonces no le pongo de la especial. Esa sí está brava. Le pongo tantita verde, ¿sale?\n\nCliente: —Sí, mejor poquita. No quiero que me arda todo el camino a mi casa.\n\nTaquero: —Listo. ¿Va a querer algo de tomar? Tengo jamaica, horchata, tamarindo y limón con chía.\n\nCliente: —Uy, horchata, por favor. Un vaso grande.\n\nTaquero: —Ahorita se lo sirvo. Oiga, ¿va a querer más después? Porque los de suadero están buenos hoy, eh.\n\nCliente: —¿Sí? A ver… si me gustan estos regreso por dos más.\n\nTaquero: —Eso, así me gusta. Aquí estamos. Sus tacos están listos, joven.\n\nCliente: —¡Gracias! Se ven buenísimos.\n\nTaquero: —Pues órale, pruebe y me dice.\n\nCliente: —Mmm… ¡no inventes! El campechano está buenísimo.\n\nTaquero: —Le dije, joven. Aquí puro taco ganador.\n\nCliente: —Ya valí… sí me voy a echar otros dos de suadero.\n\nTaquero: —¡Eso! Ahorita se los preparo.",
     "vocab": [
@@ -5060,7 +5060,7 @@
     "level": "accent-mexican",
     "title": "Planeando un viaje por México",
     "duration": "1:50",
-    "file": "/audios/mex-03.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/mex-03.mp3",
     "snippet": "Ana y Carlos planean un viaje por México. Aprenderás expresiones como 'está muy padre', 'imperdible', 'vale la pena' y vocabulario de viajes.",
     "transcript": "Ana: —Carlos, estoy planeando un viaje por México para enero. ¿Qué ciudades me recomiendas?\n\nCarlos: —Pues si quieres cultura y comida rica, Oaxaca es imperdible. El clima en enero está súper agradable.\n\nAna: —Oaxaca me encanta. También pensé en Guadalajara, porque dicen que está muy padre para caminar.\n\nCarlos: —Sí, y Tlaquepaque es buenísimo para artesanías. ¿Y la CDMX? Tiene muchísimo que hacer.\n\nAna: —Sí quiero ir, pero el tráfico me asusta.\n\nCarlos: —Usa metro o metrobús y ya. Además, hay hospedaje para todos los presupuestos.\n\nAna: —También quiero pasar por Puebla, nunca he probado el mole allá.\n\nCarlos: —Tienes que ir. Solo lleva suéter porque hace frío en la noche.\n\nAna: —¿Y Monterrey? Me dijeron que es caro.\n\nCarlos: —Un poco, sí, pero los paisajes valen la pena. Ahí conviene rentar coche.\n\nAna: —Creo que haré Oaxaca → CDMX → Puebla → Guadalajara. ¿Suena bien?\n\nCarlos: —Perfecto. Solo revisa vuelos entre ciudades para ahorrar tiempo.\n\nAna: —Gracias, Carlos. ¡Me emocioné más!\n\nCarlos: —Cuando vuelvas me cuentas… y me traes un mezcalito, ¿eh?\n\nAna: —Órale, queda hecho.",
     "vocab": [
@@ -5153,7 +5153,7 @@
     "level": "accent-mexican",
     "title": "En una fiesta familiar mexicana",
     "duration": "1:45",
-    "file": "/audios/mexican-04-fiesta-familiar.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/mexican-04-fiesta-familiar.mp3",
     "snippet": "Laura y Carlos conversan en una fiesta familiar sobre la música, la comida y las tradiciones mexicanas como la 'carrilla' entre familiares.",
     "transcript": "Laura: —Oye, qué buena está la música, ¿no? Primero pusieron cumbia y ahora ya andan con la banda.\n\nCarlos: —Sí, aquí siempre es así. Empiezan tranqui y luego mi tío le sube todo al norteño, como si fuera cantina.\n\nLaura: —Jajaja, típico. Oye, ¿ya probaste el mole que hizo mi abuela?\n\nCarlos: —Claro, y también los tamales y la ensalada. La neta, uno viene a estas fiestas más por la comida que por la familia.\n\nLaura: —No seas grosero… bueno, tantito sí es cierto. Además, siempre salen las bromas. ¿Ya viste cómo le están echando carrilla a mi primo por llegar tarde?\n\nCarlos: —Sí, pobre. Pero pues así somos, si no te molestan, es porque no te quieren.\n\nLaura: —Exacto. A mis amigos extranjeros les sorprende eso, dicen que somos muy llevados.\n\nCarlos: —Pues es parte de la cultura. Mucha comida, música fuerte y familia metiéndose en todo.\n\nLaura: —Y aun así, no lo cambiaríamos por nada, ¿verdad?\n\nCarlos: —Jamás. Ahora sí, vamos por otro plato antes de que se acabe.",
     "vocab": [
@@ -5246,7 +5246,7 @@
     "level": "accent-mexican",
     "title": "Una cita en la oficina",
     "duration": "1:30",
-    "file": "/audios/mexican-05-cita-oficina.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/mexican-05-cita-oficina.mp3",
     "snippet": "Rodrigo y Carlos coordinan la entrega de un proyecto urgente antes de una junta con el jefe. Vocabulario de oficina y expresiones mexicanas coloquiales.",
     "transcript": "Rodrigo: —Oye, Carlos, ¿tienes un minutito? Quería hablar contigo del proyecto del cliente nuevo.\n\nCarlos: —Sí, claro. Dime, ¿qué onda? ¿Ya quedó la presentación?\n\nRodrigo: —Casi. Me falta revisar unos números, pero necesito que me eches la mano con la parte del presupuesto.\n\nCarlos: —Va, sin problema. ¿Para cuándo lo quiere el jefe?\n\nRodrigo: —Para mañana en la mañana. Me dijo que lo necesitaba antes de la junta de las diez.\n\nCarlos: —Uf, está justo el tiempo. Ahorita lo checo y te aviso si veo algo raro.\n\nRodrigo: —Gracias. Oye, ¿tú vas a poder llegar temprano mañana?\n\nCarlos: —Sí, entro desde las ocho. Si quieres, lo vemos rápido antes de la junta.\n\nRodrigo: —Perfecto. Así ya vamos más tranquilos y no nos agarra el jefe en curva.\n\nCarlos: —Exacto. Tú mándame el archivo y lo reviso hoy mismo.\n\nRodrigo: —Va, te lo mando en cinco minutos. ¡Gracias otra vez!",
     "vocab": [
@@ -5339,7 +5339,7 @@
     "level": "accent-mexican",
     "title": "Llegar tarde \"a la mexicana\"",
     "duration": "1:20",
-    "file": "/audios/mexican-06-llegar-tarde.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/mexican-06-llegar-tarde.mp3",
     "snippet": "Noe y Raque hablan sobre la costumbre mexicana de llegar tarde a las reuniones. Aprenderás expresiones como 'a las dos mexicanas', 'ahorita' y 'quedar mal'.",
     "transcript": "Raque: —Oye, Noe, ¿no que la comida era a las dos?\n\nNoe: —Sí, sí… a las dos mexicanas.\n\nRaque: —Explícame eso otra vez, porque yo llegué puntual.\n\nNoe: —Pues es que aquí decir dos no siempre es dos.\n\nRaque: —Eso ya lo noté. Ya son casi tres.\n\nNoe: —Bueno, pero dime, ¿ya llegó alguien más?\n\nRaque: —Solo tu prima… y también llegó tarde.\n\nNoe: —¿Ves? Te dije.\n\nRaque: —Pero luego uno queda mal por llegar temprano.\n\nNoe: —Sí, eso sí pasa. Aquí llegas temprano y te ponen a ayudar.\n\nRaque: —Ya me di cuenta. ¿Llevo algo?\n\nNoe: —Sí, ahorita paso al Oxxo por unas bebidas.\n\nRaque: —Ay no, ¿ahorita? Eso puede ser en cinco minutos o en una hora.\n\nNoe: —Jajaja, ya voy, ya voy. ¡Órale!",
     "vocab": [
@@ -5432,7 +5432,7 @@
     "level": "accent-mexican",
     "title": "El verdadero significado de \"ahorita\"",
     "duration": "1:25",
-    "file": "/audios/mexican-07-ahorita.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/mexican-07-ahorita.mp3",
     "snippet": "Ana y Luis discuten el significado ambiguo de 'ahorita' en México. Aprenderás por qué esta palabra puede significar 'ahora', 'en un rato' o incluso 'nunca'.",
     "transcript": "Ana: —Luis, ¿me puedes mandar el archivo que te pedí?\n\nLuis: —Sí, ahorita te lo mando.\n\nAna: —Ajá… ¿ahorita cuándo exactamente?\n\nLuis: —Pues ahorita en un rato.\n\nAna: —¿Ves? Eso es justo lo que confunde.\n\nLuis: —Bueno, es que 'ahorita' puede ser muchas cosas.\n\nAna: —Para mí solo significa ahora.\n\nLuis: —Aquí no siempre. A veces es 'en unos minutos' y a veces es 'luego'.\n\nAna: —Y a veces es 'nunca'.\n\nLuis: —Jajaja, tampoco exageres.\n\nAna: —La semana pasada me dijiste 'ahorita te llamo' y nunca llamaste.\n\nLuis: —Bueno, es que se me complicó.\n\nAna: —¿Ves? Por eso los extranjeros se desesperan con nosotros.\n\nLuis: —Tienes razón. Mejor digo 'en diez minutos', suena menos directo pero al menos es claro.\n\nAna: —Eso sería un milagro viniendo de ti.\n\nLuis: —¡Oye! Ya, ya… te lo mando en cinco minutos, de verdad.",
     "vocab": [
@@ -5521,7 +5521,7 @@
     "level": "accent-mexican",
     "title": "El picante y la identidad mexicana",
     "duration": "1:30",
-    "file": "/audios/mexican-08-picante.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/mexican-08-picante.mp3",
     "snippet": "Tom, un extranjero, aprende sobre la cultura del picante en México con ayuda de María. Vocabulario sobre comida picante y expresiones coloquiales.",
     "transcript": "Tom: —María, ¿segura que esta salsa no pica nada?\n\nMaría: —Sí, está muy leve.\n\nTom: —Eso dijiste ayer… y sufrí.\n\nMaría: —Es que para mí eso no pica.\n\nTom: —Creo que tenemos escalas diferentes.\n\nMaría: —Totalmente. El picante aquí es parte de la comida.\n\nTom: —¿Desde niños comen así?\n\nMaría: —Sí, poco a poco. Empiezas con poquito.\n\nTom: —Ok, voy a probar otra vez.\n\nMaría: —Échale solo tantito.\n\nTom: —(prueba) Mmm… pica, pero está rico.\n\nMaría: —¿Ves? Eso pasa siempre.\n\nTom: —Me arde un poco, pero sigo comiendo.\n\nMaría: —Jajaja, eso es muy mexicano de tu parte.\n\nTom: —Creo que me estoy adaptando.\n\nMaría: —Ya eres mexicano honorario.",
     "vocab": [
@@ -5614,7 +5614,7 @@
     "level": "accent-mexican",
     "title": "La familia siempre opina",
     "duration": "1:35",
-    "file": "/audios/mexican-09-familia-opina.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/mexican-09-familia-opina.mp3",
     "snippet": "Sofía prepara a Diego para una comida familiar donde toda la familia querrá opinar sobre él. Aprenderás sobre la dinámica familiar mexicana y expresiones coloquiales.",
     "transcript": "Sofía: —Oye, mi mamá volvió a preguntar si vienes el domingo.\n\nDiego: —¿Otra vez comida familiar?\n\nSofía: —Sí, y ahora también preguntó mi tía, la que siempre quiere saber todo.\n\nDiego: —¿Y por qué toda tu familia quiere saber tanto de mí?\n\nSofía: —Porque ya eres parte de la familia, aunque no quieras aceptarlo.\n\nDiego: —Eso suena un poco intenso, la verdad.\n\nSofía: —Lo es. Prepárate porque van a opinar de todo.\n\nDiego: —¿De qué tipo de cosas?\n\nSofía: —De tu trabajo, de tu acento, de si comes bien o no.\n\nDiego: —¿Y si digo que como muy sano?\n\nSofía: —No te creen. Mejor acepta la comida que te sirvan.\n\nDiego: —Entendido. Estrategia: llegar con hambre.\n\nSofía: —Exacto. Y sonreír mucho.\n\nDiego: —¿Aunque me pregunten cosas incómodas?\n\nSofía: —Sí, pero todo es con buena intención.\n\nDiego: —Eso espero.",
     "vocab": [
@@ -5695,7 +5695,7 @@
     "level": "accent-mexican",
     "title": "Una fiesta mexicana \"tranqui\"",
     "duration": "1:40",
-    "file": "/audios/mexican-10-fiesta-tranqui.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/mexican-10-fiesta-tranqui.mp3",
     "snippet": "Paula y Jorge hablan sobre una fiesta 'pequeña' que resulta no ser tan pequeña. Aprenderás vocabulario sobre fiestas y expresiones coloquiales mexicanas.",
     "transcript": "Paula: —Entonces, ¿cómo es la fiesta de hoy?\n\nJorge: —Nada grande, algo tranqui.\n\nPaula: —Eso dices siempre. ¿Cuánta gente va a ir?\n\nJorge: —Pues… como veinte o veinticinco personas.\n\nPaula: —Eso no es poquito.\n\nJorge: —Para México sí, la verdad.\n\nPaula: —Bueno… ¿y va a haber comida o tengo que cenar antes?\n\nJorge: —No, claro que va a haber comida, aunque sea taquitos y botana.\n\nPaula: —¿De cuáles tacos?\n\nJorge: —Creo que de pastor y de bistec.\n\nPaula: —Ah, entonces sí voy.\n\nJorge: —Jajaja, obvio. La comida no puede faltar.\n\nPaula: —¿Y música?\n\nJorge: —Sí, lo que salga. Cumbia, reggaetón…\n\nPaula: —¿Y a qué hora termina?\n\nJorge: —Depende de cómo se ponga la fiesta.\n\nPaula: —O sea, puede ser a las tres de la mañana.\n\nJorge: —Exacto. Es una fiesta mexicana, ¿no?",
     "vocab": [
@@ -5788,7 +5788,7 @@
     "level": "accent-spanish",
     "title": "En una terraza tomando un café",
     "duration": "1:30",
-    "file": "/audios/esp-01.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/esp-01.mp3",
     "snippet": "Marta y Diego se encuentran en una terraza y charlan sobre el calor, planes del fin de semana y quedan para verse. Aprenderás expresiones típicas españolas.",
     "transcript": "Marta: —¡Hombre, Diego! ¿Qué tal todo? ¡Hace siglos que no te veo!\n\nDiego: —Pues bien, aquí vamos tirando. ¿Y tú qué tal?\n\nMarta: —Bien también. Oye, ¿pedimos algo? Me voy a tomar un café solo.\n\nDiego: —Yo creo que me voy a pedir un cortado… o mira, una caña, que hace un calorazo.\n\nMarta: —Jajaja, ¡siempre igual! Pero sí, hoy hace buen tiempo. Se está genial en la terraza.\n\nDiego: —Ya ves. ¿Y qué vais a hacer tú y tus compis este finde?\n\nMarta: —Pues estábamos pensando en ir a la playa o dar una vuelta por el centro. ¿Te apuntas?\n\nDiego: —¡Venga, me apunto! ¿A qué hora quedamos?\n\nMarta: —Sobre las seis, ¿te parece?\n\nDiego: —Perfecto. ¡Camarero, una caña por favor!",
     "vocab": [
@@ -5881,7 +5881,7 @@
     "level": "accent-spanish",
     "title": "Planeando un viaje por España",
     "duration": "1:40",
-    "file": "/audios/esp-02.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/esp-02.mp3",
     "snippet": "Lucía y Carlos planean un viaje por España: Madrid, Sevilla, Valencia y Barcelona. Aprenderás expresiones como 'pillar un tren', 'está a tope' y 'viajazo'.",
     "transcript": "Lucía: —Oye, Carlos, ¿ya habéis pensado por dónde queréis empezar el viaje por España? Yo había pensado empezar por Madrid.\n\nCarlos: —Sí, lo estuvimos comentando. Desde allí es fácil pillar un tren de Renfe. Podríamos coger el AVE a Sevilla, que se llega en nada.\n\nLucía: —¡Genial! Sevilla merece la pena, aunque he oído que estos días está a tope de turistas.\n\nCarlos: —Ya… pero aun así me apetece mucho ir. Y después podríamos bajar a Valencia. Así probáis una paella auténtica.\n\nLucía: —Me parece perfecto. Y ya para rematar, Barcelona. Dicen que la Sagrada Familia impresiona muchísimo.\n\nCarlos: —Sí, así hacéis un recorrido completo. ¿Queréis que vaya mirando ya horarios antes de que suban los precios?\n\nLucía: —Sí, porfa. Echadle un vistazo esta tarde y luego me decís qué opción os convence más.\n\nCarlos: —Hecho. ¡Va a ser un viajazo!",
     "vocab": [
@@ -5974,7 +5974,7 @@
     "level": "accent-spanish",
     "title": "En un supermercado en España",
     "duration": "1:30",
-    "file": "/audios/esp-03.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/esp-03.mp3",
     "snippet": "Un cliente pregunta por productos en un supermercado español. Aprenderás el uso del vosotros y expresiones como 'un pelín', 'de sobra' y '¿Queréis bolsa?'.",
     "transcript": "Empleado: —Buenas, ¿os puedo ayudar en algo?\n\nCliente: —Sí, por favor. ¿Sabéis dónde están las galletas integrales? No las encuentro por ningún lado.\n\nEmpleado: —Claro, están en el pasillo tres, justo al lado de los cereales. Si queréis, os acompaño.\n\nCliente: —Perfecto, gracias. Oye, ¿tenéis leche sin lactosa de esta marca? En mi país es muy común, pero aquí no la veo tanto.\n\nEmpleado: —Sí, aquí manejamos menos marcas, pero mirad: tenemos esta que es bastante buena.\n\nCliente: —Genial. ¿Y sabéis si hoy abre la sección de pescadería? Me dijeron que los horarios cambian según el día.\n\nEmpleado: —Sí, hoy cierra un pelín antes, a las seis. Si os pasáis ahora, llegáis de sobra.\n\nCliente: —Vale, me paso luego.\n\nEmpleado: —Perfecto. Cuando terminéis, pasaos por la caja, por favor.\n\nCliente (en la caja): —Buenas.\n\nEmpleado: —Hola. ¿Queréis bolsa? Tenemos de papel o de tela.\n\nCliente: —Una de papel, gracias.\n\nEmpleado: —Fenomenal. ¿Tenéis la tarjeta del supermercado?\n\nCliente: —No, todavía no la tenemos.\n\nEmpleado: —No pasa nada. Pues serían 12,40 €.\n\nCliente: —Aquí tenéis. ¡Gracias por todo!\n\nEmpleado: —A vosotros. ¡Que tengáis buen día!",
     "vocab": [
@@ -6067,7 +6067,7 @@
     "level": "accent-colombian",
     "title": "Tomando tinto en una cafetería",
     "duration": "1:20",
-    "file": "/audios/col-01.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/col-01.mp3",
     "snippet": "Andrés y Laura se encuentran en una cafetería en Bogotá. Aprenderás expresiones colombianas como 'quiubo', 'tintico', 'una nota' y 'aguacero'.",
     "transcript": "Andrés: —¡Quiubo! Hace rato no te veía.\n\nLaura: —¡Andrés! ¿Cómo estás? Yo bien, ahí voy. ¿Y tú qué? Te ves un poco cansado.\n\nAndrés: —Sí, el tráfico estaba terrible hoy. Pero bueno, ya con este tintico el día mejora.\n\nLaura: —Total. Aquí preparan un tinto delicioso. ¿Quieres pedir algo para acompañar? Tienen un cheesecake de maracuyá que es una nota.\n\nAndrés: —Uy, suena buenísimo. ¿Y tú qué planes tienes para hoy?\n\nLaura: —Nada muy especial. Voy a trabajar un rato desde casa y luego tengo que pasar por el centro, pero ojalá no llueva porque el clima está todo loco.\n\nAndrés: —Sí, amaneció con sol y ahora parece que va a caer un aguacero en cualquier momento.\n\nLaura: —Así es Bogotá. Bueno, pide tú primero.\n\nAndrés: —Listo. Eh, joven, ¿nos regala dos tintos y una porción de cheesecake, por favor?\n\nMesero: —Claro que sí, ya se los traigo.\n\nLaura: —Gracias. Bueno, cuéntame, ¿cómo va todo en el trabajo?\n\nAndrés: —Ahí, movidito, pero bien. Te cuento mientras llega el tinto.",
     "vocab": [
@@ -6152,7 +6152,7 @@
     "level": "accent-colombian",
     "title": "Una visita al centro de Medellín",
     "duration": "1:25",
-    "file": "/audios/col-02.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/col-02.mp3",
     "snippet": "Juan le cuenta a Mariana sobre su visita al centro de Medellín. Aprenderás expresiones paisas como 'parce', 'bacano', 'ratico' y 'nos vemos pues'.",
     "transcript": "Mariana: —¡Ey, Juan! ¿Cómo te fue hoy por el centro? Dicen que el tráfico está una locura.\n\nJuan: —No, parce, tenés que ver eso. Los buses iban llenísimos y el metro iba rápido, pero igual tocó esperar un ratico.\n\nMariana: —Me lo imagino. Igual, el centro siempre está movido. ¿Alcanzaste a pasar por el Parque Berrío?\n\nJuan: —Sí, pasé un momentico. La gente por allá es muy querida, todo el mundo te saluda. Además, todo queda cerquita, entonces uno camina y llega de una a los sitios.\n\nMariana: —Qué bacano. Yo casi no voy, siempre me quedo por Laureles o por El Poblado porque son más tranquilos.\n\nJuan: —Sí, total. Pero de vez en cuando vale la pena ir al centro, ver las esculturas de Botero, caminar un rato… Eso sí, hay que ir con paciencia por el tráfico.\n\nMariana: —Seguro. ¿Y qué vas a hacer ahora?\n\nJuan: —Voy pa' la casa a descansar un poco. Ese paseo me dejó rendido.\n\nMariana: —Hacés bien. Bueno, hablamos luego.\n\nJuan: —Listo, que estés bien. Nos vemos pues.",
     "vocab": [
@@ -6245,7 +6245,7 @@
     "level": "accent-colombian",
     "title": "Preguntando direcciones en Bogotá",
     "duration": "1:15",
-    "file": "/audios/col-03.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/col-03.mp3",
     "snippet": "Carlos pide direcciones para llegar a una estación de TransMilenio. Aprenderás diminutivos colombianos como 'derechito', 'cuadrita', 'vueltica' y 'mismito'.",
     "transcript": "Carlos: —Hola, disculpa, ¿tú sabes cómo llego a una estación de TransMilenio por aquí cerca?\n\nPaula: —Claro, ¿a cuál vas?\n\nCarlos: —A la de Calle 72, creo que así se llama.\n\nPaula: —Sí, esa queda cerquita. Mira, sigues derechito por esta carrera hasta la próxima esquina.\n\nCarlos: —¿Por la Carrera 11?\n\nPaula: —Exacto, por la 11. Caminas como dos cuadritas y en la segunda te metes por ahí a la vueltica a la derecha.\n\nCarlos: —Perfecto. ¿Y de ahí ya se ve la estación?\n\nPaula: —Sí, ahí mismito. Vas a ver la entrada grande roja. Cuando subas al bus, acuérdate: te bajas en la siguiente si vas hacia el norte.\n\nCarlos: —Listo, súper claro. Muchas gracias.\n\nPaula: —Con gusto. Bogotá es grande, pero uno se acostumbra.\n\nCarlos: —Sí, se nota. Bueno, me voy antes de que se llene más.\n\nPaula: —Dale, que te vaya bien. ¡Chao!\n\nCarlos: —¡Chao, gracias!",
     "vocab": [
@@ -6338,7 +6338,7 @@
     "level": "accent-cuban",
     "title": "En una cafetería de barrio",
     "duration": "1:15",
-    "file": "/audios/cu-01.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/cu-01.mp3",
     "snippet": "Luisa y Manuel conversan sobre comprar café en su barrio. Aprenderás expresiones cubanas como 'asere', '¿qué bolá?', 'fundido' y '¿qué va?'.",
     "transcript": "Luisa: —Asere, ¿qué bolá? Oye, ¿tú sabes si aquí venden café pa' llevar?\n\nManuel: —Claro, mi hermana, ahí mismo en la esquina. Ese cafecito está buenísimo, fuertecito, como tiene que ser.\n\nLuisa: —Perfecto, porque ando medio fundida hoy. ¿Tú vas a pedir algo?\n\nManuel: —Sí, voy a coger uno también, chiquitico, pa' despertarme un poco. Con este calor no hay quien aguante.\n\nLuisa: —Dímelo a mí… Esto está fuerte de verdad. Oye, ¿y demoran mucho?\n\nManuel: —No, qué va. Eso es rápido. Pides, pagas y en nada ya estás saliendo con el café en la mano.\n\nLuisa: —Buenísimo. Entonces vamos ahora, que después se llena.\n\nManuel: —Dale, vamos pa' allá. Así aprovechamos antes de que apriete más el sol.",
     "vocab": [
@@ -6431,7 +6431,7 @@
     "level": "accent-cuban",
     "title": "Preguntando direcciones en La Habana",
     "duration": "1:10",
-    "file": "/audios/cu-02.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/cu-02.mp3",
     "snippet": "Raúl pide direcciones para llegar a la Plaza Vieja. Aprenderás expresiones cubanas como 'momentico', 'cerquita', 'no tiene pérdida' y 'en nada'.",
     "transcript": "Raúl: —Asere, discúlpame un momentico… ¿tú sabes cómo llego a la Plaza Vieja desde aquí?\n\nClaudia: —Sí, claro, eso queda cerquita. Mira, sigues derecho por esta calle hasta el final y ahí doblas a la izquierda.\n\nRaúl: —¿Todo derecho, sin perderme?\n\nClaudia: —Exacto. No tiene pérdida. Caminas como cinco minutos y ya estás ahí mismo.\n\nRaúl: —Buenísimo. ¿Queda cerca del malecón o no?\n\nClaudia: —Sí, está relativamente cerca. Después sigues caminando un poquito más y llegas al malecón en nada.\n\nRaúl: —Perfecto, muchas gracias.\n\nClaudia: —De nada, asere. Que disfrutes La Habana.",
     "vocab": [
@@ -6524,7 +6524,7 @@
     "level": "accent-cuban",
     "title": "Hablando del calor y del día",
     "duration": "1:05",
-    "file": "/audios/cu-03.mp3",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/cu-03.mp3",
     "snippet": "Mario y Yanelis conversan sobre el calor intenso del día. Aprenderás expresiones cubanas como 'está fuerte', 'no afloja', 'un ratico' y 'ahorita'.",
     "transcript": "Mario: —Oye, Yanelis, esto está fuerte hoy… desde temprano el sol no afloja.\n\nYanelis: —Dímelo a mí. Yo salí un momentico y ya estoy sudando toda. No se puede ni caminar.\n\nMario: —Y eso que todavía no es mediodía. ¿Tienes algo que hacer ahora o vas pa' la casa?\n\nYanelis: —Voy pa' la casa un ratico. Con este calor no dan ganas de hacer nada.\n\nMario: —Te entiendo perfecto. Yo pensaba pasar por el mercado, pero mejor lo dejo pa' más tarde.\n\nYanelis: —Sí, mejor. Ahorita refresca un poco y se aguanta más.\n\nMario: —Entonces hablamos después. Cuídate.\n\nYanelis: —Dale, nos vemos más tarde.",
     "vocab": [

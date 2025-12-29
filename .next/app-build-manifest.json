@@ -1,14 +1,9 @@
 {
   "pages": {
-    "/spanish-listening/page": [
+    "/spanish-audio-for-beginners-a1/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/spanish-listening/page.js"
-    ],
-    "/spanish-listening/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-listening/layout.js"
+      "static/chunks/app/spanish-audio-for-beginners-a1/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -16,10 +11,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/spanish-audio-for-beginners-a1/page": [
+    "/progreso/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/spanish-audio-for-beginners-a1/page.js"
+      "static/chunks/app/progreso/page.js"
     ]
   }
 }

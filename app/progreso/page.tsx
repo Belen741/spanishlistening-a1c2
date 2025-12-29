@@ -5,6 +5,7 @@ import {
   getProgress, 
   calculateStats, 
   getOverallProgress,
+  TOTAL_AUDIOS,
   type UserProgress,
   type LevelStats
 } from '@/lib/progress';
@@ -86,7 +87,7 @@ export default function ProgresoPage() {
         <div className="mb-8">
           <ProgressBar 
             current={totalCompleted} 
-            total={36} 
+            total={TOTAL_AUDIOS} 
             label="Progreso General"
             className="mb-4"
           />
@@ -97,7 +98,7 @@ export default function ProgresoPage() {
           <StatsCard
             title="Audios Completados"
             value={totalCompleted}
-            description="de 36 totales"
+            description={`de ${TOTAL_AUDIOS} totales`}
             icon={CheckCircle2}
           />
           <StatsCard

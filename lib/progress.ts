@@ -325,22 +325,22 @@ function checkAndUnlockBadges(progress: UserProgress): void {
         shouldUnlock = progress.streak.currentStreak >= 100;
         break;
       case 'complete-level-a1':
-        shouldUnlock = stats.find(s => s.level === 'a1')?.completedAudios === 6;
+        shouldUnlock = stats.find(s => s.level === 'a1')?.completedAudios === stats.find(s => s.level === 'a1')?.totalAudios;
         break;
       case 'complete-level-a2':
-        shouldUnlock = stats.find(s => s.level === 'a2')?.completedAudios === 6;
+        shouldUnlock = stats.find(s => s.level === 'a2')?.completedAudios === stats.find(s => s.level === 'a2')?.totalAudios;
         break;
       case 'complete-level-b1':
-        shouldUnlock = stats.find(s => s.level === 'b1')?.completedAudios === 6;
+        shouldUnlock = stats.find(s => s.level === 'b1')?.completedAudios === stats.find(s => s.level === 'b1')?.totalAudios;
         break;
       case 'complete-level-b2':
-        shouldUnlock = stats.find(s => s.level === 'b2')?.completedAudios === 6;
+        shouldUnlock = stats.find(s => s.level === 'b2')?.completedAudios === stats.find(s => s.level === 'b2')?.totalAudios;
         break;
       case 'complete-level-c1':
-        shouldUnlock = stats.find(s => s.level === 'c1')?.completedAudios === 6;
+        shouldUnlock = stats.find(s => s.level === 'c1')?.completedAudios === stats.find(s => s.level === 'c1')?.totalAudios;
         break;
       case 'complete-level-c2':
-        shouldUnlock = stats.find(s => s.level === 'c2')?.completedAudios === 6;
+        shouldUnlock = stats.find(s => s.level === 'c2')?.completedAudios === stats.find(s => s.level === 'c2')?.totalAudios;
         break;
       case 'perfect-score':
         const perfectScores = Object.values(progress.audioProgress).filter(
@@ -366,9 +366,20 @@ function checkAndUnlockBadges(progress: UserProgress): void {
   });
 }
 
+// Audio counts per level - update when adding new audios
+export const AUDIOS_PER_LEVEL: Record<string, number> = {
+  a1: 10,
+  a2: 6,
+  b1: 6,
+  b2: 6,
+  c1: 6,
+  c2: 6
+};
+
+export const TOTAL_AUDIOS = Object.values(AUDIOS_PER_LEVEL).reduce((a, b) => a + b, 0);
+
 export function calculateStats(progress: UserProgress): LevelStats[] {
   const levels = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
-  const audiosPerLevel = 6;
 
   return levels.map(level => {
     const levelAudios = Object.values(progress.audioProgress).filter(
@@ -386,7 +397,7 @@ export function calculateStats(progress: UserProgress): LevelStats[] {
 
     return {
       level,
-      totalAudios: audiosPerLevel,
+      totalAudios: AUDIOS_PER_LEVEL[level] || 6,
       completedAudios: completed,
       averageScore: avgScore,
       totalQuizzes: levelAudios.filter(a => a.quizAttempts > 0).length
@@ -395,12 +406,11 @@ export function calculateStats(progress: UserProgress): LevelStats[] {
 }
 
 export function getOverallProgress(progress: UserProgress): number {
-  const totalAudios = 36;
   const completed = Object.values(progress.audioProgress).filter(
     a => a.completed
   ).length;
   
-  return Math.round((completed / totalAudios) * 100);
+  return Math.round((completed / TOTAL_AUDIOS) * 100);
 }
 
 export function resetProgress(): void {

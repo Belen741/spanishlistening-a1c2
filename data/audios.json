@@ -852,6 +852,83 @@
     ]
   },
   {
+    "id": "a1-09",
+    "level": "a1",
+    "title": "Mi familia",
+    "duration": "45s",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/A1_09_audio.mp3",
+    "snippet": "Mi nombre es Ana. Tengo una familia pequeña. Mi mamá se llama Laura. Ella es muy amable.",
+    "transcript": "Mi nombre es Ana. Tengo una familia pequeña. Mi mamá se llama Laura. Ella es muy amable. Mi papá se llama José. Él cocina muy bien. Tengo un hermano. Se llama Diego. Él es estudiante y le gusta jugar fútbol. También tengo una abuela. Se llama Carmen y vive con nosotros. Los fines de semana comemos juntos y hablamos en la sala. Yo quiero mucho a mi familia.",
+    "vocab": [
+      {
+        "term": "mamá",
+        "meaning": "mom/mother"
+      },
+      {
+        "term": "papá",
+        "meaning": "dad/father"
+      },
+      {
+        "term": "hermano",
+        "meaning": "brother"
+      },
+      {
+        "term": "abuela",
+        "meaning": "grandmother/grandma"
+      },
+      {
+        "term": "estudiante",
+        "meaning": "student"
+      },
+      {
+        "term": "fútbol",
+        "meaning": "soccer/football"
+      },
+      {
+        "term": "sala",
+        "meaning": "living room"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Cómo es la familia de Ana?",
+        "options": [
+          "Grande",
+          "Pequeña",
+          "Muy ruidosa"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ana dice que tiene una familia pequeña."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué hace el papá de Ana muy bien?",
+        "options": [
+          "Cocina",
+          "Canta",
+          "Conduce"
+        ],
+        "answerIndex": 0,
+        "explanation": "El papá de Ana cocina muy bien."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Quién vive con Ana además de sus padres y su hermano?",
+        "options": [
+          "Su tía",
+          "Su amiga",
+          "Su abuela"
+        ],
+        "answerIndex": 2,
+        "explanation": "La abuela Carmen vive con ellos."
+      }
+    ]
+  },
+  {
     "id": "a2-01",
     "level": "a2",
     "title": "El nuevo vecino",

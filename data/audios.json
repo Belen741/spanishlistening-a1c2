@@ -690,6 +690,87 @@
     ]
   },
   {
+    "id": "a1-07",
+    "level": "a1",
+    "title": "En la casa",
+    "duration": "50s",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/A1_07_audio.mp3",
+    "snippet": "Sofía está en su casa. Es domingo por la mañana. En la sala hay un sofá, una mesa y una televisión.",
+    "transcript": "Sofía está en su casa. Es domingo por la mañana. En la sala hay un sofá, una mesa y una televisión. La casa es pequeña, pero es muy cómoda.\n\nSofía limpia un poco y después prepara café en la cocina. Abre la ventana porque hace calor. En la cocina hay tazas, platos y una estufa.\n\nLuego Sofía se sienta en el sofá y escucha música tranquila. Mira por la ventana y ve a un gato en la calle. Ella sonríe. Es una mañana tranquila y Sofía está contenta en casa.",
+    "vocab": [
+      {
+        "term": "mañana",
+        "meaning": "morning"
+      },
+      {
+        "term": "sofá",
+        "meaning": "couch"
+      },
+      {
+        "term": "cocina",
+        "meaning": "kitchen"
+      },
+      {
+        "term": "ventana",
+        "meaning": "window"
+      },
+      {
+        "term": "gato",
+        "meaning": "cat"
+      },
+      {
+        "term": "música",
+        "meaning": "music"
+      },
+      {
+        "term": "café",
+        "meaning": "coffee"
+      },
+      {
+        "term": "calle",
+        "meaning": "street"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Dónde está Sofía?",
+        "options": [
+          "En el parque",
+          "En su casa",
+          "En la escuela"
+        ],
+        "answerIndex": 1,
+        "explanation": "Sofía está en su casa."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué prepara Sofía en la cocina?",
+        "options": [
+          "Té",
+          "Jugo",
+          "Café"
+        ],
+        "answerIndex": 2,
+        "explanation": "Sofía prepara café en la cocina."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué animal ve Sofía por la ventana?",
+        "options": [
+          "Un gato",
+          "Un perro",
+          "Un pájaro"
+        ],
+        "answerIndex": 0,
+        "explanation": "Sofía ve a un gato en la calle."
+      }
+    ]
+  },
+  {
     "id": "a2-01",
     "level": "a2",
     "title": "El nuevo vecino",

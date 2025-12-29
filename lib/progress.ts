@@ -373,10 +373,22 @@ export const AUDIOS_PER_LEVEL: Record<string, number> = {
   b1: 6,
   b2: 6,
   c1: 6,
-  c2: 6
+  c2: 6,
+  'b2-2': 1
 };
 
-export const TOTAL_AUDIOS = Object.values(AUDIOS_PER_LEVEL).reduce((a, b) => a + b, 0);
+// Audio counts per accent - update when adding new audios
+export const AUDIOS_PER_ACCENT: Record<string, number> = {
+  'accent-argentine': 5,
+  'accent-mexican': 10,
+  'accent-spanish': 3,
+  'accent-colombian': 3,
+  'accent-cuban': 3
+};
+
+export const TOTAL_LEVEL_AUDIOS = Object.values(AUDIOS_PER_LEVEL).reduce((a, b) => a + b, 0);
+export const TOTAL_ACCENT_AUDIOS = Object.values(AUDIOS_PER_ACCENT).reduce((a, b) => a + b, 0);
+export const TOTAL_AUDIOS = TOTAL_LEVEL_AUDIOS + TOTAL_ACCENT_AUDIOS;
 
 export function calculateStats(progress: UserProgress): LevelStats[] {
   const levels = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
@@ -401,6 +413,33 @@ export function calculateStats(progress: UserProgress): LevelStats[] {
       completedAudios: completed,
       averageScore: avgScore,
       totalQuizzes: levelAudios.filter(a => a.quizAttempts > 0).length
+    };
+  });
+}
+
+export function calculateAccentStats(progress: UserProgress): LevelStats[] {
+  const accents = ['accent-argentine', 'accent-mexican', 'accent-spanish', 'accent-colombian', 'accent-cuban'];
+
+  return accents.map(accent => {
+    const accentAudios = Object.values(progress.audioProgress).filter(
+      a => a.level === accent
+    );
+
+    const completed = accentAudios.filter(a => a.completed).length;
+    const scores = accentAudios
+      .map(a => a.quizScore)
+      .filter((score): score is number => score !== undefined);
+    
+    const avgScore = scores.length > 0
+      ? Math.round(scores.reduce((sum, score) => sum + score, 0) / scores.length)
+      : 0;
+
+    return {
+      level: accent,
+      totalAudios: AUDIOS_PER_ACCENT[accent] || 0,
+      completedAudios: completed,
+      averageScore: avgScore,
+      totalQuizzes: accentAudios.filter(a => a.quizAttempts > 0).length
     };
   });
 }

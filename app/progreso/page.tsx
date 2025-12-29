@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { 
   getProgress, 
   calculateStats, 
+  calculateAccentStats,
   getOverallProgress,
   TOTAL_AUDIOS,
   type UserProgress,
@@ -41,14 +42,32 @@ const LEVEL_LINKS: Record<string, string> = {
   c2: '/advanced-spanish-c2'
 };
 
+const ACCENT_NAMES: Record<string, string> = {
+  'accent-argentine': 'Argentina',
+  'accent-mexican': 'México',
+  'accent-spanish': 'España',
+  'accent-colombian': 'Colombia',
+  'accent-cuban': 'Cuba'
+};
+
+const ACCENT_LINKS: Record<string, string> = {
+  'accent-argentine': '/spanish-accents-by-country/argentine-spanish',
+  'accent-mexican': '/spanish-accents-by-country/mexican-spanish',
+  'accent-spanish': '/spanish-accents-by-country/spain-spanish',
+  'accent-colombian': '/spanish-accents-by-country/colombian-spanish',
+  'accent-cuban': '/spanish-accents-by-country/cuban-spanish'
+};
+
 export default function ProgresoPage() {
   const [progress, setProgress] = useState<UserProgress | null>(null);
   const [stats, setStats] = useState<LevelStats[]>([]);
+  const [accentStats, setAccentStats] = useState<LevelStats[]>([]);
 
   useEffect(() => {
     const userProgress = getProgress();
     setProgress(userProgress);
     setStats(calculateStats(userProgress));
+    setAccentStats(calculateAccentStats(userProgress));
   }, []);
 
   if (!progress) {
@@ -163,6 +182,49 @@ export default function ProgresoPage() {
                       <div className="flex items-center gap-1">
                         <TrendingUp className="w-4 h-4" />
                         <span>{levelStat.averageScore}% promedio</span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Accent Progress */}
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold mb-4">Progreso por Acento</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {accentStats.map((accentStat) => (
+              <Link 
+                href={ACCENT_LINKS[accentStat.level]}
+                key={accentStat.level}
+                className="block"
+                data-testid={`accent-progress-${accentStat.level}`}
+              >
+                <div className="p-6 rounded-md border border-card-border bg-card hover-elevate transition-all">
+                  <div className="flex justify-between items-center mb-3">
+                    <h3 className="font-semibold text-lg">
+                      {ACCENT_NAMES[accentStat.level]}
+                    </h3>
+                    <span className="text-sm text-muted-foreground">
+                      {accentStat.completedAudios}/{accentStat.totalAudios}
+                    </span>
+                  </div>
+                  <ProgressBar
+                    current={accentStat.completedAudios}
+                    total={accentStat.totalAudios}
+                    showPercentage={false}
+                  />
+                  <div className="mt-3 flex gap-4 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-1">
+                      <BookOpen className="w-4 h-4" />
+                      <span>{accentStat.totalQuizzes} quizzes</span>
+                    </div>
+                    {accentStat.averageScore > 0 && (
+                      <div className="flex items-center gap-1">
+                        <TrendingUp className="w-4 h-4" />
+                        <span>{accentStat.averageScore}% promedio</span>
                       </div>
                     )}
                   </div>

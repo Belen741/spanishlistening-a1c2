@@ -1,25 +1,20 @@
 {
   "pages": {
-    "/spanish-accents-by-country/[slug]/page": [
+    "/spanish-listening/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/spanish-accents-by-country/[slug]/page.js"
+      "static/chunks/app/spanish-listening/page.js"
+    ],
+    "/spanish-listening/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/spanish-listening/layout.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
-    ],
-    "/spanish-listening/[category]/[audio]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-listening/[category]/[audio]/page.js"
-    ],
-    "/spanish-listening/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-listening/layout.js"
     ]
   }
 }

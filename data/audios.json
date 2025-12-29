@@ -929,6 +929,87 @@
     ]
   },
   {
+    "id": "a1-10",
+    "level": "a1",
+    "title": "Las estaciones del año",
+    "duration": "55s",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/A1_10_audio.mp3",
+    "snippet": "En mi país hay cuatro estaciones del año. Primavera, verano, otoño e invierno.",
+    "transcript": "En mi país hay cuatro estaciones del año. Primavera, verano, otoño e invierno.\n\nEn primavera hace buen clima y hay muchas flores. La gente camina en el parque y toma fotos.\n\nEn verano hace mucho calor. Muchas personas van a la playa y nadan en el mar. También comen helado para estar frescas.\n\nEn otoño el clima es más frío y las hojas caen de los árboles. A veces llueve y la gente usa suéter.\n\nEn invierno hace frío. Las personas usan chamarras y toman chocolate caliente. Algunas casas tienen luces de Navidad.\n\nA mí me gustan todas las estaciones.",
+    "vocab": [
+      {
+        "term": "primavera",
+        "meaning": "spring"
+      },
+      {
+        "term": "verano",
+        "meaning": "summer"
+      },
+      {
+        "term": "otoño",
+        "meaning": "autumn/fall"
+      },
+      {
+        "term": "invierno",
+        "meaning": "winter"
+      },
+      {
+        "term": "flores",
+        "meaning": "flowers"
+      },
+      {
+        "term": "playa",
+        "meaning": "beach"
+      },
+      {
+        "term": "frío",
+        "meaning": "cold"
+      },
+      {
+        "term": "helado",
+        "meaning": "ice cream"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Cuántas estaciones del año hay en el país del texto?",
+        "options": [
+          "Dos",
+          "Cuatro",
+          "Cinco"
+        ],
+        "answerIndex": 1,
+        "explanation": "En el país hay cuatro estaciones del año."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué hacen muchas personas en verano?",
+        "options": [
+          "Van a la playa y nadan en el mar",
+          "Compran ropa",
+          "Van a la montaña"
+        ],
+        "answerIndex": 0,
+        "explanation": "Muchas personas van a la playa y nadan en el mar en verano."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué bebida toman algunas personas en invierno?",
+        "options": [
+          "Chocolate caliente",
+          "Agua fría",
+          "Té verde"
+        ],
+        "answerIndex": 0,
+        "explanation": "Las personas toman chocolate caliente en invierno."
+      }
+    ]
+  },
+  {
     "id": "a2-01",
     "level": "a2",
     "title": "El nuevo vecino",

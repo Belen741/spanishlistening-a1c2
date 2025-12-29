@@ -771,6 +771,87 @@
     ]
   },
   {
+    "id": "a1-08",
+    "level": "a1",
+    "title": "Visita al médico",
+    "duration": "50s",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a1/A1_08_audio.mp3",
+    "snippet": "Laura está enferma. Le duele la cabeza. También está cansada. Ella va al médico.",
+    "transcript": "Laura está enferma. Le duele la cabeza. También está cansada. Ella va al médico.\n\nEn la sala hay sillas y una mesa. Laura espera un poco. Después el doctor llama a Laura.\n\nEl doctor pregunta: \"¿Qué tienes?\" Laura dice: \"Me duele la cabeza. Estoy cansada\".\n\nEl doctor dice: \"Descansa y toma medicina\".\n\nLaura va a la farmacia. Compra medicina. Luego vuelve a casa. Laura toma la medicina y duerme. Espera sentirse mejor pronto.",
+    "vocab": [
+      {
+        "term": "médico",
+        "meaning": "doctor"
+      },
+      {
+        "term": "cabeza",
+        "meaning": "head"
+      },
+      {
+        "term": "medicina",
+        "meaning": "medicine"
+      },
+      {
+        "term": "farmacia",
+        "meaning": "pharmacy"
+      },
+      {
+        "term": "silla",
+        "meaning": "chair"
+      },
+      {
+        "term": "mesa",
+        "meaning": "table"
+      },
+      {
+        "term": "enferma",
+        "meaning": "sick/ill"
+      },
+      {
+        "term": "cansada",
+        "meaning": "tired"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué Laura va al médico?",
+        "options": [
+          "Porque está enferma",
+          "Porque quiere hacer ejercicio",
+          "Porque visita a un amigo"
+        ],
+        "answerIndex": 0,
+        "explanation": "Laura va al médico porque está enferma."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué recomienda el doctor a Laura?",
+        "options": [
+          "Correr y hacer deporte",
+          "Beber solo agua",
+          "Descansar y tomar medicina"
+        ],
+        "answerIndex": 2,
+        "explanation": "El doctor recomienda descansar y tomar medicina."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿A dónde va Laura después de la consulta?",
+        "options": [
+          "A la escuela",
+          "Al parque",
+          "A la farmacia"
+        ],
+        "answerIndex": 2,
+        "explanation": "Laura va a la farmacia después de la consulta."
+      }
+    ]
+  },
+  {
     "id": "a2-01",
     "level": "a2",
     "title": "El nuevo vecino",

@@ -1,3 +1,5 @@
 {
-  "/spanish-listening/page": "app/spanish-listening/page.js"
+  "/spanish-audio-for-beginners-a1/page": "app/spanish-audio-for-beginners-a1/page.js",
+  "/spanish-listening/page": "app/spanish-listening/page.js",
+  "/spanish-listening/[category]/[audio]/page": "app/spanish-listening/[category]/[audio]/page.js"
 }

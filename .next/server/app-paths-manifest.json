@@ -1,5 +1,4 @@
 {
-  "/spanish-listening/page": "app/spanish-listening/page.js",
   "/spanish-listening/[category]/[audio]/page": "app/spanish-listening/[category]/[audio]/page.js",
   "/icon.png/route": "app/icon.png/route.js"
 }

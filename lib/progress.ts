@@ -379,7 +379,7 @@ export const AUDIOS_PER_LEVEL: Record<string, number> = {
 
 // Audio counts per accent - update when adding new audios
 export const AUDIOS_PER_ACCENT: Record<string, number> = {
-  'accent-argentine': 5,
+  'accent-argentine': 6,
   'accent-mexican': 10,
   'accent-spanish': 3,
   'accent-colombian': 3,

@@ -6931,5 +6931,98 @@
         "explanation": "Deciden esperar porque el calor es muy intenso y 'ahorita refresca un poco'."
       }
     ]
+  },
+  {
+    "id": "arg-06",
+    "level": "accent-argentine",
+    "title": "El uso de \"che\" y muletillas argentinas",
+    "duration": "0:50",
+    "file": "https://pub-29e7608c246d47d58c4ed2586d8e0ac2.r2.dev/accents/argentina/Argentino_06_audio.mp3",
+    "snippet": "Lucía y Martín exploran el significado de \"che\" y el uso de \"re\" como intensificador, muletillas esenciales del español argentino.",
+    "transcript": "Lucía: —Che, ¿vos te diste cuenta de cuántas veces decimos \"che\" en una conversación?\n\nMartín: —Todo el tiempo. Es imposible no decirlo.\n\nLucía: —Un amigo extranjero me preguntó qué significa exactamente.\n\nMartín: —Y… no tiene una sola traducción.\n\nLucía: —Claro, depende del tono.\n\nMartín: —A veces es para llamar la atención, tipo \"che, escuchame\".\n\nLucía: —O para retar un poco.\n\nMartín: —Sí, \"che, no da\".\n\nLucía: —También puede ser cariñoso.\n\nMartín: —Totalmente. \"Che, vení\".\n\nLucía: —Después está el \"re\".\n\nMartín: —Re lindo, re tarde, re caro.\n\nLucía: —Eso los confunde mucho.\n\nMartín: —Pero cuando empiezan a usarlo bien, ya está.\n\nLucía: —Ya no suenan tan de libro.\n\nMartín: —Exacto, empiezan a sonar más naturales.\n\nLucía: —Y ahí decís: este ya entendió Argentina.\n\nMartín: —Posta.",
+    "vocab": [
+      {
+        "term": "che",
+        "meaning": "A very common Argentine discourse marker; used to get attention, show familiarity, soften a comment, or express emotion. Similar to \"hey\" or \"you know\"."
+      },
+      {
+        "term": "escuchame",
+        "meaning": "\"Listen to me.\" Used to call someone's attention in an informal way."
+      },
+      {
+        "term": "che, no da",
+        "meaning": "\"That's not appropriate / That's not cool.\" An informal way to say something is socially unacceptable."
+      },
+      {
+        "term": "che, vení",
+        "meaning": "\"Hey, come here.\" Can sound friendly, affectionate, or casual depending on tone."
+      },
+      {
+        "term": "re (intensifier)",
+        "meaning": "An intensifier meaning \"very\" or \"really\". Extremely common in Argentina (re lindo, re caro, re tarde)."
+      },
+      {
+        "term": "ya está",
+        "meaning": "\"That's it / It's settled / It's done.\" Used to indicate something is resolved or understood."
+      },
+      {
+        "term": "posta",
+        "meaning": "\"Seriously / For real / Truly.\" Used to emphasize that something is true or genuine."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué explica Martín sobre la palabra \"che\"?",
+        "options": [
+          "Que solo se usa entre amigos cercanos",
+          "Que tiene una traducción exacta al inglés",
+          "Que no tiene una sola traducción y depende del contexto",
+          "Que se usa solo para retar a alguien"
+        ],
+        "answerIndex": 2,
+        "explanation": "Martín dice que \"che\" no tiene una sola traducción y depende del tono."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué otro elemento del español argentino mencionan además de \"che\"?",
+        "options": [
+          "El uso del pasado simple",
+          "El uso de \"re\" como intensificador",
+          "El cambio de género en los adjetivos",
+          "Las palabras formales del trabajo"
+        ],
+        "answerIndex": 1,
+        "explanation": "Lucía menciona el \"re\" y Martín da ejemplos: re lindo, re tarde, re caro."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "Según el diálogo, ¿qué indica cuando un extranjero empieza a usar \"che\" o \"re\" correctamente?",
+        "options": [
+          "Que memorizó expresiones sin entenderlas",
+          "Que habla con errores graves",
+          "Que está imitando acentos por moda",
+          "Que suena más natural y entiende mejor el español argentino"
+        ],
+        "answerIndex": 3,
+        "explanation": "Martín dice que empiezan a sonar más naturales, y Lucía concluye que \"ya entendió Argentina\"."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué actitud tienen Lucía y Martín hacia el uso de estas muletillas?",
+        "options": [
+          "Creen que empobrecen el idioma",
+          "Las consideran incorrectas",
+          "Las ven como una señal de integración cultural",
+          "Piensan que solo sirven en contextos informales muy limitados"
+        ],
+        "answerIndex": 2,
+        "explanation": "Ven positivamente cuando alguien usa bien estas expresiones porque indica que \"ya entendió Argentina\"."
+      }
+    ]
   }
 ]

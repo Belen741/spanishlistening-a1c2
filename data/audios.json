@@ -7198,5 +7198,98 @@
         "explanation": "Nico concluye diciendo \"Eso es lo importante, compartir\"."
       }
     ]
+  },
+  {
+    "id": "arg-09",
+    "level": "accent-argentine",
+    "title": "Quejarse del país… pero con cariño",
+    "duration": "0:55",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/argentina/Argentino_09_audio.mp3",
+    "snippet": "Marcos y Flor hablan sobre la costumbre argentina de quejarse de todo, pero defender al país cuando alguien de afuera lo critica.",
+    "transcript": "Marcos: —Che, ¿viste los precios últimamente?\n\nFlor: —Sí, están imposibles. Cada vez que voy al súper me agarra bronca.\n\nMarcos: —Mal, pagás dos cosas y ya gastaste un montón.\n\nFlor: —Y después ves el ticket y no lo podés creer.\n\nMarcos: —Un amigo extranjero me dijo que siempre nos escucha quejarnos.\n\nFlor: —Y tiene razón. Nos quejamos todo el tiempo.\n\nMarcos: —Es como un hábito, ¿no?\n\nFlor: —Sí, forma parte de la conversación.\n\nMarcos: —Pero ojo, si alguien de afuera critica, saltamos a defenderlo.\n\nFlor: —Totalmente. Podemos quejarnos nosotros, pero nadie más.\n\nMarcos: —Es amor y odio al mismo tiempo.\n\nFlor: —Sí, pero más amor, creo.\n\nMarcos: —Siempre volvemos.\n\nFlor: —Porque te queda adentro.",
+    "vocab": [
+      {
+        "term": "los precios están imposibles",
+        "meaning": "\"Prices are outrageous / unaffordable.\" Very common way to complain about high costs."
+      },
+      {
+        "term": "me agarra bronca",
+        "meaning": "\"I get really angry / frustrated.\" Informal expression to describe sudden frustration."
+      },
+      {
+        "term": "mal",
+        "meaning": "\"Totally / Exactly.\" Used to strongly agree with someone."
+      },
+      {
+        "term": "ojo",
+        "meaning": "\"Careful / Watch out.\" Used to introduce a warning or important distinction."
+      },
+      {
+        "term": "saltamos a defenderlo",
+        "meaning": "\"We immediately jump to defend it.\" Expresses a quick, emotional reaction."
+      },
+      {
+        "term": "amor y odio",
+        "meaning": "\"Love–hate relationship.\" Describes mixed feelings toward something."
+      },
+      {
+        "term": "te queda adentro",
+        "meaning": "\"It stays inside you / It sticks with you emotionally.\" Refers to deep emotional attachment."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué tema inicia la conversación entre Marcos y Flor?",
+        "options": [
+          "La música en la calle",
+          "La situación política",
+          "El aumento de los precios",
+          "La vida en otros países"
+        ],
+        "answerIndex": 2,
+        "explanation": "Marcos comienza preguntando si Flor vio los precios últimamente."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué reacción describen cuando alguien de afuera critica Argentina?",
+        "options": [
+          "Ignoran el comentario",
+          "Se ríen",
+          "La defienden inmediatamente",
+          "Están de acuerdo"
+        ],
+        "answerIndex": 2,
+        "explanation": "Marcos dice que \"si alguien de afuera critica, saltamos a defenderlo\"."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué muestra la frase \"podemos quejarnos nosotros, pero nadie más\"?",
+        "options": [
+          "Que no aceptan críticas en general",
+          "Que existe un fuerte sentido de pertenencia al país",
+          "Que no les interesa la opinión ajena",
+          "Que siempre están enojados"
+        ],
+        "answerIndex": 1,
+        "explanation": "La frase muestra el sentido de pertenencia: pueden criticar ellos, pero defienden al país ante otros."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué sentimiento resume mejor la relación que tienen con Argentina?",
+        "options": [
+          "Indiferencia",
+          "Admiración absoluta",
+          "Frustración constante",
+          "Una mezcla de amor y molestia"
+        ],
+        "answerIndex": 3,
+        "explanation": "Marcos lo describe como \"amor y odio al mismo tiempo\" y Flor dice \"más amor\"."
+      }
+    ]
   }
 ]

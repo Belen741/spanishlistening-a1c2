@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/spanish-listening/page": [
+    "/spanish-listening/[category]/[audio]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/spanish-listening/page.js"
+      "static/chunks/app/spanish-listening/[category]/[audio]/page.js"
     ],
     "/spanish-listening/layout": [
       "static/chunks/webpack.js",
@@ -15,11 +15,6 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
-    ],
-    "/spanish-listening/[category]/[audio]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/spanish-listening/[category]/[audio]/page.js"
     ]
   }
 }

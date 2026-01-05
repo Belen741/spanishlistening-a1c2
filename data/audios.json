@@ -7291,5 +7291,94 @@
         "explanation": "Marcos lo describe como \"amor y odio al mismo tiempo\" y Flor dice \"más amor\"."
       }
     ]
+  },
+  {
+    "id": "arg-10",
+    "level": "accent-argentine",
+    "title": "El voseo en la vida real",
+    "duration": "0:50",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/argentina/Argentino_10_audio.mp3",
+    "snippet": "Camila y Juan conversan sobre el uso del voseo argentino y cómo los extranjeros aprenden a entenderlo y usarlo.",
+    "transcript": "Camila: —Che, ¿vos usás \"vos\" con todos o a veces cambiás?\n\nJuan: —No, yo uso \"vos\" siempre. Es lo natural para mí.\n\nCamila: —Incluso cuando hablás con extranjeros.\n\nJuan: —Sí, al principio se confunden un poco.\n\nCamila: —Porque escuchan \"querés\", \"tenés\", \"podés\"…\n\nJuan: —Y piensan que es otro tiempo verbal.\n\nCamila: —Algunos me preguntan si es pasado o presente.\n\nJuan: —Sí, me pasó.\n\nCamila: —Pero después, con el contexto, lo entienden.\n\nJuan: —Y algunos hasta se animan a usarlo.\n\nCamila: —Eso me encanta, cuando dicen \"vos querés\" correctamente.\n\nJuan: —Ahí ya dejan de hablar como en el libro.\n\nCamila: —Tal cual. Empiezan a sonar más naturales.\n\nJuan: —Y eso se nota enseguida.",
+    "vocab": [
+      {
+        "term": "usar \"vos\"",
+        "meaning": "To use \"vos\" instead of \"tú\". A second-person singular form common in Argentina and parts of Latin America."
+      },
+      {
+        "term": "es lo natural para mí",
+        "meaning": "\"It feels natural to me.\" Used to express linguistic or cultural instinct, not a conscious choice."
+      },
+      {
+        "term": "se confunden un poco",
+        "meaning": "\"They get a bit confused.\" Refers to initial difficulty understanding unfamiliar forms."
+      },
+      {
+        "term": "se animan a usarlo",
+        "meaning": "\"They dare / feel confident enough to use it.\" Indicates gaining confidence in speaking."
+      },
+      {
+        "term": "hablar como en el libro",
+        "meaning": "\"To speak like a textbook.\" Means speaking correctly but unnaturally or rigidly."
+      },
+      {
+        "term": "tal cual",
+        "meaning": "\"Exactly / That's right.\" Used to strongly agree with what the other person said."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Cómo usa Juan el \"vos\" en su vida diaria?",
+        "options": [
+          "Solo con amigos cercanos",
+          "Cambia dependiendo de con quién habla",
+          "Lo usa siempre porque es lo natural para él",
+          "Solo cuando habla con argentinos"
+        ],
+        "answerIndex": 2,
+        "explanation": "Juan dice que usa \"vos\" siempre porque \"es lo natural\" para él."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué confunde a los extranjeros sobre el voseo?",
+        "options": [
+          "El vocabulario argentino",
+          "Piensan que las conjugaciones son otro tiempo verbal",
+          "No entienden el acento",
+          "Les parece muy informal"
+        ],
+        "answerIndex": 1,
+        "explanation": "Camila dice que escuchan \"querés\", \"tenés\", \"podés\" y piensan que es otro tiempo verbal."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué significa cuando un extranjero empieza a usar \"vos querés\" correctamente?",
+        "options": [
+          "Que memorizó frases del libro",
+          "Que está cometiendo errores",
+          "Que empieza a sonar más natural y menos de libro",
+          "Que no entiende el contexto"
+        ],
+        "answerIndex": 2,
+        "explanation": "Juan dice que \"dejan de hablar como en el libro\" y Camila confirma que \"empiezan a sonar más naturales\"."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Cuál es la actitud de Camila y Juan hacia los extranjeros que aprenden el voseo?",
+        "options": [
+          "Les parece innecesario",
+          "Lo ven positivamente y les gusta cuando lo usan bien",
+          "Prefieren que usen \"tú\"",
+          "Les da igual"
+        ],
+        "answerIndex": 1,
+        "explanation": "Camila dice \"eso me encanta\" cuando los extranjeros usan el voseo correctamente."
+      }
+    ]
   }
 ]

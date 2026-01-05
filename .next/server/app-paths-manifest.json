@@ -1,4 +1,5 @@
 {
-  "/spanish-listening/[category]/[audio]/page": "app/spanish-listening/[category]/[audio]/page.js",
+  "/spanish-accents-by-country/[slug]/page": "app/spanish-accents-by-country/[slug]/page.js",
+  "/spanish-listening/page": "app/spanish-listening/page.js",
   "/icon.png/route": "app/icon.png/route.js"
 }

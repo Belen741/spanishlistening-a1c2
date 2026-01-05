@@ -1,9 +1,14 @@
 {
   "pages": {
-    "/progreso/page": [
+    "/spanish-listening/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/progreso/page.js"
+      "static/chunks/app/spanish-listening/page.js"
+    ],
+    "/spanish-listening/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/spanish-listening/layout.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",

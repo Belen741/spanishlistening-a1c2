@@ -7024,5 +7024,90 @@
         "explanation": "Ven positivamente cuando alguien usa bien estas expresiones porque indica que \"ya entendió Argentina\"."
       }
     ]
+  },
+  {
+    "id": "arg-07",
+    "level": "accent-argentine",
+    "title": "En una parrilla argentina",
+    "duration": "0:50",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/argentina/Argentino_07_audio.mp3",
+    "snippet": "Carlos y Pablo conversan mientras esperan el asado, explorando por qué esta tradición argentina requiere tiempo y paciencia.",
+    "transcript": "Carlos: —Che, ¿falta mucho para comer?\n\nPablo: —Tranquilo, recién estamos empezando.\n\nCarlos: —Eso dijiste hace una hora.\n\nPablo: —Porque el asado no se apura.\n\nCarlos: —Un extranjero me preguntó por qué tardamos tanto.\n\nPablo: —Porque esto no es solo comer.\n\nCarlos: —¿Entonces qué es?\n\nPablo: —Es juntarse, charlar, tomar algo.\n\nCarlos: —¿Y vos sos el asador oficial?\n\nPablo: —Sí, y eso es una responsabilidad.\n\nCarlos: —¿Qué cortes hay hoy?\n\nPablo: —Vacío, asado, entraña y unos choris.\n\nCarlos: —Ya me dio hambre.\n\nPablo: —Falta un rato todavía.\n\nCarlos: —Siempre lo mismo.\n\nPablo: —Pero cuando sale, sale bien.",
+    "vocab": [
+      {
+        "term": "recién estamos empezando",
+        "meaning": "\"We're just getting started.\" Used to indicate that something has barely begun and will take time."
+      },
+      {
+        "term": "el asado no se apura",
+        "meaning": "\"Asado can't be rushed.\" A cultural expression meaning good things (and social moments) take time."
+      },
+      {
+        "term": "juntarse",
+        "meaning": "\"To get together.\" Very common verb for social gatherings with friends or family."
+      },
+      {
+        "term": "falta un rato",
+        "meaning": "\"It'll still take a while.\" An informal way to say something is not ready yet."
+      },
+      {
+        "term": "cuando sale, sale bien",
+        "meaning": "\"When it's ready, it's worth it.\" Implies patience leads to a good result."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué Pablo dice que el asado \"no se apura\"?",
+        "options": [
+          "Porque no hay suficiente carne",
+          "Porque el asador llegó tarde",
+          "Porque el asado requiere tiempo y paciencia",
+          "Porque nadie tiene hambre"
+        ],
+        "answerIndex": 2,
+        "explanation": "Pablo explica que el asado no se apura porque requiere tiempo y es parte de la experiencia social."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué cortes menciona Pablo que van a preparar?",
+        "options": [
+          "Pollo, cerdo y chorizo",
+          "Vacío, asado, entraña y choris",
+          "Milanesa y costillas",
+          "Empanadas y morcilla"
+        ],
+        "answerIndex": 1,
+        "explanation": "Pablo menciona: vacío, asado, entraña y unos choris."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué molesta principalmente a Carlos durante la conversación?",
+        "options": [
+          "Que no le gusta la comida",
+          "Que el asado sea una tradición",
+          "Que la comida tarde tanto en estar lista",
+          "Que haya invitados extranjeros"
+        ],
+        "answerIndex": 2,
+        "explanation": "Carlos pregunta varias veces cuánto falta y dice \"Eso dijiste hace una hora\", mostrando impaciencia."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué idea cultural transmite Pablo sobre el asado?",
+        "options": [
+          "Es una comida rápida y práctica",
+          "Es solo para ocasiones formales",
+          "Se hace principalmente para impresionar",
+          "Es una excusa para reunirse y socializar"
+        ],
+        "answerIndex": 3,
+        "explanation": "Pablo dice que el asado \"no es solo comer\", sino \"juntarse, charlar, tomar algo\"."
+      }
+    ]
   }
 ]

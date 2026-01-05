@@ -7109,5 +7109,94 @@
         "explanation": "Pablo dice que el asado \"no es solo comer\", sino \"juntarse, charlar, tomar algo\"."
       }
     ]
+  },
+  {
+    "id": "arg-08",
+    "level": "accent-argentine",
+    "title": "El ritual del mate en grupo",
+    "duration": "0:45",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/argentina/Argentino_08_audio.mp3",
+    "snippet": "Ana y Nico conversan sobre las reglas no escritas del mate: no mover la bombilla, quién ceba, y qué significa decir \"gracias\".",
+    "transcript": "Ana: —Che, ¿puedo mover la bombilla?\n\nNico: —No, ni se te ocurra.\n\nAna: —Perdón, no sabía que era tan grave.\n\nNico: —El mate tiene reglas no escritas.\n\nAna: —Ya me di cuenta.\n\nNico: —Yo cebo, yo controlo el mate.\n\nAna: —¿Y cuándo digo \"gracias\"?\n\nNico: —Cuando ya no querés más.\n\nAna: —Ah, pensé que era solo educación.\n\nNico: —Acá significa que salís de la ronda.\n\nAna: —Está medio lavado, ¿no?\n\nNico: —Sí, ya perdió fuerza.\n\nAna: —Igual me gusta.\n\nNico: —Eso es lo importante, compartir.",
+    "vocab": [
+      {
+        "term": "mover la bombilla",
+        "meaning": "\"To move the metal straw.\" In mate culture, this is considered rude because it changes how the mate is prepared."
+      },
+      {
+        "term": "ni se te ocurra",
+        "meaning": "\"Don't even think about it.\" A strong but informal way to forbid something."
+      },
+      {
+        "term": "reglas no escritas",
+        "meaning": "\"Unwritten rules.\" Social or cultural norms that everyone follows even if they're not officially stated."
+      },
+      {
+        "term": "cebar (el mate)",
+        "meaning": "\"To pour and prepare the mate.\" The person who ceba controls the rhythm and preparation of the mate round."
+      },
+      {
+        "term": "decir \"gracias\" (en el mate)",
+        "meaning": "Saying \"thank you\" means \"I don't want any more mate.\" It signals that you are leaving the round."
+      },
+      {
+        "term": "estar lavado / perdió fuerza",
+        "meaning": "\"To be weak / washed out.\" Refers to mate that no longer has much flavor."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué Nico no deja que Ana mueva la bombilla?",
+        "options": [
+          "Porque en el ritual del mate eso no se debe hacer",
+          "Porque la bombilla está rota",
+          "Porque ya no hay más yerba",
+          "Porque Ana no sabe preparar mate"
+        ],
+        "answerIndex": 0,
+        "explanation": "Mover la bombilla es una de las \"reglas no escritas\" del mate que no se debe romper."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué significa decir \"gracias\" en el contexto del mate?",
+        "options": [
+          "Que aprecia la conversación",
+          "Que el mate está muy fuerte",
+          "Que quiere cambiar de lugar",
+          "Que la persona ya no quiere tomar más"
+        ],
+        "answerIndex": 3,
+        "explanation": "Nico explica que decir \"gracias\" significa que ya no querés más y salís de la ronda."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué muestra la reacción de Ana cuando dice \"pensé que era solo educación\"?",
+        "options": [
+          "Que quiere corregir a Nico",
+          "Que no conocía las normas culturales del ritual",
+          "Que no le gusta compartir",
+          "Que no entiende el idioma"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ana no sabía que \"gracias\" tenía un significado especial en el contexto del mate."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué idea principal transmite el diálogo sobre el mate?",
+        "options": [
+          "Que es difícil de preparar correctamente",
+          "Que es una forma de compartir y crear compañía",
+          "Que solo importa el sabor",
+          "Que siempre se toma en silencio"
+        ],
+        "answerIndex": 1,
+        "explanation": "Nico concluye diciendo \"Eso es lo importante, compartir\"."
+      }
+    ]
   }
 ]

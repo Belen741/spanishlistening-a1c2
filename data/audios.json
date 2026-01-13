@@ -7679,5 +7679,98 @@
         "explanation": "La Semana Santa reúne a toda la comunidad, incluso a quienes normalmente no participan."
       }
     ]
+  },
+  {
+    "id": "esp-07",
+    "level": "accent-spanish",
+    "title": "Las fiestas del pueblo",
+    "duration": "0:55",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/espa%C3%B1a/Espa%C3%B1a_07_audio.mp3",
+    "snippet": "Pablo y Raquel hablan sobre las fiestas del pueblo: verbenas hasta las tantas, peñas, y el ambiente único donde todos se conocen.",
+    "transcript": "Pablo: —¿Vienes este verano a las fiestas del pueblo?\n\nRaquel: —Claro que sí. No me las pierdo por nada, es lo mejor del año.\n\nPablo: —Además, las verbenas son míticas. Música hasta las tantas, y siempre acaba sonando la misma canción.\n\nRaquel: —Sí, y al día siguiente estás reventado, con sueño todo el día, pero da igual.\n\nPablo: —Totalmente. Luego te tomas un café y sigues como puedes.\n\nRaquel: —Lo bueno es que todo el mundo se conoce. Vas andando y no paras de saludar.\n\nPablo: —Eso es lo mejor, ves a gente que no has visto en todo el año.\n\nRaquel: —Y entre las peñas, la comida y los fuegos artificiales, no paras.\n\nPablo: —Ni de día ni de noche. Siempre hay algo montado en la plaza.\n\nRaquel: —Vamos, que no se duerme nada, pero te lo pasas genial y merece la pena.",
+    "vocab": [
+      {
+        "term": "Verbenas",
+        "meaning": "Outdoor night parties with live music, typical of Spanish town festivals."
+      },
+      {
+        "term": "Hasta las tantas",
+        "meaning": "Until very late at night. Informal time reference."
+      },
+      {
+        "term": "Estás reventado",
+        "meaning": "You're completely exhausted."
+      },
+      {
+        "term": "Da igual",
+        "meaning": "It doesn't matter / whatever."
+      },
+      {
+        "term": "Sigues como puedes",
+        "meaning": "You keep going the best you can, despite being tired."
+      },
+      {
+        "term": "Peñas",
+        "meaning": "Informal social groups or clubs that organize activities during festivals."
+      },
+      {
+        "term": "Algo montado",
+        "meaning": "Some event or setup already organized (concert, stand, activity)."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué opinan Pablo y Raquel sobre las fiestas del pueblo?",
+        "options": [
+          "Que son uno de los mejores momentos del año",
+          "Que solo valen la pena por la comida",
+          "Que son agotadoras y aburridas",
+          "Que prefieren no ir muy seguido"
+        ],
+        "answerIndex": 0,
+        "explanation": "Raquel dice que \"es lo mejor del año\" y que no se las pierde por nada."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué se puede inferir de la frase \"música hasta las tantas\"?",
+        "options": [
+          "La música empieza muy temprano",
+          "La música dura toda la noche",
+          "La música solo suena un rato",
+          "La música es siempre tranquila"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"Hasta las tantas\" significa hasta muy tarde en la noche."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué sugiere Raquel cuando dice que al día siguiente estás \"reventado, con sueño todo el día, pero da igual\"?",
+        "options": [
+          "Las fiestas no son divertidas",
+          "Dormir es más importante que salir",
+          "El cansancio no arruina la experiencia",
+          "La gente se va temprano a casa"
+        ],
+        "answerIndex": 2,
+        "explanation": "Aunque acabas muy cansado, \"da igual\" porque la experiencia vale la pena."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué se deduce de que \"vas andando y no paras de saludar\"?",
+        "options": [
+          "El pueblo es muy grande",
+          "La gente es poco sociable",
+          "Nadie se conoce bien",
+          "Hay un ambiente cercano y familiar"
+        ],
+        "answerIndex": 3,
+        "explanation": "Todo el mundo se conoce, creando un ambiente cercano y familiar."
+      }
+    ]
   }
 ]

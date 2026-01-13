@@ -7380,5 +7380,118 @@
         "explanation": "Camila dice \"eso me encanta\" cuando los extranjeros usan el voseo correctamente."
       }
     ]
+  },
+  {
+    "id": "esp-04",
+    "level": "accent-spanish",
+    "title": "De tapas por el barrio",
+    "duration": "0:50",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/espa%C3%B1a/Espa%C3%B1a_04_audio.mp3",
+    "snippet": "Lucía y David salen a tapear por el barrio, pidiendo cañas y croquetas mientras disfrutan del ambientazo de un jueves.",
+    "transcript": "Lucía: —Oye, ¿te apetece que vayamos a tomar algo? Tengo un hambre…\n\nDavid: —Venga, sí. Ese bar de la esquina pone unas tapas que están de lujo.\n\nLucía: —Perfecto. Pedimos una caña y algo para picar, ¿no?\n\nDavid: —Claro. Unas croquetas y quizá una tortilla. Si luego seguimos, nos vamos de bar en bar.\n\nLucía: —Me encanta eso de tapear. En otros países se cena súper temprano.\n\nDavid: —Ya ves. Aquí hasta que no se te hace tarde, no te das cuenta.\n\nLucía: —Mira qué ambientazo hay hoy. Está todo a tope.\n\nDavid: —Normal, es jueves. Bueno, entramos. —Oye, esto pinta genial.",
+    "vocab": [
+      {
+        "term": "De tapas / ir de tapas",
+        "meaning": "To go out for tapas; hopping between bars to eat small dishes."
+      },
+      {
+        "term": "¿Te apetece…?",
+        "meaning": "Do you feel like…? Very common in Spain, informal and natural."
+      },
+      {
+        "term": "Venga",
+        "meaning": "Come on / alright / let's do it. Very versatile discourse marker."
+      },
+      {
+        "term": "Está de lujo",
+        "meaning": "It's amazing / top-notch / really good. Very Spain-specific slang."
+      },
+      {
+        "term": "Una caña",
+        "meaning": "A small draft beer. Spain-specific size and concept."
+      },
+      {
+        "term": "Picar (algo para picar)",
+        "meaning": "To snack / nibble on something."
+      },
+      {
+        "term": "Ir de bar en bar",
+        "meaning": "To go from bar to bar. Very common in Spanish nightlife culture."
+      },
+      {
+        "term": "Tapear",
+        "meaning": "To eat tapas while socializing. No direct equivalent in English."
+      },
+      {
+        "term": "Ya ves",
+        "meaning": "Yeah, totally / exactly. Agreement marker, very spoken."
+      },
+      {
+        "term": "Ambientazo",
+        "meaning": "Great atmosphere / lively vibe. Augmentative, very Spanish."
+      },
+      {
+        "term": "Está todo a tope",
+        "meaning": "It's packed / completely full / super busy."
+      },
+      {
+        "term": "Esto pinta genial",
+        "meaning": "This looks great / this is promising."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué plan hacen Lucía y David?",
+        "options": [
+          "Ir a cenar a casa de unos amigos",
+          "Tomar algo y comer tapas en un bar",
+          "Preparar comida en casa",
+          "Salir de fiesta a una discoteca"
+        ],
+        "answerIndex": 1,
+        "explanation": "Lucía propone \"tomar algo\" y David sugiere ir a un bar con tapas."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué sugiere la expresión \"tengo un hambre…\"?",
+        "options": [
+          "Lucía no ha comido en todo el día",
+          "Lucía quiere beber solamente",
+          "Lucía ya cenó hace poco",
+          "Lucía está enferma"
+        ],
+        "answerIndex": 0,
+        "explanation": "La expresión \"tengo un hambre…\" indica que tiene mucha hambre."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué se puede inferir cuando dicen \"si luego seguimos, nos vamos de bar en bar\"?",
+        "options": [
+          "Solo piensan quedarse en un bar",
+          "No saben qué tapas les gustan",
+          "Planean hacer una ruta de bares",
+          "Van a volver temprano a casa"
+        ],
+        "answerIndex": 2,
+        "explanation": "Ir \"de bar en bar\" significa hacer una ruta de bares, típico del tapeo español."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué indica la frase \"está todo a tope\"?",
+        "options": [
+          "El bar está cerrado",
+          "Hay pocas personas",
+          "El ambiente es aburrido",
+          "Hay mucha gente y ambiente"
+        ],
+        "answerIndex": 3,
+        "explanation": "\"Está todo a tope\" significa que está lleno, con mucha gente y ambiente."
+      }
+    ]
   }
 ]

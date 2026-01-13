@@ -7578,5 +7578,106 @@
         "explanation": "\"Flipar\" significa quedarse muy sorprendido, les parece algo raro o diferente."
       }
     ]
+  },
+  {
+    "id": "esp-06",
+    "level": "accent-spanish",
+    "title": "Semana Santa en su ciudad",
+    "duration": "1:00",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/espa%C3%B1a/Espa%C3%B1a_06_audio.mp3",
+    "snippet": "Ana y Javier conversan sobre las procesiones de Semana Santa, una tradición muy arraigada que reúne a todo el barrio.",
+    "transcript": "Ana: —¿Vas a bajar este año a ver las procesiones?\n\nJavier: —Sí, claro. No me las pierdo. Impresionan mucho, aunque no seas creyente.\n\nAna: —Totalmente. El silencio, la música, la gente mirando… se te pone la piel de gallina.\n\nJavier: —Y eso que al final estás de pie horas y horas. Hay gente que llega con mucha antelación solo para pillar sitio.\n\nAna: —Sí, mi madre se planta allí desde por la tarde. Dice que si no, luego no ves nada.\n\nJavier: —Normal. Además, es muy nuestro, muy de aquí. Forma parte de la vida del barrio.\n\nAna: —Y cada ciudad lo vive de una manera distinta. En Sevilla es una locura.\n\nJavier: —En la mía también. Sale todo el mundo a la calle, incluso gente que el resto del año no aparece.\n\nAna: —Eso sí, prepárate para la cantidad de gente y los atascos.\n\nJavier: —Ya… pero merece la pena. Aunque acabes molido y con los pies destrozados.\n\nAna: —Bueno, luego te tomas algo y se te olvida todo.\n\nJavier: —Eso seguro. Una caña después de la procesión cae fijo.",
+    "vocab": [
+      {
+        "term": "No me las pierdo",
+        "meaning": "I never miss them / I wouldn't miss them for anything."
+      },
+      {
+        "term": "Se te pone la piel de gallina",
+        "meaning": "You get goosebumps (strong emotional reaction)."
+      },
+      {
+        "term": "Pillar sitio",
+        "meaning": "To get a spot / secure a place. Informal, very Spain-specific."
+      },
+      {
+        "term": "Se planta allí",
+        "meaning": "She positions herself there / shows up early and stays put."
+      },
+      {
+        "term": "Es muy nuestro",
+        "meaning": "It's very much part of who we are (strong cultural identity)."
+      },
+      {
+        "term": "Atascos",
+        "meaning": "Traffic jams."
+      },
+      {
+        "term": "Acabar molido",
+        "meaning": "To end up completely exhausted."
+      },
+      {
+        "term": "Con los pies destrozados",
+        "meaning": "With very sore / wrecked feet."
+      },
+      {
+        "term": "Cae fijo",
+        "meaning": "It's definitely happening / for sure. Very informal, spoken Spanish."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué Ana y Javier hablan de la Semana Santa?",
+        "options": [
+          "Porque están organizando una procesión",
+          "Porque van a viajar a otra ciudad",
+          "Porque comentan su experiencia viendo las procesiones",
+          "Porque quieren evitar salir esos días"
+        ],
+        "answerIndex": 2,
+        "explanation": "Hablan de sus experiencias personales viendo las procesiones de Semana Santa."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué se puede inferir cuando Javier dice que las procesiones impresionan \"aunque no seas creyente\"?",
+        "options": [
+          "Solo los creyentes pueden disfrutarlas",
+          "Tienen un impacto cultural y emocional más allá de la religión",
+          "Son principalmente eventos turísticos",
+          "No tienen relación con la fe"
+        ],
+        "answerIndex": 1,
+        "explanation": "Las procesiones impresionan a todos, independientemente de sus creencias religiosas."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué sugiere el hecho de que la madre de Ana llegue desde por la tarde para \"pillar sitio\"?",
+        "options": [
+          "Es difícil ver bien si llegas tarde",
+          "No hay suficientes bares abiertos",
+          "Las procesiones duran todo el día",
+          "La procesión empieza muy temprano"
+        ],
+        "answerIndex": 0,
+        "explanation": "La madre llega temprano porque si no, \"luego no ves nada\" - hay mucha gente."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué se deduce de la frase \"sale todo el mundo a la calle, incluso gente que el resto del año no aparece\"?",
+        "options": [
+          "La Semana Santa tiene poca participación",
+          "Solo participan los vecinos del barrio",
+          "Es un evento excepcional que reúne a personas que normalmente no salen",
+          "La mayoría de la gente evita las procesiones"
+        ],
+        "answerIndex": 2,
+        "explanation": "La Semana Santa reúne a toda la comunidad, incluso a quienes normalmente no participan."
+      }
+    ]
   }
 ]

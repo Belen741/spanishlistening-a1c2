@@ -7493,5 +7493,90 @@
         "explanation": "\"Está todo a tope\" significa que está lleno, con mucha gente y ambiente."
       }
     ]
+  },
+  {
+    "id": "esp-05",
+    "level": "accent-spanish",
+    "title": "La sobremesa en familia",
+    "duration": "0:45",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/espa%C3%B1a/Espa%C3%B1a_05_audio.mp3",
+    "snippet": "Esteban y Carlos disfrutan de una larga sobremesa con café, charlando sobre esta costumbre española que sorprende a los extranjeros.",
+    "transcript": "Esteban: —¿Quieres más café o ya estás bien?\n\nCarlos: —Venga, sírveme un poquito más. Con el postre entra solo.\n\nEsteban: —Al final nos hemos quedado charlando toda la tarde.\n\nCarlos: —Es que en casa siempre pasa lo mismo. Comes, sacas el café y nadie se mueve.\n\nEsteban: —A mí me encanta. Estar tranquilos, sin prisas.\n\nCarlos: —Mis amigos extranjeros flipan con esto de la sobremesa.\n\nEsteban: —Claro, en otros sitios comes y cada uno se va a lo suyo.\n\nCarlos: —Aquí no. Aquí te lías hablando y cuando miras el reloj… —Madre mía, se nos ha hecho tardísimo.",
+    "vocab": [
+      {
+        "term": "Sobremesa",
+        "meaning": "Time spent at the table after a meal talking, usually with coffee or dessert."
+      },
+      {
+        "term": "Flipar (flipan)",
+        "meaning": "To be amazed / to be shocked / to find something crazy."
+      },
+      {
+        "term": "Cada uno se va a lo suyo",
+        "meaning": "Everyone goes their own way / minds their own business."
+      },
+      {
+        "term": "Te lías hablando",
+        "meaning": "You get carried away talking."
+      },
+      {
+        "term": "Se nos ha hecho tardísimo",
+        "meaning": "It's gotten really late (without us realizing)."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué están haciendo Esteban y Carlos después de comer?",
+        "options": [
+          "Preparando la cena",
+          "Viendo televisión",
+          "Tomando café y conversando",
+          "Despidiéndose para irse"
+        ],
+        "answerIndex": 2,
+        "explanation": "Están tomando café y charlando después de comer, disfrutando de la sobremesa."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué se puede inferir de la frase \"con el postre entra solo\"?",
+        "options": [
+          "El café es obligatorio después de comer",
+          "El café se sirve antes del postre",
+          "El café apetece más después de comer algo dulce",
+          "El café no le gusta mucho a Carlos"
+        ],
+        "answerIndex": 2,
+        "explanation": "Significa que después del postre, el café \"entra solo\" porque apetece más."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué indica \"nadie se mueve\" en este contexto?",
+        "options": [
+          "Nadie puede levantarse de la mesa",
+          "Todos están muy cansados",
+          "Nadie quiere irse todavía",
+          "Están esperando a alguien más"
+        ],
+        "answerIndex": 2,
+        "explanation": "En la sobremesa española, \"nadie se mueve\" porque todos disfrutan de la conversación."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué se deduce cuando Carlos dice que a sus amigos extranjeros \"les flipa\" la sobremesa?",
+        "options": [
+          "La consideran algo raro o sorprendente",
+          "No entienden de qué se trata",
+          "Les parece una pérdida de tiempo",
+          "La practican igual en sus países"
+        ],
+        "answerIndex": 0,
+        "explanation": "\"Flipar\" significa quedarse muy sorprendido, les parece algo raro o diferente."
+      }
+    ]
   }
 ]

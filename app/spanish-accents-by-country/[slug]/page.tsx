@@ -174,7 +174,7 @@ export default function AccentDetailPage({ params }: { params: { slug: string } 
                 Start with Level A1
               </Link>
               <Link
-                href="/spanish-listening"
+                href="/"
                 className="flex items-center gap-2 px-6 py-3 bg-background border rounded-lg hover-elevate active-elevate-2 font-medium"
                 data-testid="button-back-home"
               >

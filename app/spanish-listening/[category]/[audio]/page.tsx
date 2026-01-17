@@ -76,7 +76,7 @@ export default async function AudioDetailPage({
     <div className="container mx-auto px-4 py-8 max-w-4xl">
       <nav className="flex items-center gap-2 text-sm text-muted-foreground mb-6" data-testid="breadcrumb">
         <Link 
-          href="/spanish-listening" 
+          href="/" 
           className="hover:text-foreground transition-colors flex items-center gap-1"
           data-testid="breadcrumb-home"
         >
@@ -149,7 +149,7 @@ export default async function AudioDetailPage({
               More {categoryName} audios
             </Link>
             <Link 
-              href="/spanish-listening"
+              href="/"
               className="inline-flex items-center gap-2 px-6 py-3 bg-background border rounded-lg hover-elevate active-elevate-2 font-medium"
               data-testid="button-all-levels"
             >

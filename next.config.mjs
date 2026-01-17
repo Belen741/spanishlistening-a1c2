@@ -9,13 +9,13 @@ const nextConfig = {
     formats: ['image/webp'],
   },
   
-  // Permanent redirects (301) for SEO
+  // Permanent redirects (301) for SEO - redirect old URL to new canonical URL
   async redirects() {
     return [
       {
-        source: '/',
-        destination: '/spanish-listening',
-        statusCode: 301, // Permanent redirect for Google indexing
+        source: '/spanish-listening',
+        destination: '/',
+        statusCode: 301, // Permanent redirect - transfers SEO value to new URL
       },
     ];
   },

@@ -7872,5 +7872,64 @@
         "explanation": "El ambiente es tan contagioso que incluso quienes no son muy futboleros se emocionan."
       }
     ]
+  },
+  {
+    "id": "esp-09",
+    "level": "accent-spanish",
+    "title": "La siesta y el ritmo de vida",
+    "duration": "0:45",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/espa%C3%B1a/Espa%C3%B1a_09_audio.mp3",
+    "snippet": "Laura y Miguel hablan sobre la siesta, los horarios españoles y cómo el ritmo de vida es más relajado que en otros países.",
+    "transcript": "Laura: —Oye, ¿tú duermes siesta?\n\nMiguel: —A veces. No todos los días, pero cuando puedo, sí.\n\nLaura: —La gente piensa que aquí todo el mundo duerme siesta.\n\nMiguel: —Ya, es un poco mito. Depende del trabajo.\n\nLaura: —Eso sí, comemos tarde y cenamos más tarde aún.\n\nMiguel: —Claro, aquí el ritmo es distinto.\n\nLaura: —Yo ya estoy acostumbrada. Si ceno a las ocho, me entra hambre.\n\nMiguel: —Normal. Aquí todo va con calma.",
+    "vocab": [
+      {
+        "term": "Dormir siesta",
+        "meaning": "To take a nap (especially after lunch, cultural reference)."
+      },
+      {
+        "term": "El ritmo es distinto",
+        "meaning": "The pace/rhythm is different."
+      },
+      {
+        "term": "Ya estoy acostumbrada",
+        "meaning": "I'm already used to it."
+      },
+      {
+        "term": "Me entra hambre",
+        "meaning": "I start to feel hungry."
+      },
+      {
+        "term": "Todo va con calma",
+        "meaning": "Everything moves at a relaxed pace."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Con qué frecuencia dice Miguel que duerme siesta?",
+        "options": [
+          "Todos los días",
+          "Nunca",
+          "A veces, cuando puede",
+          "Solo los fines de semana"
+        ],
+        "answerIndex": 2,
+        "explanation": "Miguel dice que no todos los días, pero cuando puede, sí duerme siesta."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué se puede inferir sobre el estilo de vida que describen Laura y Miguel?",
+        "options": [
+          "Que es estresante y acelerado",
+          "Que es igual al de otros países",
+          "Que está determinado únicamente por la siesta",
+          "Que tiene horarios más tardíos y un ritmo más relajado"
+        ],
+        "answerIndex": 3,
+        "explanation": "Describen un estilo de vida con horarios tardíos y un ritmo más calmado."
+      }
+    ]
   }
 ]

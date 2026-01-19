@@ -15,7 +15,12 @@ const nextConfig = {
       {
         source: '/spanish-listening',
         destination: '/',
-        statusCode: 301, // Permanent redirect - transfers SEO value to new URL
+        statusCode: 301,
+      },
+      {
+        source: '/spanish-listening/',
+        destination: '/',
+        statusCode: 301,
       },
     ];
   },

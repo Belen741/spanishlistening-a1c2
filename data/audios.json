@@ -7931,5 +7931,119 @@
         "explanation": "Describen un estilo de vida con horarios tardíos y un ritmo más calmado."
       }
     ]
+  },
+  {
+    "id": "esp-10",
+    "level": "accent-spanish",
+    "title": "El Camino de Santiago",
+    "duration": "2:30",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/espa%C3%B1a/Espa%C3%B1a_10_audio.mp3",
+    "snippet": "Elena y Hugo hablan sobre hacer el Camino de Santiago: la experiencia transformadora, las etapas, la comida gallega y la conexión con otros peregrinos.",
+    "transcript": "Elena: —¿Sabes que mi primo hizo el Camino de Santiago el verano pasado?\n\nHugo: —¿En serio? Siempre he escuchado que es una experiencia que te cambia mucho por dentro.\n\nElena: —Eso dice él. Que conoces a personas de todos lados y que cada día es distinto al anterior.\n\nHugo: —Y también comentan que aprendes a ir más despacio, a disfrutar sin tanta prisa, ¿no?\n\nElena: —Sí, justo. Me contó que al principio iba obsesionado con llegar rápido a cada etapa, pero luego entendió que lo bonito es el camino en sí, no solo llegar a Santiago.\n\nHugo: —Tiene sentido. Con la vida que llevamos, siempre corriendo… Igual viene bien desconectar un poco, dejar el móvil, respirar aire puro.\n\nElena: —Totalmente. Él volvió mucho más tranquilo. Dice que le ayudó a ordenar ideas y a pensar en cosas que normalmente iba posponiendo.\n\nHugo: —Yo me lo estoy planteando para el año que viene. Me apetece hacer algo diferente, salir de la rutina.\n\nElena: —Pues hazlo. Dicen que es una experiencia brutal, pero también exigente. Hay etapas duras, pero merecen la pena cuando llegas al albergue y te tiras en la cama.\n\nHugo: —Sí, eso me tira un poco para atrás. Soy más de sofá que de senderismo.\n\nElena: —¡Ja, ja! Bueno, siempre puedes entrenar un poco antes. Igual empezar con rutas cortitas los fines de semana.\n\nHugo: —Buena idea. Estaba pensando en hacer el Camino Francés. Es el más famoso, ¿no?\n\nElena: —Sí, él lo hizo. Y dijo que lo mejor eran las noches: cenas largas, gente contando historias, risas… Parece que se forma una pequeña familia.\n\nHugo: —Eso es lo que más me llama. Conectas con personas que no conoces de nada, compartís cansancio, ampollas, pero también paisajes increíbles.\n\nElena: —Y la comida, por favor. Tortilla, pulpo a la gallega, empanadas… Él volvió hablando solo de comer y caminar.\n\nHugo: —Caminar + comida rica = motivación total. Yo con eso ya firmo.\n\nElena: —Además, hay etapas preciosas. Montañas verdes, pueblos donde el tiempo parece detenido… y cuando ves la catedral por primera vez dicen que se te pone la piel de gallina.\n\nHugo: —Me imagino la emoción. Después de tantos kilómetros… debe de ser como cumplir un sueño.\n\nElena: —Sí. Y luego está la parte espiritual, aunque no seas religioso. Él dijo que en el camino te sorprendes pensando en cosas que normalmente no te paras a sentir.\n\nHugo: —Eso me vendría genial. Últimamente necesito un reset, algo que me saque del piloto automático.\n\nElena: —Entonces es perfecto para ti. Y si no quieres hacerlo solo, podemos organizarnos. Yo quizá no lo haga entero, pero una parte seguro que sí.\n\nHugo: —Sería un planazo. Imagínanos caminando con mochilas enormes, parando a tomar un café cada dos horas...\n\nElena: —Con café, con pan con tomate, con vistas de postal… oye, cada vez me convences más.\n\nHugo: —Pues lo hablamos en serio. Si te animas, buscamos fechas y empezamos a preparar botas, mochila y ganas.\n\nElena: —Trato hecho. Y cuando lleguemos a Santiago, foto con la catedral y souvenir de concha para la mochila.\n\nHugo: —Prometido. Y si sobrevivimos, el año siguiente hacemos el Camino Portugués.",
+    "vocab": [
+      {
+        "term": "Lo bonito es el camino en sí",
+        "meaning": "The beauty is in the journey itself."
+      },
+      {
+        "term": "Me lo estoy planteando",
+        "meaning": "I'm considering it."
+      },
+      {
+        "term": "Te tiras en la cama",
+        "meaning": "You collapse / throw yourself onto the bed."
+      },
+      {
+        "term": "Me tira un poco para atrás",
+        "meaning": "It puts me off a bit."
+      },
+      {
+        "term": "Lo que más me llama",
+        "meaning": "What attracts me the most."
+      },
+      {
+        "term": "Yo con eso ya firmo",
+        "meaning": "I'm sold on that / I'm in."
+      },
+      {
+        "term": "Se te pone la piel de gallina",
+        "meaning": "You get goosebumps."
+      },
+      {
+        "term": "Piloto automático",
+        "meaning": "Autopilot mode (living without awareness)."
+      },
+      {
+        "term": "Un planazo",
+        "meaning": "A great plan."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Cuándo hizo el primo de Elena el Camino de Santiago?",
+        "options": [
+          "Hace varios años",
+          "En primavera",
+          "El verano pasado",
+          "El año que viene"
+        ],
+        "answerIndex": 2,
+        "explanation": "Elena dice que su primo hizo el Camino 'el verano pasado'."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué Camino dice Hugo que está pensando hacer?",
+        "options": [
+          "El Camino Portugués",
+          "El Camino del Norte",
+          "El Camino Primitivo",
+          "El Camino Francés"
+        ],
+        "answerIndex": 3,
+        "explanation": "Hugo menciona que estaba pensando en hacer el Camino Francés porque es el más famoso."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "Cuando se dice que \"lo bonito es el camino en sí\", ¿qué se quiere expresar principalmente?",
+        "options": [
+          "Que el proceso y la experiencia tienen más valor que la meta final",
+          "Que llegar rápido es lo más importante",
+          "Que Santiago no es tan interesante",
+          "Que todas las etapas son fáciles"
+        ],
+        "answerIndex": 0,
+        "explanation": "La frase significa que disfrutar el proceso es más importante que solo llegar al destino."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Por qué Hugo dice que el Camino le vendría bien en este momento de su vida?",
+        "options": [
+          "Porque quiere hacer más ejercicio físico",
+          "Porque quiere viajar barato",
+          "Porque necesita desconectar y salir de una rutina automática",
+          "Porque quiere conocer comida gallega"
+        ],
+        "answerIndex": 2,
+        "explanation": "Hugo dice que necesita un 'reset' y algo que lo saque del 'piloto automático'."
+      },
+      {
+        "id": "q5",
+        "type": "single",
+        "question": "¿Qué se puede inferir sobre las relaciones entre los peregrinos en el Camino?",
+        "options": [
+          "Que se crean vínculos cercanos a partir de experiencias compartidas",
+          "Que hay mucha competencia entre ellos",
+          "Que la gente prefiere caminar sola",
+          "Que solo hablan de religión"
+        ],
+        "answerIndex": 0,
+        "explanation": "Elena describe cómo se forma 'una pequeña familia' con cenas largas, historias y risas."
+      }
+    ]
   }
 ]

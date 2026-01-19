@@ -381,7 +381,7 @@ export const AUDIOS_PER_LEVEL: Record<string, number> = {
 export const AUDIOS_PER_ACCENT: Record<string, number> = {
   'accent-argentine': 10,
   'accent-mexican': 10,
-  'accent-spanish': 9,
+  'accent-spanish': 10,
   'accent-colombian': 3,
   'accent-cuban': 3
 };

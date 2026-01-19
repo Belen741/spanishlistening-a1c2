@@ -51,6 +51,11 @@ export default function RootLayout({
             gtag('config', 'G-M66R69M44C');
           `}
         </Script>
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7163907475738249"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={`${inter.variable} ${jetbrainsMono.variable} ${poppins.variable}`} suppressHydrationWarning>
         <ClientLayout>

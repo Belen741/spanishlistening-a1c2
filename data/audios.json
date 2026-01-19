@@ -7772,5 +7772,105 @@
         "explanation": "Todo el mundo se conoce, creando un ambiente cercano y familiar."
       }
     ]
+  },
+  {
+    "id": "esp-08",
+    "level": "accent-spanish",
+    "title": "El fútbol como tema social",
+    "duration": "0:50",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/espa%C3%B1a/Espa%C3%B1a_08_audio.mp3",
+    "snippet": "Sergio y Álvaro hablan sobre ver el partido en el bar: el ambiente, las cañas y cómo el fútbol es una excusa para quedar con amigos.",
+    "transcript": "Sergio: —¿Viste el partido de ayer?\n\nÁlvaro: —Sí, lo vi en el bar. Estaba hasta arriba, no cabía ni un alfiler.\n\nSergio: —Normal. Cuando juega el equipo, se llena siempre. Menudo ambientazo, ¿eh?\n\nÁlvaro: —Totalmente. Da igual cómo juegue el equipo, la gente va por juntarse y pasar el rato.\n\nSergio: —Exacto. Al final el fútbol es la excusa para quedar.\n\nÁlvaro: —Unas cañas, algo de picar y ya está hecha la tarde, sin complicarse mucho.\n\nSergio: —Y luego, cuando hay un gol, el bar se viene abajo.\n\nÁlvaro: —Tal cual. Gritos, aplausos, alguno se sube casi a la mesa.\n\nSergio: —Y aunque no seas muy futbolero, te acabas contagiando.\n\nÁlvaro: —Claro, es muy de aquí. Forma parte del plan.",
+    "vocab": [
+      {
+        "term": "Estar hasta arriba",
+        "meaning": "Extremely crowded; completely full."
+      },
+      {
+        "term": "No cabía ni un alfiler",
+        "meaning": "There was absolutely no space left."
+      },
+      {
+        "term": "Menudo ambientazo",
+        "meaning": "What an amazing atmosphere."
+      },
+      {
+        "term": "Da igual cómo juegue el equipo",
+        "meaning": "It doesn't matter how the team plays."
+      },
+      {
+        "term": "Ir por juntarse y pasar el rato",
+        "meaning": "To go mainly to socialize and hang out."
+      },
+      {
+        "term": "El fútbol es la excusa para quedar",
+        "meaning": "Football is just a pretext to meet up."
+      },
+      {
+        "term": "Unas cañas",
+        "meaning": "A few beers (informal, Spain)."
+      },
+      {
+        "term": "Algo de picar",
+        "meaning": "Some snacks or light food."
+      },
+      {
+        "term": "Ya está hecha la tarde",
+        "meaning": "The afternoon is already sorted; the plan is complete."
+      },
+      {
+        "term": "El bar se viene abajo",
+        "meaning": "The place erupts with noise and excitement."
+      },
+      {
+        "term": "No ser muy futbolero",
+        "meaning": "To not be particularly into football."
+      },
+      {
+        "term": "Te acabas contagiando",
+        "meaning": "You end up catching the enthusiasm."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Cuál es la idea principal de la conversación entre Sergio y Álvaro?",
+        "options": [
+          "Analizar el rendimiento del equipo en el último partido",
+          "Explicar por qué el bar era incómodo para ver el fútbol",
+          "Mostrar cómo el fútbol funciona como una excusa social para reunirse",
+          "Comparar ver el fútbol en casa y en un bar"
+        ],
+        "answerIndex": 2,
+        "explanation": "El fútbol es solo una excusa para juntarse con amigos, tomar cañas y pasar el rato."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "Cuando Álvaro dice \"Da igual cómo juegue el equipo\", ¿qué se puede inferir?",
+        "options": [
+          "Que el equipo siempre juega mal",
+          "Que el resultado del partido no es lo más importante para la gente",
+          "Que Álvaro no entiende mucho de fútbol",
+          "Que prefieren ver otros deportes"
+        ],
+        "answerIndex": 1,
+        "explanation": "Lo importante es el ambiente social, no el resultado del partido."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué sugiere la frase \"aunque no seas muy futbolero, te acabas contagiando\"?",
+        "options": [
+          "Que solo los aficionados disfrutan el ambiente",
+          "Que el fútbol obliga a la gente a participar",
+          "Que el ambiente colectivo hace que todos se involucren emocionalmente",
+          "Que el bar es ruidoso y molesto"
+        ],
+        "answerIndex": 2,
+        "explanation": "El ambiente es tan contagioso que incluso quienes no son muy futboleros se emocionan."
+      }
+    ]
   }
 ]

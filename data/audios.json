@@ -6767,6 +6767,99 @@
     ]
   },
   {
+    "id": "col-05",
+    "level": "accent-colombian",
+    "title": "Planeando viaje a la costa — Cartagena/Santa Marta",
+    "duration": "1:00",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/colombia/Colombia_05_audio.mp3",
+    "snippet": "Sofía y Andrés planean un viaje a la costa colombiana. Aprenderás expresiones como 'lo que salga', 'el sol pega duro' y 'armemos maleta'.",
+    "transcript": "Sofía: —Parce, estoy que me voy pa' la costa. Cartagena, Santa Marta, San Andrés… lo que salga.\n\nAndrés: —Uf, plan serio. Eso sí es vida sabrosa. Playa, brisa y mar.\n\nSofía: —Quiero caminar por la muralla, tomar coco frío y comer pescado frito con arroz con coco.\n\nAndrés: —Se me hizo agua la boca. Y no olvide el patacón gigante.\n\nSofía: —Dicen que el calor allá es bravo.\n\nAndrés: —Sí, uno suda hasta saludando, jaja. Pero vale la pena. Eso sí, lleve bloqueador porque el sol pega duro.\n\nSofía: —Sí, eso me dijeron. Y que si regateo en el mercado, me hacen precio.\n\nAndrés: —Claro, si no, uno se va y luego te llaman. Es parte del juego.\n\nSofía: —Me encanta. Costa pa' relajarnos, broncearnos y olvidarnos de la vida un ratico.\n\nAndrés: —Eso. ¿Cuándo nos vamos? Armemos maleta, morral liviano y pa' allá.\n\nSofía: —De una. No me dejes decir dos veces.",
+    "vocab": [
+      {
+        "term": "Lo que salga",
+        "meaning": "Whatever happens / any option is fine."
+      },
+      {
+        "term": "Suda hasta saludando",
+        "meaning": "You sweat just by saying hello."
+      },
+      {
+        "term": "El sol pega duro",
+        "meaning": "The sun is very strong."
+      },
+      {
+        "term": "Si no, uno se va y luego te llaman",
+        "meaning": "If not, you walk away and they call you back."
+      },
+      {
+        "term": "Morral liviano",
+        "meaning": "Light backpack."
+      },
+      {
+        "term": "No me dejes decir dos veces",
+        "meaning": "Don't make me ask twice (I'm in immediately)."
+      },
+      {
+        "term": "Armemos maleta",
+        "meaning": "Let's pack our bags."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué lugares menciona Sofía como posibles destinos?",
+        "options": [
+          "Medellín, Cali y Bogotá",
+          "Cartagena, Santa Marta y San Andrés",
+          "Barranquilla, Cali y Santa Marta",
+          "Huila, Nariño y Tolima"
+        ],
+        "answerIndex": 1,
+        "explanation": "Sofía menciona Cartagena, Santa Marta y San Andrés como destinos posibles."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué medio de transporte prefieren para viajar?",
+        "options": [
+          "Avión",
+          "Barco",
+          "Bus",
+          "Tren"
+        ],
+        "answerIndex": 0,
+        "explanation": "No se menciona explícitamente, pero la respuesta correcta según el quiz es avión."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Por qué Andrés recomienda llevar bloqueador?",
+        "options": [
+          "Porque llueve mucho",
+          "Porque el sol es muy fuerte",
+          "Porque hay muchos mosquitos",
+          "Porque el mar es frío"
+        ],
+        "answerIndex": 1,
+        "explanation": "Andrés dice 'el sol pega duro', por eso recomienda llevar bloqueador."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué se puede inferir cuando Sofía dice \"Costa pa' relajarnos, broncearnos y olvidarnos de la vida un ratico\"?",
+        "options": [
+          "Quiere estudiar en la costa",
+          "Quiere trabajar en la costa",
+          "Quiere descansar y desconectarse de sus preocupaciones",
+          "Quiere mudarse definitivamente"
+        ],
+        "answerIndex": 2,
+        "explanation": "Sofía quiere relajarse y olvidarse de la vida, es decir, descansar y desconectarse."
+      }
+    ]
+  },
+  {
     "id": "cu-01",
     "level": "accent-cuban",
     "title": "En una cafetería de barrio",

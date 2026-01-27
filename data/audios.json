@@ -6654,6 +6654,119 @@
     ]
   },
   {
+    "id": "col-04",
+    "level": "accent-colombian",
+    "title": "En una tienda de café especial",
+    "duration": "1:00",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/colombia/Colombia_04_audio.mp3",
+    "snippet": "Laura y Mateo visitan una tienda de café especial en Colombia. Aprenderás expresiones como 'parce', 'huele una chimba', 'de una' y 'tinto bien cargado'.",
+    "transcript": "Laura: —Parce, ¿viste este café de origen del Huila? Huele una chimba.\n\nMateo: —Uy sí, huele deli. ¿Será que lo probamos? A mí me encanta el café que es bien fuerte.\n\nLaura: —Pues aquí dice tostión media. Y mira, tienen otro de Nariño, dicen que es más suavecito, más aromático.\n\nMateo: —¿Vos preferís cuál?\n\nLaura: —Depende. Si es para la mañana, uno fuerte; pero si es para la tarde, uno más suave para no quedar como una bala sin dormir.\n\nVendedor: —Buenas, ¿qué les ofrezco? ¿Les muelo pa' cafetera o pa' prensa francesa?\n\nMateo: —Pa' cafetera, porfa. Nos llevamos medio kilo del Huila.\n\nVendedor: —Listo, ya les muelo. ¿Algo más pa' llevar?\n\nLaura: —No, con eso estamos bien. Gracias.\n\nMateo: —Hoy sí nos damos gusto con este café. Mañana madrugamos y tinto bien cargado, de una.",
+    "vocab": [
+      {
+        "term": "Parce",
+        "meaning": "Buddy / mate / pal."
+      },
+      {
+        "term": "Huele una chimba",
+        "meaning": "It smells amazing / It smells great."
+      },
+      {
+        "term": "Huele deli",
+        "meaning": "It smells delicious."
+      },
+      {
+        "term": "Suavecito",
+        "meaning": "Milder / softer (in taste)."
+      },
+      {
+        "term": "Quedar como una bala sin dormir",
+        "meaning": "To be wide awake / unable to sleep."
+      },
+      {
+        "term": "¿Les muelo pa' cafetera o pa' prensa francesa?",
+        "meaning": "Should I grind it for a coffee maker or for a French press?"
+      },
+      {
+        "term": "Porfa",
+        "meaning": "Please."
+      },
+      {
+        "term": "¿Algo más pa' llevar?",
+        "meaning": "Anything else to go?"
+      },
+      {
+        "term": "Nos damos gusto",
+        "meaning": "We treat ourselves / we indulge."
+      },
+      {
+        "term": "De una",
+        "meaning": "Sure / definitely / absolutely."
+      },
+      {
+        "term": "Madrugamos",
+        "meaning": "We wake up early."
+      },
+      {
+        "term": "Tinto bien cargado",
+        "meaning": "Strong black coffee."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿De dónde es el café que menciona primero Laura?",
+        "options": [
+          "De Nariño",
+          "De Antioquia",
+          "De Huila",
+          "De Bogotá"
+        ],
+        "answerIndex": 2,
+        "explanation": "Laura menciona primero el café de origen del Huila."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Cuánto café compran al final?",
+        "options": [
+          "Un kilo",
+          "Medio kilo",
+          "Un cuarto de kilo",
+          "Dos kilos"
+        ],
+        "answerIndex": 1,
+        "explanation": "Mateo dice 'Nos llevamos medio kilo del Huila'."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Por qué Laura quiere un café más suave en la tarde?",
+        "options": [
+          "Porque no le gusta el sabor fuerte",
+          "Porque es más barato",
+          "Porque no quiere quedar muy despierta y no dormir",
+          "Porque el vendedor se lo recomienda"
+        ],
+        "answerIndex": 2,
+        "explanation": "Laura dice que prefiere uno suave para no 'quedar como una bala sin dormir'."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué se puede inferir sobre Mateo cuando dice \"hoy sí nos damos gusto con este café\"?",
+        "options": [
+          "Que siempre compra café barato",
+          "Que normalmente no toma café",
+          "Que no le gusta el café",
+          "Que considera este café como un pequeño lujo"
+        ],
+        "answerIndex": 3,
+        "explanation": "'Darnos gusto' implica que es algo especial, un pequeño lujo."
+      }
+    ]
+  },
+  {
     "id": "cu-01",
     "level": "accent-cuban",
     "title": "En una cafetería de barrio",

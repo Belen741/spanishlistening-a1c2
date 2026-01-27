@@ -6860,6 +6860,123 @@
     ]
   },
   {
+    "id": "col-06",
+    "level": "accent-colombian",
+    "title": "Vallenato y cumbia — música colombiana",
+    "duration": "1:10",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/accents/colombia/Colombia_06_audio.mp3",
+    "snippet": "Camila y Julián hablan sobre vallenato, cumbia y cómo la música forma parte de la vida cotidiana colombiana.",
+    "transcript": "Camila: —¿Escuchaste el nuevo álbum de Carlos Vives? Está brutal, parcerito.\n\nJulián: —Sí, está chévere. Pero yo soy más de Diomedes, de esos clásicos pa' cantar a grito herido.\n\nCamila: —Ay sí, uno escucha \"Tú\" o \"La Ventana Marroncita\" y se enciende la casa.\n\nJulián: —Y si suena Silvestre o Peter Manjarrés, ya eso se volvió fiesta.\n\nCamila: —En mi casa ponen cumbia cuando toca limpiar. Mi mamá sube la música y todo el mundo termina trapeando y bailando.\n\nJulián: —Jaja, eso sí. ¿Y bailás bonito o te haces el que sabe?\n\nCamila: —Me defiendo. Con un aguardientico entro más en ritmo.\n\nJulián: —Oye, este sábado hay parranda en mi casa. Vamos a hacer sancocho y ponemos música toda la tarde.\n\nCamila: —Plan completico. ¿Quién va?\n\nJulián: —Llegan los primos, algunos amigos. Nadie sentado. El que se siente pierde.\n\nCamila: —Trato hecho. Yo llevo la yuca pa' picar.",
+    "vocab": [
+      {
+        "term": "Parcerito",
+        "meaning": "Buddy / pal (more affectionate than 'parce')."
+      },
+      {
+        "term": "Soy más de Diomedes",
+        "meaning": "I'm more into Diomedes / I prefer Diomedes."
+      },
+      {
+        "term": "Clásicos pa' cantar a grito herido",
+        "meaning": "Classics to sing at the top of your lungs."
+      },
+      {
+        "term": "Se enciende la casa",
+        "meaning": "The house comes alive / the house gets lively."
+      },
+      {
+        "term": "¿Bailás bonito o te haces el que sabe?",
+        "meaning": "Do you dance well or do you just pretend you do?"
+      },
+      {
+        "term": "Me defiendo",
+        "meaning": "I manage / I do okay."
+      },
+      {
+        "term": "Aguardientico",
+        "meaning": "A little aguardiente (liquor)."
+      },
+      {
+        "term": "Entro más en ritmo",
+        "meaning": "I get into the rhythm more."
+      },
+      {
+        "term": "Parranda",
+        "meaning": "Party (with music and drinking)."
+      },
+      {
+        "term": "Plan completico",
+        "meaning": "Perfect plan / complete plan."
+      },
+      {
+        "term": "El que se siente pierde",
+        "meaning": "Whoever sits down loses (you must dance)."
+      },
+      {
+        "term": "Trato hecho",
+        "meaning": "Deal done / it's a deal."
+      },
+      {
+        "term": "Picar la yuca",
+        "meaning": "To chop the cassava."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Qué tipo de música ponen en la casa de Camila cuando toca limpiar?",
+        "options": [
+          "Salsa",
+          "Rock",
+          "Cumbia",
+          "Reguetón"
+        ],
+        "answerIndex": 2,
+        "explanation": "Camila dice que en su casa ponen cumbia cuando toca limpiar."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué van a hacer este sábado en la casa de Julián?",
+        "options": [
+          "Ver una película",
+          "Hacer sancocho y escuchar música",
+          "Ir a la panadería",
+          "Salir a bailar a un bar"
+        ],
+        "answerIndex": 1,
+        "explanation": "Julián dice que van a hacer sancocho y poner música toda la tarde."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Qué se puede inferir sobre el papel de la música en la vida cotidiana de los personajes?",
+        "options": [
+          "Solo se escucha en conciertos",
+          "Es solo para jóvenes",
+          "Solo se escucha los fines de semana",
+          "Forma parte de actividades normales como limpiar y cocinar"
+        ],
+        "answerIndex": 3,
+        "explanation": "La música acompaña actividades cotidianas como limpiar y hacer fiestas en casa."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué se puede deducir de la frase \"nadie sentado. El que se siente pierde\"?",
+        "options": [
+          "Que van a jugar un juego de mesa",
+          "Que quien se siente no podrá comer",
+          "Que se espera que todos participen activamente bailando",
+          "Que no habrá suficientes sillas"
+        ],
+        "answerIndex": 2,
+        "explanation": "La frase indica que todos deben bailar y participar activamente."
+      }
+    ]
+  },
+  {
     "id": "cu-01",
     "level": "accent-cuban",
     "title": "En una cafetería de barrio",

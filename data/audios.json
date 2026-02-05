@@ -1785,6 +1785,95 @@
     ]
   },
   {
+    "id": "a2-08",
+    "level": "A2",
+    "title": "Planeando unas vacaciones",
+    "duration": "1:00",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a2/A2_08_audio.mp3",
+    "snippet": "María y Javier planean un viaje a la playa. Aprende expresiones para hablar sobre viajes, reservas de hotel y planes de vacaciones.",
+    "transcript": "María: —Oye, ¿pensaste qué vas a hacer en tus vacaciones?\n\nJavier: —Sí, estuve pensando en viajar unos días a la playa. Necesito descansar.\n\nMaría: —Suena bien. ¿Vas a ir solo o con alguien?\n\nJavier: —Voy a ir con mi hermana. Ella también quiere salir de la ciudad.\n\nMaría: —¿Y cuándo planean viajar?\n\nJavier: —Vamos a salir el próximo viernes y regresar el lunes.\n\nMaría: —¿Reservaron el hotel?\n\nJavier: —Todavía no, pero hoy en la noche vamos a buscar uno cerca del mar.\n\nMaría: —Yo prefiero los hoteles pequeños. Suelen ser más tranquilos y más baratos.\n\nJavier: —Sí, yo también. Además, muchos incluyen desayuno.\n\nMaría: —Espero que encuentren algo bonito. ¡Unas vacaciones relajantes les van a hacer bien!",
+    "vocab": [
+      {
+        "term": "estuve pensando",
+        "meaning": "I was thinking / I've been thinking."
+      },
+      {
+        "term": "salir de la ciudad",
+        "meaning": "To leave the city / get out of town."
+      },
+      {
+        "term": "planean",
+        "meaning": "They plan."
+      },
+      {
+        "term": "reservar / reservaron",
+        "meaning": "To book / they booked."
+      },
+      {
+        "term": "suelen ser",
+        "meaning": "They usually are."
+      },
+      {
+        "term": "relajantes",
+        "meaning": "Relaxing."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Por qué Javier quiere ir a la playa?",
+        "options": [
+          "Porque quiere visitar a su familia",
+          "Porque le gusta nadar todos los días",
+          "Porque necesita descansar",
+          "Porque trabaja cerca del mar"
+        ],
+        "answerIndex": 2,
+        "explanation": "Javier dice: 'Necesito descansar'."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Con quién va a viajar Javier?",
+        "options": [
+          "Con su hermana",
+          "Con sus amigos",
+          "Con María",
+          "Solo"
+        ],
+        "answerIndex": 0,
+        "explanation": "Javier dice: 'Voy a ir con mi hermana'."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Cuándo planean regresar de las vacaciones?",
+        "options": [
+          "El viernes",
+          "El domingo",
+          "El lunes",
+          "En dos semanas"
+        ],
+        "answerIndex": 2,
+        "explanation": "Javier menciona que van a 'regresar el lunes'."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Por qué prefieren los hoteles pequeños?",
+        "options": [
+          "Porque están lejos de la ciudad",
+          "Porque son más tranquilos y más baratos",
+          "Porque siempre tienen desayuno",
+          "Porque no necesitan reservar"
+        ],
+        "answerIndex": 1,
+        "explanation": "María dice que los hoteles pequeños 'suelen ser más tranquilos y más baratos'."
+      }
+    ]
+  },
+  {
     "id": "b1-01",
     "level": "b1",
     "title": "El mensaje equivocado",

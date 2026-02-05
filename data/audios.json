@@ -1696,6 +1696,95 @@
     ]
   },
   {
+    "id": "a2-07",
+    "level": "A2",
+    "title": "En la farmacia",
+    "duration": "1:00",
+    "file": "https://pub-2e2bb754f8ae47e0bdbd03c6797a5776.r2.dev/a2/A2_07_audio.mp3",
+    "snippet": "Un cliente visita la farmacia con dolor de garganta y fiebre. Aprende vocabulario médico básico y cómo describir síntomas en español.",
+    "transcript": "Farmacéutica: —Buenos días, ¿en qué puedo ayudarle?\n\nCliente: —Buenos días. Desde ayer me duele mucho la garganta y tengo un poco de fiebre.\n\nFarmacéutica: —Entiendo. ¿Tiene tos o dolor de cabeza también?\n\nCliente: —Sí, anoche me sentí muy cansado y me dolía la cabeza.\n\nFarmacéutica: —Le recomiendo este jarabe y unas pastillas para el dolor.\n\nCliente: —¿Cada cuánto debo tomarlas?\n\nFarmacéutica: —Las pastillas, una cada ocho horas, y el jarabe dos veces al día después de comer.\n\nCliente: —Perfecto. ¿Necesito receta médica?\n\nFarmacéutica: —No, estos medicamentos son de venta libre. Pero si no mejora en tres días, le aconsejo ir al médico.\n\nCliente: —Muchas gracias por su ayuda.\n\nFarmacéutica: —De nada. Que se mejore pronto.",
+    "vocab": [
+      {
+        "term": "garganta",
+        "meaning": "Throat."
+      },
+      {
+        "term": "fiebre",
+        "meaning": "Fever."
+      },
+      {
+        "term": "tos",
+        "meaning": "Cough."
+      },
+      {
+        "term": "jarabe",
+        "meaning": "Syrup."
+      },
+      {
+        "term": "pastillas",
+        "meaning": "Pills / tablets."
+      },
+      {
+        "term": "receta médica",
+        "meaning": "Prescription."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "type": "single",
+        "question": "¿Desde cuándo se siente mal el cliente?",
+        "options": [
+          "Desde esta mañana",
+          "Desde ayer",
+          "Desde hace una semana",
+          "Desde anoche solamente"
+        ],
+        "answerIndex": 1,
+        "explanation": "El cliente dice 'Desde ayer me duele mucho la garganta'."
+      },
+      {
+        "id": "q2",
+        "type": "single",
+        "question": "¿Qué síntomas menciona el cliente?",
+        "options": [
+          "Dolor de estómago y mareo",
+          "Dolor de garganta, fiebre y cansancio",
+          "Tos fuerte y dolor de espalda",
+          "Fiebre alta y náuseas"
+        ],
+        "answerIndex": 1,
+        "explanation": "El cliente menciona dolor de garganta, fiebre, cansancio y dolor de cabeza."
+      },
+      {
+        "id": "q3",
+        "type": "single",
+        "question": "¿Cómo debe tomar las pastillas?",
+        "options": [
+          "Dos veces al día",
+          "Antes de dormir",
+          "Una cada ocho horas",
+          "Solo cuando tenga dolor"
+        ],
+        "answerIndex": 2,
+        "explanation": "La farmacéutica indica: 'Las pastillas, una cada ocho horas'."
+      },
+      {
+        "id": "q4",
+        "type": "single",
+        "question": "¿Qué le recomienda la farmacéutica si no mejora?",
+        "options": [
+          "Cambiar de medicamento",
+          "Volver a la farmacia",
+          "Ir al médico",
+          "Descansar en casa"
+        ],
+        "answerIndex": 2,
+        "explanation": "La farmacéutica dice: 'si no mejora en tres días, le aconsejo ir al médico'."
+      }
+    ]
+  },
+  {
     "id": "b1-01",
     "level": "b1",
     "title": "El mensaje equivocado",

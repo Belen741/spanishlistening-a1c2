@@ -369,7 +369,7 @@ function checkAndUnlockBadges(progress: UserProgress): void {
 // Audio counts per level - update when adding new audios
 export const AUDIOS_PER_LEVEL: Record<string, number> = {
   a1: 10,
-  a2: 6,
+  a2: 7,
   b1: 6,
   b2: 6,
   c1: 6,

@@ -20,12 +20,18 @@ export function ClientLayout({ children }: { children: React.ReactNode }) {
           <div className="container mx-auto px-4 py-8 max-w-7xl">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
               <p>© {new Date().getFullYear()} Spanish Listening. Todos los derechos reservados.</p>
-              <nav className="flex gap-6">
+              <nav className="flex flex-wrap gap-6">
+                <Link href="/about" className="hover:text-foreground transition-colors" data-testid="link-about">
+                  About
+                </Link>
                 <Link href="/legal/privacidad" className="hover:text-foreground transition-colors" data-testid="link-privacy">
-                  Política de Privacidad
+                  Privacy Policy
                 </Link>
                 <Link href="/legal/terminos" className="hover:text-foreground transition-colors" data-testid="link-terms">
-                  Términos y Condiciones
+                  Terms and Conditions
+                </Link>
+                <Link href="/contacto" className="hover:text-foreground transition-colors" data-testid="link-contact">
+                  Contact
                 </Link>
               </nav>
             </div>

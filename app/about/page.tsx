@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowLeft, BookOpen, Headphones, Target, GraduationCap } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'About - Spanish Listening',
@@ -25,8 +25,7 @@ export default function AboutPage() {
 
       <div className="bg-card border rounded-xl p-8 space-y-8">
         <section className="space-y-4">
-          <h2 className="text-xl font-semibold flex items-center gap-2" data-testid="text-section-mission">
-            <GraduationCap className="h-5 w-5 text-primary" />
+          <h2 className="text-xl font-semibold" data-testid="text-section-mission">
             Our Mission
           </h2>
           <p className="text-base leading-relaxed text-muted-foreground" data-testid="text-mission-content">
@@ -38,8 +37,7 @@ export default function AboutPage() {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-xl font-semibold flex items-center gap-2" data-testid="text-section-what">
-            <Headphones className="h-5 w-5 text-primary" />
+          <h2 className="text-xl font-semibold" data-testid="text-section-what">
             What We Offer
           </h2>
           <p className="text-base leading-relaxed text-muted-foreground">
@@ -69,8 +67,7 @@ export default function AboutPage() {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-xl font-semibold flex items-center gap-2" data-testid="text-section-approach">
-            <BookOpen className="h-5 w-5 text-primary" />
+          <h2 className="text-xl font-semibold" data-testid="text-section-approach">
             Our Approach
           </h2>
           <p className="text-base leading-relaxed text-muted-foreground">
@@ -82,8 +79,7 @@ export default function AboutPage() {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-xl font-semibold flex items-center gap-2" data-testid="text-section-goal">
-            <Target className="h-5 w-5 text-primary" />
+          <h2 className="text-xl font-semibold" data-testid="text-section-goal">
             Our Goal
           </h2>
           <p className="text-base leading-relaxed text-muted-foreground">

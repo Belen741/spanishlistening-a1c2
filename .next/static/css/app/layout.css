@@ -3016,11 +3016,6 @@ video {
   color: hsl(var(--foreground) / var(--tw-text-opacity, 1));
 }
 
-.hover\:text-orange-400:hover {
-  --tw-text-opacity: 1;
-  color: rgb(251 146 60 / var(--tw-text-opacity, 1));
-}
-
 .hover\:text-orange-500:hover {
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity, 1));

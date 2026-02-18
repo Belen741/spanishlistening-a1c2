@@ -4,7 +4,6 @@ import { Home } from 'lucide-react';
 import { ACCENTS_LEVEL } from '@lib/levels';
 import { ACCENT_THEMES } from '@lib/accentThemes';
 import { AccentCard } from '@components/AccentCard';
-import { AdSlot } from '@components/AdSlot';
 import { SaveLastLevel } from '@components/SaveLastLevel';
 
 export const metadata: Metadata = {
@@ -119,7 +118,6 @@ export default function SpanishAccentsByCountryPage() {
                   ))}
                 </div>
               </nav>
-              <AdSlot slot="sidebar" />
             </div>
           </aside>
         </div>

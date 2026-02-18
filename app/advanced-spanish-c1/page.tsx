@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getLevelBySlug } from '@lib/levels';
-import { AdSlot } from '@components/AdSlot';
 import { LevelPageClient } from '@components/LevelPageClient';
 import { SaveLastLevel } from '@components/SaveLastLevel';
 
@@ -43,12 +42,8 @@ export default async function AdvancedSpanishC1Page() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 xl:grid-cols-[1fr_300px] gap-8">
+        <div>
           <LevelPageClient levelSlug="c1" />
-          
-          <aside className="space-y-6 hidden xl:block">
-            <AdSlot slot="sidebar" className="sticky top-4" />
-          </aside>
         </div>
       </div>
     </div>

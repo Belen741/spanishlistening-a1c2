@@ -20,14 +20,22 @@ export function AudioDetailClient({ audio }: AudioDetailClientProps) {
     setSelectedAnswers(prev => ({ ...prev, [questionId]: answerIndex }));
   };
 
-  const checkAnswer = (questionId: string) => {
-    setShowResults(prev => ({ ...prev, [questionId]: true }));
+  const checkAllAnswers = () => {
+    if (!audio.quiz) return;
+    const results: Record<string, boolean> = {};
+    audio.quiz.forEach(q => {
+      results[q.id] = true;
+    });
+    setShowResults(results);
   };
 
   const resetQuiz = () => {
     setSelectedAnswers({});
     setShowResults({});
   };
+
+  const allAnswered = audio.quiz ? audio.quiz.every(q => selectedAnswers[q.id] !== null && selectedAnswers[q.id] !== undefined) : false;
+  const submitted = audio.quiz ? audio.quiz.every(q => showResults[q.id]) : false;
 
   return (
     <div className="space-y-6">
@@ -158,16 +166,6 @@ export function AudioDetailClient({ audio }: AudioDetailClientProps) {
                       })}
                     </div>
                     
-                    {!isAnswered && selectedAnswer !== null && selectedAnswer !== undefined && (
-                      <button
-                        onClick={() => checkAnswer(question.id)}
-                        className="px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium hover-elevate"
-                        data-testid={`quiz-check-${qIdx}`}
-                      >
-                        Check answer
-                      </button>
-                    )}
-
                     {isAnswered && (
                       <div className={`p-3 rounded-lg text-sm ${isCorrect ? 'bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-400' : 'bg-amber-50 dark:bg-amber-950/30 text-amber-700 dark:text-amber-400'}`}>
                         {question.explanation}
@@ -177,11 +175,36 @@ export function AudioDetailClient({ audio }: AudioDetailClientProps) {
                 );
               })}
 
-              {Object.keys(showResults).length > 0 && (
+              {!submitted && (
                 <div className="pt-4 border-t">
                   <button
+                    onClick={checkAllAnswers}
+                    disabled={!allAnswered}
+                    className="w-full py-3 rounded-lg bg-primary text-primary-foreground font-medium hover-elevate active-elevate-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                    data-testid="button-check-all"
+                  >
+                    {allAnswered ? 'Check answers' : 'Answer all questions to continue'}
+                  </button>
+                </div>
+              )}
+
+              {submitted && (
+                <div className="pt-4 border-t space-y-4">
+                  <div className="text-center p-4 bg-primary/10 rounded-lg" data-testid="quiz-results">
+                    <div className="text-3xl font-bold mb-1">
+                      {audio.quiz!.filter(q => selectedAnswers[q.id] === q.answerIndex).length}/{audio.quiz!.length}
+                    </div>
+                    <p className="text-sm text-muted-foreground">
+                      {audio.quiz!.filter(q => selectedAnswers[q.id] === q.answerIndex).length === audio.quiz!.length
+                        ? 'Perfect! All answers correct.'
+                        : audio.quiz!.filter(q => selectedAnswers[q.id] === q.answerIndex).length >= (audio.quiz!.length * 0.7)
+                        ? 'Great job!'
+                        : 'Keep practicing!'}
+                    </p>
+                  </div>
+                  <button
                     onClick={resetQuiz}
-                    className="px-4 py-2 border rounded-lg text-sm font-medium hover-elevate"
+                    className="w-full py-3 rounded-lg border font-medium hover-elevate active-elevate-2"
                     data-testid="button-reset-quiz"
                   >
                     Try again

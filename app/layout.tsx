@@ -39,6 +39,7 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <head>
+        <meta name="monetag" content="2e46449a50dd5d40419711df24864faf" />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-M66R69M44C"
           strategy="afterInteractive"

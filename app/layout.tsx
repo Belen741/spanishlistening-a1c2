@@ -57,13 +57,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-        <Script
-          src="https://quge5.com/88/tag.min.js"
-          data-zone="229438"
-          async
-          data-cfasync="false"
-          strategy="afterInteractive"
-        />
+
       </head>
       <body className={`${inter.variable} ${jetbrainsMono.variable} ${poppins.variable}`} suppressHydrationWarning>
         <ClientLayout>
